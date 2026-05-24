@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZiYik — Crypto Market Intelligence</title>
+<style>
+  @font-face {
+    font-family: 'Noto Sans SC';
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&display=swap');
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0b0f17;
+    color: #e6edf3;
+    font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 24px;
+    text-align: center;
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(240,136,62,0.08), transparent 40%),
+      radial-gradient(circle at 80% 60%, rgba(63,185,80,0.06), transparent 30%);
+  }
+
+  .logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f8fafc;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+  .logo span { color: #f0883e; }
+
+  .tagline {
+    font-size: 16px;
+    color: #8b949e;
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+
+  .card {
+    background: rgba(22, 27, 34, 0.88);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 28px 32px;
+    max-width: 480px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 16px 40px rgba(0,0,0,0.3);
+    text-align: left;
+  }
+
+  .card h2 {
+    font-size: 14px;
+    color: #f0883e;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+  }
+
+  .link-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.055);
+    text-decoration: none;
+    color: #c9d1d9;
+    font-size: 15px;
+    transition: color 0.2s;
+  }
+  .link-row:last-child { border-bottom: none; }
+  .link-row:hover { color: #f0883e; }
+
+  .link-row .icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  .icon.telegram { background: rgba(0,136,204,0.15); }
+  .icon.x { background: rgba(255,255,255,0.08); }
+  .icon.email { background: rgba(240,136,62,0.12); }
+  .icon.github { background: rgba(255,255,255,0.06); }
+
+  .pill-green {
+    display: inline-block;
+    font-size: 10px;
+    color: #3fb950;
+    background: rgba(63,185,80,0.1);
+    border: 1px solid rgba(63,185,80,0.2);
+    padding: 3px 8px;
+    border-radius: 999px;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+
+  .footer {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #484f58;
+  }
+</style>
+</head>
+<body>
+
+<div class="logo">Zi<span>Yik</span></div>
+<div class="tagline">
+  加密市场情绪智能 · 每日自动化报告<br>
+  7 数据源 · 全自动 · 全部免费
+</div>
+
+<div class="card">
+  <h2>📡 每日加密市场情绪简报</h2>
+
+  <a class="link-row" href="https://t.me/ZiYik0612_Sentiment_Research" target="_blank">
+    <div class="icon telegram">📊</div>
+    <div>
+      电报频道<br>
+      <span style="font-size:12px;color:#8b949e;">完整日报 + 图表 + AI 情景判断</span>
+    </div>
+    <span class="pill-green">免费订阅</span>
+  </a>
+
+  <a class="link-row" href="https://x.com/tinziyik0612" target="_blank">
+    <div class="icon x">𝕏</div>
+    <div>
+      X / Twitter<br>
+      <span style="font-size:12px;color:#8b949e;">每日市场情绪精华 thread</span>
+    </div>
+    <span class="pill-green">关注</span>
+  </a>
+</div>
+
+<div class="card">
+  <h2>🔗 其他</h2>
+
+  <a class="link-row" href="https://github.com/TINZY0612" target="_blank">
+    <div class="icon github">⌨️</div>
+    <div>GitHub</div>
+  </a>
+
+  <div class="link-row">
+    <div class="icon email">✉️</div>
+    <div>
+      hello@ziyik0612.me<br>
+      <span style="font-size:12px;color:#8b949e;">合作 / 联系</span>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  Powered by BlockBeats · CoinGecko · GeckoTerminal · Binance · Dexscreener · Coinglass · Deribit · Yahoo Finance
+</div>
+
+</body>
+</html>
