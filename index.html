@@ -76,17 +76,25 @@
     overflow: hidden;
     background: #080906;
   }
-  .hero video {
+  .hero-media {
     position: absolute;
     inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 28px;
+    transform: scale(.18);
+    transform-origin: center center;
+    animation: heroFramePush 3.4s cubic-bezier(.16, 1, .22, 1) forwards;
+    will-change: transform, border-radius;
+    backface-visibility: hidden;
+  }
+  .hero video {
     width: 100%;
     height: 100%;
     object-fit: cover;
     filter: saturate(1.08) contrast(1.05);
     opacity: .82;
-    transform: scale(0);
-    transform-origin: center center;
-    animation: heroVideoPush 3.4s cubic-bezier(.18,.84,.16,1) forwards;
   }
   .hero::before {
     content: "";
@@ -301,12 +309,12 @@
     font-size: 13px;
   }
 
-  @keyframes heroVideoPush {
-    0% { transform: scale(0); filter: saturate(.86) contrast(.9) brightness(.72); }
-    18% { transform: scale(.22); filter: saturate(.9) contrast(.92) brightness(.78); }
-    52% { transform: scale(.82); filter: saturate(1.02) contrast(.98) brightness(.9); }
-    78% { transform: scale(1); filter: saturate(1.08) contrast(1.03) brightness(.96); }
-    100% { transform: scale(1.12); filter: saturate(1.08) contrast(1.05) brightness(1); }
+  @keyframes heroFramePush {
+    0% { transform: scale(.18); border-radius: 32px; }
+    32% { transform: scale(.48); border-radius: 28px; }
+    68% { transform: scale(.92); border-radius: 16px; }
+    86% { transform: scale(1); border-radius: 0; }
+    100% { transform: scale(1.12); border-radius: 0; }
   }
   @keyframes heroTitleReveal {
     to { opacity: 1; transform: translateY(0) scale(1); }
@@ -322,11 +330,12 @@
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .hero video, .hero-title, .hero-copy, .scroll-cue, .topbar {
+    .hero-media, .hero-title, .hero-copy, .scroll-cue, .topbar {
       animation: none;
       opacity: 1;
       transform: none;
     }
+    .hero-media { border-radius: 0; }
   }
 
   @media (max-width: 900px) {
@@ -368,9 +377,11 @@
 
   <main>
     <section class="hero" aria-label="ZiYik hero">
-      <video autoplay muted loop playsinline preload="metadata" poster="">
-        <source src="/assets/hero.mp4" type="video/mp4">
-      </video>
+      <div class="hero-media" aria-hidden="true">
+        <video autoplay muted loop playsinline preload="metadata" poster="">
+          <source src="/assets/hero.mp4" type="video/mp4">
+        </video>
+      </div>
       <div class="hero-grid">
         <div class="scroll-cue">Scroll to explore</div>
         <h1 class="hero-title">Read the <span>market</span> before it moves</h1>
