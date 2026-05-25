@@ -27,6 +27,15 @@
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
     letter-spacing: 0;
   }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 60;
+    background: #050604;
+    pointer-events: none;
+    animation: introCurtain 2.6s cubic-bezier(.2,.8,.2,1) forwards;
+  }
   a { color: inherit; text-decoration: none; }
   button, a { -webkit-tap-highlight-color: transparent; }
 
@@ -44,6 +53,9 @@
     font-size: 12px;
     letter-spacing: 0.12em;
     mix-blend-mode: difference;
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: navReveal .9s ease 2.35s forwards;
   }
   .brand { font-weight: 900; }
   .brand span { color: var(--acid); }
@@ -81,6 +93,9 @@
     object-fit: cover;
     filter: saturate(1.08) contrast(1.05);
     opacity: .82;
+    transform: scale(1);
+    transform-origin: center center;
+    animation: heroVideoPush 3.2s cubic-bezier(.18,.84,.22,1) forwards;
   }
   .hero::before {
     content: "";
@@ -103,6 +118,8 @@
     align-items: end;
   }
   .scroll-cue {
+    opacity: 0;
+    animation: fadeReveal .9s ease 2.65s forwards;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     text-transform: uppercase;
@@ -127,6 +144,9 @@
     line-height: .82;
     font-weight: 950;
     max-width: 980px;
+    opacity: 0;
+    transform: translateY(34px) scale(.985);
+    animation: heroTitleReveal 1s cubic-bezier(.16,.9,.2,1) 2.05s forwards;
   }
   .hero-title span {
     display: block;
@@ -136,6 +156,9 @@
     max-width: 280px;
     border-left: 1px solid var(--line);
     padding-left: 20px;
+    opacity: 0;
+    transform: translateX(18px);
+    animation: textReveal .9s ease 2.55s forwards;
   }
   .kicker {
     margin: 0 0 14px;
@@ -285,6 +308,38 @@
     color: rgba(244,241,232,.56);
     border-top: 1px solid rgba(244,241,232,.1);
     font-size: 13px;
+  }
+
+  @keyframes introCurtain {
+    0% { opacity: 1; }
+    26% { opacity: 1; }
+    100% { opacity: 0; visibility: hidden; }
+  }
+  @keyframes heroVideoPush {
+    0% { transform: scale(1); filter: saturate(.92) contrast(.95) brightness(.82); }
+    48% { transform: scale(1.085); filter: saturate(1.08) contrast(1.03) brightness(.96); }
+    100% { transform: scale(1.12); filter: saturate(1.08) contrast(1.05) brightness(1); }
+  }
+  @keyframes heroTitleReveal {
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  @keyframes textReveal {
+    to { opacity: 1; transform: translate(0,0); }
+  }
+  @keyframes fadeReveal {
+    to { opacity: 1; }
+  }
+  @keyframes navReveal {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    body::before { display: none; }
+    .hero video, .hero-title, .hero-copy, .scroll-cue, .topbar {
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
   }
 
   @media (max-width: 900px) {
