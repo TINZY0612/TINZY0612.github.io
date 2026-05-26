@@ -4908,10 +4908,28 @@ if (location.pathname.includes('/office/')) {
       const res = await fetch('/office/agents-state.json?t=' + Date.now(), { cache: 'no-store' });
       const agents = await res.json();
       console.log('[office] Guest agents:', agents.length);
-      if (typeof renderGuestAgentList === 'function') renderGuestAgentList(agents);
-      if (typeof renderGuestAgentsInScene === 'function') renderGuestAgentsInScene(agents);
+      // Set global variable that renderGuestAgentList reads from
+      guestAgents = Array.isArray(agents) ? agents : [];
+      if (typeof renderGuestAgentList === 'function') renderGuestAgentList();
+      if (typeof renderGuestAgentsInScene === 'function') renderGuestAgentsInScene();
     } catch(e) {
-      console.log('[office] Agents fetch failed');
+      console.log('[office] Agents fetch failed', e);
+    }
+  };
+  
+  // Override fetchStatus to use local state.json
+  fetchStatus = async function() {
+    try {
+      const res = await fetch('/office/state.json?t=' + Date.now(), { cache: 'no-store' });
+      const data = await res.json();
+      console.log('[office] State:', data.state);
+      // Update the main display
+      const nextState = normalizeState(data.state);
+      const stateInfo = STATES[nextState] || STATES.idle;
+      if (data.detail) currentDetail = data.detail;
+      currentState = nextState;
+    } catch(e) {
+      console.log('[office] State fetch failed', e);
     }
   };
   
