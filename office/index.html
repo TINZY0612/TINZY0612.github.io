@@ -4902,35 +4902,36 @@ if (location.pathname.includes('/office/')) {
     }
   };
   
-  // Override fetchGuestAgents to read from agents-state.json
-  fetchGuestAgents = async function() {
-    try {
-      const res = await fetch('/office/agents-state.json?t=' + Date.now(), { cache: 'no-store' });
-      const agents = await res.json();
-      console.log('[office] Guest agents:', agents.length);
-      // Set global variable that renderGuestAgentList reads from
-      guestAgents = Array.isArray(agents) ? agents : [];
-      if (typeof renderGuestAgentList === 'function') renderGuestAgentList();
-      if (typeof renderGuestAgentsInScene === 'function') renderGuestAgentsInScene();
-    } catch(e) {
-      console.log('[office] Agents fetch failed', e);
-    }
+  // Override fetchGuestAgents — first try file, fallback to hardcoded
+  fetchGuestAgents = function() {
+    return fetch('/office/agents-state.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(r => r.json())
+      .then(agents => {
+        console.log('[office] Agents loaded:', agents.length);
+        guestAgents = Array.isArray(agents) ? agents : [];
+        renderGuestAgentList();
+        renderGuestAgentsInScene();
+        return guestAgents;
+      })
+      .catch(() => {
+        // Fallback: hardcoded states
+        console.log('[office] Using hardcoded agents');
+        guestAgents = [{"agentId": "star", "name": "Star", "isMain": true, "state": "idle", "detail": "\u5f85\u547d\u4e2d\uff0c\u968f\u65f6\u51c6\u5907\u4e3a\u4f60\u670d\u52a1", "updated_at": "2026-05-26T16:11:02.852313", "area": "breakroom", "source": "local", "joinKey": null, "authStatus": "approved", "authExpiresAt": null, "lastPushAt": null}, {"agentId": "agent_1779812837090_oble", "name": "Planner", "isMain": false, "state": "idle", "detail": "\u72b6\u6001\u4e45\u672a\u66f4\u65b0\uff0c\u5f85\u547d\u4e2d", "updated_at": "2026-05-26T18:25:18.397706", "area": "breakroom", "source": "remote-openclaw", "joinKey": "ocj_tin_1127086b417a303040864fe4be27e13a", "authStatus": "approved", "authApprovedAt": "2026-05-26T16:27:17.090620", "authExpiresAt": "2026-05-27T16:27:17.090621", "lastPushAt": "2026-05-26T18:25:18.397712", "avatar": "guest_role_3"}, {"agentId": "agent_1779812837219_ovd2", "name": "Ops", "isMain": false, "state": "idle", "detail": "\u5f85\u547d\u4e2d", "updated_at": "2026-05-26T18:25:18.457102", "area": "breakroom", "source": "remote-openclaw", "joinKey": "ocj_tin_1127086b417a303040864fe4be27e13a", "authStatus": "approved", "authApprovedAt": "2026-05-26T16:27:17.219560", "authExpiresAt": "2026-05-27T16:27:17.219561", "lastPushAt": "2026-05-26T18:25:18.457110", "avatar": "guest_role_3"}, {"agentId": "agent_1779812837382_p53w", "name": "Coder", "isMain": false, "state": "idle", "detail": "\u72b6\u6001\u4e45\u672a\u66f4\u65b0\uff0c\u5f85\u547d\u4e2d", "updated_at": "2026-05-26T18:25:18.641701", "area": "breakroom", "source": "remote-openclaw", "joinKey": "ocj_tin_1127086b417a303040864fe4be27e13a", "authStatus": "approved", "authApprovedAt": "2026-05-26T16:27:17.382833", "authExpiresAt": "2026-05-27T16:27:17.382834", "lastPushAt": "2026-05-26T18:25:18.641708", "avatar": "guest_role_4"}, {"agentId": "agent_1779812837759_7i85", "name": "Researcher", "isMain": false, "state": "idle", "detail": "\u72b6\u6001\u4e45\u672a\u66f4\u65b0\uff0c\u5f85\u547d\u4e2d", "updated_at": "2026-05-26T18:25:19.360642", "area": "breakroom", "source": "remote-openclaw", "joinKey": "ocj_tin_1127086b417a303040864fe4be27e13a", "authStatus": "approved", "authApprovedAt": "2026-05-26T18:11:19.181021", "authExpiresAt": "2026-05-27T18:11:19.181022", "lastPushAt": "2026-05-26T18:25:19.360651", "avatar": "guest_role_5"}, {"agentId": "agent_1779812837760_xjet", "name": "Selina X Agent", "isMain": false, "state": "idle", "detail": "\u72b6\u6001\u4e45\u672a\u66f4\u65b0\uff0c\u5f85\u547d\u4e2d", "updated_at": "2026-05-26T18:25:19.362114", "area": "breakroom", "source": "remote-openclaw", "joinKey": "ocj_tin_1127086b417a303040864fe4be27e13a", "authStatus": "approved", "authApprovedAt": "2026-05-26T18:24:04.349724", "authExpiresAt": "2026-05-27T18:24:04.349725", "lastPushAt": "2026-05-26T18:25:19.362120", "avatar": "guest_role_5"}];
+        renderGuestAgentList();
+        renderGuestAgentsInScene();
+      });
   };
   
-  // Override fetchStatus to use local state.json
-  fetchStatus = async function() {
-    try {
-      const res = await fetch('/office/state.json?t=' + Date.now(), { cache: 'no-store' });
-      const data = await res.json();
-      console.log('[office] State:', data.state);
-      // Update the main display
-      const nextState = normalizeState(data.state);
-      const stateInfo = STATES[nextState] || STATES.idle;
-      if (data.detail) currentDetail = data.detail;
-      currentState = nextState;
-    } catch(e) {
-      console.log('[office] State fetch failed', e);
-    }
+  fetchStatus = function() {
+    return fetch('/office/state.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(r => r.json())
+      .then(data => {
+        console.log('[office] State:', data.state);
+        currentState = data.state || 'idle';
+        currentDetail = data.detail || '';
+        return data;
+      })
+      .catch(e => console.log('[office] State err', e));
   };
   
   setState = function() {};
