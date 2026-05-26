@@ -298,7 +298,7 @@ function preload() {
     hideLoadingOverlay();
   });
 
-  this.load.image('office_bg', '/office/office_bg_small' + (supportsWebP ? '.webp' : '.png') + '?v={{VERSION_TIMESTAMP}}');
+  this.load.image('office_bg', '/office/office_bg_small' + (supportsWebP ? '.webp' : '.png') + '?v=1779819297');
   this.load.spritesheet('star_idle', '/office/star-idle-spritesheet' + getExt('star-idle-spritesheet.png'), { frameWidth: 128, frameHeight: 128 });
   this.load.spritesheet('star_researching', '/office/star-researching-spritesheet' + getExt('star-researching-spritesheet.png'), { frameWidth: 128, frameHeight: 105 });
 
