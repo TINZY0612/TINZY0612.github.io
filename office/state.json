@@ -1,1 +1,6 @@
-{"state": "idle", "detail": "\u5f85\u547d\u4e2d", "progress": 0, "updated_at": "2026-05-25T07:08:32.187245"}
+{
+  "state": "idle",
+  "detail": "待命中 - scraper crash待修复",
+  "progress": 0,
+  "updated_at": "2026-05-26T14:25:02.240119"
+}
