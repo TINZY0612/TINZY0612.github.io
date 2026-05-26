@@ -83,14 +83,14 @@
     "isMain": false,
     "state": "idle",
     "detail": "状态久未更新，待命中",
-    "updated_at": "2026-05-26T14:24:57.660579",
+    "updated_at": "2026-05-26T14:25:12.662988",
     "area": "breakroom",
     "source": "remote-openclaw",
     "joinKey": "ocj_tin_1127086b417a303040864fe4be27e13a",
     "authStatus": "approved",
     "authApprovedAt": "2026-05-26T14:16:00.206401",
     "authExpiresAt": "2026-05-27T14:16:00.206403",
-    "lastPushAt": "2026-05-26T14:24:57.660585",
+    "lastPushAt": "2026-05-26T14:25:12.663035",
     "avatar": "guest_role_2"
   }
 ]
