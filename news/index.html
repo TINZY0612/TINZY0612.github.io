@@ -76,26 +76,6 @@
     overflow: hidden;
     background: #080906;
   }
-  .hero-media {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    border-radius: 28px;
-    transform: scale(.18);
-    transform-origin: center center;
-    animation: heroFramePush 3.4s cubic-bezier(.16, 1, .22, 1) forwards;
-    will-change: transform, border-radius;
-    backface-visibility: hidden;
-  }
-  .hero video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: saturate(1.08) contrast(1.05);
-    opacity: .82;
-  }
   .hero::before {
     content: "";
     position: absolute;
@@ -309,12 +289,6 @@
     font-size: 13px;
   }
 
-  @keyframes heroFramePush {
-    0% { transform: scale(.18); border-radius: 32px; }
-    32% { transform: scale(.48); border-radius: 28px; }
-    76% { transform: scale(1); border-radius: 0; }
-    100% { transform: scale(1); border-radius: 0; }
-  }
   @keyframes heroTitleReveal {
     to { opacity: 1; transform: translateY(0) scale(1); }
   }
@@ -329,12 +303,11 @@
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .hero-media, .hero-title, .hero-copy, .scroll-cue, .topbar {
+    .hero-title, .hero-copy, .scroll-cue, .topbar {
       animation: none;
       opacity: 1;
       transform: none;
     }
-    .hero-media { border-radius: 0; }
   }
 
   @media (max-width: 900px) {
@@ -376,11 +349,6 @@
 
   <main>
     <section class="hero" aria-label="ZiYik hero">
-      <div class="hero-media" aria-hidden="true">
-        <video autoplay muted loop playsinline preload="metadata" poster="">
-          <source src="/assets/hero.mp4" type="video/mp4">
-        </video>
-      </div>
       <div class="hero-grid">
         <div class="scroll-cue">Scroll to explore</div>
         <h1 class="hero-title">Read the <span>market</span> before it moves</h1>
