@@ -4887,39 +4887,35 @@ function toggleBrokerPanel() {
     
 // === GitHub Pages Office Overrides ===
 if (location.pathname.includes('/office/')) {
-  console.log('[office] GitHub Pages mode - using state files');
+  console.log('[office] GitHub Pages mode');
   
   // Override fetchStatus to read from state.json
-  const _origFetchStatus = fetchStatus;
   fetchStatus = async function() {
     try {
       const res = await fetch('/office/state.json?t=' + Date.now(), { cache: 'no-store' });
       const data = await res.json();
-      console.log('[office] State:', data.state, data.detail);
-      const nextState = normalizeState(data.state);
-      const stateInfo = STATES[nextState] || STATES.idle;
-      displayStatus(data.state, data.detail || '');
+      console.log('[office] State:', data.state);
+      // Call the original status display logic 
+      if (typeof setMainAgentState === 'function') setMainAgentState(data.state, data.detail);
     } catch(e) {
-      console.log('[office] State fetch failed, retry in 10s');
+      console.log('[office] State fetch failed');
     }
   };
   
-  // Override fetchAgents to read from agents-state.json
-  const _origFetchAgents = fetchAgents;
-  fetchAgents = async function() {
+  // Override fetchGuestAgents to read from agents-state.json
+  fetchGuestAgents = async function() {
     try {
       const res = await fetch('/office/agents-state.json?t=' + Date.now(), { cache: 'no-store' });
-      const data = await res.json();
-      console.log('[office] Agents:', data.length);
-      if (typeof displayAgents === 'function') displayAgents(data);
-      else if (typeof onAgentsUpdate === 'function') onAgentsUpdate(data);
+      const agents = await res.json();
+      console.log('[office] Guest agents:', agents.length);
+      if (typeof renderGuestAgentList === 'function') renderGuestAgentList(agents);
+      if (typeof renderGuestAgentsInScene === 'function') renderGuestAgentsInScene(agents);
     } catch(e) {
       console.log('[office] Agents fetch failed');
     }
   };
   
-  // No-op setState (read-only on GitHub Pages)
-  setState = function() { console.log('[office] setState skipped (read-only)'); };
+  setState = function() {};
 }
 
 </script>
