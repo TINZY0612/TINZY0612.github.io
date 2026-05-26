@@ -257,7 +257,7 @@ const AREA_POSITIONS = {
 
 // 状态控制栏函数（用于测试）
 function setState(state, detail) {
-  fetch('/set_state', {
+  fetch((location.pathname.includes('/office/') ? '/office/noop' : '/set_state'), {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ state, detail })
@@ -701,7 +701,7 @@ function normalizeState(s) {
 }
 
 function fetchStatus() {
-  fetch('/status')
+  fetch((location.pathname.includes('/office/') ? '/office/state.json' : '/status'))
     .then(response => response.json())
     .then(data => {
       const nextState = normalizeState(data.state);
@@ -911,7 +911,7 @@ function showCatBubble() {
   setTimeout(() => { if (window.catBubble) { window.catBubble.destroy(); window.catBubble = null; } }, 4000);
 }
 
-function fetchAgents() {
+function fetchAgentsOriginal() {
   fetch('/agents?t=' + Date.now(), { cache: 'no-store' })
     .then(response => response.json())
     .then(data => {
@@ -1032,3 +1032,35 @@ function renderAgent(agent) {
 
 // 启动游戏
 initGame();
+
+
+// Office page override: fetch agents-state.json instead of API
+if (location.pathname.includes('/office/')) {
+  fetchAgentsOriginal = fetchAgentsOriginal;
+  fetchAgents = async function() {
+    try {
+      const res = await fetch('/office/agents-state.json?t=' + Date.now(), { cache: 'no-store' });
+      const data = await res.json();
+      if (typeof onAgentsUpdate === 'function') onAgentsUpdate(data);
+    } catch(e) {
+      console.log('Agents fetch failed, will retry');
+    }
+  };
+  
+  // Override setState to be no-op on GitHub Pages
+  setState = function() { console.log('[office] setState skipped (read-only)'); };
+  
+  // Override status fetch
+  fetchStatus = async function() {
+    try {
+      const res = await fetch('/office/state.json?t=' + Date.now(), { cache: 'no-store' });
+      const data = await res.json();
+      const nextState = normalizeState(data.state);
+      const stateInfo = STATES[nextState] || STATES.idle;
+      // Update main agent display
+      if (typeof updateMainAgent === 'function') updateMainAgent(data);
+    } catch(e) {
+      console.log('State fetch failed');
+    }
+  };
+}
