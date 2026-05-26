@@ -1031,9 +1031,6 @@ function renderAgent(agent) {
 }
 
 // 启动游戏
-initGame();
-
-
 // Office page override: fetch agents-state.json instead of API
 if (location.pathname.includes('/office/')) {
   fetchAgentsOriginal = fetchAgentsOriginal;
@@ -1064,3 +1061,6 @@ if (location.pathname.includes('/office/')) {
     }
   };
 }
+
+initGame();
+
