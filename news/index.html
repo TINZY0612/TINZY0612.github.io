@@ -8,290 +8,454 @@
 <style>
   :root {
     --ink: #f4f1e8;
-    --muted: #b6b1a4;
-    --line: rgba(244, 241, 232, .16);
-    --panel: rgba(255,255,255,.035);
+    --muted: #b3afa2;
+    --soft: rgba(244, 241, 232, 0.72);
+    --line: rgba(244, 241, 232, 0.2);
+    --panel: rgba(13, 15, 13, 0.76);
     --acid: #c9ff3b;
     --amber: #ffb84d;
-    --red: #ff6b5f;
+    --cyan: #58f0ff;
     --black: #050604;
   }
+
   * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
   body {
     margin: 0;
     color: var(--ink);
-    background:
-      linear-gradient(120deg, rgba(201,255,59,.08), transparent 28%),
-      linear-gradient(240deg, rgba(255,184,77,.08), transparent 28%),
-      var(--black);
+    background: var(--black);
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+    letter-spacing: 0;
   }
   a { color: inherit; text-decoration: none; }
-  .wrap {
-    width: min(1180px, calc(100% - 36px));
-    margin: 0 auto;
+  button, a { -webkit-tap-highlight-color: transparent; }
+
+  .topbar {
+    position: fixed;
+    inset: 0 0 auto;
+    z-index: 20;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 18px;
+    padding: 18px clamp(18px, 4vw, 56px);
+    color: var(--ink);
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    mix-blend-mode: difference;
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: navReveal .9s ease 3s forwards;
   }
-  header {
-    min-height: 58vh;
+  .brand { font-weight: 900; }
+  .brand span { color: var(--acid); }
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: clamp(14px, 3vw, 34px);
+    justify-content: center;
+  }
+  .nav a, .top-action {
+    border-bottom: 1px solid transparent;
+    padding-bottom: 4px;
+    transition: border-color .2s, color .2s;
+  }
+  .nav a:hover, .top-action:hover { border-color: currentColor; }
+  .top-action {
+    justify-self: end;
+    color: var(--acid);
+    font-weight: 800;
+  }
+
+  .hero {
+    min-height: 100svh;
+    position: relative;
     display: grid;
     align-items: end;
-    padding: 28px 0 56px;
-    border-bottom: 1px solid var(--line);
+    overflow: hidden;
+    background: #080906;
   }
-  .nav {
-    position: fixed;
-    z-index: 10;
-    inset: 0 0 auto;
-    padding: 18px max(18px, calc((100vw - 1180px) / 2));
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+  .hero-media {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 28px;
+    transform: scale(.18);
+    transform-origin: center center;
+    animation: heroFramePush 3.4s cubic-bezier(.16, 1, .22, 1) forwards;
+    will-change: transform, border-radius;
+    backface-visibility: hidden;
+  }
+  .hero video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: saturate(1.08) contrast(1.05);
+    opacity: .82;
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(90deg, rgba(0,0,0,.88), rgba(0,0,0,.32) 44%, rgba(0,0,0,.72)),
+      linear-gradient(0deg, rgba(5,6,4,.96), transparent 40%, rgba(5,6,4,.55));
+    pointer-events: none;
+  }
+  .hero-grid {
+    position: relative;
+    z-index: 2;
+    width: min(1480px, 100%);
+    margin: 0 auto;
+    padding: 112px clamp(18px, 4vw, 56px) 42px;
+    display: grid;
+    grid-template-columns: minmax(120px, 180px) minmax(0, 1fr) minmax(180px, 280px);
+    gap: clamp(20px, 4vw, 52px);
+    align-items: end;
+  }
+  .scroll-cue {
+    opacity: 0;
+    animation: fadeReveal .9s ease 3.15s forwards;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
     text-transform: uppercase;
-    letter-spacing: .12em;
+    letter-spacing: .16em;
     font-size: 12px;
-    color: var(--ink);
-    background: linear-gradient(180deg, rgba(5,6,4,.82), transparent);
+    color: var(--soft);
+    display: flex;
+    gap: 18px;
+    align-items: center;
   }
-  .brand { font-weight: 950; }
-  .brand span { color: var(--acid); }
-  .nav-links { display: flex; gap: clamp(14px, 3vw, 32px); }
+  .scroll-cue::before {
+    content: "";
+    width: 1px;
+    height: 90px;
+    background: var(--line);
+    display: block;
+  }
+  .hero-title {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: clamp(56px, 10vw, 168px);
+    line-height: .82;
+    font-weight: 950;
+    max-width: 980px;
+    opacity: 0;
+    transform: translateY(34px) scale(.985);
+    animation: heroTitleReveal 1s cubic-bezier(.16,.9,.2,1) 2.72s forwards;
+  }
+  .hero-title span {
+    display: block;
+    color: var(--acid);
+  }
+  .hero-copy {
+    max-width: 280px;
+    border-left: 1px solid var(--line);
+    padding-left: 20px;
+    opacity: 0;
+    transform: translateX(18px);
+    animation: textReveal .9s ease 3.05s forwards;
+  }
+  .kicker {
+    margin: 0 0 14px;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    color: var(--acid);
+    font-size: 12px;
+    font-weight: 900;
+  }
+  .hero-copy p {
+    margin: 0 0 22px;
+    color: var(--soft);
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  .cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0 16px;
+    border: 1px solid var(--line);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 11px;
+    font-weight: 900;
+    background: rgba(5,6,4,.5);
+  }
+  .btn.primary {
+    color: #111;
+    background: var(--acid);
+    border-color: var(--acid);
+  }
+
+  .section {
+    padding: clamp(72px, 10vw, 132px) clamp(18px, 4vw, 56px);
+    border-top: 1px solid rgba(244,241,232,.1);
+  }
+  .inner {
+    width: min(1280px, 100%);
+    margin: 0 auto;
+  }
+  .section-head {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 420px);
+    gap: 28px;
+    align-items: end;
+    margin-bottom: 40px;
+  }
   .eyebrow {
     color: var(--amber);
     text-transform: uppercase;
     letter-spacing: .16em;
     font-size: 12px;
     font-weight: 900;
-    margin-bottom: 16px;
+    margin-bottom: 14px;
   }
-  h1 {
+  h2 {
     margin: 0;
-    max-width: 980px;
-    font-size: clamp(52px, 9vw, 128px);
-    line-height: .86;
+    font-size: clamp(36px, 6vw, 92px);
+    line-height: .92;
     text-transform: uppercase;
+    max-width: 900px;
   }
-  .intro {
-    margin: 26px 0 0;
-    max-width: 740px;
+  .lead {
+    margin: 0;
     color: var(--muted);
-    font-size: 17px;
     line-height: 1.7;
+    font-size: 16px;
   }
-  .status-strip {
+  .systems {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    border-left: 1px solid var(--line);
     border-top: 1px solid var(--line);
-    margin: 46px 0 0;
-  }
-  .metric {
-    padding: 18px;
-    border-right: 1px solid var(--line);
-    border-bottom: 1px solid var(--line);
-    background: rgba(255,255,255,.025);
-  }
-  .metric b {
-    display: block;
-    margin-bottom: 8px;
-    color: var(--acid);
-    font-size: 22px;
-  }
-  .metric span {
-    color: var(--muted);
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-  }
-  main { padding: 54px 0 90px; }
-  .section-title {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    align-items: end;
-    margin-bottom: 20px;
-    border-bottom: 1px solid var(--line);
-    padding-bottom: 18px;
-  }
-  .section-title h2 {
-    margin: 0;
-    font-size: clamp(28px, 4vw, 54px);
-    text-transform: uppercase;
-  }
-  .section-title p {
-    margin: 0;
-    color: var(--muted);
-    max-width: 420px;
-    line-height: 1.55;
-  }
-  .report-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .report-item {
-    display: grid;
-    grid-template-columns: 170px minmax(0, 1fr) auto;
-    gap: 22px;
-    align-items: center;
-    padding: 26px 0;
-    border-bottom: 1px solid var(--line);
-  }
-  .date {
-    color: var(--acid);
-    font-weight: 900;
-    font-size: 20px;
-  }
-  .report-item h3 {
-    margin: 0 0 8px;
-    font-size: clamp(20px, 3vw, 34px);
-  }
-  .report-item p {
-    margin: 0;
-    color: var(--muted);
-    line-height: 1.6;
-  }
-  .open-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 44px;
-    padding: 0 18px;
-    border: 1px solid var(--line);
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    font-size: 11px;
-    font-weight: 900;
-    white-space: nowrap;
-  }
-  .open-link:hover {
-    color: #111;
-    background: var(--acid);
-    border-color: var(--acid);
-  }
-  .pipeline {
-    margin-top: 72px;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
     border-left: 1px solid var(--line);
-    border-top: 1px solid var(--line);
   }
-  .pipeline div {
+  .system {
+    min-height: 230px;
     padding: 22px;
-    min-height: 180px;
     border-right: 1px solid var(--line);
     border-bottom: 1px solid var(--line);
-    background: var(--panel);
+    background: linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.01));
   }
-  .pipeline strong {
-    color: var(--amber);
+  .system strong {
     display: block;
-    margin-bottom: 24px;
+    color: var(--acid);
+    font-size: 13px;
     text-transform: uppercase;
     letter-spacing: .12em;
-    font-size: 12px;
+    margin-bottom: 28px;
   }
-  .pipeline p {
+  .system h3 {
+    margin: 0 0 12px;
+    font-size: 24px;
+    line-height: 1.05;
+  }
+  .system p {
+    margin: 0;
     color: var(--muted);
     line-height: 1.6;
-    margin: 0;
+    font-size: 14px;
   }
-  footer {
-    border-top: 1px solid var(--line);
-    padding: 28px 0;
-    color: rgba(244,241,232,.58);
+  .report-band {
+    min-height: 88vh;
+    display: grid;
+    align-items: center;
+    background:
+      linear-gradient(120deg, rgba(201,255,59,.12), transparent 28%),
+      linear-gradient(260deg, rgba(88,240,255,.12), transparent 25%),
+      #0b0d09;
+  }
+  .report-preview {
+    display: grid;
+    grid-template-columns: minmax(0, .95fr) minmax(300px, 1.05fr);
+    gap: clamp(30px, 6vw, 80px);
+    align-items: center;
+  }
+  .terminal {
+    border: 1px solid var(--line);
+    background: rgba(0,0,0,.56);
+    padding: clamp(18px, 3vw, 34px);
+    min-height: 430px;
+    box-shadow: 0 28px 80px rgba(0,0,0,.36);
+  }
+  .terminal-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    border-bottom: 1px solid rgba(244,241,232,.1);
+    padding: 14px 0;
+    color: var(--soft);
+    font-size: 14px;
+  }
+  .terminal-line b { color: var(--ink); }
+  .terminal-line .up { color: var(--acid); }
+  .terminal-line .down { color: #ff6b5f; }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 28px clamp(18px, 4vw, 56px);
+    color: rgba(244,241,232,.56);
+    border-top: 1px solid rgba(244,241,232,.1);
     font-size: 13px;
   }
-  @media (max-width: 820px) {
-    .nav-links { display: none; }
-    header { min-height: 50vh; padding-top: 94px; }
-    .status-strip, .pipeline { grid-template-columns: 1fr 1fr; }
-    .section-title { display: block; }
-    .section-title p { margin-top: 12px; }
-    .report-item { grid-template-columns: 1fr; gap: 12px; }
-    .open-link { width: fit-content; }
+
+  @keyframes heroFramePush {
+    0% { transform: scale(.18); border-radius: 32px; }
+    32% { transform: scale(.48); border-radius: 28px; }
+    76% { transform: scale(1); border-radius: 0; }
+    100% { transform: scale(1); border-radius: 0; }
   }
-  @media (max-width: 520px) {
-    .status-strip, .pipeline { grid-template-columns: 1fr; }
-    .wrap { width: min(100% - 28px, 1180px); }
+  @keyframes heroTitleReveal {
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  @keyframes textReveal {
+    to { opacity: 1; transform: translate(0,0); }
+  }
+  @keyframes fadeReveal {
+    to { opacity: 1; }
+  }
+  @keyframes navReveal {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-media, .hero-title, .hero-copy, .scroll-cue, .topbar {
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
+    .hero-media { border-radius: 0; }
+  }
+
+  @media (max-width: 900px) {
+    .topbar { grid-template-columns: 1fr auto; }
+    .nav { display: none; }
+    .hero-grid {
+      grid-template-columns: 1fr;
+      align-items: end;
+      padding-top: 96px;
+    }
+    .scroll-cue { display: none; }
+    .hero-copy { max-width: 560px; border-left: 0; padding-left: 0; }
+    .section-head, .report-preview { grid-template-columns: 1fr; }
+    .systems { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .footer { flex-direction: column; }
+  }
+  @media (max-width: 560px) {
+    .topbar { font-size: 11px; padding: 16px; }
+    .hero-title { font-size: clamp(48px, 18vw, 84px); }
+    .systems { grid-template-columns: 1fr; }
+    .system { min-height: 190px; }
+    .terminal { min-height: auto; }
+    .terminal-line { display: block; }
+    .terminal-line span { display: block; margin-top: 6px; }
   }
 </style>
 </head>
 <body>
-  <nav class="nav">
+  <header class="topbar">
     <a class="brand" href="/">ZI<span>YIK</span></a>
-    <div class="nav-links">
-      <a href="/">Home</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#system">System</a>
+      <a href="/news/">Market News</a>
       <a href="https://t.me/ZiYik0612_Sentiment_Research" target="_blank" rel="noreferrer">Telegram</a>
       <a href="https://x.com/ZiYik0612" target="_blank" rel="noreferrer">X</a>
-    </div>
-  </nav>
-
-  <header>
-    <div class="wrap">
-      <h1>Read the <span>market</span> before it moves.</h1>
-      <p class="intro">A public archive for my daily AI-assisted market brief. Each report combines news, macro, derivatives, on-chain DEX data, liquidation context, and scenario analysis.</p>
-      <div class="status-strip">
-        <div class="metric"><b>08:00</b><span>UTC+8 daily</span></div>
-        <div class="metric"><b>7+</b><span>data sources</span></div>
-        <div class="metric"><b>2</b><span>report segments</span></div>
-        <div class="metric"><b>0</b><span>financial advice</span></div>
-      </div>
-    </div>
+    </nav>
+    <a class="top-action" href="/news/">Read reports</a>
   </header>
 
-  <main class="wrap">
-    <div class="section-title">
-      <h2>Latest reports</h2>
-      <p>Open a dated report for the full market summary, charts, risk notes, and AI scenario map.</p>
-    </div>
-
-    <ul class="report-list" id="report-list">
-      <li class="report-item">
-        <div class="date">2026-05-26</div>
-        <div>
-          <h3>Market sentiment deep report</h3>
-          <p>Stablecoin ATH $322B vs institutional outflows stalemate, BTC consolidating at $76.8K, low-vol chop with F&G 34.</p>
-        </div>
-        <a class="open-link" href="/news/2026-05-26/">Open report</a>
-      </li>
-      
-      <li class="report-item">
-        <div class="date">2026-05-25</div>
-        <div>
-          <h3>Market sentiment deep report</h3>
-          <p>Iran agreement window, ETH whale selling, derivatives leverage reset, Solana/Base DEX activity, and scenario analysis.</p>
-        </div>
-        <a class="open-link" href="/news/2026-05-25/">Open report</a>
-      </li>
-      <li class="report-item">
-        <div class="date">2026-05-24</div>
-        <div>
-          <h3>Market sentiment deep report</h3>
-          <p>Daily crypto news, market data, liquidation maps, BTC chart context, and source-tagged analysis.</p>
-        </div>
-        <a class="open-link" href="/news/2026-05-24/">Open report</a>
-      </li>
-      <!-- NEW_REPORT_HERE -->
-    </ul>
-
-    <section class="pipeline" aria-label="Report pipeline">
-      <div>
-        <strong>Input</strong>
-        <p>BlockBeats, CoinGecko, GeckoTerminal, Binance, Dexscreener, Coinglass, Deribit, and Yahoo Finance.</p>
+  <main>
+    <section class="hero" aria-label="ZiYik hero">
+      <div class="hero-media" aria-hidden="true">
+        <video autoplay muted loop playsinline preload="metadata" poster="">
+          <source src="/assets/hero.mp4" type="video/mp4">
+        </video>
       </div>
-      <div>
-        <strong>Analysis</strong>
-        <p>Sentiment scoring, narrative grouping, market structure checks, risk observations, and probability-weighted scenarios.</p>
+      <div class="hero-grid">
+        <div class="scroll-cue">Scroll to explore</div>
+        <h1 class="hero-title">Read the <span>market</span> before it moves</h1>
+        <div class="hero-copy">
+          <p class="kicker">AI market intelligence</p>
+          <p>Daily crypto sentiment, news flow, leverage, on-chain signals, and narrative shifts synthesized by an OpenClaw agent system.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="/news/">Open market news</a>
+            <a class="btn" href="https://t.me/ZiYik0612_Sentiment_Research" target="_blank" rel="noreferrer">Telegram</a>
+          </div>
+        </div>
       </div>
-      <div>
-        <strong>Output</strong>
-        <p>Telegram-readable daily report, public web archive, and future handoff into trading-assistant agents.</p>
+    </section>
+
+    <section class="section" id="system">
+      <div class="inner">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Research stack</div>
+            <h2>One operator. Multiple agents. A cleaner signal feed.</h2>
+          </div>
+          <p class="lead">ZiYik is built as a public research surface for my crypto and AI agent experiments. The first layer is a market-news analyst that turns noisy feeds into readable daily intelligence.</p>
+        </div>
+
+        <div class="systems">
+          <article class="system">
+            <strong>01 / News</strong>
+            <h3>Market narrative map</h3>
+            <p>BlockBeats, macro events, ETF flow, regulation, protocol incidents, and major capital stories.</p>
+          </article>
+          <article class="system">
+            <strong>02 / Data</strong>
+            <h3>Price and leverage context</h3>
+            <p>BTC, ETH, SOL, derivatives, liquidations, open interest, volatility, and risk-on/risk-off pressure.</p>
+          </article>
+          <article class="system">
+            <strong>03 / On-chain</strong>
+            <h3>DEX and meme pulse</h3>
+            <p>GeckoTerminal, Dexscreener, new pools, trending pools, liquidity, volume, and token safety checks.</p>
+          </article>
+          <article class="system">
+            <strong>04 / Output</strong>
+            <h3>Readable daily brief</h3>
+            <p>Telegram-first reports, public archive, and future handoff into trader and portfolio agents.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section report-band" id="reports">
+      <div class="inner report-preview">
+        <div>
+          <div class="eyebrow">Daily market news</div>
+          <h2>Reports designed for fast morning decisions.</h2>
+          <p class="lead">The archive page is where the daily market brief lives: clean, dated, source-aware, and readable without digging through Telegram history.</p>
+          <div class="cta-row" style="margin-top: 26px;">
+            <a class="btn primary" href="/news/">View archive</a>
+            <a class="btn" href="https://github.com/TINZY0612/TINZY0612.github.io" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+        <div class="terminal" aria-label="Report preview">
+          <div class="terminal-line"><b>Sentiment</b><span class="up">+10 / 100</span></div>
+          <div class="terminal-line"><b>BTC</b><span class="up">$77,104 · +0.5%</span></div>
+          <div class="terminal-line"><b>ETH</b><span class="down">$2,101 · -0.8%</span></div>
+          <div class="terminal-line"><b>Risk</b><span>ETF flow · whale selling · low liquidity</span></div>
+          <div class="terminal-line"><b>Sources</b><span>BlockBeats · CoinGecko · Binance · Dexscreener</span></div>
+          <div class="terminal-line"><b>Mode</b><span>Daily 08:00 UTC+8 · Telegram + archive</span></div>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="wrap">© 2026 ZiYik · Public market notes, not financial advice.</div>
+  <footer class="footer">
+    <span>© 2026 ZiYik. Built with OpenClaw agents.</span>
+    <span>BlockBeats · CoinGecko · GeckoTerminal · Binance · Dexscreener · Coinglass</span>
   </footer>
 </body>
 </html>
