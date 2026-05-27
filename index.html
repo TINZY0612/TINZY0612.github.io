@@ -233,38 +233,6 @@
     line-height: 1.7;
     font-size: 16px;
   }
-  .systems {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    border-top: 1px solid var(--line);
-    border-left: 1px solid var(--line);
-  }
-  .system {
-    min-height: 230px;
-    padding: 22px;
-    border-right: 1px solid var(--line);
-    border-bottom: 1px solid var(--line);
-    background: linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.01));
-  }
-  .system strong {
-    display: block;
-    color: var(--acid);
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: .12em;
-    margin-bottom: 28px;
-  }
-  .system h3 {
-    margin: 0 0 12px;
-    font-size: 24px;
-    line-height: 1.05;
-  }
-  .system p {
-    margin: 0;
-    color: var(--muted);
-    line-height: 1.6;
-    font-size: 14px;
-  }
   .report-band {
     min-height: 88vh;
     display: grid;
@@ -348,14 +316,11 @@
     .scroll-cue { display: none; }
     .hero-copy { max-width: 560px; border-left: 0; padding-left: 0; }
     .section-head, .report-preview { grid-template-columns: 1fr; }
-    .systems { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .footer { flex-direction: column; }
   }
   @media (max-width: 560px) {
     .topbar { font-size: 11px; padding: 16px; }
     .hero-title { font-size: clamp(48px, 14vw, 88px); line-height: 0.9; margin:0; text-transform:uppercase; }
-    .systems { grid-template-columns: 1fr; }
-    .system { min-height: 190px; }
     .terminal { min-height: auto; }
     .terminal-line { display: block; }
     .terminal-line span { display: block; margin-top: 6px; }
@@ -390,41 +355,6 @@
       </h1>
         </div>
       </section>
-
-    <section class="section" id="system">
-      <div class="inner">
-        <div class="section-head">
-          <div>
-            <div class="eyebrow">Research stack</div>
-            <h2>One operator. Multiple agents. A cleaner signal feed.</h2>
-          </div>
-          <p class="lead">ZiYik is built as a public research surface for my crypto and AI agent experiments. The first layer is a market-news analyst that turns noisy feeds into readable daily intelligence.</p>
-        </div>
-
-        <div class="systems">
-          <article class="system">
-            <strong>01 / News</strong>
-            <h3>Market narrative map</h3>
-            <p>BlockBeats, macro events, ETF flow, regulation, protocol incidents, and major capital stories.</p>
-          </article>
-          <article class="system">
-            <strong>02 / Data</strong>
-            <h3>Price and leverage context</h3>
-            <p>BTC, ETH, SOL, derivatives, liquidations, open interest, volatility, and risk-on/risk-off pressure.</p>
-          </article>
-          <article class="system">
-            <strong>03 / On-chain</strong>
-            <h3>DEX and meme pulse</h3>
-            <p>GeckoTerminal, Dexscreener, new pools, trending pools, liquidity, volume, and token safety checks.</p>
-          </article>
-          <article class="system">
-            <strong>04 / Output</strong>
-            <h3>Readable daily brief</h3>
-            <p>Telegram-first reports, public archive, and future handoff into trader and portfolio agents.</p>
-          </article>
-        </div>
-      </div>
-    </section>
 
     <section class="section report-band" id="reports">
       <div class="inner report-preview">
