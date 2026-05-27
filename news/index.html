@@ -257,9 +257,10 @@
     .hero-bg { display: none; }
   }
   @media (max-width: 820px) {
-    .nav-links { display: none; }
-    .hero { min-height: 68svh; }
-    .hero-content { padding-top: 96px; }
+    .nav-links a:not(.keep-mobile) { display: none; }
+    .hero { min-height: 50svh; }
+    .hero-content { padding-top: 80px; }
+    .hero h1 { font-size: clamp(32px, 10vw, 64px); }
     .status-strip, .pipeline { grid-template-columns: 1fr 1fr; }
     .section-title { display: block; }
     .section-title p { margin-top: 12px; }
@@ -267,9 +268,15 @@
     .open-link { width: fit-content; }
   }
   @media (max-width: 520px) {
-    .wrap { width: min(100% - 28px, 1180px); }
+    .wrap { width: min(100% - 24px, 1180px); }
+    .nav { padding: 12px 14px; font-size: 11px; }
     .status-strip, .pipeline { grid-template-columns: 1fr; }
-    h1 { font-size: clamp(46px, 16vw, 78px); }
+    .hero { min-height: 44svh; }
+    .hero h1 { font-size: clamp(32px, 12vw, 52px); }
+    .hero-content { padding-top: 64px; }
+    .report-item h3 { font-size: 16px; }
+    .date { font-size: 15px; }
+    .metric b { font-size: 16px; }
   }
 
   .footer {
@@ -336,10 +343,10 @@
   <nav class="nav">
     <a class="brand" href="/">ZI<span>YIK</span></a>
     <div class="nav-links">
-      <a href="/">Home</a>
+      <a href="/" class="keep-mobile">Home</a>
       <a href="#reports">Reports</a>
       <a href="https://t.me/ZiYik0612_Sentiment_Research" target="_blank" rel="noreferrer">Telegram</a>
-      <a href="http://20.2.194.55/dashboard/" target="_blank" rel="noreferrer">Dashboard</a>
+      <a href="http://20.2.194.55/dashboard/" target="_blank" rel="noreferrer" class="keep-mobile">Dashboard</a>
       <a href="https://x.com/ZiYik0612" target="_blank" rel="noreferrer">X</a>
     </div>
   </nav>
