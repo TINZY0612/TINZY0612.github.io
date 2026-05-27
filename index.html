@@ -353,7 +353,7 @@
   }
   @media (max-width: 560px) {
     .topbar { font-size: 11px; padding: 16px; }
-    .hero-title { font-size: clamp(56px, 16vw, 96px); line-height: 0.85; }
+    .hero-title { font-size: clamp(48px, 14vw, 88px); line-height: 0.9; margin:0; text-transform:uppercase; }
     .systems { grid-template-columns: 1fr; }
     .system { min-height: 190px; }
     .terminal { min-height: auto; }
@@ -383,7 +383,11 @@
       </div>
       <div class="hero-grid">
         <div class="scroll-cue">Scroll to explore</div>
-        <h1 class="hero-title">SEEK<br><span>DISCOMFORT</span><br>BE DIFFERENT</h1>
+        <h1 class="hero-title">
+        <div>SEEK</div>
+        <div style="color:var(--acid)">DISCOMFORT</div>
+        <div>BE DIFFERENT</div>
+      </h1>
         </div>
       </section>
 
