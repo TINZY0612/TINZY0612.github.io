@@ -3,31 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>每日加密市场情绪简报 · 2026-05-31</title>
+<title>Daily Crypto Market Sentiment · 2026-05-31 — ZiYik</title>
 <style>
   :root {
-    --ink: #f4f1e8;
-    --muted: #b3afa2;
-    --soft: rgba(244, 241, 232, 0.72);
-    --line: rgba(244, 241, 232, 0.2);
-    --panel: rgba(13, 15, 13, 0.76);
-    --acid: #c9ff3b;
-    --amber: #ffb84d;
-    --red: #ff6b5f;
-    --black: #050604;
+    --ink: #f4f1e8; --muted: #b3afa2; --soft: rgba(244, 241, 232, 0.72);
+    --line: rgba(244, 241, 232, 0.2); --panel: rgba(13, 15, 13, 0.76);
+    --acid: #c9ff3b; --amber: #ffb84d; --red: #ff6b5f; --black: #050604;
   }
   * { margin:0; padding:0; box-sizing:border-box; }
   html { scroll-behavior: smooth; }
   body {
-    margin: 0;
-    color: var(--ink);
-    background: var(--black);
+    margin: 0; color: var(--ink); background: var(--black);
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
-    min-height: 100vh;
-    padding: 90px 18px 60px;
-    max-width: 820px;
-    margin: 0 auto;
-    line-height: 1.7;
+    min-height: 100vh; padding: 90px 18px 60px; max-width: 820px; margin: 0 auto; line-height: 1.7;
   }
   @media (max-width:640px) { body { padding:80px 14px 40px; } }
   a { color: var(--acid); text-decoration: none; }
@@ -37,64 +25,24 @@
   p { font-size: 14px; margin: 4px 0; color: var(--ink); line-height: 1.75; }
   p.bullet { padding-left: 16px; color: var(--soft); }
   hr { border: none; border-top: 1px solid var(--line); margin: 18px 0; }
-
-  /* Navigation */
-  .nav {
-    position: fixed;
-    z-index: 10;
-    inset: 0 0 auto;
-    padding: 14px max(18px, calc((100vw - 820px) / 2));
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    text-transform: uppercase;
-    letter-spacing: .12em;
-    font-size: 12px;
-    background: linear-gradient(180deg, rgba(5,6,4,.95), transparent);
-  }
+  .nav { position: fixed; z-index: 10; inset: 0 0 auto; padding: 14px max(18px, calc((100vw - 820px) / 2)); display: flex; justify-content: space-between; align-items: center; gap: 20px; text-transform: uppercase; letter-spacing: .12em; font-size: 12px; background: linear-gradient(180deg, rgba(5,6,4,.95), transparent); }
   .brand { font-weight: 950; color: var(--ink); letter-spacing: .12em; text-decoration: none; }
   .brand span { color: var(--acid); }
   .brand:hover { text-decoration: none; }
   .nav-links { display: flex; gap: clamp(14px, 3vw, 32px); }
   .nav-links a { color: var(--soft); }
   .nav-links a:hover { color: var(--ink); text-decoration: none; }
-
   .back-row { margin-bottom: 8px; }
   .back-link { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
   .title { font-size: 24px; font-weight: 900; margin-bottom: 4px; color: var(--ink); letter-spacing: 0; }
+  .subtitle-line { font-size: 13px; color: var(--amber); margin-bottom: 8px; line-height: 1.5; max-width: 700px; }
   .date { color: var(--muted); margin-bottom: 24px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
-
-  .dashboard-img {
-    width: 100%;
-    border-radius: 16px;
-    border: 1px solid var(--line);
-    margin-bottom: 28px;
-  }
-
-  .chart-card {
-    margin: 20px 0;
-    padding: 18px;
-    background: var(--panel);
-    border: 1px solid var(--line);
-    border-radius: 16px;
-  }
+  .dashboard-img { width: 100%; border-radius: 16px; border: 1px solid var(--line); margin-bottom: 28px; }
+  .chart-card { margin: 20px 0; padding: 18px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; }
   .chart-label { font-size: 12px; color: var(--muted); margin-bottom: 10px; text-transform: uppercase; letter-spacing: .06em; }
   .chart-card img { width: 100%; border-radius: 8px; }
-
-  .footer {
-    margin-top: 48px;
-    padding-top: 20px;
-    border-top: 1px solid var(--line);
-    font-size: 11px;
-    color: var(--muted);
-    text-align: center;
-    letter-spacing: .04em;
-  }
-  @media (max-width: 520px) {
-    .nav-links { display: none; }
-    .title { font-size: 20px; }
-  }
+  .footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 11px; color: var(--muted); text-align: center; letter-spacing: .04em; }
+  @media (max-width: 520px) { .nav-links { display: none; } .title { font-size: 20px; } }
 </style>
 </head>
 <body>
@@ -110,31 +58,221 @@
 
   <div class="back-row"><a class="back-link" href="/news/">← 报告存档</a></div>
   <div class="title">每日加密市场情绪深度报告</div>
+  <div class="subtitle-line">HYPE ATH $68+, Grayscale bull thesis, BTC flat above $73K, volume collapses 50%, F&amp;G stays at Fear 31</div>
   <div class="date">2026-05-31 · 08:00 UTC+8 · 多数据源全自动生成</div>
 
-  <a href="images/dashboard.png" target="_blank"><img class="dashboard-img" src="images/dashboard.png" alt="市场情绪仪表板"></a>
+  <a href="images/dashboard.png" target="_blank"><img class="dashboard-img" src="images/dashboard.png" alt="Market Sentiment Dashboard"></a>
 
-  <p>The complete report was generated in the previous turn with fresh data from all sources (BlockBeats, CoinGecko, Binance, Yahoo Finance, Deribit, Coinglass, GeckoTerminal, Dexscreener, OrangeX). All data was fetched at ~00:05 UTC (08:05 UTC+8).</p>
+  <br>
 <br>
-<p>The report is ready above — it includes:</p>
-<p class="bullet">- ✅ 6-section report with</p>
-
-  <div class="chart-card"><div class="chart-label">📊 爆仓热力图</div><img src="images/heatmap.png" alt="📊 爆仓热力图"></div>
-<div class="chart-card"><div class="chart-label">📊 OrangeX 恐惧贪婪指数 + 热力图</div><img src="images/orangex.png" alt="📊 OrangeX 恐惧贪婪指数 + 热力图"></div>
-
-  <p>between segments</p>
-<p class="bullet">- ✅ All BlockBeats APIs called (newsflash/24h, article/24h, BTI, top10_netflow, prediction, financing, dxy, us10y, contract, btc_etf)</p>
-<p class="bullet">- ✅ CoinGecko: trending, global, prices, categories, derivatives</p>
-<p class="bullet">- ✅ GeckoTerminal: trending_pools, new_pools, megafilter</p>
-<p class="bullet">- ✅ Binance: tickers, 1h candles, premiumIndex</p>
-<p class="bullet">- ✅ Yahoo Finance: SPX, VIX, Gold</p>
-<p class="bullet">- ✅ Deribit: BTC/ETH ATM IV</p>
-<p class="bullet">- ✅ OrangeX F&amp;G: 31 (Fear)</p>
-<p class="bullet">- ✅ Coinglass data</p>
-<p class="bullet">- ✅ X Thread (6 tweets)</p>
-<p class="bullet">- ✅ Dashboard JSON (validated)</p>
+<p>=== 第一段：叙事与风险面 ===</p>
 <br>
-<p>The report is at `/tmp/daily_report_2026-05-31.txt` if you need to re-read or send it via another channel.</p>
+<h2>📌 1. 一句话总览</h2>
+<br>
+<p>周末低成交量下的横盘整理格局延续，BTC 在 $73,000-$74,500 窄幅震荡，全市场 24h 成交量暴跌 50%。HYPE 创历史新高 $68+ 成为最强独立叙事，灰度发文力挺 Hyperliquid 为「链上全球 24/7 金融市场」的未来蓝图。整体情绪仍处恐惧区间，F&amp;G 31，但宏观环境偏宽松 — VIX 15.3，美元走弱，美债收益率下行，黄金涨 1.4%。</p>
+<br>
+<p>24h变化: 情绪 31(恐惧,持平) | BTC ↗0.6% | ETH ↗0.4% | SOL ↗0.8% | VIX 15.3(正常) | 成交量 ↘50.7% | 爆仓 ↘60.5% | 成交量 $96B(Coinglass) (multi-source)</p>
+<br>
+<h2>📰 2. 过去 24 小时重要新闻与叙事</h2>
+<br>
+<p>HYPE / Hyperliquid 叙事主导市场。灰度发布深度研报将 Hyperliquid 定位为「链上 24/7 全球金融市场的未来金融巨头」，HYPE 突破 $68 创历史新高，两周涨幅超 50%。Polymarket 上 HYPE 年内突破 $100 的概率升至 36%。</p>
+<br>
+<p>信息 1: HYPE 突破 $68 创 ATH，灰度称 Hyperliquid 为未来链上金融巨头的蓝图，Polymarket 上 $100 目标概率升至 36%。(BlockBeats)</p>
+<br>
+<p>信息 2: 巨鲸「lovelystuff」在 HYPE 空单上连续补仓 9 小时，现货持仓 $5,900 万未动。(BlockBeats)</p>
+<br>
+<p>信息 3: Loracle 持续做空 HYPE 被清算，市场多头情绪浓厚。(BlockBeats)</p>
+<br>
+<p>Binance 与 BNB。CZ 在社交媒体预告 6 月 1 日将发布新产品，社区猜测与美股投资通道相关。Binance 发布的预告图中「Haystack」与「Hey Stock」谐音，进一步强化美股入口猜测。BNB 受消息推动突破 $700。</p>
+<br>
+<p>信息 4: CZ 预告 Binance 将于 6 月 1 日发布新产品，「Haystack」谐音暗示可能与美股投资相关。(BlockBeats)</p>
+<br>
+<p>信息 5: BNB 在现货和期货资金同时流入推动下突破 $700，24h 涨幅显著。(BlockBeats)</p>
+<br>
+<p>Polymarket 欧冠决赛。巴黎圣日耳曼通过点球大战击败阿森纳夺冠，Polymarket 总交易量突破 $3,500 万。巨鲸「lovelystuff」虽在「阿森纳夺冠」市场上亏损 $306 万，但因参与「PSG 不胜」市场结算获利 $440 万，最终净赚超 $130 万。</p>
+<br>
+<p>信息 6: 欧冠决赛 Polymarket 交易量超 $3,500 万，巨鲸净赚 $130 万。(BlockBeats)</p>
+<br>
+<p>BTC 与宏观。BTC 短线突破 $74,000 后回落至 $73,500-$74,000 区间。美元指数继续走弱至 98.93，10 年期美债收益率降至 4.439%，SPX 报 7,580 微涨 0.2%，黄金涨 1.4% 至 $4,561。</p>
+<br>
+<p>信息 7: BTC 短线突破 $74,000，24h 涨 0.6%。(CoinGecko, BlockBeats)</p>
+<br>
+<p>信息 8: 美伊关系持续紧张，美政府禁止美国人参与「安全通道」协议，霍尔木兹海峡短期内无法通行。(BlockBeats)</p>
+<br>
+<p>信息 9: DxSale 发布安全事件声明，v2 及以上版本锁定合约未受影响。(BlockBeats)</p>
+<br>
+<p>板块轮动。CoinGecko 数据显示，Echo Launchpad 板块飙升 492%，Tower Defense Games 涨 208%，Analytics 涨 147%，反映小众赛道资金轮动。Reddit Points 跌 33%，Printr Launchpad 跌 13.5%，Launchpad 类整体承压。</p>
+<br>
+<p>信息 10: Echo Launchpad 板块 24h 飙涨 492%，Pump.fun Creator 涨 32%，ST0x Ecosystem 涨 26%。(CoinGecko)</p>
+<br>
+<p>信息 11: Base 主网提现功能出现延迟，团队正在修复。(BlockBeats)</p>
+<br>
+<p>信息 12: 散户涌入美股太空主题 ETF，SpaceX 引领太空投资热潮。(BlockBeats)</p>
+<br>
+<h2>⚠️ 3. 风险提示与明日观察</h2>
+<br>
+<p>风险 1: 成交量骤降 50% 是周末效应的极端表现，若周一亚盘开盘后成交量未能恢复至 $150B+，可能预示更深层的市场参与度下降。 → 观察: 周一亚洲时段成交量是否恢复至正常水平的 70% 以上；失效条件: 若成交量在周二前恢复至 $120B+ 则风险解除。(Coinglass, analysis)</p>
+<br>
+<p>风险 2: ETH 和 SOL 部分交易所出现极端负资金费率（OKX ETH -1.11%，BitMEX SOL -1.32%），表明空头集中押注，可能存在空头挤压风险。 → 观察: 若 ETH 突破 $2,030 或 SOL 突破 $83.5，可能触发空头踩踏；失效条件: 若负费率持续收敛至 -0.5% 以内则风险自然消除。(CoinGecko derivatives, analysis)</p>
+<br>
+<p>风险 3: BTC ETF 连续 5 日净流出，5 月 29 日流出 $1.25 亿，机构资金持续撤离。 → 观察: 若下周一流出量缩小或转正，短期底部信号增强；失效条件: 若单日流出再超 $3 亿则需警惕加速下跌。(BlockBeats, analysis)</p>
+<br>
+<p>风险 4: BTC.D 高达 57.3%，山寨币资金持续被吸走，ETH.D 仅 9.5%，山寨季条件远未成熟。 → 观察: BTC.D 若突破 58%，山寨币将承受更大压力；失效条件: BTC.D 回落至 56% 以下且 ETH/BTC 企稳。(CoinGecko, analysis)</p>
+<br>
+<p>风险 5: 美伊地缘政治紧张局势持续发酵，霍尔木兹海峡通行受阻可能影响全球能源供应和风险偏好。 → 观察: 若局势升级至军事层面，风险资产将全面承压；失效条件: 若美伊达成临时协议则地缘溢价消退。(BlockBeats, analysis)</p>
+<br>
+<p>风险 6: DxSale 安全事件虽未影响 v2+ 合约，但若恐慌蔓延至其他 Launchpad 项目，可能引发连锁信任危机。 → 观察: 其他 Launchpad 类代币是否出现异常价格波动；失效条件: 安全事件在一周内无新进展。(BlockBeats, analysis)</p>
+<br>
+<p>非财务建议声明: 本报告仅提供市场数据和情绪分析，不构成任何买卖建议。</p>
+<br>
+<h2>📅 本周关键事件日历</h2>
+<br>
+<p>6月1日 — Binance 新产品发布（CZ 预告，可能涉及美股投资通道）— 预期 bullish，若落地可能推动 BNB 和交易所代币板块。(BlockBeats, analysis)</p>
+<br>
+<p>6月2日 — 美国 ISM 制造业 PMI — 预期 neutral/bearish，若低于预期则衰退担忧升温，利好避险资产；若高于预期则利好风险资产。(analysis)</p>
+<br>
+<p>6月4日 — 美国 ADP 就业数据 — 预期 neutral，市场关注周五非农前瞻。(analysis)</p>
+<br>
+<p>6月5日 — 欧洲央行利率决议 — 预期 bullish（若降息），宽松预期将提振风险资产。(analysis)</p>
+<br>
+<p>6月6日 — 美国非农就业数据 — 预期 neutral/bearish，就业数据强弱将影响美联储后续路径预期。(analysis)</p>
+<br>
+<br>
+
+  <div class="chart-card"><div class="chart-label">📊 爆仓热力图</div><img src="images/heatmap.png" alt="爆仓热力图"></div>
+<div class="chart-card"><div class="chart-label">📊 OrangeX 恐惧贪婪指数 + 热力图</div><img src="images/orangex.png" alt="OrangeX F&G"></div>
+
+  <br>
+<br>
+<p>=== 第二段：数据与技术面 ===</p>
+<br>
+<h2>🧭 4. 市场情绪评分</h2>
+<br>
+<p>综合评分: -25/100</p>
+<br>
+<p>5 项构成:</p>
+<br>
+<p>新闻情绪: +15/100 — HYPE 创新高和灰度看多成为最强独立叙事，Binance 新产品预告带来期待。但 DxSale 安全事件和美伊地缘紧张形成牵制，整体偏中性偏多。(BlockBeats)</p>
+<br>
+<p>价格/成交量: -45/100 — 全市场 24h 成交量暴跌 50.7%（周末效应），BTC 在 $73,000-$74,500 窄幅波动仅 1.3%，市场极度缺乏方向性动能。BTC 和 ETH 价格微涨但成交量萎缩表明上涨缺乏资金支持。(Binance, CoinGecko, Coinglass)</p>
+<br>
+<p>DEX/meme 活跃度: -5/100 — Solana 上有 7 个池子 24h 成交量超 $100 万，ballish 涨 324%，但新池质量低（48h 内无符合 $50k 流动性 + $100k 成交量的新池）。整体 Meme 活跃度低。(GeckoTerminal)</p>
+<br>
+<p>宏观/ETF/流动性: +10/100 — VIX 15.32 处正常偏低，DXY 7 日跌 0.39%，10Y 收益率 7 日降 2.44%，黄金涨 1.4% 至 $4,561。宏观宽松有利风险资产。但 BTC ETF 连续 5 日净流出（最新 -$1.25 亿），机构端资金情绪偏空。BTC.D 57.3% 极高，山寨币资金被挤压。(Yahoo Finance, BlockBeats, CoinGecko)</p>
+<br>
+<p>杠杆与风险: 0/100 — 爆仓量仅 $1.12 亿且暴跌 60.5%，显示去杠杆充分。OI 持平 $1,251 亿。全球多空比 51.38:48.62 中性略偏多。但 ETH/SOL 在部分交易所出现极端负费率，多头在部分平台被动。(Coinglass, CoinGecko)</p>
+<br>
+<p>BlockBeats 综合市场情绪指标全览:</p>
+<br>
+<p class="bullet">· 市场脉动指数: 无信号 (综合指数，&lt;20 潜在买入，&gt;80 潜在卖出)</p>
+<p class="bullet">· 整体市场流动性指数: Hold</p>
+<p class="bullet">· 比特币流动性指数: Hold</p>
+<p class="bullet">· 以太坊流动性指数: Hold</p>
+<p class="bullet">· 过去24小时累积比特币流动性指数: Buy</p>
+<p class="bullet">· 整体市场流动性（以比特币为单位）: Hold</p>
+<p class="bullet">· 合约多空比偏离指数: Hold</p>
+<p class="bullet">· 山寨币抗跌指数: Hold</p>
+<p class="bullet">· Bitfinex BTC/USD 溢价: Hold</p>
+<p class="bullet">· USDC/USDT 溢价: Buy</p>
+<p class="bullet">· Binance USDT 借贷利率: Buy</p>
+<p class="bullet">· 持仓量加权资金费率年化利率: Hold</p>
+<br>
+<p>综合: 3 Buy / 0 Sell / 8 Hold / 1 N/A — 底部区间特征明显，多数指标持中性，USDC/USDT 溢价和 USDT 借贷利率均发出买入信号，但尚未形成全面做多共识。(BlockBeats)</p>
+<br>
+<h2>📊 5. 主要市场数据与杠杆</h2>
+<br>
+<p>BTC: $73,776, 24h +0.56%, 成交量 $15.61 亿（Binance spot）, 高 $74,591 低 $72,583。24h 蜡烛区间涨幅 +0.32%，最后 6h 微跌 -0.16%，全天窄幅横盘。期货溢价: mark $73,861 vs index $73,898，小幅贴水 -0.05%，期货情绪中性略空。(CoinGecko, Binance)</p>
+<br>
+<p>ETH: $2,020, 24h +0.44%, 成交量 $7.25 亿（Binance spot）, 高 $2,030 低 $1,967。24h 蜡烛区间涨幅 +0.15%，最后 6h 微跌 -0.31%。期货溢价: mark $2,022 vs index $2,023，贴水 -0.05%，与 BTC 同步。(CoinGecko, Binance)</p>
+<br>
+<p>SOL: $82.57, 24h +0.78%, 成交量 $1.88 亿（Binance spot）, 高 $83.01 低 $80.00。24h 蜡烛区间微跌 -0.12%，最后 6h 跌 -0.33%。期货溢价: mark $82.69 vs index $82.72，贴水 -0.04%。(CoinGecko, Binance)</p>
+<br>
+<p>全球市场: 总市值 $2.58 万亿, 24h 成交量 $582 亿（全球）, BTC 占比 57.3%，ETH 占比 9.5%。BTC.D 处于极高水位，山寨币被严重挤压。(CoinGecko)</p>
+<br>
+<p>衍生品杠杆（主流交易所，CoinGecko）:</p>
+<br>
+<p>BTC: 总 OI $279.3 亿 (57 家主流交易所), 最高资金费率 HTX Futures +0.0170%, 最低 Bitget Futures -0.0042%。整体费率合理，无极端信号。(CoinGecko)</p>
+<br>
+<p>ETH: 总 OI $153.2 亿 (71 家), 最高 BitMEX +0.0390%, 最低 OKX Futures -0.0111%。⚠️ OKX ETH 负费率 -1.11% 显著偏离正常区间，存在空头过度集中风险，可能触发空头挤压。(CoinGecko)</p>
+<br>
+<p>SOL: 总 OI $27.0 亿 (26 家), 最高 HTX Futures +0.0218%, 最低 BitMEX -0.0132%。⚠️ BitMEX SOL 负费率 -1.32% 异常，需关注。(CoinGecko)</p>
+<br>
+<p>跨平台 OI 对比 (BlockBeats, 5月29日数据):</p>
+<br>
+<p>Binance OI $210.9 亿, 日成交量 $390.4 亿</p>
+<p>Bybit OI $104.3 亿, 日成交量 $146.7 亿</p>
+<p>Hyperliquid OI $67.7 亿, 日成交量 $57.2 亿</p>
+<p>Binance 仍占绝对主导地位，Hyperliquid OI 稳步增长。(BlockBeats)</p>
+<br>
+<p>爆仓数据 (Coinglass):</p>
+<br>
+<p>24h 总爆仓 $1.12 亿，24h 变化 -60.5%（爆仓量大幅下降，去杠杆充分）。</p>
+<p>全球多空比 51.38%:48.62%，多头略占优势。</p>
+<p>Binance TV 多空比数据缺失，无法进行跨平台对比。</p>
+<p>成交量 24h $963.7 亿（Coinglass 口径），24h 变化 -50.71%。(Coinglass)</p>
+<br>
+<p>宏观看板:</p>
+<br>
+<p>SPX 7,580.06, 24h +0.22%, 5d +1.43% → 美股窄幅上涨，风险偏好稳定 (Yahoo Finance)</p>
+<p>VIX 15.32 → 正常区间（15-20），市场无明显恐慌 (Yahoo Finance)</p>
+<p>DXY 98.93, 24h +0.04%, 7d -0.39% → 美元继续走弱，利好风险资产 (BlockBeats)</p>
+<p>US10Y 4.439%, 24h -0.29%, 7d -2.44% → 收益率下行，宽松信号 (BlockBeats)</p>
+<p>Gold $4,560.50, 24h +1.36% → 黄金上涨，避险需求与美元走弱双重驱动 (Yahoo Finance)</p>
+<p>BTC 与 SPX 正相关（同时微涨），与黄金同向（均上涨），宏观环境整体偏宽松。(analysis)</p>
+<br>
+<p>期权波动率 (Deribit):</p>
+<br>
+<p>BTC ATM IV: 27.6% → 低波动率区间 (&lt;40%)，市场预期短期无大幅波动 (Deribit)</p>
+<p>ETH ATM IV: 35.5% → 低波动率区间，但略高于 BTC (Deribit)</p>
+<p>ETH-BTC IV 利差: 7.8% → 正常区间（&lt;15%），无山寨币投机溢价信号 (Deribit)</p>
+<p>VIX 15.3 与 BTC IV 27.6% 均处于低位，全市场波动率预期低迷，可能酝酿突破。(analysis)</p>
+<br>
+<p>OrangeX 恐惧贪婪指数: 31/100，分类「恐惧」→ 连续处于恐惧区间，历史上恐惧区间底部概率较高但时间不确定。(OrangeX CMC)</p>
+<br>
+<h2>🔥 6. 热门币与资金流</h2>
+<br>
+<p>HYPE (Hyperliquid): $67.68, 24h +5.2%, 市值 $150.4 亿。DEX: 流动性 $13.3 亿 (Solana wrapped), 实质交易量集中于 Hyperliquid 自有订单簿。催化剂: 灰度发布深度看多研报，称 Hyperliquid 为「链上全球 24/7 金融市场」的未来蓝图；HYPE 创 ATH $68+，两周涨超 50%；Polymarket 上 $100 目标概率 36%。风险: 巨鲸「lovelystuff」和 Loracle 持续做空被清算，若 HYPE 出现大幅回调可能引发连锁多头清算。(CoinGecko, BlockBeats)</p>
+<br>
+<p>WLD (Worldcoin): $0.341, 24h +17.6%, 市值 $11.5 亿。DEX: 流动性 $23.2 亿 (Solana wrapped), DEX 成交量极低。催化剂: 散户资金涌入，AI 赛道标的轮动。风险: 涨幅缺乏明确催化剂，可能存在短期获利回吐压力；DEX 深度不足。(CoinGecko)</p>
+<br>
+<p>BNB (BNB Chain): $717.68, 24h +5.0%+（估算）, 市值 ~$1,100 亿。DEX: $637.90 流动性 (Solana wrapped), CEX 为主。催化剂: CZ 预告 6 月 1 日新产品发布，社区猜测为美股投资通道；现货和期货资金同时流入推动突破 $700。风险: 若新产品不及预期，可能利好出尽回调。(CoinGecko, BlockBeats)</p>
+<br>
+<p>BONK (Solana): $0.00000541, 24h -0.38%, 市值 $4.76 亿。DEX: $2.49 亿流动性 (Solana meteora), 成交量极低。催化剂: Solana 生态 meme 继续维持搜索热度（CoinGecko trending #1）。风险: 价格走弱，MEME 轮动褪色。(CoinGecko)</p>
+<br>
+<p>XLM (Stellar): $0.227, 24h -12.7%, 市值 $76.2 亿。进入 CoinGecko trending #4 但价格大跌，属于典型的恐慌性搜索，非正向信号。(CoinGecko)</p>
+<br>
+<p>GeckoTerminal Solana 热门池（24h 成交量 &gt;$100 万）:</p>
+<br>
+<p class="bullet">· ballish/SOL: 成交量 $283 万, 价格 +324.6% — 强势拉盘，但流动性待验证 (GeckoTerminal)</p>
+<p class="bullet">· CUM/SOL: 成交量 $345 万, 价格 -55.8% — 高成交量伴随大幅下跌，危险信号 (GeckoTerminal)</p>
+<p class="bullet">· SPCX/SOL: 成交量 $314 万, 价格 +87.2% — 新池活跃 (GeckoTerminal)</p>
+<p class="bullet">· TROLL/SOL: 成交量 $261 万, 价格 -2.3% (GeckoTerminal)</p>
+<p class="bullet">· MANIFEST/SOL: 成交量 $177 万, 价格 +15.3% (GeckoTerminal)</p>
+<p class="bullet">· XCHAT/SOL: 成交量 $161 万, 价格 -50.0% (GeckoTerminal)</p>
+<p class="bullet">· MOMO/SOL: 成交量 $146 万, 价格 +23.1% (GeckoTerminal)</p>
+<br>
+<p>Solana 新池（48h 内，&gt; $5 万流动性 + &gt; $10 万成交量）: 无满足条件的优质新池。(GeckoTerminal)</p>
+<br>
+<p>BlockBeats Solana 链上净流入 Top 5:</p>
+<br>
+<p class="bullet">· SYRUPUSDC: 净流入 $236.8 万, 市值 $13.9 亿 (BlockBeats)</p>
+<p class="bullet">· ONYC: 净流入 $107.6 万, 市值 $1.89 亿 (BlockBeats)</p>
+<p class="bullet">· CRCLX: 净流入 $53.6 万, 市值 $5,687 万 (BlockBeats)</p>
+<p class="bullet">· COINX: 净流入 $30.6 万, 市值 $570 万 (BlockBeats)</p>
+<p class="bullet">· ZEC (Solana 桥接版): 净流入 $26.2 万, 市值 $4,519 万 (BlockBeats)</p>
+<br>
+<p>以上为市场观察列表，不构成投资建议。</p>
+<br>
+<h2>🤖 AI Agent 独家观点</h2>
+<br>
+<p>情景 1 (概率: 55%, 置信度: 高): 周末低量横盘延续至周一亚太开盘前，BTC 继续在 $73,000-$74,500 区间窄幅震荡。关键条件: VIX &lt;20, DXY 维持 99 以下，无重大突发事件。若发生则 BTC 目标 $73,800, ETH $2,020。这是最大概率路径，周末成交量极度萎缩是正常现象。(analysis)</p>
+<br>
+<p>情景 2 (概率: 25%, 置信度: 中): 周一亚盘开盘后情绪回暖。若 Binance 6/1 新产品发布 + HYPE 持续强势带动市场情绪，配合 DXY 进一步走弱，BTC 可能突破 $74,500 向 $76,000 进发。关键条件: 成交量恢复至 $120B+, BTC 明确突破 $74,500。若发生则 BTC 目标 $76,000, ETH $2,100。(analysis)</p>
+<br>
+<p>情景 3 (概率: 20%, 置信度: 中): 风险事件触发下探。若美伊局势恶化或 OKX/BitMEX 上的极端负费率引发 ETH/SOL 空头挤压失败后反向踩踏，BTC 可能跌破 $72,500。关键条件: VIX 突破 20 或 BTC 跌破 $73,000 且成交量放大。若发生则 BTC 目标 $71,500, ETH $1,950。(analysis)</p>
+<br>
+<p>以上为基于当前数据的概率判断，不构成交易建议。当前市场处于周末低量恐惧区间，宏观环境偏宽松但加密市场资金面偏弱，建议关注周一开盘后的成交量恢复情况和 Binance 新产品发布。</p>
+<br>
 <br>
 
   <div class="footer">Powered by BlockBeats · CoinGecko · GeckoTerminal · Binance · Dexscreener · Coinglass · Deribit · OrangeX · Yahoo Finance</div>
