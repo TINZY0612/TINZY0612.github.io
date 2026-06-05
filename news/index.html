@@ -355,6 +355,44 @@
     .metric b { font-size: 16px; }
   }
 
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 32px;
+  }
+  .page-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 38px;
+    height: 38px;
+    padding: 0 12px;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+  .page-btn:hover { border-color: var(--ink); color: var(--ink); }
+  .page-btn.active {
+    color: var(--acid);
+    border-color: var(--acid);
+    background: rgba(201,255,59,0.06);
+    pointer-events: none;
+  }
+  .page-btn.arrow { font-size: 16px; padding: 0 10px; }
+  .page-btn.disabled {
+    opacity: .3;
+    pointer-events: none;
+  }
+
 </style>
 
   <script>
@@ -387,8 +425,8 @@
   <header class="topbar">
     <a class="brand" href="/">ZI<span>YIK</span></a>
     <span style="display:flex;gap:20px;justify-content:center">
-      <a class="top-action" href="/news/">Read reports</a>
-      <a class="top-action" href="http://20.2.194.55/dashboard/">Dashboard</a>
+      <a class="top-action" href="/news/">Reports</a>
+      <a class="top-action" href="http://20.2.194.55/dashboard/">AI_WORKPLACE</a>
     </span>
     <a href="https://x.com/ZiYik0612" target="_blank" rel="noreferrer" aria-label="X / Twitter" style="justify-self:end;color:var(--ink);transition:opacity .2s" onmouseover="this.style.opacity='0.7'" onmouseout="this.style.opacity='1'">
       <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
@@ -566,6 +604,46 @@
       </div>
     </section>
   </main>
+
+  <script>
+  (function(){
+    var PER_PAGE = 5;
+    var items = document.querySelectorAll('.report-list .report-item');
+    var total = Math.ceil(items.length / PER_PAGE);
+    if (total <= 1) return;
+
+    var nav = document.getElementById('pagination');
+    var current = parseInt(location.hash.replace('#page=',''),10) || 1;
+    if (current < 1) current = 1;
+    if (current > total) current = total;
+
+    function show(page) {
+      current = page;
+      location.hash = 'page=' + page;
+      var start = (page - 1) * PER_PAGE;
+      items.forEach(function(el,i){
+        el.style.display = (i >= start && i < start + PER_PAGE) ? '' : 'none';
+      });
+      renderNav();
+    }
+
+    function renderNav() {
+      var html = '<button class="page-btn arrow' + (current===1?' disabled':'') + '" onclick="window.__goPage(' + (current-1) + ')">←</button>';
+      for (var i = 1; i <= total; i++) {
+        if (total > 7 && i > 2 && i < current-1) continue;
+        if (total > 7 && i < total-1 && i > current+1) continue;
+        if (i === 2 && current > 4) { html += '<span class="page-btn disabled">…</span>'; continue; }
+        if (i === total-1 && current < total-3) { html += '<span class="page-btn disabled">…</span>'; continue; }
+        html += '<button class="page-btn' + (i===current?' active':'') + '" onclick="window.__goPage(' + i + ')">' + i + '</button>';
+      }
+      html += '<button class="page-btn arrow' + (current===total?' disabled':'') + '" onclick="window.__goPage(' + (current+1) + ')">→</button>';
+      nav.innerHTML = html;
+    }
+
+    window.__goPage = function(p) { show(p); };
+    show(current);
+  })();
+  </script>
 
   <footer>
     <div class="wrap">© 2026 ZiYik · Public market notes, not financial advice.</div>
