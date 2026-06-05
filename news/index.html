@@ -357,6 +357,31 @@
 
 </style>
 
+  <script>
+  (function(){
+    var s=64,f=0,c=document.createElement('canvas');
+    c.width=c.height=s;
+    var ctx=c.getContext('2d');
+    function r(){
+      ctx.fillStyle='#050604';
+      ctx.fillRect(0,0,s,s);
+      var p=0.3+0.7*(1+Math.sin(f/8*Math.PI*2))/2;
+      ctx.fillStyle='rgba(201,255,59,'+(0.4+0.6*p)+')';
+      ctx.font='bold '+(48+4*p)+'px sans-serif';
+      ctx.textAlign='center';
+      ctx.textBaseline='middle';
+      ctx.fillText('ZY',s/2,s/2);
+      var l=document.querySelector('link[rel=icon]')||document.createElement('link');
+      l.rel='icon';
+      l.href=c.toDataURL('image/png');
+      document.head.appendChild(l);
+      f++;
+    }
+    r();
+    setInterval(r,500);
+  })();
+  </script>
+
 </head>
 <body>
   <header class="topbar">
