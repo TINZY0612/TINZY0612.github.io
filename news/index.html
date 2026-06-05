@@ -352,107 +352,6 @@
     .metric b { font-size: 16px; }
   }
 
-  /* Dashboard section */
-  .dash-section {
-    padding: 56px 0 28px;
-    border-bottom: 1px solid var(--line);
-  }
-  .dash-section .eyebrow { margin-bottom: 6px; }
-  .dash-section .date-pill {
-    display: inline-block;
-    margin-bottom: 28px;
-    font-family: 'DejaVu Sans Mono', 'Liberation Mono', monospace;
-    font-size: 11px;
-    color: var(--muted);
-    background: rgba(255,255,255,0.04);
-    border: 1px solid var(--line);
-    padding: 4px 10px;
-    border-radius: 999px;
-  }
-  .dash-grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 12px;
-    margin-bottom: 18px;
-  }
-  .dash-card {
-    background: var(--panel);
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    padding: 16px;
-  }
-  .dash-card.main-card {
-    background: linear-gradient(135deg, rgba(201,255,59,0.08), rgba(13,15,13,0.85));
-    border-color: rgba(201,255,59,0.16);
-    grid-column: span 2;
-  }
-  .dash-card .card-label {
-    font-size: 10px;
-    color: var(--muted);
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    margin-bottom: 8px;
-  }
-  .dash-card .card-value {
-    font-family: 'DejaVu Sans Mono', 'Liberation Mono', monospace;
-    font-size: clamp(18px, 2.2vw, 28px);
-    font-weight: 800;
-    color: var(--ink);
-    line-height: 1.15;
-  }
-  .dash-card .card-sub {
-    margin-top: 6px;
-    font-size: 12px;
-    color: var(--muted);
-  }
-  .dash-card .card-note {
-    margin-top: 4px;
-    font-size: 11px;
-    font-weight: 700;
-  }
-  .dash-row {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-  }
-  .sent-pill {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 14px;
-    background: var(--panel);
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    font-size: 11px;
-    color: var(--muted);
-  }
-  .sent-pill .dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    flex-shrink: 0;
-  }
-  .sent-pill .dot.green { background: var(--acid); }
-  .sent-pill .dot.red { background: var(--red); }
-  .sent-pill .dot.yellow { background: var(--amber); }
-  .sent-pill strong { color: var(--ink); }
-
-  .green { color: var(--acid) !important; }
-  .red { color: var(--red) !important; }
-  .yellow { color: var(--amber) !important; }
-  .white { color: var(--ink) !important; }
-
-  @media (max-width: 820px) {
-    .dash-grid { grid-template-columns: repeat(3, 1fr); }
-    .dash-card.main-card { grid-column: span 2; }
-    .dash-row { grid-template-columns: repeat(3, 1fr); }
-  }
-  @media (max-width: 560px) {
-    .dash-grid { grid-template-columns: 1fr 1fr; }
-    .dash-card.main-card { grid-column: span 2; }
-    .dash-row { grid-template-columns: 1fr 1fr; }
-    .dash-card .card-value { font-size: 16px; }
-  }
 </style>
 </head>
 <body>
@@ -519,46 +418,10 @@
   </section>
 
   <!-- DASHBOARD_START -->
-<section class="dash-section wrap" aria-label="Current dashboard">
-      <p class="eyebrow">Current dashboard</p>
-      <div class="date-pill">2026-06-05 · 08:00 UTC+8</div>
-
-      <div class="dash-grid">
-        <div class="dash-card main-card">
-          <div class="card-label">Market Sentiment</div>
-          <div class="card-value red">-18/100</div>
-          <div class="card-note yellow">Extreme Fear · Indicators bullish divergence</div>
-        </div>
-        <div class="dash-card">
-          <div class="card-label">Fear & Greed</div>
-          <div class="card-value red">20</div>
-          <div class="card-note red">Extreme Fear</div>
-        </div>
-        <div class="dash-card">
-          <div class="card-label">BTC</div>
-          <div class="card-value red">$63,756</div>
-          <div class="card-sub red">-0.9%</div>
-        </div>
-        <div class="dash-card">
-          <div class="card-label">ETH</div>
-          <div class="card-value red">$1,767</div>
-          <div class="card-sub red">-2.8%</div>
-        </div>
-        <div class="dash-card">
-          <div class="card-label">24h Liq</div>
-          <div class="card-value red">$1.44B</div>
-          <div class="card-sub red">↗ 55%</div>
-        </div>
-      </div>
-
-      <div class="dash-row">
-          <div class="sent-pill"><span class="dot red"></span> News <strong>-25</strong></div>
-          <div class="sent-pill"><span class="dot red"></span> Price <strong>-20</strong></div>
-          <div class="sent-pill"><span class="dot red"></span> DEX <strong>-15</strong></div>
-          <div class="sent-pill"><span class="dot red"></span> Macro <strong>-15</strong></div>
-          <div class="sent-pill"><span class="dot red"></span> Leverage <strong>-15</strong></div>
-      </div>
-    </section>
+  <section class="dash-section wrap" aria-label="Current dashboard" style="padding:56px 0 28px;border-bottom:1px solid var(--line);">
+    <p class="eyebrow">Current dashboard</p>
+    <a href="/news/dashboard.png" target="_blank"><img src="/news/dashboard.png" alt="Current Market Dashboard" style="width:100%;border-radius:16px;border:1px solid var(--line);"></a>
+  </section>
   <!-- DASHBOARD_END -->
 
   <main class="wrap" id="reports">
