@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/gif" href="/favicon.gif?v=2">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png?v=2">
+<link rel="apple-touch-icon" href="/favicon.png">
+  <script>
+  (function(){
+    var s=64,f=0,c=document.createElement('canvas');
+    c.width=c.height=s;
+    var ctx=c.getContext('2d');
+    function r(){
+      ctx.fillStyle='#050604';
+      ctx.fillRect(0,0,s,s);
+      var p=0.3+0.7*(1+Math.sin(f/8*Math.PI*2))/2;
+      ctx.fillStyle='rgba(201,255,59,'+(0.4+0.6*p)+')';
+      ctx.font='bold '+(48+4*p)+'px sans-serif';
+      ctx.textAlign='center';
+      ctx.textBaseline='middle';
+      ctx.fillText('ZY',s/2,s/2);
+      var l=document.querySelector('link[rel=icon]')||document.createElement('link');
+      l.rel='icon';
+      l.href=c.toDataURL('image/png');
+      document.head.appendChild(l);
+      f++;
+    }
+    r();
+    setInterval(r,500);
+  })();
+  </script>
+<title>Daily Crypto Market Sentiment · 2026-06-13 — ZiYik</title>
+<style>
+  :root {
+    --ink: #f4f1e8;
+    --muted: #b3afa2;
+    --soft: rgba(244, 241, 232, 0.72);
+    --line: rgba(244, 241, 232, 0.2);
+    --panel: rgba(13, 15, 13, 0.76);
+    --acid: #c9ff3b;
+    --amber: #ffb84d;
+    --red: #ff6b5f;
+    --black: #050604;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    color: var(--ink);
+    background: var(--black);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+    min-height: 100vh;
+    padding: 90px 18px 60px;
+    max-width: 820px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+  @media (max-width:640px) { body { padding:80px 14px 40px; } }
+  a { color: var(--acid); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 4px; }
+  h2 { font-size: 17px; margin: 28px 0 12px; color: var(--ink); font-weight: 700; }
+  h2:first-of-type { margin-top: 10px; }
+  p { font-size: 14px; margin: 4px 0; color: var(--ink); line-height: 1.75; }
+  p.bullet { padding-left: 16px; color: var(--soft); }
+  hr { border: none; border-top: 1px solid var(--line); margin: 18px 0; }
+
+  /* Navigation */
+  .nav {
+    position: fixed;
+    z-index: 10;
+    inset: 0 0 auto;
+    padding: 14px max(18px, calc((100vw - 820px) / 2));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    font-size: 12px;
+    background: linear-gradient(180deg, rgba(5,6,4,.95), transparent);
+  }
+  .brand { font-weight: 950; color: var(--ink); letter-spacing: .12em; text-decoration: none; }
+  .brand span { color: var(--acid); }
+  .brand:hover { text-decoration: none; }
+  .nav-links { display: flex; gap: clamp(14px, 3vw, 32px); }
+  .nav-links a { color: var(--soft); }
+  .nav-links a:hover { color: var(--ink); text-decoration: none; }
+
+  .back-row { margin-bottom: 8px; }
+  .back-link { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+  .title { font-size: 24px; font-weight: 900; margin-bottom: 4px; color: var(--ink); letter-spacing: 0; }
+  .subtitle-line { font-size: 13px; color: var(--amber); margin-bottom: 8px; line-height: 1.5; max-width: 700px; }
+  .date { color: var(--muted); margin-bottom: 24px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+
+  .dashboard-img {
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid var(--line);
+    margin-bottom: 28px;
+  }
+
+  .chart-card {
+    margin: 20px 0;
+    padding: 18px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+  }
+  .chart-label { font-size: 12px; color: var(--muted); margin-bottom: 10px; text-transform: uppercase; letter-spacing: .06em; }
+  .chart-card img { width: 100%; border-radius: 8px; }
+
+  .footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    font-size: 11px;
+    color: var(--muted);
+    text-align: center;
+    letter-spacing: .04em;
+  }
+  @media (max-width: 520px) {
+    .nav-links { display: none; }
+    .title { font-size: 20px; }
+  }
+</style>
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="/">ZI<span>YIK</span></a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/news/">Reports</a>
+      <a href="https://t.me/ZiYik0612_Sentiment_Research" target="_blank" rel="noreferrer">Telegram</a>
+      <a href="https://x.com/ZiYik0612" target="_blank" rel="noreferrer">X</a>
+    </div>
+  </nav>
+
+  <div class="back-row"><a class="back-link" href="/news/">← 报告存档</a></div>
+  <div class="title">每日加密市场情绪深度报告</div>
+  
+  <div class="date">2026-06-13 · 08:00 UTC+8 · 多数据源全自动生成</div>
+
+  <a href="images/dashboard.png" target="_blank"><img class="dashboard-img" src="images/dashboard.png" alt="Market Sentiment Dashboard"></a>
+
+  <p>每日加密市场情绪深度报告已完成并发送。以下是发送状态汇总：</p>
+<br>
+<p>**✅ 已发送至 Tin DM (@tinziyik0612):**</p>
+<p class="bullet">- 报告第一段（叙事与风险面）</p>
+<p class="bullet">- 报告第二段（数据与技术面）</p>
+<p class="bullet">- X/Twitter Thread 草稿</p>
+<p class="bullet">- Coinglass BTC 爆仓热力图 (heatmap.png)</p>
+<p class="bullet">- OrangeX 恐惧贪婪指数图 (orangex.png)</p>
+<br>
+<p>**✅ 已发送至频道 @ZiYik0612_Sentiment_Research:**</p>
+<p class="bullet">- 完整报告（两段）</p>
+<p class="bullet">- X/Twitter Thread 草稿</p>
+<br>
+<p>**📊 今日关键数据一览：**</p>
+<p class="bullet">- F&amp;G: 18 极度恐惧 | 整体评分: -20/100</p>
+<p class="bullet">- BTC $63,590 (+0.05%) | ETH $1,666 (-0.28%) | SOL $66.84 (+0.14%)</p>
+<p class="bullet">- SPX $7,431 (+0.50%) | Gold $4,240 (+3.66%) | VIX 17.7 (正常)</p>
+<p class="bullet">- 24h爆仓 $2.34亿 (↘14%) | 成交量 $1,259亿 (↘11.6%)</p>
+<p class="bullet">- BB指标: 3 Buy / 0 Sell / 8 Hold | BTC IV: 31.0%</p>
+<p class="bullet">- Dashboard JSON 已包含在完整报告中，供 ziyik0612.me 使用</p>
+<br>
+<p>数据来源涵盖了 BlockBeats、CoinGecko、Binance、Dexscreener、Deribit、GeckoTerminal、Yahoo Finance、Coinglass、OrangeX 共9个数据源。</p>
+<br>
+
+  <div class="chart-card"><div class="chart-label">📊 Coinglass BTC 爆仓热力图</div><img src="images/heatmap.png" alt="📊 Coinglass BTC 爆仓热力图"></div>
+<div class="chart-card"><div class="chart-label">📊 24H市场热力图</div><img src="images/orangex.png" alt="📊 24H市场热力图"></div>
+
+  <br>
+
+  <div class="footer">Powered by BlockBeats · CoinGecko · GeckoTerminal · Binance · Dexscreener · Coinglass · Deribit · OrangeX · Yahoo Finance</div>
+</body>
+</html>
