@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/gif" href="/favicon.gif?v=2">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png?v=2">
+<link rel="apple-touch-icon" href="/favicon.png">
+  <script>
+  (function(){
+    var s=64,f=0,c=document.createElement('canvas');
+    c.width=c.height=s;
+    var ctx=c.getContext('2d');
+    function r(){
+      ctx.fillStyle='#050604';
+      ctx.fillRect(0,0,s,s);
+      var p=0.3+0.7*(1+Math.sin(f/8*Math.PI*2))/2;
+      ctx.fillStyle='rgba(201,255,59,'+(0.4+0.6*p)+')';
+      ctx.font='bold '+(48+4*p)+'px sans-serif';
+      ctx.textAlign='center';
+      ctx.textBaseline='middle';
+      ctx.fillText('ZY',s/2,s/2);
+      var l=document.querySelector('link[rel=icon]')||document.createElement('link');
+      l.rel='icon';
+      l.href=c.toDataURL('image/png');
+      document.head.appendChild(l);
+      f++;
+    }
+    r();
+    setInterval(r,500);
+  })();
+  </script>
+<title>Daily Crypto Market Sentiment · 2026-06-16 — ZiYik</title>
+<style>
+  :root {
+    --ink: #f4f1e8;
+    --muted: #b3afa2;
+    --soft: rgba(244, 241, 232, 0.72);
+    --line: rgba(244, 241, 232, 0.2);
+    --panel: rgba(13, 15, 13, 0.76);
+    --acid: #c9ff3b;
+    --amber: #ffb84d;
+    --red: #ff6b5f;
+    --black: #050604;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    color: var(--ink);
+    background: var(--black);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+    min-height: 100vh;
+    padding: 90px 18px 60px;
+    max-width: 820px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+  @media (max-width:640px) { body { padding:80px 14px 40px; } }
+  a { color: var(--acid); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 4px; }
+  h2 { font-size: 17px; margin: 28px 0 12px; color: var(--ink); font-weight: 700; }
+  h2:first-of-type { margin-top: 10px; }
+  p { font-size: 14px; margin: 4px 0; color: var(--ink); line-height: 1.75; }
+  p.bullet { padding-left: 16px; color: var(--soft); }
+  hr { border: none; border-top: 1px solid var(--line); margin: 18px 0; }
+
+  /* Navigation */
+  .nav {
+    position: fixed;
+    z-index: 10;
+    inset: 0 0 auto;
+    padding: 14px max(18px, calc((100vw - 820px) / 2));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    font-size: 12px;
+    background: linear-gradient(180deg, rgba(5,6,4,.95), transparent);
+  }
+  .brand { font-weight: 950; color: var(--ink); letter-spacing: .12em; text-decoration: none; }
+  .brand span { color: var(--acid); }
+  .brand:hover { text-decoration: none; }
+  .nav-links { display: flex; gap: clamp(14px, 3vw, 32px); }
+  .nav-links a { color: var(--soft); }
+  .nav-links a:hover { color: var(--ink); text-decoration: none; }
+
+  .back-row { margin-bottom: 8px; }
+  .back-link { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+  .title { font-size: 24px; font-weight: 900; margin-bottom: 4px; color: var(--ink); letter-spacing: 0; }
+  .subtitle-line { font-size: 13px; color: var(--amber); margin-bottom: 8px; line-height: 1.5; max-width: 700px; }
+  .date { color: var(--muted); margin-bottom: 24px; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+
+  .dashboard-img {
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid var(--line);
+    margin-bottom: 28px;
+  }
+
+  .chart-card {
+    margin: 20px 0;
+    padding: 18px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+  }
+  .chart-label { font-size: 12px; color: var(--muted); margin-bottom: 10px; text-transform: uppercase; letter-spacing: .06em; }
+  .chart-card img { width: 100%; border-radius: 8px; }
+
+  .footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    font-size: 11px;
+    color: var(--muted);
+    text-align: center;
+    letter-spacing: .04em;
+  }
+  @media (max-width: 520px) {
+    .nav-links { display: none; }
+    .title { font-size: 20px; }
+  }
+</style>
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="/">ZI<span>YIK</span></a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/news/">Reports</a>
+      <a href="https://t.me/ZiYik0612_Sentiment_Research" target="_blank" rel="noreferrer">Telegram</a>
+      <a href="https://x.com/ZiYik0612" target="_blank" rel="noreferrer">X</a>
+    </div>
+  </nav>
+
+  <div class="back-row"><a class="back-link" href="/news/">← 报告存档</a></div>
+  <div class="title">每日加密市场情绪深度报告</div>
+  <div class="subtitle-line">US-Iran Peace Fuels Risk-On Surge, SPX Record, ETH +10% Intraday, F&amp;G Fear 25</div>
+  <div class="date">2026-06-16 · 08:00 UTC+8 · 多数据源全自动生成</div>
+
+  <a href="images/dashboard.png" target="_blank"><img class="dashboard-img" src="images/dashboard.png" alt="Market Sentiment Dashboard"></a>
+
+  <p>报告撰写完成。以下为2026年6月16日每日加密市场情绪深度报告：</p>
+<br>
+<hr>
+<br>
+<br>
+<p>=== 第一段：叙事与风险面 ===</p>
+<br>
+<h2>📌 1. 一句话总览</h2>
+<br>
+<p>美伊和解备忘录确认本周五签署，霍尔木兹海峡逐步重开，$3000亿重建基金启动，全球风险资产全面拉升。标普500创历史新高，纳指暴涨3.07%，ETH日内一度飙升10%突破$1840，加密市场在宏观催化下出现久违的全面普涨。然而恐惧贪婪指数仍停留在25的恐惧区间，情绪修复滞后于价格反弹，山寨币抗跌指数发出卖出信号，短期追高风险值得警惕。</p>
+<br>
+<p>24h变化: 情绪 +25(较昨日推断) | BTC ↗0.8% | ETH ↗4.1% | SOL ↗3.9% | VIX 16.2(正常) | 成交量 ↗69% | 爆仓 ↗51% | DXY ↘0.4%(7d) | SPX ↗1.7% | Gold ↗2.9% (multi-source)</p>
+<br>
+<h2>📰 2. 过去 24 小时重要新闻与叙事</h2>
+<br>
+<p>主题一：美伊和解 — 本轮反弹核心催化剂</p>
+<br>
+<p>信息 1: 美伊双方确认将于6月19日（本周五）签署谅解备忘录，美国副总统彭斯表示特朗普可能出席日内瓦签字仪式。霍尔木兹海峡已于上周五全面重开，美国海军开始解除海上封锁。（BlockBeats）</p>
+<br>
+<p>信息 2: 美伊签署$3000亿重建基金MOU，以色列拒绝从黎巴嫩撤军试图破坏和谈进程，但美国对伊朗做出让步。UBS表示美伊协议缓解了美联储加息压力，预计下一次调整为2027年降息。（BlockBeats）</p>
+<br>
+<p>信息 3: 惠誉评级指出霍尔木兹海峡全面开放后，全球石油市场有望在约一个月内恢复供应过剩状态，油价下行预期利好风险资产。（BlockBeats）</p>
+<br>
+<p>主题二：美股创历史新高，科技/AI板块领涨</p>
+<br>
+<p>信息 4: 道琼斯暴涨702点创历史新高，纳指涨3.07%，四大存储芯片股集体创历史新高。标普500收于7554点，24小时涨幅1.65%。（BlockBeats, Yahoo Finance）</p>
+<br>
+<p>信息 5: SpaceX日内涨近20%，马斯克单日财富暴增$1390亿，总身价突破$1.11万亿。英伟达发债吸引$850亿投资者需求，计划募集$200亿长期低成本资金。（BlockBeats）</p>
+<br>
+<p>信息 6: 亚马逊宣布在密苏里州投资数十亿美元建设数据中心园区，预计创造400+长期岗位，AI基础设施投资热度不减。（BlockBeats）</p>
+<br>
+<p>主题三：加密市场普涨，ETH领跑</p>
+<br>
+<p>信息 7: 比特币一度突破$67,000，随后回落至$66,315附近。ETH 24小时涨幅超10%，一度触及$1,849，SOL涨3.9%。市场总市值$2.35万亿，24h成交量$1408亿，BTC市占率56.48%。（BlockBeats, CoinGecko, Binance）</p>
+<br>
+<p>信息 8: 币安SpaceX永续合约交易量突破$90亿，市占率超60%，SpaceX叙事热度带动加密衍生品市场活跃。（BlockBeats）</p>
+<br>
+<p>主题四：板块轮动与涨跌榜</p>
+<br>
+<p>信息 9: CoinGecko板块轮动：Quantum-Resistant +20.6%、Privacy Coins +13.2%、Prediction Market Tools +21.0%领涨（Zcash等隐私币驱动）。NFT -13.6%、GameFi -17.4%、Venice Ecosystem -8.5%领跌，游戏/NFT赛道资金流出明显。（CoinGecko）</p>
+<br>
+<p>信息 10: 币安USDT涨幅榜：JTO +30.0%、SPCXB(SpaceX) +18.6%、ZRO +16.3%领涨；跌幅榜：PHB -70.0%、BETA -64.0%、VIB -63.3%等低流动性代币暴跌，注意极端涨跌多为小市值流动性枯竭信号。（Binance）</p>
+<br>
+<p>主题五：安全事件与VC融资</p>
+<br>
+<p>信息 11: DeFi协议Thetanuts Finance遭攻击，损失约$210万。Trezor高管警告比特币"All-In ETF"路线是最大威胁，危及自托管核心原则。（BlockBeats）</p>
+<br>
+<p>信息 12: 加密货币早期融资连续7个季度下滑，投资者偏好更成熟项目。能源公司TAR完成$2700万种子轮、跨境支付El Dorado完成$900万A轮(Paradigm领投)、AI服务器经纪Hydra Host完成$1亿融资(英伟达参投)。（BlockBeats）</p>
+<br>
+<h2>⚠️ 3. 风险提示与明日观察</h2>
+<br>
+<p>风险 1: 地缘政治反复 — 以色列拒绝从黎巴嫩撤军试图破坏和谈，中东局势仍有变数。→ 观察: 若周五签字仪式前出现破坏性事件，风险资产将大幅回撤；失效条件: 若签字顺利落地，地缘溢价进一步消退利好持续。（BlockBeats, analysis）</p>
+<br>
+<p>风险 2: 恐惧贪婪指数滞后 — F&amp;G仍为25(恐惧)，价格反弹与情绪修复脱节，市场参与者仍持防御心态。→ 观察: 若F&amp;G持续低于30但价格不跌，或为持续吸筹信号；失效条件: 若F&amp;G快速升至50+，警惕情绪过热后的回调。（OrangeX, analysis）</p>
+<br>
+<p>风险 3: 爆仓量激增 — 24h爆仓$4.66亿(+51%)，说明高位波动剧烈，杠杆资金大量出清。→ 观察: 若爆仓量次日回落至$2亿以下，说明清杠杆完成，上行更健康；失效条件: 若爆仓量继续攀升至$8亿+，市场进入连环爆仓螺旋。（Coinglass, analysis）</p>
+<br>
+<p>风险 4: 山寨币卖出信号 — BB底顶指标山寨币抗跌指数=Sell，合约多空比偏离指数=Caution，提示山寨币追高风险。→ 观察: 若ETH/BTC比值持续走强(当前0.0271)，山寨季可能延续；失效条件: 若山寨币抗跌指数转为Hold或Buy，则风险解除。（BlockBeats BTI, analysis）</p>
+<br>
+<p>风险 5: 成交量骤增但持续性存疑 — 24h成交量$1912亿(+69%)，但新闻驱动型放量往往难以持续。→ 观察: 若未来48h成交量维持在$1200亿以上，确认增量资金入场；失效条件: 若成交量回落至$700亿以下，行情重回缩量震荡。（Coinglass, analysis）</p>
+<br>
+<p>风险 6: 期权市场警告 — ETH-BTC IV溢价差16.13pp，超过15%门槛，表明山寨币投机情绪升温。→ 观察: 若溢价差扩大至20pp+，山寨泡沫风险加剧；失效条件: 若溢价差回落至10pp以内，市场情绪回归理性。（Deribit, analysis）</p>
+<br>
+<p>非财务建议声明: 本报告仅提供市场数据和情绪分析，不构成任何买卖建议。</p>
+<br>
+<h2>📅 本周关键事件日历</h2>
+<br>
+<p>6月16日(周一) — 美股开盘承接上周五强势，关注半导体和AI板块能否延续涨势 → 若继续走强利好加密(bullish) (analysis)</p>
+<p>6月17日(周二) — 美国零售销售数据发布 → 若超预期显示消费强劲，利好风险资产(bullish)；若不及预期(bearish) (analysis)</p>
+<p>6月18日(周三) — 美联储FOMC会议纪要公布 → 市场关注降息路径暗示，中性偏鸽利好(neutral/bullish) (analysis)</p>
+<p>6月19日(周五) — 美伊和解谅解备忘录签字仪式(日内瓦) → 若顺利落地，地缘风险大幅消退(bullish)；若出现变数则利空(bearish) (BlockBeats)</p>
+<p>6月20日(周六) — 比特币期权月度到期，名义价值约$50亿 → 到期前后通常伴随波动加大，注意Gamma效应(neutral with volatility) (analysis)</p>
+<br>
+<br>
+
+  <div class="chart-card"><div class="chart-label">📊 Coinglass BTC 爆仓热力图</div><img src="images/heatmap.png" alt="📊 Coinglass BTC 爆仓热力图"></div>
+<div class="chart-card"><div class="chart-label">📊 24H市场热力图</div><img src="images/orangex.png" alt="📊 24H市场热力图"></div>
+
+  <br>
+<br>
+<p>=== 第二段：数据与技术面 ===</p>
+<br>
+<h2>🧭 4. 市场情绪评分</h2>
+<br>
+<p>整体评分: +25/100</p>
+<br>
+<p>5项分项评分:</p>
+<br>
+<p>新闻情绪: +45/100 — 美伊和解主导全球风险偏好，标普纳指创新高，加密新闻面整体积极。但DeFi安全事件和VC融资下滑提供一定对冲。（BlockBeats, analysis）</p>
+<br>
+<p>价格/成交量: +25/100 — BTC温和上涨+0.8%，ETH表现突出+4.1%，SOL+3.9%。成交量暴增69%至$1912亿，增量明显但需验证持续性。BTC市占率56.48%变化不大，山寨补涨迹象初现。（Binance, CoinGecko, Coinglass）</p>
+<br>
+<p>DEX/meme活跃度: +10/100 — GeckoTerminal API限流无法获取Solana链上池数据。SpaceX概念SPCXB+18.6%、JTO+30%表现活跃，但CREAM+65%和PHB-70%等极端波动暗示低流动性币种赌博性质强，DEX数据缺失导致评分偏保守。（Binance, Dexscreener, analysis）</p>
+<br>
+<p>宏观/ETF/流动性: +45/100 — SPX创历史新高+1.65%，VIX降至16.2(正常区间)，DXY走弱至99.65(7日-0.4%)，US10Y稳定在4.47%，黄金同步上涨+2.94%显示避险+风险偏好共存。美元走弱利好加密资产。（Yahoo Finance, BlockBeats）</p>
+<br>
+<p>杠杆与风险: -5/100 — 爆仓量激增51%至$4.66亿，BTC期货溢价为负(微贴水)，但ETH和SOL期货接近平价，资金费率混合。山寨币抗跌指数=Sell，合约多空比偏离=Caution。整体杠杆风险中性偏谨慎。（Coinglass, Binance, BlockBeats BTI, CoinGecko）</p>
+<br>
+<p>BlockBeats 底顶指标完整列表:</p>
+<br>
+<p class="bullet">· 市场脉动指数: 11项指标综合计算的买入/卖出信号（参考值：&lt;20潜在买入，&gt;80潜在卖出）</p>
+<p class="bullet">· 整体市场流动性指数: Hold</p>
+<p class="bullet">· 比特币流动性指数: Hold</p>
+<p class="bullet">· 以太坊流动性指数: Hold</p>
+<p class="bullet">· 过去24小时累积比特币流动性指数: Hold</p>
+<p class="bullet">· 整体市场流动性（以比特币为单位）: Hold</p>
+<p class="bullet">· 合约多空比偏离指数: Caution</p>
+<p class="bullet">· 山寨币抗跌指数: Sell</p>
+<p class="bullet">· Bitfinex BTC/USD 溢价: Hold</p>
+<p class="bullet">· USDC/USDT 溢价: Hold</p>
+<p class="bullet">· Binance USDT 借贷利率: Buy</p>
+<p class="bullet">· 持仓量加权资金费率年化利率: Buy</p>
+<br>
+<p>综合: 2 Buy / 2 Sell / 7 Hold — 指标显示市场底顶信号分歧，整体偏中性（BlockBeats）</p>
+<br>
+<h2>📊 5. 主要市场数据与杠杆</h2>
+<br>
+<p>BTC: $66,315, 24h +0.84%, 成交量18,546 BTC($12.3亿), 区间$65,354-$67,292。24h K线呈现先涨后回落的倒V走势，一度突破$67,000后回落。期货溢价: mark $66,279 vs index $66,312, 微贴水-0.05%，资金费率-0.000518%，空头略占优势。（Binance, CoinGecko）</p>
+<br>
+<p>ETH: $1,795, 24h +3.93%, 成交量463,976 ETH($8.28亿), 区间$1,709-$1,850。表现显著强于BTC，ETH/BTC比值升至0.0271。期货溢价: mark $1,794 vs index $1,795, 接近平价，资金费率+0.002926%，多头略占优势。（Binance, CoinGecko）</p>
+<br>
+<p>SOL: $73.95, 24h +3.57%, 成交量3,093,718 SOL($2.27亿), 区间$70.66-$76.09。跟随ETH反弹，链上生态活跃。期货溢价: mark $73.91 vs index $73.95, 接近平价，资金费率+0.001791%，中性偏多。（Binance, CoinGecko）</p>
+<br>
+<p>全球: 总市值$2.35万亿, 24h成交量$1408亿(CoinGecko)/$1912亿(Coinglass), BTC市占率56.48%。BTC.D 24h变化不大，山寨市值占比微升。（CoinGecko, Coinglass）</p>
+<br>
+<p>衍生品杠杆: BTC合约总OI $592亿，最高资金费率 HTX +1.0%，最低 Bitget -0.49%。ETH合约总OI $352亿，最高 BYDFi +1.0%，最低 Deepcoin -1.41%。SOL合约总OI $70亿，最高 HTX +1.0%，最低 WhiteBIT -3.09%。注意: ETH/SOL资金费率普遍为正，多头拥挤度上升。BTC资金费混合，分歧较大。（CoinGecko derivatives, 51家以上交易所综合）</p>
+<br>
+<p>爆仓数据: 24h总爆仓$4.66亿(+51.13%)。全球多空比50.47:49.53，Binance大户多空比51.18:48.82，多头略占优势。爆仓量大幅上升说明高位剧烈波动清算了大量杠杆头寸。若爆仓以多头为主则需警惕恐慌抛售；若以空头为主则说明轧空行情。（Coinglass）</p>
+<br>
+<p>跨平台OI对比(6月14日): Binance OI $186.7亿, Bybit OI $90.3亿, Hyperliquid OI $64.7亿。三大平台OI均较前日上升，Binance成交量$264亿领跑。（BlockBeats contract）</p>
+<br>
+<p>宏观看板:</p>
+<p class="bullet">· SPX: 7,554 24h +1.65%, 创历史新高 → 利好风险资产</p>
+<p class="bullet">· VIX: 16.20 (-1.48), 正常区间(15-20) → 市场恐慌消退</p>
+<p class="bullet">· DXY: 99.65, 24h +0.09%, 7d -0.38% → 美元走弱利好加密</p>
+<p class="bullet">· US10Y: 4.472%, 24h +5.3bp, 7d -10.4bp → 长端利率回落利好</p>
+<p class="bullet">· Gold: $4,339, 24h +2.94% → 黄金与BTC同步上涨，避险+风险偏好共存</p>
+<p class="bullet">· BTC-SPX相关性: 正相关，美股强→BTC跟涨 (Yahoo Finance, BlockBeats, analysis)</p>
+<br>
+<p>期权波动率:</p>
+<p class="bullet">· BTC ATM IV: 34.95% → 低波动区间(&lt;40%)，期权市场定价BTC短期平稳</p>
+<p class="bullet">· ETH ATM IV: 51.08% → 正常区间(40-60%)，高于BTC</p>
+<p class="bullet">· ETH-BTC IV溢价差: 16.13pp → 超过15%门槛，山寨币投机溢价显现</p>
+<p class="bullet">· VIX对比: VIX 16.2 vs ETH IV 51.08, 加密波动率远高于传统市场，符合常态（Deribit）</p>
+<br>
+<h2>🔥 6. 热门币与资金流</h2>
+<br>
+<p>以下为基于搜索热度+价格涨幅+叙事支撑的5个关注标的，非买入建议:</p>
+<br>
+<p>1. ZEC - Zcash (多链): $518.28, 24h +9.7%, 市值$86.9亿(排名#14)。DEX: Solana Raydium池流动性$13.8亿，但24h成交量仅$6.7万(链上低活跃)。催化剂: 隐私币板块领涨(+13.2%)，Quantum-Resistant叙事升温，Zcash品牌升级预期。风险: 链上DEX交易量极低，涨幅依赖CEX而非链上需求，流动性偏向中心化。（CoinGecko, Dexscreener, BlockBeats netflow）</p>
+<br>
+<p>2. HYPE - Hyperliquid (Hyperliquid): $66.99, 24h +4.5%, 市值$148.7亿(排名#10)。DEX: Hyperliquid链成交量$1.37亿, 买卖比73,272:44,531(1.65:1偏多)。催化剂: Hyperliquid生态持续增长，Solana链上HYPE净流入$112万排名第一。风险: 高市值代币短期涨幅空间有限，永续合约资金费率需关注。（CoinGecko, Dexscreener, BlockBeats netflow）</p>
+<br>
+<p>3. SPCXB - SpaceX xStock (BSC): $200.84, 24h +19.7%, 市值$3000万。催化剂: SpaceX日内涨近20%，马斯克财富暴增，SpaceX叙事直接映射加密市场。纳斯达克AI和太空板块涨停潮带动。风险: 代币化股票监管不确定性，SEC市场结构改革可能影响此类代币，市值极小波动剧烈。（CoinGecko, BlockBeats, Binance）</p>
+<br>
+<p>4. UNI - Uniswap (多链): $2.83, 24h +9.5%, 市值$17.5亿(排名#48)。DEX: Arbitrum链流动性$54.4万, 成交量$11.7万, 买卖比316:216(偏多)。催化剂: DeFi板块回暖，SEC市场结构改革被机构视为今年"最关键加密监管变量"，可能利好AMM交易和代币化股票。风险: DEX链上交易量偏小，UNI主要交易量在CEX而非链上。（CoinGecko, Dexscreener, BlockBeats）</p>
+<br>
+<p>5. JTO - Jito (Solana): $0.73, 24h +30.0%, 币安USDT涨幅榜第二。DEX: Solana Orca池流动性$130万, 成交量$229万, 买卖比1.03:1(中性)。催化剂: 币安突发拉升，Solana生态MEV/LSD叙事。风险: 30%单日涨幅后回调概率大，DEX链上买卖比接近1:1缺乏方向性。（Binance, Dexscreener）</p>
+<br>
+<p>Solana链上资金流 BlockBeats top10_netflow:</p>
+<p class="bullet">· HYPE: 净流入$112.0万 (Solana链映射代币)</p>
+<p class="bullet">· ZEC: 净流入$93.0万 (Solana链映射代币)</p>
+<p class="bullet">· SPYX: 净流入$70.4万 (标普500映射代币)</p>
+<p class="bullet">· BP: 净流入$44.9万</p>
+<p class="bullet">· JLP: 净流入$30.6万 (Jupiter LP代币) (BlockBeats)</p>
+<br>
+<p>GeckoTerminal API今日限流(429)，Solana链上trending/new_pools数据暂缺。Solana DEX链上活跃度请参考后续补充数据。</p>
+<br>
+<h2>🤖 AI Agent 独家观点</h2>
+<br>
+<p>以下为基于全部数据源的概率加权情景分析，不构成交易建议。</p>
+<br>
+<p>情景 1 (概率: 45%, 置信度: 高): 美伊签字顺利落地，风险偏好延续。BTC在$66,000-$68,000区间震荡后突破$68,000，ETH继续领涨至$1,900+，SOL跟随至$78+。关键条件: 周五签字仪式前无破坏性事件，美股维持强势，VIX不反弹至20+。若发生则 BTC目标: $68,500，ETH: $1,950。</p>
+<br>
+<p>情景 2 (概率: 35%, 置信度: 中): 利好兑现后获利回吐。市场已部分消化美伊和解预期(SPX创新高)，签字落地后出现"Sell the News"行情。BTC回落至$64,000-$65,000区间，ETH回吐至$1,720，SOL回调至$71。关键条件: 成交量萎缩至$1000亿以下，BTC期货贴水扩大，F&amp;G不回升。若发生则 BTC目标: $64,500，ETH: $1,730。</p>
+<br>
+<p>情景 3 (概率: 20%, 置信度: 低): 中东局势再次升级或宏观黑天鹅。以色列阻挠成功或签字仪式出现意外，地缘风险溢价回归。BTC快速跌破$63,000，ETH跌至$1,600，SOL跌至$65。关键条件: 霍尔木兹海峡关闭传闻再起，VIX急升至25+，黄金与BTC反向(BTC跌黄金涨)。若发生则 BTC目标: $61,000，ETH: $1,580。</p>
+<br>
+<p>以上为基于当前数据的概率判断，不构成交易建议。</p>
+<br>
+<br>
+
+  <div class="footer">Powered by BlockBeats · CoinGecko · GeckoTerminal · Binance · Dexscreener · Coinglass · Deribit · OrangeX · Yahoo Finance</div>
+</body>
+</html>
