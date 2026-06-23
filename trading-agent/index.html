@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/gif" href="/favicon.gif?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png?v=2">
+  <link rel="apple-touch-icon" href="/favicon.png?v=2">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asia Trading Agent — ZiYik</title>
+  <meta name="description" content="Generate Hong Kong and Malaysia equity research reports with Asia Trading Agents.">
+  <style>
+    :root {
+      --ink: #f4f1e8;
+      --muted: #b6b1a4;
+      --soft: rgba(244, 241, 232, .74);
+      --line: rgba(244, 241, 232, .18);
+      --panel: rgba(255,255,255,.045);
+      --panel-strong: rgba(255,255,255,.075);
+      --acid: #c9ff3b;
+      --amber: #ffb84d;
+      --cyan: #58f0ff;
+      --red: #ff6b5f;
+      --black: #050604;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 14% 8%, rgba(201,255,59,.09), transparent 24%),
+        radial-gradient(circle at 88% 18%, rgba(88,240,255,.08), transparent 28%),
+        linear-gradient(180deg, #050604 0%, #0a0d0b 48%, #050604 100%);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+      letter-spacing: 0;
+    }
+    a { color: inherit; text-decoration: none; }
+    button, input, a { -webkit-tap-highlight-color: transparent; }
+    .wrap { width: min(1220px, calc(100% - 36px)); margin: 0 auto; }
+
+    .topbar {
+      position: fixed;
+      inset: 0 0 auto;
+      z-index: 20;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: center;
+      gap: 24px;
+      padding: 22px clamp(18px, 4vw, 56px);
+      color: var(--ink);
+      text-transform: uppercase;
+      font-size: 18px;
+      letter-spacing: .12em;
+      background: linear-gradient(180deg, rgba(5,6,4,.94), rgba(5,6,4,.52), transparent);
+      backdrop-filter: blur(8px);
+    }
+    .brand { font-weight: 900; }
+    .brand span { color: var(--acid); }
+    .nav { display: flex; justify-content: center; gap: clamp(12px, 2vw, 28px); }
+    .top-action { color: var(--acid); font-weight: 800; }
+    .nav a:hover, .top-action:hover { opacity: .72; }
+
+    .hero {
+      min-height: 100svh;
+      display: grid;
+      align-items: end;
+      padding: 110px 0 56px;
+      border-bottom: 1px solid var(--line);
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, .9fr) minmax(420px, 1.1fr);
+      gap: clamp(28px, 5vw, 78px);
+      align-items: end;
+    }
+    .eyebrow {
+      margin: 0 0 18px;
+      color: var(--amber);
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      font-size: 12px;
+      font-weight: 900;
+    }
+    h1 {
+      margin: 0;
+      max-width: 780px;
+      font-size: clamp(48px, 8vw, 126px);
+      line-height: .86;
+      text-transform: uppercase;
+      font-weight: 950;
+    }
+    h1 span { display: block; color: var(--acid); }
+    .intro {
+      margin: 26px 0 0;
+      max-width: 660px;
+      color: var(--soft);
+      font-size: 17px;
+      line-height: 1.7;
+    }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border: 1px solid var(--line);
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      font-size: 11px;
+      font-weight: 900;
+      white-space: nowrap;
+      background: rgba(5,6,4,.45);
+      color: var(--ink);
+      cursor: pointer;
+    }
+    .btn.primary, .btn:hover {
+      color: #111;
+      background: var(--acid);
+      border-color: var(--acid);
+    }
+    .btn[disabled] { opacity: .48; cursor: not-allowed; }
+    .btn[disabled]:hover { color: var(--ink); background: rgba(5,6,4,.45); border-color: var(--line); }
+
+    .architecture {
+      align-self: stretch;
+      min-height: 520px;
+      display: grid;
+      align-items: center;
+      border: 1px solid var(--line);
+      background: rgba(6,17,31,.82);
+      overflow: hidden;
+      box-shadow: 0 30px 90px rgba(0,0,0,.34);
+    }
+    .architecture img { width: 100%; height: 100%; object-fit: contain; display: block; }
+
+    .ticker-section {
+      padding: clamp(70px, 9vw, 118px) 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(280px, 430px);
+      gap: 32px;
+      align-items: end;
+      margin-bottom: 30px;
+    }
+    h2 {
+      margin: 0;
+      font-size: clamp(34px, 5vw, 74px);
+      line-height: .92;
+      text-transform: uppercase;
+      max-width: 900px;
+    }
+    .lead { margin: 0; color: var(--muted); line-height: 1.65; font-size: 16px; }
+
+    .agent-console {
+      border-top: 1px solid var(--line);
+      border-left: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: minmax(320px, .82fr) minmax(0, 1.18fr);
+    }
+    .control, .output {
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: var(--panel);
+      min-height: 520px;
+    }
+    .control { padding: clamp(20px, 3vw, 34px); }
+    .output { display: grid; grid-template-rows: auto 1fr; }
+
+    label {
+      display: block;
+      color: var(--amber);
+      text-transform: uppercase;
+      letter-spacing: .13em;
+      font-size: 11px;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+    .ticker-input {
+      width: 100%;
+      min-height: 56px;
+      border: 1px solid var(--line);
+      background: rgba(0,0,0,.36);
+      color: var(--ink);
+      padding: 0 16px;
+      font-size: 22px;
+      font-weight: 900;
+      text-transform: uppercase;
+      outline: none;
+    }
+    .ticker-input:focus { border-color: var(--acid); }
+    .hint { margin: 12px 0 0; color: var(--muted); font-size: 13px; line-height: 1.6; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 30px; }
+    .chip {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.04);
+      color: var(--soft);
+      min-height: 34px;
+      padding: 0 11px;
+      font-size: 12px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+    .chip:hover { color: #111; background: var(--acid); border-color: var(--acid); }
+    .form-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+
+    .settings {
+      margin-top: 28px;
+      border-top: 1px solid var(--line);
+      padding-top: 22px;
+    }
+    .settings summary {
+      cursor: pointer;
+      color: var(--cyan);
+      text-transform: uppercase;
+      letter-spacing: .11em;
+      font-size: 11px;
+      font-weight: 900;
+    }
+    .endpoint-input {
+      width: 100%;
+      min-height: 42px;
+      margin-top: 14px;
+      border: 1px solid var(--line);
+      background: rgba(0,0,0,.34);
+      color: var(--ink);
+      padding: 0 12px;
+      outline: none;
+      font-size: 13px;
+    }
+    .endpoint-input:focus { border-color: var(--cyan); }
+    .notice {
+      margin-top: 18px;
+      padding: 14px;
+      border: 1px solid rgba(255,184,77,.28);
+      color: var(--soft);
+      background: rgba(255,184,77,.06);
+      line-height: 1.55;
+      font-size: 13px;
+    }
+
+    .output-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      min-height: 66px;
+      padding: 0 18px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(6,17,31,.82);
+    }
+    .status {
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+    }
+    .status b { color: var(--acid); }
+    .download-row { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+    .small-btn {
+      min-height: 34px;
+      padding: 0 11px;
+      border: 1px solid var(--line);
+      background: rgba(0,0,0,.32);
+      color: var(--ink);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-size: 10px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+    .small-btn:hover:not([disabled]) { color: #111; background: var(--acid); border-color: var(--acid); }
+    .small-btn[disabled] { opacity: .4; cursor: not-allowed; }
+
+    .report-preview {
+      padding: 26px;
+      overflow: auto;
+      max-height: 740px;
+      line-height: 1.68;
+      color: var(--soft);
+    }
+    .empty-state {
+      min-height: 420px;
+      display: grid;
+      align-content: center;
+      gap: 16px;
+      color: var(--muted);
+    }
+    .empty-state strong { color: var(--ink); font-size: 26px; line-height: 1.05; text-transform: uppercase; }
+    .report-preview h1, .report-preview h2, .report-preview h3 {
+      color: var(--ink);
+      line-height: 1.08;
+      text-transform: none;
+    }
+    .report-preview h1 { font-size: 34px; margin: 0 0 18px; }
+    .report-preview h2 { font-size: 25px; margin: 32px 0 12px; }
+    .report-preview h3 { font-size: 19px; margin: 24px 0 8px; }
+    .report-preview p { margin: 0 0 14px; }
+    .report-preview ul { padding-left: 20px; }
+    .report-preview li { margin: 8px 0; }
+    .report-preview code {
+      color: var(--acid);
+      background: rgba(201,255,59,.08);
+      padding: 2px 5px;
+    }
+    .report-preview pre {
+      overflow: auto;
+      padding: 16px;
+      border: 1px solid var(--line);
+      background: rgba(0,0,0,.35);
+    }
+    .report-preview table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0;
+      font-size: 14px;
+    }
+    .report-preview th, .report-preview td {
+      border: 1px solid var(--line);
+      padding: 9px;
+      vertical-align: top;
+    }
+    .report-preview th { color: var(--acid); background: rgba(255,255,255,.04); }
+
+    .stack-section { padding: clamp(62px, 8vw, 100px) 0; }
+    .systems {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      border-top: 1px solid var(--line);
+      border-left: 1px solid var(--line);
+      margin-top: 28px;
+    }
+    .system {
+      min-height: 210px;
+      padding: 22px;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.012));
+    }
+    .system strong {
+      display: block;
+      color: var(--acid);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      margin-bottom: 24px;
+    }
+    .system h3 { margin: 0 0 12px; font-size: 23px; line-height: 1.08; }
+    .system p { margin: 0; color: var(--muted); line-height: 1.6; font-size: 14px; }
+    footer { border-top: 1px solid var(--line); padding: 28px 0; color: rgba(244,241,232,.58); font-size: 13px; }
+
+    @media (max-width: 980px) {
+      .hero-grid, .section-head, .agent-console { grid-template-columns: 1fr; }
+      .architecture { min-height: auto; }
+      .architecture img { height: auto; object-fit: contain; }
+      .systems { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 560px) {
+      .topbar { font-size: 12px; padding: 14px 12px; gap: 6px; }
+      .nav { display: none; }
+      .hero { min-height: auto; padding-top: 88px; }
+      h1 { font-size: clamp(42px, 14vw, 72px); }
+      .systems { grid-template-columns: 1fr; }
+      .control, .output { min-height: auto; }
+      .output-bar { display: block; padding: 14px; }
+      .download-row { justify-content: flex-start; margin-top: 12px; }
+      .report-preview { padding: 18px; max-height: none; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">ZI<span>YIK</span></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="/news/">Reports</a>
+      <a href="/trading-agent/">Trading Agent</a>
+    </nav>
+    <a class="top-action" href="https://github.com/TINZY0612/March-2026-Trading-Projects" target="_blank" rel="noreferrer">GitHub</a>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Asia Trading Agent hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Asia equity research lab</p>
+          <h1>Type a ticker. <span>Generate the report.</span></h1>
+          <p class="intro">Asia Trading Agents is a Tauric-inspired research framework for Hong Kong and Malaysia equities. The website stays static; the Python agent runner lives separately and can be hosted on the VPS or another API backend.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#run">Run a ticker</a>
+            <a class="btn" href="https://github.com/TINZY0612/March-2026-Trading-Projects" target="_blank" rel="noreferrer">View repo</a>
+          </div>
+        </div>
+        <figure class="architecture" aria-label="Asia Trading Agents architecture diagram">
+          <img src="/assets/asia-trading-agents-architecture.svg" alt="Asia Trading Agents architecture and information sources">
+        </figure>
+      </div>
+    </section>
+
+    <section class="ticker-section" id="run">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Report generator</p>
+            <h2>Hong Kong and Malaysia equity reports.</h2>
+          </div>
+          <p class="lead">Enter a Yahoo-style ticker such as <b>0700.HK</b> or <b>1155.KL</b>. When the external runner API is connected, the Markdown report will appear here and can be downloaded.</p>
+        </div>
+
+        <div class="agent-console">
+          <form class="control" id="reportForm">
+            <label for="ticker">Ticker</label>
+            <input class="ticker-input" id="ticker" name="ticker" value="0700.HK" autocomplete="off" spellcheck="false" aria-describedby="tickerHint">
+            <p class="hint" id="tickerHint">Supported format: Hong Kong <b>.HK</b>, Malaysia <b>.KL</b>. Numeric HK tickers are normalized by the backend, so 700.HK becomes 0700.HK.</p>
+            <div class="chips" aria-label="Example tickers">
+              <button class="chip" type="button" data-ticker="0700.HK">0700.HK</button>
+              <button class="chip" type="button" data-ticker="9988.HK">9988.HK</button>
+              <button class="chip" type="button" data-ticker="1299.HK">1299.HK</button>
+              <button class="chip" type="button" data-ticker="1155.KL">1155.KL</button>
+              <button class="chip" type="button" data-ticker="5347.KL">5347.KL</button>
+            </div>
+            <div class="form-actions">
+              <button class="btn primary" type="submit" id="runBtn">Generate report</button>
+              <button class="btn" type="button" id="demoBtn">Load demo</button>
+            </div>
+
+            <details class="settings">
+              <summary>API connection</summary>
+              <input class="endpoint-input" id="endpoint" placeholder="https://your-api.example.com/trading-agent/report">
+              <p class="hint">This page is static. It expects a separate API that accepts <code>POST { ticker }</code> and returns <code>{ markdown }</code>. The Python agent files stay in the trading-agent repo or on the VPS, not inside this website repo.</p>
+            </details>
+            <div class="notice">If no API is configured yet, use <b>Load demo</b> to preview the website flow. The production runner should be a small VPS/serverless endpoint that executes <code>python -m asia_trading_agents.cli TICKER</code> and returns the generated Markdown.</div>
+          </form>
+
+          <section class="output" aria-label="Generated report output">
+            <div class="output-bar">
+              <div class="status" id="status">Status: <b>waiting for ticker</b></div>
+              <div class="download-row">
+                <button class="small-btn" type="button" id="copyBtn" disabled>Copy MD</button>
+                <button class="small-btn" type="button" id="downloadBtn" disabled>Download MD</button>
+              </div>
+            </div>
+            <article class="report-preview" id="reportPreview">
+              <div class="empty-state">
+                <strong>No report loaded yet.</strong>
+                <span>Connect an API endpoint or load the demo report to test the page interaction.</span>
+              </div>
+            </article>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="stack-section">
+      <div class="wrap">
+        <p class="eyebrow">How it stays separated</p>
+        <h2>Static website, separate agent runner.</h2>
+        <div class="systems">
+          <article class="system">
+            <strong>01 / Website</strong>
+            <h3>GitHub Pages UI</h3>
+            <p>This repo only hosts the page, architecture image, input form, Markdown preview, and download controls.</p>
+          </article>
+          <article class="system">
+            <strong>02 / Agent repo</strong>
+            <h3>Python research engine</h3>
+            <p>The Asia Trading Agents package remains in the separate March-2026-Trading-Projects repository.</p>
+          </article>
+          <article class="system">
+            <strong>03 / Runner API</strong>
+            <h3>VPS or serverless</h3>
+            <p>A small backend runs the Python command, reads <code>complete_report.md</code>, and returns Markdown JSON.</p>
+          </article>
+          <article class="system">
+            <strong>04 / Output</strong>
+            <h3>Preview and download</h3>
+            <p>Users read the generated report in the browser and download the original Markdown file.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 ZiYik · Asia Trading Agents is research tooling, not financial advice.</div>
+  </footer>
+
+  <script>
+    (function(){
+      var ticker = document.getElementById('ticker');
+      var endpoint = document.getElementById('endpoint');
+      var form = document.getElementById('reportForm');
+      var status = document.getElementById('status');
+      var preview = document.getElementById('reportPreview');
+      var copyBtn = document.getElementById('copyBtn');
+      var downloadBtn = document.getElementById('downloadBtn');
+      var runBtn = document.getElementById('runBtn');
+      var demoBtn = document.getElementById('demoBtn');
+      var currentMarkdown = '';
+      var currentTicker = 'report';
+      var savedEndpoint = localStorage.getItem('asiaTradingAgentApiUrl') || '';
+      endpoint.value = savedEndpoint;
+
+      var demoMarkdown = '# Equity Research Report: Tencent Holdings Limited (0700.HK)\n\nGenerated by Asia Trading Agents demo mode.\n\n## Market Analyst\n\n**Price/Trend:** The current v0.1 engine reads public OHLCV data, computes SMA, RSI, MACD, ATR, volume ratio, and compares recent returns against the local benchmark.\n\n## Fundamentals Analyst\n\nThe public-data snapshot includes company identity, market cap, trailing/forward valuation, dividend yield, and 52-week range when available.\n\n## News and Sentiment Analyst\n\nTicker-specific headlines are grouped into a conservative first-pass sentiment read. Future versions will add HKEX/Bursa announcements, X/KOL signals, LSEG headlines, and broker research handoff.\n\n## Research Manager\n\nThe manager combines technical, fundamental, news, and local-risk evidence into a scorecard and stance.\n\n## Trader Agent\n\nThe trader section translates the research stance into a watchlist-style plan with invalidation logic.\n\n## Portfolio Manager\n\nThe portfolio section frames position sizing and risk exposure.\n\n> This is a website demo. Connect the external runner API to generate live reports.';
+
+      function escapeHtml(text) {
+        return String(text).replace(/[&<>"']/g, function(ch) {
+          return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]);
+        });
+      }
+
+      function inlineFormat(text) {
+        return escapeHtml(text)
+          .replace(/`([^`]+)`/g, '<code>$1</code>')
+          .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+      }
+
+      function markdownToHtml(markdown) {
+        var lines = markdown.split(/\r?\n/);
+        var html = [];
+        var inList = false;
+        var inCode = false;
+        var codeLines = [];
+        lines.forEach(function(line) {
+          if (line.trim().startsWith('```')) {
+            if (inCode) {
+              html.push('<pre><code>' + escapeHtml(codeLines.join('\n')) + '</code></pre>');
+              codeLines = [];
+              inCode = false;
+            } else {
+              if (inList) { html.push('</ul>'); inList = false; }
+              inCode = true;
+            }
+            return;
+          }
+          if (inCode) { codeLines.push(line); return; }
+          if (!line.trim()) {
+            if (inList) { html.push('</ul>'); inList = false; }
+            return;
+          }
+          if (/^###\s+/.test(line)) { if (inList) { html.push('</ul>'); inList = false; } html.push('<h3>' + inlineFormat(line.replace(/^###\s+/, '')) + '</h3>'); return; }
+          if (/^##\s+/.test(line)) { if (inList) { html.push('</ul>'); inList = false; } html.push('<h2>' + inlineFormat(line.replace(/^##\s+/, '')) + '</h2>'); return; }
+          if (/^#\s+/.test(line)) { if (inList) { html.push('</ul>'); inList = false; } html.push('<h1>' + inlineFormat(line.replace(/^#\s+/, '')) + '</h1>'); return; }
+          if (/^[-*]\s+/.test(line)) {
+            if (!inList) { html.push('<ul>'); inList = true; }
+            html.push('<li>' + inlineFormat(line.replace(/^[-*]\s+/, '')) + '</li>');
+            return;
+          }
+          if (/^>\s?/.test(line)) {
+            if (inList) { html.push('</ul>'); inList = false; }
+            html.push('<p><em>' + inlineFormat(line.replace(/^>\s?/, '')) + '</em></p>');
+            return;
+          }
+          if (inList) { html.push('</ul>'); inList = false; }
+          html.push('<p>' + inlineFormat(line) + '</p>');
+        });
+        if (inList) html.push('</ul>');
+        if (inCode) html.push('<pre><code>' + escapeHtml(codeLines.join('\n')) + '</code></pre>');
+        return html.join('\n');
+      }
+
+      function setReport(markdown, source, usedTicker) {
+        currentMarkdown = markdown || '';
+        currentTicker = (usedTicker || ticker.value || 'report').trim().replace(/[^a-z0-9._-]+/ig, '_');
+        preview.innerHTML = markdownToHtml(currentMarkdown);
+        copyBtn.disabled = !currentMarkdown;
+        downloadBtn.disabled = !currentMarkdown;
+        status.innerHTML = 'Status: <b>' + source + '</b>';
+      }
+
+      function setBusy(isBusy) {
+        runBtn.disabled = isBusy;
+        runBtn.textContent = isBusy ? 'Generating...' : 'Generate report';
+      }
+
+      document.querySelectorAll('[data-ticker]').forEach(function(btn) {
+        btn.addEventListener('click', function(){ ticker.value = btn.getAttribute('data-ticker'); ticker.focus(); });
+      });
+
+      endpoint.addEventListener('change', function(){
+        localStorage.setItem('asiaTradingAgentApiUrl', endpoint.value.trim());
+      });
+
+      form.addEventListener('submit', async function(event) {
+        event.preventDefault();
+        var apiUrl = endpoint.value.trim();
+        var requestedTicker = ticker.value.trim().toUpperCase();
+        if (!requestedTicker) { ticker.focus(); return; }
+        if (!apiUrl) {
+          status.innerHTML = 'Status: <b>API endpoint not configured</b>';
+          preview.innerHTML = '<div class="empty-state"><strong>Runner API needed.</strong><span>This GitHub Pages site is static. Add the external endpoint under API connection, or click Load demo to preview the report UI.</span></div>';
+          return;
+        }
+        localStorage.setItem('asiaTradingAgentApiUrl', apiUrl);
+        setBusy(true);
+        status.innerHTML = 'Status: <b>requesting ' + escapeHtml(requestedTicker) + '</b>';
+        try {
+          var response = await fetch(apiUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ ticker: requestedTicker })
+          });
+          if (!response.ok) throw new Error('HTTP ' + response.status);
+          var data = await response.json();
+          var markdown = data.markdown || data.reportMarkdown || data.report || '';
+          if (!markdown) throw new Error('API returned no markdown field');
+          setReport(markdown, 'generated ' + requestedTicker, requestedTicker);
+        } catch (err) {
+          status.innerHTML = 'Status: <b>generation failed</b>';
+          preview.innerHTML = '<div class="empty-state"><strong>Could not reach runner API.</strong><span>' + escapeHtml(err.message || err) + '</span><span>Expected API contract: POST { ticker } → JSON { markdown }.</span></div>';
+        } finally {
+          setBusy(false);
+        }
+      });
+
+      demoBtn.addEventListener('click', function(){ setReport(demoMarkdown, 'demo report loaded', ticker.value || '0700.HK'); });
+
+      copyBtn.addEventListener('click', async function(){
+        if (!currentMarkdown) return;
+        await navigator.clipboard.writeText(currentMarkdown);
+        status.innerHTML = 'Status: <b>Markdown copied</b>';
+      });
+
+      downloadBtn.addEventListener('click', function(){
+        if (!currentMarkdown) return;
+        var blob = new Blob([currentMarkdown], { type: 'text/markdown;charset=utf-8' });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = currentTicker + '-asia-trading-agent-report.md';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+      });
+    })();
+  </script>
+</body>
+</html>

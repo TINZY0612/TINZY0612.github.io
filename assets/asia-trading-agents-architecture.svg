@@ -1,0 +1,210 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Asia Trading Agents Architecture</title>
+  <desc id="desc">Architecture diagram showing market data, local information sources, collectors, analyst agents, debate and decision layers, memory, and report outputs for Hong Kong and Malaysia equity research.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06111f"/>
+      <stop offset="0.52" stop-color="#0d1b2d"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="source" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#172554"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="collector" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#312e81"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="agent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#164e63"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="decision" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7c2d12"/>
+      <stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="output" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#14532d"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2L10 6L2 10" stroke="#9fb3c8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Inter, Segoe UI, Arial, sans-serif; fill: #f8fafc; }
+      .subtitle { font: 500 16px Inter, Segoe UI, Arial, sans-serif; fill: #b6c5d8; }
+      .lane { font: 700 16px Inter, Segoe UI, Arial, sans-serif; fill: #dbeafe; letter-spacing: .06em; }
+      .box-title { font: 700 18px Inter, Segoe UI, Arial, sans-serif; fill: #ffffff; }
+      .box-body { font: 500 13px Inter, Segoe UI, Arial, sans-serif; fill: #dbeafe; }
+      .small { font: 500 12px Inter, Segoe UI, Arial, sans-serif; fill: #a9bdd5; }
+      .pill { font: 700 12px Inter, Segoe UI, Arial, sans-serif; fill: #dbeafe; letter-spacing: .04em; }
+      .box { rx: 18; filter: url(#shadow); stroke: rgba(255,255,255,.16); stroke-width: 1; }
+      .muted-box { rx: 18; fill: rgba(15,23,42,.78); stroke: rgba(148,163,184,.24); stroke-width: 1; filter: url(#shadow); }
+      .line { stroke: #9fb3c8; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; marker-end: url(#arrow); opacity: .9; }
+      .dash { stroke: #64748b; stroke-width: 1.8; stroke-dasharray: 8 8; stroke-linecap: round; marker-end: url(#arrow); opacity: .78; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <circle cx="116" cy="94" r="180" fill="#1d4ed8" opacity="0.12"/>
+  <circle cx="1275" cy="798" r="240" fill="#14b8a6" opacity="0.10"/>
+  <circle cx="1090" cy="110" r="160" fill="#f59e0b" opacity="0.08"/>
+
+  <text x="70" y="72" class="title">Asia Trading Agents</text>
+  <text x="70" y="101" class="subtitle">Tauric-inspired equity research architecture for Hong Kong and Malaysia markets</text>
+
+  <rect x="1044" y="50" width="286" height="52" rx="26" fill="rgba(15,23,42,.72)" stroke="rgba(148,163,184,.35)"/>
+  <text x="1070" y="81" class="pill">INPUT: 0700.HK / 1155.KL</text>
+
+  <text x="70" y="155" class="lane">INFORMATION SOURCES</text>
+  <text x="400" y="155" class="lane">COLLECTORS</text>
+  <text x="690" y="155" class="lane">ANALYST AGENTS</text>
+  <text x="1010" y="155" class="lane">DECISION + OUTPUT</text>
+
+  <!-- Source boxes -->
+  <rect class="box" x="60" y="185" width="270" height="86" fill="url(#source)"/>
+  <text x="84" y="218" class="box-title">Market Data</text>
+  <text x="84" y="244" class="box-body">yfinance, OHLCV, benchmark</text>
+  <text x="84" y="263" class="small">Current: public data path</text>
+
+  <rect class="box" x="60" y="292" width="270" height="86" fill="url(#source)"/>
+  <text x="84" y="325" class="box-title">Exchange Filings</text>
+  <text x="84" y="351" class="box-body">HKEXnews, Bursa announcements</text>
+  <text x="84" y="370" class="small">Next: corporate actions, disclosures</text>
+
+  <rect class="box" x="60" y="399" width="270" height="86" fill="url(#source)"/>
+  <text x="84" y="432" class="box-title">News + Local Media</text>
+  <text x="84" y="458" class="box-body">Chinese/English market news</text>
+  <text x="84" y="477" class="small">Local context and policy risk</text>
+
+  <rect class="box" x="60" y="506" width="270" height="86" fill="url(#source)"/>
+  <text x="84" y="539" class="box-title">Social / KOL Signals</text>
+  <text x="84" y="565" class="box-body">X lists, Telegram, retail flow</text>
+  <text x="84" y="584" class="small">Sentiment and narrative tracking</text>
+
+  <rect class="box" x="60" y="613" width="270" height="86" fill="url(#source)"/>
+  <text x="84" y="646" class="box-title">Research Reports</text>
+  <text x="84" y="672" class="box-body">Broker/IB PDFs, IMA handoff</text>
+  <text x="84" y="691" class="small">Optional human-approved ingestion</text>
+
+  <rect class="box" x="60" y="720" width="270" height="86" fill="url(#source)"/>
+  <text x="84" y="753" class="box-title">Macro / Terminal Layer</text>
+  <text x="84" y="779" class="box-body">LSEG headlines, FX, rates, flows</text>
+  <text x="84" y="798" class="small">Optional desktop handoff</text>
+
+  <!-- Collectors -->
+  <rect class="box" x="380" y="214" width="250" height="72" fill="url(#collector)"/>
+  <text x="405" y="245" class="box-title">Market Collector</text>
+  <text x="405" y="269" class="box-body">prices, volume, benchmark alpha</text>
+
+  <rect class="box" x="380" y="314" width="250" height="72" fill="url(#collector)"/>
+  <text x="405" y="345" class="box-title">Filing Collector</text>
+  <text x="405" y="369" class="box-body">announcements and disclosures</text>
+
+  <rect class="box" x="380" y="414" width="250" height="72" fill="url(#collector)"/>
+  <text x="405" y="445" class="box-title">News Collector</text>
+  <text x="405" y="469" class="box-body">headlines, source quality, recency</text>
+
+  <rect class="box" x="380" y="514" width="250" height="72" fill="url(#collector)"/>
+  <text x="405" y="545" class="box-title">Sentiment Collector</text>
+  <text x="405" y="569" class="box-body">KOL posts, topic heat, crowd mood</text>
+
+  <rect class="box" x="380" y="614" width="250" height="72" fill="url(#collector)"/>
+  <text x="405" y="645" class="box-title">Research Collector</text>
+  <text x="405" y="669" class="box-body">PDF notes, thesis extraction</text>
+
+  <rect class="box" x="380" y="714" width="250" height="72" fill="url(#collector)"/>
+  <text x="405" y="745" class="box-title">Macro Collector</text>
+  <text x="405" y="769" class="box-body">rates, FX, policy, global risk</text>
+
+  <!-- Analyst layer -->
+  <rect class="box" x="680" y="194" width="265" height="78" fill="url(#agent)"/>
+  <text x="706" y="226" class="box-title">Technical Analyst</text>
+  <text x="706" y="251" class="box-body">trend, RSI, MACD, ATR, volume</text>
+
+  <rect class="box" x="680" y="292" width="265" height="78" fill="url(#agent)"/>
+  <text x="706" y="324" class="box-title">Fundamentals Analyst</text>
+  <text x="706" y="349" class="box-body">valuation, yield, business snapshot</text>
+
+  <rect class="box" x="680" y="390" width="265" height="78" fill="url(#agent)"/>
+  <text x="706" y="422" class="box-title">News Analyst</text>
+  <text x="706" y="447" class="box-body">headlines, catalysts, event risk</text>
+
+  <rect class="box" x="680" y="488" width="265" height="78" fill="url(#agent)"/>
+  <text x="706" y="520" class="box-title">Sentiment Analyst</text>
+  <text x="706" y="545" class="box-body">KOL mood, narrative velocity</text>
+
+  <rect class="box" x="680" y="586" width="265" height="78" fill="url(#agent)"/>
+  <text x="706" y="618" class="box-title">Local Risk Analyst</text>
+  <text x="706" y="643" class="box-body">HK/MY governance, liquidity, policy</text>
+
+  <rect class="box" x="680" y="684" width="265" height="78" fill="url(#agent)"/>
+  <text x="706" y="716" class="box-title">Corporate Action Analyst</text>
+  <text x="706" y="741" class="box-body">placements, rights issues, filings</text>
+
+  <!-- Decision/output layer -->
+  <rect class="box" x="1010" y="214" width="300" height="88" fill="url(#decision)"/>
+  <text x="1038" y="247" class="box-title">Bull vs Bear Debate</text>
+  <text x="1038" y="273" class="box-body">phase 3: thesis, rebuttal, confidence</text>
+
+  <rect class="box" x="1010" y="328" width="300" height="88" fill="url(#decision)"/>
+  <text x="1038" y="361" class="box-title">Research Manager</text>
+  <text x="1038" y="387" class="box-body">scores evidence, resolves conflicts</text>
+
+  <rect class="box" x="1010" y="442" width="300" height="88" fill="url(#decision)"/>
+  <text x="1038" y="475" class="box-title">Trader Agent</text>
+  <text x="1038" y="501" class="box-body">entry plan, invalidation, watchlist</text>
+
+  <rect class="box" x="1010" y="556" width="300" height="88" fill="url(#decision)"/>
+  <text x="1038" y="589" class="box-title">Risk + Portfolio Manager</text>
+  <text x="1038" y="615" class="box-body">position sizing, exposure, risk notes</text>
+
+  <rect class="box" x="1010" y="690" width="300" height="100" fill="url(#output)"/>
+  <text x="1038" y="725" class="box-title">Final Research Pack</text>
+  <text x="1038" y="751" class="box-body">complete_report.md</text>
+  <text x="1038" y="774" class="box-body">analyst sections + decision log</text>
+
+  <rect class="muted-box" x="680" y="794" width="630" height="64"/>
+  <text x="706" y="823" class="box-title">Memory + Reflection Loop</text>
+  <text x="706" y="848" class="box-body">track 1D/5D/20D forward returns, alpha vs benchmark, mistakes, source reliability, and prompt improvements</text>
+
+  <!-- Arrows source to collectors -->
+  <path class="line" d="M330 228 C350 228 356 250 380 250"/>
+  <path class="line" d="M330 335 C350 335 356 350 380 350"/>
+  <path class="line" d="M330 442 C350 442 356 450 380 450"/>
+  <path class="line" d="M330 549 C350 549 356 550 380 550"/>
+  <path class="line" d="M330 656 C350 656 356 650 380 650"/>
+  <path class="line" d="M330 763 C350 763 356 750 380 750"/>
+
+  <!-- Collectors to analysts -->
+  <path class="line" d="M630 250 C654 250 656 233 680 233"/>
+  <path class="line" d="M630 250 C650 250 652 331 680 331"/>
+  <path class="line" d="M630 450 C652 450 656 429 680 429"/>
+  <path class="line" d="M630 550 C652 550 656 527 680 527"/>
+  <path class="line" d="M630 350 C652 350 656 625 680 625"/>
+  <path class="line" d="M630 650 C652 650 656 723 680 723"/>
+  <path class="dash" d="M630 750 C655 750 655 625 680 625"/>
+  <path class="dash" d="M630 750 C656 750 660 429 680 429"/>
+
+  <!-- Analysts to decision -->
+  <path class="line" d="M945 233 C970 233 982 258 1010 258"/>
+  <path class="line" d="M945 331 C972 331 984 372 1010 372"/>
+  <path class="line" d="M945 429 C972 429 984 372 1010 372"/>
+  <path class="line" d="M945 527 C972 527 984 486 1010 486"/>
+  <path class="line" d="M945 625 C972 625 984 600 1010 600"/>
+  <path class="line" d="M945 723 C972 723 984 600 1010 600"/>
+
+  <!-- Decision chain -->
+  <path class="line" d="M1160 302 L1160 328"/>
+  <path class="line" d="M1160 416 L1160 442"/>
+  <path class="line" d="M1160 530 L1160 556"/>
+  <path class="line" d="M1160 644 L1160 690"/>
+  <path class="dash" d="M1160 790 C1160 836 1040 850 995 826"/>
+  <path class="dash" d="M995 794 C955 780 900 762 846 762"/>
+
+  <rect x="70" y="836" width="500" height="34" rx="17" fill="rgba(15,23,42,.72)" stroke="rgba(148,163,184,.25)"/>
+  <text x="91" y="858" class="small">Current v0.1 ships the public market-data path; the local-source and LLM debate layers are the roadmap toward Tauric-level depth.</text>
+</svg>
