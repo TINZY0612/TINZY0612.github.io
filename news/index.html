@@ -364,8 +364,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 38px;
-    height: 38px;
+    min-width: 44px;
+    height: 44px;
     padding: 0 12px;
     border: 1px solid var(--line);
     background: var(--panel);
@@ -420,8 +420,10 @@
   <link rel="stylesheet" href="/assets/site-footer.css">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3">
   <link rel="apple-touch-icon" href="/favicon.svg?v=3">
+  <link rel="stylesheet" href="/assets/site-accessibility.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="topbar">
     <a class="brand" href="/">ZI<span>YIK</span></a>
     <span style="display:flex;gap:20px;justify-content:center">
@@ -497,12 +499,12 @@
   <!-- DASHBOARD_START -->
 <section class="dash-section wrap" aria-label="Current dashboard" style="padding:56px 0 28px;border-bottom:1px solid var(--line);">
     <p class="eyebrow">Current dashboard</p>
-    <a href="/news/dashboard.png" target="_blank"><img src="/news/dashboard.png" alt="Current Market Dashboard" style="width:100%;border-radius:16px;border:1px solid var(--line);"></a>
+    <a href="/news/dashboard.png" target="_blank" rel="noreferrer"><img src="/news/dashboard.png" alt="Current Market Dashboard" style="width:100%;border-radius:16px;border:1px solid var(--line);"></a>
   </section>
   <!-- DASHBOARD_END -->
 
-  <main class="wrap" id="reports">
-    <div class="section-title">
+  <main class="wrap" id="main-content">
+    <div class="section-title" id="reports">
       <h2>Latest reports</h2>
       <p></p>
     </div>
