@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -242,11 +242,107 @@
       linear-gradient(260deg, rgba(88,240,255,.12), transparent 25%),
       #0b0d09;
   }
+  .about-band {
+    min-height: 78vh;
+    display: grid;
+    align-items: center;
+    background:
+      linear-gradient(120deg, rgba(201,255,59,.09), transparent 32%),
+      linear-gradient(260deg, rgba(255,184,77,.08), transparent 28%),
+      #0b0d09;
+  }
   .report-preview {
     display: grid;
     grid-template-columns: minmax(0, .95fr) minmax(300px, 1.05fr);
     gap: clamp(30px, 6vw, 80px);
     align-items: center;
+  }
+  .about-preview {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(260px, .95fr);
+    gap: clamp(30px, 7vw, 96px);
+    align-items: center;
+  }
+  .about-copy { max-width: 720px; }
+  .about-copy .lead {
+    max-width: 680px;
+    color: var(--ink);
+    font-size: clamp(18px, 2vw, 24px);
+    line-height: 1.55;
+  }
+  .about-copy .lead + .lead {
+    margin-top: 18px;
+    color: var(--muted);
+    font-size: 16px;
+  }
+  .fun-facts {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+    list-style: none;
+    margin: 36px 0 0;
+    padding: 0;
+  }
+  .fun-fact {
+    min-height: 82px;
+    padding: 13px 12px 0;
+    border-top: 1px solid var(--line);
+  }
+  .fun-fact small {
+    display: block;
+    color: var(--amber);
+    font: 800 10px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .fun-fact strong {
+    display: block;
+    margin-top: 10px;
+    color: var(--ink);
+    font-size: 13px;
+    line-height: 1.35;
+  }
+  .about-photo {
+    margin: 0;
+    padding: 12px;
+    border: 1px solid var(--line);
+    background: rgba(0,0,0,.42);
+    box-shadow: 22px 24px 0 rgba(201,255,59,.12);
+    transform: rotate(1.5deg);
+  }
+  .about-photo img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    filter: saturate(.9) contrast(1.04);
+  }
+  .about-photo figcaption {
+    margin: 12px 0 0;
+    color: var(--muted);
+    font: 11px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+  .website-band {
+    min-height: 34vh;
+    background: #080906;
+  }
+  .website-placeholder {
+    min-height: 180px;
+    border: 1px dashed rgba(244,241,232,.18);
+    background: repeating-linear-gradient(-45deg, rgba(244,241,232,.025) 0 1px, transparent 1px 12px);
+  }
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
   .terminal {
     border: 1px solid var(--line);
@@ -315,7 +411,8 @@
     }
     .scroll-cue { display: none; }
     .hero-copy { max-width: 560px; border-left: 0; padding-left: 0; }
-    .section-head, .report-preview { grid-template-columns: 1fr; }
+    .section-head, .report-preview, .about-preview { grid-template-columns: 1fr; }
+    .about-photo { max-width: 560px; }
     .footer { flex-direction: column; }
   }
   @media (max-width: 560px) {
@@ -324,6 +421,8 @@
     .terminal { min-height: auto; }
     .terminal-line { display: block; }
     .terminal-line span { display: block; margin-top: 6px; }
+    .fun-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .about-photo { box-shadow: 12px 14px 0 rgba(201,255,59,.12); }
   }
 </style>
 
@@ -392,32 +491,38 @@
         <h1 class="hero-title">
         <div>SEEK</div>
         <div style="color:var(--acid)">DISCOMFORT</div>
-        <div>BE DIFFERENT</div>
+        <div>ALWAYS</div>
+        <div>EXPLORING</div>
       </h1>
         </div>
       </section>
 
-    <section class="section report-band" id="reports">
-      <div class="inner report-preview">
-        <div>
-          <div class="eyebrow">Daily market news</div>
-          <h2>Reports designed for fast morning decisions.</h2>
-          <p class="lead">The archive page is where the daily market brief lives: clean, dated, source-aware, and readable without digging through Telegram history.</p>
-          <div class="cta-row" style="margin-top: 26px;">
-            <a class="btn primary" href="/news/">View archive</a>
-            <a class="btn" href="https://github.com/TINZY0612/TINZY0612.github.io" target="_blank" rel="noreferrer">GitHub</a>
-          </div>
+    <section class="section about-band" id="about" aria-labelledby="about-title">
+      <div class="inner about-preview">
+        <div class="about-copy">
+          <div class="eyebrow">01 / The person behind ZiYik</div>
+          <h2 id="about-title">Hi, I'm Zi Yik.</h2>
+          <p class="lead">People know me as a Malaysian who is always fighting for opportunity and success, but deep down in my heart, I just wanna be a chill and degen kid.</p>
+          <p class="lead">I'm 23, single and available, currently based in Hong Kong, and still figuring out how to make the serious stuff fun. I like learning in public, chasing interesting ideas, and keeping enough room in life for a little chaos.</p>
+          <ul class="fun-facts" aria-label="Fun facts about Zi Yik">
+            <li class="fun-fact"><small>Age</small><strong>23 years old</strong></li>
+            <li class="fun-fact"><small>Status</small><strong>Single &amp; available</strong></li>
+            <li class="fun-fact"><small>After hours</small><strong>Horror movie enjoyer</strong></li>
+            <li class="fun-fact"><small>Now based</small><strong>Hong Kong</strong></li>
+          </ul>
         </div>
-                <div class="terminal" aria-label="Report preview">
-          <div class="terminal-line"><b>2026-07-03 08:00 UTC+8</b><span class="neutral">F&G 21 · 极度恐惧</span></div>
-          <div class="terminal-line"><b>Sentiment</b><span class="neutral">+5/100</span></div>
-          <div class="terminal-line"><b>BTC</b><span class="up">$61,448 · +2.54%</span></div>
-          <div class="terminal-line"><b>ETH</b><span class="up">$1,699 · +5.87%</span></div>
-          <div class="terminal-line"><b>Liq</b><span>$476M</span></div>
-          <div class="terminal-line"><b>Risk</b><span>周末低流动性+独立日休市，插针风险</span></div>
-          <div class="terminal-line"><b>Sources</b><span>BlockBeats · CoinGecko · Binance · Dexscreener</span></div>
-          <div class="terminal-line"><b>Mode</b><span>Daily 08:00 UTC+8 · Telegram + archive</span></div>
-        </div>
+        <figure class="about-photo">
+          <img src="/assets/ziyik-intro.jpg" alt="Zi Yik playing an accordion with a friend at a restaurant" loading="lazy" decoding="async">
+          <figcaption>Somewhere between serious work and a good story.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section website-band" id="about-site" aria-labelledby="website-title">
+      <div class="inner">
+        <div class="eyebrow">05 / What this website is</div>
+        <h2 id="website-title" class="sr-only">What this website is</h2>
+        <div class="website-placeholder" aria-label="Website introduction placeholder"></div>
       </div>
     </section>
   </main>
