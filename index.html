@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home ---- Zi Yik</title>
-<meta name="description" content="ZiYik publishes AI-assisted crypto market intelligence, daily market news, and open research notes.">
+<meta name="description" content="Meet Zi Yik: explore my experience, AI projects, and stories from life and travel.">
 <style>
   :root {
     --ink: #f4f1e8;
@@ -330,14 +330,80 @@
     text-transform: uppercase;
   }
   .website-band {
-    min-height: 34vh;
     background: #080906;
   }
-  .website-placeholder {
-    min-height: 180px;
-    border: 1px dashed rgba(244,241,232,.18);
-    background: repeating-linear-gradient(-45deg, rgba(244,241,232,.025) 0 1px, transparent 1px 12px);
+  .website-band h2 {
+    margin-bottom: clamp(30px, 5vw, 58px);
+    max-width: 1100px;
   }
+  .website-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(14px, 2vw, 24px);
+  }
+  .website-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    border: 1px solid var(--line);
+    background: #10120d;
+    transition: border-color .2s ease, transform .2s ease;
+  }
+  .website-card:hover {
+    border-color: rgba(201,255,59,.62);
+    transform: translateY(-4px);
+  }
+  .website-card__image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    background: #171a13;
+    border-bottom: 1px solid var(--line);
+  }
+  .website-card__body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: clamp(22px, 2.6vw, 34px);
+  }
+  .website-card__tag {
+    margin: 0 0 18px;
+    color: var(--amber);
+    font: 800 11px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+  }
+  .website-card h3 {
+    margin: 0 0 16px;
+    font-size: clamp(25px, 2.4vw, 34px);
+    line-height: 1.08;
+    letter-spacing: -.04em;
+    text-transform: uppercase;
+  }
+  .website-card__body > p:not(.website-card__tag) {
+    margin: 0;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.65;
+  }
+  .website-card__link,
+  .website-card__soon {
+    display: inline-flex;
+    align-items: center;
+    align-self: flex-start;
+    min-height: 44px;
+    margin-top: auto;
+    padding-top: 24px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+  }
+  .website-card__link { color: var(--acid); }
+  .website-card__link:hover { text-decoration: underline; text-underline-offset: 5px; }
+  .website-card__soon { color: var(--muted); }
+  .website-card__link span { margin-left: 8px; font-size: 18px; line-height: 1; }
   .sr-only {
     position: absolute;
     width: 1px;
@@ -418,6 +484,7 @@
     .hero-copy { max-width: 560px; border-left: 0; padding-left: 0; }
     .section-head, .report-preview, .about-preview { grid-template-columns: 1fr; }
     .about-photo { max-width: 560px; }
+    .website-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .footer { flex-direction: column; }
   }
   @media (max-width: 560px) {
@@ -428,6 +495,7 @@
     .terminal-line span { display: block; margin-top: 6px; }
     .fun-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .about-photo { box-shadow: 12px 14px 0 rgba(201,255,59,.12); }
+    .website-cards { grid-template-columns: 1fr; }
   }
 </style>
 
@@ -499,9 +567,36 @@
 
     <section class="section website-band" id="about-site" aria-labelledby="website-title">
       <div class="inner">
-        <div class="eyebrow">What this website is</div>
-        <h2 id="website-title" class="sr-only">What this website is</h2>
-        <div class="website-placeholder" aria-label="Website introduction placeholder"></div>
+        <h2 id="website-title">What this website is</h2>
+        <div class="website-cards">
+          <article class="website-card">
+            <img class="website-card__image" src="/assets/card-career.svg" alt="Illustration of a resume and career highlights" width="720" height="450" loading="lazy" decoding="async">
+            <div class="website-card__body">
+              <p class="website-card__tag">For recruiters &amp; teams</p>
+              <h3>Beyond the CV</h3>
+              <p>I share this site alongside job applications so recruiters and hiring teams can explore my experience and projects beyond what fits on a CV.</p>
+              <a class="website-card__link" href="/resume/">Explore my resume <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="website-card">
+            <img class="website-card__image" src="/assets/card-ai.svg" alt="Illustration of connected AI project nodes" width="720" height="450" loading="lazy" decoding="async">
+            <div class="website-card__body">
+              <p class="website-card__tag">Things I'm building</p>
+              <h3>AI projects</h3>
+              <p>Experiments, working notes, and updates from the AI projects I'm building. Expect the messy process as well as the finished bits.</p>
+              <a class="website-card__link" href="/trading-agent/">See a project <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="website-card">
+            <img class="website-card__image" src="/assets/card-life.svg" alt="Illustration of travel photos and a winding journey" width="720" height="450" loading="lazy" decoding="async">
+            <div class="website-card__body">
+              <p class="website-card__tag">Away from the screen</p>
+              <h3>Life &amp; travel</h3>
+              <p>Stories from the places I go, the people I meet, and the little detours worth remembering.</p>
+              <span class="website-card__soon">Stories coming soon</span>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
   </main>

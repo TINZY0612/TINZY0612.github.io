@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-labelledby="title">
+  <title id="title">Travel photos and a winding route</title>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#f4f1e8" stroke-opacity=".07"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="13" stdDeviation="14" flood-color="#000" flood-opacity=".5"/></filter>
+    <clipPath id="scene"><path d="M75 94h225v188H75z"/></clipPath>
+    <clipPath id="scene2"><path d="M401 170h219v174H401z"/></clipPath>
+  </defs>
+  <path fill="#181914" d="M0 0h720v450H0z"/>
+  <path fill="url(#grid)" d="M0 0h720v450H0z"/>
+  <path d="M52 354c139-97 234 93 383-15 95-69 150-102 237-67" fill="none" stroke="#c9ff3b" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 10"/>
+  <circle cx="53" cy="354" r="10" fill="#c9ff3b"/>
+  <circle cx="668" cy="271" r="10" fill="#ffb84d"/>
+  <g filter="url(#shadow)" transform="rotate(-7 187 209)">
+    <rect x="58" y="78" width="259" height="267" rx="3" fill="#f4f1e8"/>
+    <g clip-path="url(#scene)">
+      <path fill="#d8b785" d="M75 94h225v188H75z"/>
+      <circle cx="247" cy="135" r="28" fill="#ffb84d"/>
+      <path d="m75 250 69-95 58 66 37-49 78 105H75z" fill="#526b58"/>
+      <path d="m75 277 91-74 60 50 42-28 49 52z" fill="#273e34"/>
+    </g>
+    <path d="M82 311h162" stroke="#8a897c" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(8 510 259)">
+    <rect x="385" y="154" width="251" height="247" rx="3" fill="#f4f1e8"/>
+    <g clip-path="url(#scene2)">
+      <path fill="#a1c7be" d="M401 170h219v174H401z"/>
+      <circle cx="565" cy="208" r="21" fill="#f8d87e"/>
+      <path d="M401 278c60-28 109 14 219-12v78H401z" fill="#477b75"/>
+      <path d="M401 309c87-22 143 11 219-6v41H401z" fill="#254e50"/>
+      <path d="M455 290v-70m-18 29 18-30 18 30m-33-10 15-27 15 27" fill="none" stroke="#182f2a" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <path d="M410 371h122" stroke="#8a897c" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <path d="M348 80h70m-35-35v70" stroke="#ffb84d" stroke-width="3"/>
+</svg>

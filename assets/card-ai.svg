@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-labelledby="title">
+  <title id="title">Connected AI project nodes</title>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#f4f1e8" stroke-opacity=".07"/></pattern>
+    <radialGradient id="glow"><stop stop-color="#c9ff3b" stop-opacity=".18"/><stop offset="1" stop-color="#c9ff3b" stop-opacity="0"/></radialGradient>
+  </defs>
+  <path fill="#111914" d="M0 0h720v450H0z"/>
+  <path fill="url(#grid)" d="M0 0h720v450H0z"/>
+  <circle cx="360" cy="225" r="207" fill="url(#glow)"/>
+  <g fill="none" stroke="#c9ff3b" stroke-opacity=".45" stroke-width="2">
+    <path d="M358 224 178 129M358 224 534 112M358 224 598 280M358 224 493 362M358 224 167 342"/>
+    <path d="M178 129 110 195M534 112 610 172M598 280 638 344M167 342 96 286" stroke-dasharray="5 9"/>
+    <circle cx="358" cy="224" r="115" stroke-opacity=".26"/>
+    <circle cx="358" cy="224" r="158" stroke-opacity=".15" stroke-dasharray="4 12"/>
+  </g>
+  <g fill="#131b13" stroke="#f4f1e8" stroke-opacity=".55" stroke-width="2">
+    <rect x="130" y="93" width="96" height="72" rx="9"/>
+    <rect x="486" y="76" width="96" height="72" rx="9"/>
+    <rect x="550" y="244" width="96" height="72" rx="9"/>
+    <rect x="445" y="326" width="96" height="72" rx="9"/>
+    <rect x="119" y="306" width="96" height="72" rx="9"/>
+  </g>
+  <g fill="none" stroke="#ffb84d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m161 127 15 14 26-30"/>
+    <path d="M517 125V99m-13 13h26"/>
+    <path d="m581 291 17-22 17 22"/>
+    <path d="M469 363h45m-32-13 11 13-11 13"/>
+    <path d="M143 342h48m-48 13h31"/>
+  </g>
+  <circle cx="358" cy="224" r="76" fill="#c9ff3b"/>
+  <circle cx="358" cy="224" r="56" fill="#202b19"/>
+  <path d="m358 176 13 34 34 14-34 13-13 34-13-34-34-13 34-14z" fill="#c9ff3b"/>
+  <circle cx="358" cy="224" r="9" fill="#f4f1e8"/>
+  <g fill="#c9ff3b"><circle cx="178" cy="129" r="5"/><circle cx="534" cy="112" r="5"/><circle cx="598" cy="280" r="5"/><circle cx="493" cy="362" r="5"/><circle cx="167" cy="342" r="5"/></g>
+</svg>
