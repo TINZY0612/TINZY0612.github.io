@@ -103,7 +103,6 @@ body.site-report-page { padding-top: 116px; }
   .site-topbar__social { grid-row: 1; grid-column: 2; }
   body.site-report-page { padding-top: 134px; }
   body.site-resume-page .resume-hero { padding-top: 158px; }
-  body.site-trading-agent-page .hero { padding-top: 146px; }
   body.site-news-page .hero-content { padding-top: 132px; }
 }
 

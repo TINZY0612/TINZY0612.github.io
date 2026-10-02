@@ -12,13 +12,12 @@ function pagesIn(directory) {
 }
 
 function headerFor(page) {
-  const active = page === 'resume' ? 'resume' : page === 'trading-agent' ? 'trading-agent' : page === 'news' || page.startsWith('news/') ? 'news' : '';
+  const active = page === 'resume' ? 'resume' : page === 'news' || page.startsWith('news/') ? 'news' : '';
   const current = (name) => active === name ? ' aria-current="page"' : '';
   return `  <header class="site-topbar">
     <a class="site-topbar__brand" href="/">ZI<span>YIK</span></a>
     <nav class="site-topbar__nav" aria-label="Primary navigation">
       <a href="/resume/"${current('resume')}>Resume</a>
-      <a href="/trading-agent/"${current('trading-agent')}>Trading Agent</a>
       <a href="/news/"${current('news')}>Reports</a>
     </nav>
     <div class="site-topbar__social" aria-label="Social links">
