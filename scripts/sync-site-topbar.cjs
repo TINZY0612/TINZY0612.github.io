@@ -17,9 +17,9 @@ function headerFor(page) {
   return `  <header class="site-topbar">
     <a class="site-topbar__brand" href="/">ZI<span>YIK</span></a>
     <nav class="site-topbar__nav" aria-label="Primary navigation">
-      <a href="/news/"${current('news')}>Reports</a>
-      <a href="/trading-agent/"${current('trading-agent')}>Trading Agent</a>
       <a href="/resume/"${current('resume')}>Resume</a>
+      <a href="/trading-agent/"${current('trading-agent')}>Trading Agent</a>
+      <a href="/news/"${current('news')}>Reports</a>
     </nav>
     <div class="site-topbar__social" aria-label="Social links">
       <a href="https://www.linkedin.com/in/tin-zi-yik/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
