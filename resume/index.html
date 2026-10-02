@@ -70,7 +70,7 @@
 
     .wrap { width: min(var(--max), calc(100% - 36px)); margin: 0 auto; }
     .resume-hero { padding: clamp(70px, 10vw, 132px) 0 76px; border-bottom: 1px solid var(--line); }
-    .hero-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(290px, .65fr); gap: clamp(36px, 8vw, 120px); align-items: end; }
+    .hero-grid { display: block; }
     .eyebrow, .section-kicker, .card-kicker {
       margin: 0 0 16px;
       color: var(--amber);
@@ -85,15 +85,6 @@
     .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 32px; }
     .btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border: 1px solid var(--line); color: var(--soft); font-size: 11px; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; background: rgba(255,255,255,.035); transition: background .2s, color .2s, border-color .2s; }
     .btn:hover, .btn.primary { color: #10120b; border-color: var(--acid); background: var(--acid); }
-    .identity-panel { position: relative; padding: 18px; border: 1px solid var(--line); background: linear-gradient(145deg, rgba(255,255,255,.1), rgba(255,255,255,.025)); }
-    .identity-panel::before { content: "PROFILE / 01"; position: absolute; top: -10px; right: 16px; padding: 0 8px; color: var(--acid); background: var(--black); font: 800 10px ui-monospace, monospace; letter-spacing: .12em; }
-    .identity-panel img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; filter: grayscale(1) contrast(1.1); border: 1px solid var(--line); }
-    .identity-panel p { margin: 16px 0 0; color: var(--soft); }
-    .identity-panel strong { color: var(--ink); }
-    .facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; margin-top: 18px; border: 1px solid var(--line); background: var(--line); }
-    .fact { padding: 12px; background: rgba(5,6,4,.8); }
-    .fact b { display: block; color: var(--acid); font-size: 18px; }
-    .fact span { color: var(--muted); font: 10px ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; }
 
     .section { padding: 82px 0; border-bottom: 1px solid var(--line); }
     .section-head { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 30px; }
@@ -135,14 +126,12 @@
     .contact-card h2 { max-width: 600px; }
     .contact-list { display: grid; gap: 10px; color: var(--soft); font: 13px ui-monospace, monospace; }
     .contact-list a:hover { color: var(--acid); }
-    footer { display: flex; justify-content: space-between; gap: 20px; padding: 26px 0 42px; color: var(--muted); font: 11px ui-monospace, monospace; letter-spacing: .06em; text-transform: uppercase; }
 
     @media (max-width: 800px) {
       .topbar { grid-template-columns: auto 1fr auto; gap: 12px; padding: 16px; font-size: 10px; }
       .nav { gap: 10px; }
       .nav a:nth-child(2) { display: none; }
-      .hero-grid, .split-section, .contact-card { grid-template-columns: 1fr; }
-      .identity-panel { max-width: 420px; }
+      .split-section, .contact-card { grid-template-columns: 1fr; }
       .award-grid, .leadership-grid, .skill-grid { grid-template-columns: repeat(2, 1fr); }
     }
     @media (max-width: 560px) {
@@ -159,8 +148,6 @@
       .date { margin-top: 12px; text-align: left; }
       .company-mark { margin-bottom: 18px; }
       .award-grid, .leadership-grid, .skill-grid { grid-template-columns: 1fr; }
-      footer { display: block; }
-      footer span { display: block; margin-top: 8px; }
     }
   </style>
   <link rel="stylesheet" href="/assets/site-footer.css">
@@ -195,24 +182,13 @@
       <div class="wrap hero-grid">
         <div>
           <p class="eyebrow">RESUME / 2026</p>
-          <h1>Zi Yik.<br><span>Finance, research, momentum.</span></h1>
+          <h1>Zi Yik.<br><span>Curiosity into action.</span></h1>
           <p class="hero-lede">A quantitative finance student building at the intersection of markets, technology, and uncomfortable problems. This is the longer version of the person behind ZiYik.</p>
           <div class="hero-actions">
             <a class="btn primary" href="#experience">Experience</a>
             <a class="btn" href="mailto:tinzy0612.working@gmail.com">Start a conversation</a>
           </div>
         </div>
-        <aside class="identity-panel">
-          <img src="assets/photo1.jpg" alt="Portrait of Zi Yik">
-          <p><strong>Quantitative finance / market intelligence / builder</strong></p>
-          <p>Based between Hong Kong and Malaysia, with a bias toward learning by doing.</p>
-          <div class="facts">
-            <div class="fact"><b>CUHK</b><span>Education</span></div>
-            <div class="fact"><b>QF + R.M.S.</b><span>Discipline</span></div>
-            <div class="fact"><b>HK / MY</b><span>Operating base</span></div>
-            <div class="fact"><b>01</b><span>Resume page</span></div>
-          </div>
-        </aside>
       </div>
     </section>
 
@@ -313,7 +289,7 @@
 
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" id="contact">
   <div class="site-footer__inner">
     <div>
       <p class="site-footer__kicker">06 / Next move</p>
