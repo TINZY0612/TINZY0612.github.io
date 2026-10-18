@@ -19,6 +19,7 @@ function headerFor(page) {
     <nav class="site-topbar__nav" aria-label="Primary navigation">
       <a href="/resume/"${current('resume')}>Resume</a>
       <a href="/news/"${current('news')}>AI Projects</a>
+      <a href="https://tin-paper-ledger.indigolyric.chatgpt.site/?book=migration" target="_blank" rel="noopener noreferrer" aria-label="Paper Ledger (opens in a new tab)">Paper Ledger</a>
     </nav>
     <div class="site-topbar__social" aria-label="Social links">
       <a href="https://www.linkedin.com/in/tin-zi-yik/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
