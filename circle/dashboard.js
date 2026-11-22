@@ -1,4 +1,5 @@
 import { forwardIncome } from './model.mjs';
+import { monitorIncome, validateMonitor, currentMonitorTarget, monitorMethodLabel } from './monitor.mjs';
 
 const $ = id => document.getElementById(id);
 const fmt = (x, places = 3) => new Intl.NumberFormat('en-US', { minimumFractionDigits: places, maximumFractionDigits: places }).format(x);
@@ -6,6 +7,7 @@ const percent = (x, signed = false, places = 3) => `${signed && x >= 0 ? '+' : '
 const quarter = value => `${value.slice(4)} ${value.slice(0, 4)}`;
 const esc = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 let research, live;
+let monitorView, monitorHealth;
 
 const descriptions = {
   carry_forward: 'Start with last quarter’s reserve income and adjust for the number of days in this quarter. This is the simplest comparison: it assumes the previous income continues at the same daily pace.',
@@ -132,7 +134,15 @@ function renderSupply() {
 }
 
 function renderForward() {
+  if (monitorView) { renderVersionedMonitor(); return; }
   if (!live) return;
+  $('forward-title').textContent=`${quarter(live.period)} reserve income monitor`;
+  $('forward-method').textContent='Forecast method: SOFR with prior yield gap.';
+  $('rate-change-label').textContent='Future quoted SOFR change';
+  $('scenario-policy').textContent='Observed days stay fixed. The lagged gap stays fixed. Both changes apply uniformly to the remaining days.';
+  $('supply-change').disabled=false; $('rate-change').disabled=false;
+  $('monitor-evidence').hidden=true;
+  $('refresh-policy').textContent='This monitor is showing the archived SOFR snapshot. The scheduled versioned monitor is not connected to this published data path. Reload reads the snapshot; it does not fetch new source data.';
   const supply=Number($('supply-change').value),rate=Number($('rate-change').value);
   $('supply-output').textContent=`${supply>0?'+':''}${supply}%`; $('rate-output').textContent=`${rate>0?'+':''}${rate} bp`;
   const income=forwardIncome(live,supply,rate);
@@ -144,19 +154,57 @@ function renderForward() {
   $('live-status').textContent=`Snapshot ${new Date(live.as_of_utc).toISOString().replace('T',' ').slice(0,19)} UTC. Latest SOFR effective date ${live.latest_sofr_effective_date}.${age>36?' This cache is over 36 hours old; inspect the update workflow.':''}`;
 }
 
+function renderVersionedMonitor() {
+  const target=currentMonitorTarget(monitorView), snapshot=target?.forecast || target?.last_good_forecast;
+  const supply=Number($('supply-change').value),rate=Number($('rate-change').value);
+  $('supply-output').textContent=`${supply>0?'+':''}${supply}%`; $('rate-output').textContent=`${rate>0?'+':''}${rate} bp`;
+  $('forward-title').textContent=snapshot?`${quarter(snapshot.period)} reserve income monitor`:'Reserve income monitor';
+  $('forward-method').textContent=`Forecast method: ${monitorMethodLabel.fund_proportional}.`;
+  $('rate-change-label').textContent='Future fund yield change';
+  $('scenario-policy').textContent='Observed days stay fixed. The prior yield ratio stays fixed. Changes apply only to the remaining days.';
+  const unavailable=!snapshot || !snapshot.primary_available;
+  $('supply-change').disabled=unavailable; $('rate-change').disabled=unavailable;
+  $('forward-income').textContent=unavailable?'Unavailable':`$${fmt(monitorIncome(snapshot,'fund_proportional',supply,rate))}m`;
+  $('observed-split').textContent=snapshot?`${snapshot.observed_days} observed supply days through ${snapshot.observed_supply_through} · ${snapshot.projected_days} projected days`:'Waiting for the first complete data day of this quarter.';
+  $('forward-base').textContent=snapshot?`${snapshot.primary_available?`Published fund-model base: $${fmt(snapshot.estimates_million.fund_proportional)}m. `:`Fund model unavailable: ${snapshot.fund_unavailable_reason}. `}SOFR comparison: $${fmt(snapshot.estimates_million.sofr_lagged_spread)}m. Calibration: ${quarter(snapshot.calibration.period)}.`:'';
+  const asof=snapshot?.as_of_utc || monitorView.as_of_utc;
+  const stale=(Date.now()-Date.parse(asof))/3600000>36 || monitorView.status!=='ok' || monitorHealth?.status==='failed';
+  $('live-status').classList.toggle('stale',stale);
+  $('live-status').textContent=`Forecast snapshot ${asof.replace('T',' ').replace('Z',' UTC')}. ${monitorView.provenance==='historical_replay'?'Historical replay; excluded from prospective performance. ':''}${stale?'Data need attention; the last valid forecast remains dated as shown.':''}`;
+  $('monitor-evidence').hidden=false;
+  const frozen=monitorView.frozen_forecasts || [];
+  $('frozen-forecast-table').innerHTML=frozen.length?frozen.map(f=>`<tr><td>${quarter(f.period)}</td><td>${esc(f.as_of_utc)}</td><td>${Number.isFinite(f.estimates_million.fund_proportional)?fmt(f.estimates_million.fund_proportional):'Unavailable'}</td><td><a href="data/monitor/${esc(f.evidence_file)}">Saved forecast</a></td></tr>`).join(''):'<tr><td colspan="4">No completed-quarter initial forecast has been recorded yet.</td></tr>';
+  const m=monitorView.prospective_metrics?.initial?.fund_proportional;
+  $('prospective-performance').textContent=m?.n?`${m.n} prospective initial forecasts validated · MAPE ${percent(m.mape)} · MAE $${fmt(m.mae_million)}m · worst error ${percent(m.worst_abs_error)}.`:'No completed prospective validations yet. These results will be separate from the historical tests above.';
+  const scored=monitorView.validations.filter(r=>r.method==='fund_proportional');
+  $('validation-table').innerHTML=scored.length?scored.map(r=>`<tr><td>${quarter(r.period)}</td><td>${r.selection==='initial'?'Initial':'Latest before release'}</td><td>${fmt(r.estimate_million)}</td><td>${fmt(r.actual_million)}</td><td>${fmt(r.difference_million)}</td><td>${percent(r.signed_error,true)}</td><td>${r.provenance==='prospective'?'Prospective':'Historical replay'}</td></tr>`).join(''):'<tr><td colspan="7">Waiting for Circle to report an actual for a saved completed-quarter forecast.</td></tr>';
+  $('pending-quarters').textContent=monitorView.targets.filter(t=>t!==target).map(t=>`${quarter(t.period)}: ${t.status==='awaiting_initial_cutoff'?`initial forecast due ${t.scheduled_for}`:t.status.replaceAll('_',' ')}`).concat((monitorView.released_awaiting_actual || []).map(p=>`${quarter(p)}: earnings released; waiting for a verifiable actual`)).join(' · ');
+  $('refresh-policy').textContent='This page currently uses a published snapshot; scheduled source updates are not enabled. Reload reads the latest published snapshot. Completed-quarter initial forecasts are due seven calendar days after quarter-end. Later updates preserve the saved initial estimate. Validation uses the reported actual and the forecast timestamp; historical backtests stay unchanged.';
+}
+
 async function loadLive() {
   $('reload-cache').disabled=true;
   try {
+    const monitorResponse=await fetch(`data/monitor/monitor.json?t=${Date.now()}`,{cache:'no-store'});
+    if(monitorResponse.ok){
+      const candidate=validateMonitor(await monitorResponse.json());
+      monitorHealth=null;
+      try {const health=await fetch(`data/monitor/health.json?t=${Date.now()}`,{cache:'no-store'});if(health.ok)monitorHealth=await health.json();} catch {}
+      monitorView=candidate; renderForward(); return;
+    }
+    if(monitorResponse.status!==404)throw new Error(`Monitor HTTP ${monitorResponse.status}`);
+    if(monitorView)throw new Error('Versioned monitor feed unavailable');
+    // Until the new service is activated, retain the separately labeled legacy snapshot.
     const response=await fetch(`data/live.json?t=${Date.now()}`,{cache:'no-store'});
     if(!response.ok) throw new Error(`HTTP ${response.status}`);
     const candidate=await response.json();
     if(candidate.period!=='2026Q4' || candidate.actual!==null || candidate.rows?.length!==92) throw new Error('Unexpected model period or schema');
     const calculated=forwardIncome(candidate);
     if(Math.abs(calculated-candidate.reserve_income_million)>.000001) throw new Error('Snapshot arithmetic check failed');
-    live=candidate; renderForward();
+    monitorView=null; live=candidate; renderForward();
   } catch(error) {
     $('live-status').classList.add('stale');
-    $('live-status').textContent=`Could not reload the published snapshot (${error.message}). ${live?'The last loaded valid snapshot is retained.':'The historical research remains available; no missing data are treated as zero.'}`;
+    $('live-status').textContent=`Could not reload the published snapshot (${error.message}). ${live||monitorView?'The last loaded valid snapshot is retained.':'The historical research remains available; no missing data are treated as zero.'}`;
   } finally {$('reload-cache').disabled=false;}
 }
 

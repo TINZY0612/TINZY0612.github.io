@@ -30,7 +30,7 @@ for (const name of ['index.html', 'report.html']) {
   html = html.replace(/<body[^>]*>/, `<body class="${bodyClass}" data-page-navigation="custom">`);
   html = html.replace(/<link[^>]*href="(?:\/assets\/site-footer\.css|site-theme\.css|\/assets\/site-topbar\.css)(?:\?[^"]*)?"[^>]*>/g, '');
   if (!report) html = html.replace(/href="dashboard\.css(?:\?[^"]*)?"/, 'href="dashboard.css?v=circle-shell-2"')
-    .replace(/src="dashboard\.js(?:\?[^"]*)?"/, 'src="dashboard.js?v=circle-shell-2"');
+    .replace(/src="dashboard\.js(?:\?[^"]*)?"/, 'src="dashboard.js?v=reserve-monitor-v2"');
   for (const href of ['/assets/site-footer.css?v=circle-shell-2', 'site-theme.css?v=circle-shell-2', '/assets/site-topbar.css?v=circle-shell-2']) {
     if (!html.includes(`href="${href}"`)) html = html.replace('</head>', `<link rel="stylesheet" href="${href}"></head>`);
   }
