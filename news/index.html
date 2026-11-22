@@ -228,6 +228,9 @@
   }
   .project-table thead th:first-child { width: 64%; }
   .project-table tbody th { font-size: 18px; font-weight: 600; line-height: 1.5; }
+  .project-table tbody th a { text-decoration: underline; text-underline-offset: 4px; }
+  .project-table tbody th a:hover { color: var(--acid); }
+  .project-summary { display: block; margin-top: 7px; color: var(--muted); font-size: 13px; font-weight: 400; line-height: 1.6; }
   .project-table tbody tr:last-child th,
   .project-table tbody tr:last-child td { border-bottom: 0; }
   .section-title {
@@ -461,7 +464,8 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3">
   <link rel="apple-touch-icon" href="/favicon.svg?v=3">
   <link rel="stylesheet" href="/assets/site-accessibility.css">
-  <link rel="stylesheet" href="/assets/site-topbar.css">
+  <link rel="stylesheet" href="/assets/site-topbar.css?v=20261122">
+  <link rel="stylesheet" href="/assets/site-typography.css">
 </head>
 <body class="site-news-page">
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -522,6 +526,10 @@
           <tr><th scope="col">AI project</th><th scope="col">Progress</th></tr>
         </thead>
         <tbody>
+          <tr>
+            <th scope="row"><a href="/circle/">Circle (CRCL) Reserve Income Forecast</a><span class="project-summary">Public-data dashboard and research report using daily USDC supply and reserve yields to estimate Circle’s reserve income.</span></th>
+            <td><span class="project-status project-status--finished"><span class="project-status__light" aria-hidden="true"></span>Finished / Published</span></td>
+          </tr>
           <tr>
             <th scope="row">AI Equity Research Agent</th>
             <td><span class="project-status project-status--working"><span class="project-status__light" aria-hidden="true"></span>Working on it</span></td>

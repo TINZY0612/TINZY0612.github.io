@@ -61,7 +61,7 @@ for (const file of pagesIn(root)) {
   const body = /<body(?: class="([^"]*)")?>/;
   if (!body.test(html)) throw new Error(`Missing body tag: ${file}`);
   html = html.replace(body, (_, classes = '') => `<body class="${[...new Set([...classes.split(' ').filter(Boolean), `site-${pageName}-page`])].join(' ')}">`);
-  if (!html.includes('/assets/site-topbar.css')) html = html.replace('</head>', `  <link rel="stylesheet" href="/assets/site-topbar.css">${eol}</head>`);
+  if (!html.includes('/assets/site-topbar.css')) html = html.replace('</head>', `  <link rel="stylesheet" href="/assets/site-topbar.css?v=20261122">${eol}</head>`);
 
   fs.writeFileSync(file, html, 'utf8');
 }
