@@ -1,7 +1,0 @@
-{
-  "user_agent": "CircleReserveResearch/1.0 your-contact@example.com",
-  "initial_days": 7,
-  "lookback_days": 500,
-  "max_fund_lag_days": 45,
-  "error_alert_threshold": 0.01
-}

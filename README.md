@@ -6,10 +6,10 @@ Website: https://ziyik0612.me
 
 Can public USDC balances and interest-rate disclosures estimate Circle's reserve income before earnings? This project combines on-chain balance data, fund filings and traditional financial analysis to test that hypothesis.
 
-- **[Project README, source data, code and test results](research/circle/README.md)**
+- **[Project README, source data, code and test results](https://github.com/TINZY0612/circle-reserve-income-research)**
 - [Interactive dashboard](https://ziyik0612.me/circle/) and [online report](https://ziyik0612.me/circle/report.html)
 - [Latest PDF](circle/Circle_Reserve_Income_Report.pdf) and [editable Word report](circle/Circle_Reserve_Income_Report.docx)
-- [Data dictionary](research/circle/DATA_DICTIONARY.md) and [reproduction guide](research/circle/TEST_RESULTS.md)
+- [Data dictionary](https://github.com/TINZY0612/circle-reserve-income-research/blob/main/DATA_DICTIONARY.md) and [reproduction guide](https://github.com/TINZY0612/circle-reserve-income-research/blob/main/TEST_RESULTS.md)
 
 The fund-yield model with a prior yield ratio recorded **0.156% mean absolute percentage error across six historical quarters**. These are retrospective tests, not six forecasts recorded before earnings, and the selected method was compared on the same sample. Future accuracy remains to be validated. The completed report covers reserve income; other revenue, distribution costs and EPS remain separate extensions.
 
