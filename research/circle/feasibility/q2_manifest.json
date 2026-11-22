@@ -1,0 +1,14 @@
+{
+  "name": "circle_q2_2026_pdf",
+  "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001876042/ea208256-f5a3-44b0-b51e-845285336f68.pdf",
+  "retrieved_at_utc": "2026-11-21T06:59:02.134172+00:00",
+  "method": "GET",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "final_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001876042/ea208256-f5a3-44b0-b51e-845285336f68.pdf",
+  "bytes": 626999,
+  "file": "raw\\circle_q2_2026_pdf.pdf",
+  "sha256": "b13473d5fbc5576d1340bbd7ba372145b13a719a450783d8e05a78b6ed79e181",
+  "status": "received",
+  "elapsed_seconds": 3.984
+}

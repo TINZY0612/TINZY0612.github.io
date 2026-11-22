@@ -1,0 +1,4151 @@
+{
+  "as_of": "2026-11-21",
+  "checks_passed": 1031,
+  "checks_total": 1031,
+  "unique_hashed_public_files": 366,
+  "dependency_hashes": {
+    "stage2\\results\\stage2_data_model.json": "7e89b1b95def9b1a0daa1baad298b38a5f98fecef33a33819b0a7b9ef957d8c1",
+    "stage3\\results\\stage3_model.json": "ef67078be3792c8b80dc3b52c5ebb392309f800aba8b4c7de236337ee3b955e0",
+    "stage2\\raw\\earnings_2025_08_12.html": "a227c350a77072bc9144795e6f6f6cc5ff06d3da8a9149cc21a0e800c01820ec",
+    "stage2\\raw\\earnings_2025_11_12.html": "53346e132bcec7eb106d0043b2e42069030cf0882836482b7844209d07ad63ff",
+    "stage2\\raw\\earnings_2026_02_25.html": "0dbb09f9d1d0cf0e3e37d3cd4fd000e71d830653c60ae9e3741f67925ce5d248",
+    "stage2\\raw\\earnings_2026_05_11.html": "846eba199f2f1599cf7970d16769293a6ff126d8e79ebe7319e371af82079d0b",
+    "stage2\\raw\\earnings_2026_08_05.html": "6f9f0bf06e2d769a7589613f82a60ebed57d11b06ed81d415903f8aaa9b18df2",
+    "stage2\\raw\\earnings_2026_11_04.html": "216834e4bc7382c8ffbfa3113b411a59c1ca11bd51a0762be67205529b89ee4a",
+    "stage2\\raw\\fy2025_html.html": "6a9dd22d03e65b6bfa8d6f67fa5e5c8a02a2a18ba0f6d4d9f63b12d6414edbb0",
+    "stage2\\raw\\ipo_prospectus.html": "497bb050b2b632baf5c87a5ab53f3696222002a4d7f3073254823896e57f8b1d",
+    "stage2\\raw\\q1_2026_html.html": "061aaea7b7409449196754db824db217ff7444d272e3e1e362e5e6c5aab4b7dc",
+    "stage2\\raw\\q2_2025_html.html": "f6db6ecda0a543688a48c8d919d702831e8a3d998ef0ded369c1a52ae9800e90",
+    "stage2\\raw\\q2_2026_html.html": "e03f08f8b9f2ce9d19c17f7f912a0c268d27f022c5adcf0e6398d4e2162b2f9f",
+    "stage2\\raw\\q3_2025_html.html": "a31c8477e18337936f7ead105139bb183a0e07db18f29dc0d62a8cbc6e80d87e",
+    "stage2\\raw\\q3_2026_html.html": "e7f829169897fd56c153a30cf2f034b4e374416e1058bc5517acf976a07e8ae3",
+    "stage2\\raw\\q4_2025_release.html": "52c60b8230af63743f85032834a11942d4ab42e914e897f85eb3007f9e189b46"
+  },
+  "ordinary_non_arc_flat_mape": 0.19941046840709906,
+  "checks": [
+    {
+      "name": "2025Q2 independently recomputed flat forecast",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 flat_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 day_scaled_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 independently recomputed flat forecast",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 independently recomputed growth forecast",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 flat_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 day_scaled_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 repeat_prior_total_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 repeat_prior_category_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 independently recomputed flat forecast",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 independently recomputed growth forecast",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 flat_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 day_scaled_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 repeat_prior_total_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 repeat_prior_category_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 independently recomputed flat forecast",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 independently recomputed growth forecast",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 flat_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 day_scaled_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 repeat_prior_total_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 independently recomputed flat forecast",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 independently recomputed growth forecast",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 flat_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 day_scaled_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 repeat_prior_total_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 independently recomputed flat forecast",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 independently recomputed growth forecast",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 flat_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 day_scaled_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 repeat_prior_total_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 repeat_prior_category_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "day_scaled_prior_total MAPE independently recomputed",
+      "passed": true
+    },
+    {
+      "name": "flat_prior_total MAPE independently recomputed",
+      "passed": true
+    },
+    {
+      "name": "repeat_prior_category_growth MAPE independently recomputed",
+      "passed": true
+    },
+    {
+      "name": "repeat_prior_total_growth MAPE independently recomputed",
+      "passed": true
+    },
+    {
+      "name": "defer_recognition_beyond_Q3 flat_prior_total total recomputed",
+      "passed": true
+    },
+    {
+      "name": "defer_recognition_beyond_Q3 flat_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "defer_recognition_beyond_Q3 day_scaled_prior_total total recomputed",
+      "passed": true
+    },
+    {
+      "name": "defer_recognition_beyond_Q3 day_scaled_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "defer_recognition_beyond_Q3 repeat_prior_total_growth total recomputed",
+      "passed": true
+    },
+    {
+      "name": "defer_recognition_beyond_Q3 repeat_prior_total_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "defer_recognition_beyond_Q3 repeat_prior_category_growth total recomputed",
+      "passed": true
+    },
+    {
+      "name": "defer_recognition_beyond_Q3 repeat_prior_category_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "defer_recognition_beyond_Q3 remaining_fy_guidance_even_split total recomputed",
+      "passed": true
+    },
+    {
+      "name": "defer_recognition_beyond_Q3 remaining_fy_guidance_even_split error recomputed",
+      "passed": true
+    },
+    {
+      "name": "FY_guidance_recognized_in_Q3 flat_prior_total total recomputed",
+      "passed": true
+    },
+    {
+      "name": "FY_guidance_recognized_in_Q3 flat_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "FY_guidance_recognized_in_Q3 day_scaled_prior_total total recomputed",
+      "passed": true
+    },
+    {
+      "name": "FY_guidance_recognized_in_Q3 day_scaled_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "FY_guidance_recognized_in_Q3 repeat_prior_total_growth total recomputed",
+      "passed": true
+    },
+    {
+      "name": "FY_guidance_recognized_in_Q3 repeat_prior_total_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "FY_guidance_recognized_in_Q3 repeat_prior_category_growth total recomputed",
+      "passed": true
+    },
+    {
+      "name": "FY_guidance_recognized_in_Q3 repeat_prior_category_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "FY_guidance_recognized_in_Q3 remaining_fy_guidance_even_split total recomputed",
+      "passed": true
+    },
+    {
+      "name": "FY_guidance_recognized_in_Q3 remaining_fy_guidance_even_split error recomputed",
+      "passed": true
+    },
+    {
+      "name": "75pct_disclosed_consideration_in_Q3 flat_prior_total total recomputed",
+      "passed": true
+    },
+    {
+      "name": "75pct_disclosed_consideration_in_Q3 flat_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "75pct_disclosed_consideration_in_Q3 day_scaled_prior_total total recomputed",
+      "passed": true
+    },
+    {
+      "name": "75pct_disclosed_consideration_in_Q3 day_scaled_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "75pct_disclosed_consideration_in_Q3 repeat_prior_total_growth total recomputed",
+      "passed": true
+    },
+    {
+      "name": "75pct_disclosed_consideration_in_Q3 repeat_prior_total_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "75pct_disclosed_consideration_in_Q3 repeat_prior_category_growth total recomputed",
+      "passed": true
+    },
+    {
+      "name": "75pct_disclosed_consideration_in_Q3 repeat_prior_category_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "75pct_disclosed_consideration_in_Q3 remaining_fy_guidance_even_split total recomputed",
+      "passed": true
+    },
+    {
+      "name": "75pct_disclosed_consideration_in_Q3 remaining_fy_guidance_even_split error recomputed",
+      "passed": true
+    },
+    {
+      "name": "all_consideration_in_Q3 flat_prior_total total recomputed",
+      "passed": true
+    },
+    {
+      "name": "all_consideration_in_Q3 flat_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "all_consideration_in_Q3 day_scaled_prior_total total recomputed",
+      "passed": true
+    },
+    {
+      "name": "all_consideration_in_Q3 day_scaled_prior_total error recomputed",
+      "passed": true
+    },
+    {
+      "name": "all_consideration_in_Q3 repeat_prior_total_growth total recomputed",
+      "passed": true
+    },
+    {
+      "name": "all_consideration_in_Q3 repeat_prior_total_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "all_consideration_in_Q3 repeat_prior_category_growth total recomputed",
+      "passed": true
+    },
+    {
+      "name": "all_consideration_in_Q3 repeat_prior_category_growth error recomputed",
+      "passed": true
+    },
+    {
+      "name": "all_consideration_in_Q3 remaining_fy_guidance_even_split total recomputed",
+      "passed": true
+    },
+    {
+      "name": "all_consideration_in_Q3 remaining_fy_guidance_even_split error recomputed",
+      "passed": true
+    },
+    {
+      "name": "ordinary non-ARC flat MAPE",
+      "passed": true
+    },
+    {
+      "name": "forward total-guidance range recomputed",
+      "passed": true
+    },
+    {
+      "name": "forward outcome remains unknown",
+      "passed": true
+    },
+    {
+      "name": "remaining ARC is not automatically Q4 revenue",
+      "passed": true
+    },
+    {
+      "name": "signed presale agreements disclosed in 8-K eligibility",
+      "passed": true
+    },
+    {
+      "name": "June 29-30 second closing: 67.5m additional ARC at $0.30, $20.25m, dis eligibility",
+      "passed": true
+    },
+    {
+      "name": "quarterly agreement totals: 807.5m ARC at $0.30; rounded consideration eligibility",
+      "passed": true
+    },
+    {
+      "name": "FY2026 ~75% milestone/revenue expectation and $180m included in guidan eligibility",
+      "passed": true
+    },
+    {
+      "name": "September 16 mainnet launch scheduled eligibility",
+      "passed": true
+    },
+    {
+      "name": "Circle announces mainnet launch AND completed 10bn ARC genesis mint th eligibility",
+      "passed": true
+    },
+    {
+      "name": "Exact September 14 mint date and subsequent investor distribution/escr eligibility",
+      "passed": true
+    },
+    {
+      "name": "Q3 ARC revenue $181.8m and remaining ARC deferred balance about $60.4m eligibility",
+      "passed": true
+    },
+    {
+      "name": "FY other revenue guide $310m-$330m maintained; ordinary products $130m eligibility",
+      "passed": true
+    },
+    {
+      "name": "mint completion announcement eligible before earnings",
+      "passed": true
+    },
+    {
+      "name": "exact mint date separately kept as outcome disclosure",
+      "passed": true
+    },
+    {
+      "name": "saved launch source discloses mint and public-launch distinction",
+      "passed": true
+    },
+    {
+      "name": "second closing July 2 publication verified against index",
+      "passed": true
+    },
+    {
+      "name": "annual ARC guide is present on original Q2 call page 9",
+      "passed": true
+    },
+    {
+      "name": "ARC issuer authentication remains unresolved",
+      "passed": true
+    },
+    {
+      "name": "all saved chain controls pass",
+      "passed": true
+    },
+    {
+      "name": "all saved product controls pass",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 usyc_performance_fees independent sum",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 cctp_protocol_fees independent sum",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 usyc_performance_fees independent sum",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 cctp_protocol_fees independent sum",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 usyc_performance_fees independent sum",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 cctp_protocol_fees independent sum",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 usyc_performance_fees independent sum",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 cctp_protocol_fees independent sum",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 usyc_performance_fees independent sum",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 cctp_protocol_fees independent sum",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 usyc_performance_fees independent sum",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 cctp_protocol_fees independent sum",
+      "passed": true
+    },
+    {
+      "name": "USYC fee source uses manager revenue rather than gross yield",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\q1_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\q1_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\may_2026_8k.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\may_2026_8k.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\may_2026_8k_index.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\may_2026_8k_index.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_mainnet_announcement.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_mainnet_announcement.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_home.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_home.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_node_readme.txt",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_node_readme.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_node_config.txt",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_node_config.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_node_genesis.txt",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_node_genesis.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_node_tree.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_node_tree.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_node_commits.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_node_commits.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_whitepaper_library.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_whitepaper_library.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\may_release_sec_exhibit.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\may_release_sec_exhibit.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\q2_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\q2_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\q3_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\q3_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\q3_2026_transcript.pdf",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\q3_2026_transcript.pdf",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_rpc_circle.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_rpc_circle.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_rpc_drpc.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_rpc_drpc.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_rpc_quicknode.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_rpc_quicknode.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_whitepaper_library.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_whitepaper_library.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\may_release_sec_exhibit.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\may_release_sec_exhibit.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\q2_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\q2_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\q3_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\q3_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\q3_2026_transcript.pdf",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\q3_2026_transcript.pdf",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_rpc_circle.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_rpc_circle.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_rpc_drpc.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_rpc_drpc.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_rpc_quicknode.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_rpc_quicknode.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\q2_2026_transcript.pdf",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\q2_2026_transcript.pdf",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_token_page.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_token_page.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_whitepaper.pdf",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_whitepaper.pdf",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_mainnet_launch_release.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_mainnet_launch_release.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_whitepaper_announcement.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_whitepaper_announcement.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_whitepaper_library.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_whitepaper_library.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\may_release_sec_exhibit.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\may_release_sec_exhibit.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\q2_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\q2_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\q3_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\q3_2026_release.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\q3_2026_transcript.pdf",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\q3_2026_transcript.pdf",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_rpc_circle.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_rpc_circle.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_rpc_drpc.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_rpc_drpc.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_rpc_quicknode.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_rpc_quicknode.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\q2_2026_transcript.pdf",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\q2_2026_transcript.pdf",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_token_page.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_token_page.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_whitepaper.pdf",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_whitepaper.pdf",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_mainnet_launch_release.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_mainnet_launch_release.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_whitepaper_announcement.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_whitepaper_announcement.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\q2_guidance_image.txt",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\q2_guidance_image.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_precompiles.txt",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_precompiles.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_identity.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_identity.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_height.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_height.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_32373970.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_32373970.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_usdc_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_usdc_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_usdc_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_usdc_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_16186985.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_16186985.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_24280478.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_24280478.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20233732.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20233732.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_22257105.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_22257105.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_21245419.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_21245419.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20739576.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20739576.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20486654.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20486654.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20613115.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20613115.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20676346.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20676346.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20707961.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20707961.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20723769.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20723769.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20731673.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20731673.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20735625.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20735625.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20733649.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20733649.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20732661.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20732661.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20732167.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20732167.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20731920.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20731920.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20731797.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20731797.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20731859.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20731859.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20731890.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20731890.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20731905.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20731905.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20731913.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20731913.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20731909.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20731909.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20731907.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20731907.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20731906.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20731906.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_26552938.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_26552938.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_23642422.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_23642422.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_22187164.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_22187164.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_21459535.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_21459535.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_21095720.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_21095720.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20913813.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20913813.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20822859.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20822859.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20868336.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20868336.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20891075.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20891075.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20902444.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20902444.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20896760.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20896760.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20899602.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20899602.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20901023.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20901023.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20900313.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20900313.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20900668.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20900668.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20900491.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20900491.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20900402.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20900402.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20900447.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20900447.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20900425.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20900425.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20900414.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20900414.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20900408.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20900408.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20900405.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20900405.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20900407.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20900407.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_block_20900406.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_block_20900406.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20731906_20741904.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20731906_20741904.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20741905_20751903.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20741905_20751903.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20751904_20761902.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20751904_20761902.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20761903_20771901.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20761903_20771901.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20771902_20781900.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20771902_20781900.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20781901_20791899.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20781901_20791899.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20791900_20801898.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20791900_20801898.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20801899_20811897.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20801899_20811897.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20811898_20821896.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20811898_20821896.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20821897_20831895.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20821897_20831895.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20831896_20841894.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20831896_20841894.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20841895_20851893.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20841895_20851893.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20851894_20861892.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20851894_20861892.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20861893_20871891.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20861893_20871891.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20871892_20881890.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20871892_20881890.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20881891_20891889.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20881891_20891889.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_mints_20891890_20900405.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_mints_20891890_20900405.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xc3c83320b28fc06a5e0611b2bd253f28d6678701_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xc3c83320b28fc06a5e0611b2bd253f28d6678701_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xc3c83320b28fc06a5e0611b2bd253f28d6678701_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xc3c83320b28fc06a5e0611b2bd253f28d6678701_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xc3c83320b28fc06a5e0611b2bd253f28d6678701_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xc3c83320b28fc06a5e0611b2bd253f28d6678701_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x004592555b0f1b3b7615f76f95f67c41ec8da8c1_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x004592555b0f1b3b7615f76f95f67c41ec8da8c1_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x004592555b0f1b3b7615f76f95f67c41ec8da8c1_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x004592555b0f1b3b7615f76f95f67c41ec8da8c1_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x004592555b0f1b3b7615f76f95f67c41ec8da8c1_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x004592555b0f1b3b7615f76f95f67c41ec8da8c1_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x911ca4bc7d60a4cb15080f32a671dcb4c175f5fd_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x911ca4bc7d60a4cb15080f32a671dcb4c175f5fd_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x911ca4bc7d60a4cb15080f32a671dcb4c175f5fd_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x911ca4bc7d60a4cb15080f32a671dcb4c175f5fd_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x911ca4bc7d60a4cb15080f32a671dcb4c175f5fd_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x911ca4bc7d60a4cb15080f32a671dcb4c175f5fd_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd8f8946239c82bb531adeffda38e0ecb2b280fdb_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd8f8946239c82bb531adeffda38e0ecb2b280fdb_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd8f8946239c82bb531adeffda38e0ecb2b280fdb_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd8f8946239c82bb531adeffda38e0ecb2b280fdb_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd8f8946239c82bb531adeffda38e0ecb2b280fdb_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd8f8946239c82bb531adeffda38e0ecb2b280fdb_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xbeed787f67ce0390e70e1d2c444bc16997db8b08_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xbeed787f67ce0390e70e1d2c444bc16997db8b08_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xbeed787f67ce0390e70e1d2c444bc16997db8b08_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xbeed787f67ce0390e70e1d2c444bc16997db8b08_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xbeed787f67ce0390e70e1d2c444bc16997db8b08_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xbeed787f67ce0390e70e1d2c444bc16997db8b08_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x83a6044588935fdb307cae1ce8be0b5175a6d899_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x83a6044588935fdb307cae1ce8be0b5175a6d899_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x83a6044588935fdb307cae1ce8be0b5175a6d899_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x83a6044588935fdb307cae1ce8be0b5175a6d899_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x83a6044588935fdb307cae1ce8be0b5175a6d899_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x83a6044588935fdb307cae1ce8be0b5175a6d899_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x5918690943ddd70eccade2780060ad6547d32b7e_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x5918690943ddd70eccade2780060ad6547d32b7e_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x5918690943ddd70eccade2780060ad6547d32b7e_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x5918690943ddd70eccade2780060ad6547d32b7e_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x5918690943ddd70eccade2780060ad6547d32b7e_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x5918690943ddd70eccade2780060ad6547d32b7e_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xe0f1badd3b002ede6960bc7c506980c195ec41db_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xe0f1badd3b002ede6960bc7c506980c195ec41db_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xe0f1badd3b002ede6960bc7c506980c195ec41db_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xe0f1badd3b002ede6960bc7c506980c195ec41db_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xe0f1badd3b002ede6960bc7c506980c195ec41db_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xe0f1badd3b002ede6960bc7c506980c195ec41db_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xe6306b18e03c33370db1ebe1b12448f7ab845589_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xe6306b18e03c33370db1ebe1b12448f7ab845589_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xe6306b18e03c33370db1ebe1b12448f7ab845589_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xe6306b18e03c33370db1ebe1b12448f7ab845589_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xe6306b18e03c33370db1ebe1b12448f7ab845589_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xe6306b18e03c33370db1ebe1b12448f7ab845589_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf2dd35eca696dec016dde525a808acf459b56ce3_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf2dd35eca696dec016dde525a808acf459b56ce3_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf2dd35eca696dec016dde525a808acf459b56ce3_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf2dd35eca696dec016dde525a808acf459b56ce3_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf2dd35eca696dec016dde525a808acf459b56ce3_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf2dd35eca696dec016dde525a808acf459b56ce3_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xeaeb34b0d6089d6426ad8398385037264c2ad876_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xeaeb34b0d6089d6426ad8398385037264c2ad876_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xeaeb34b0d6089d6426ad8398385037264c2ad876_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xeaeb34b0d6089d6426ad8398385037264c2ad876_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xeaeb34b0d6089d6426ad8398385037264c2ad876_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xeaeb34b0d6089d6426ad8398385037264c2ad876_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x8701d26b3bafce4750cdcafe0cbfa119c836c60b_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x8701d26b3bafce4750cdcafe0cbfa119c836c60b_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x8701d26b3bafce4750cdcafe0cbfa119c836c60b_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x8701d26b3bafce4750cdcafe0cbfa119c836c60b_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x8701d26b3bafce4750cdcafe0cbfa119c836c60b_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x8701d26b3bafce4750cdcafe0cbfa119c836c60b_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x68bc527d64107e8d4e3faa69ce8ef0bb648f0087_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x68bc527d64107e8d4e3faa69ce8ef0bb648f0087_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x68bc527d64107e8d4e3faa69ce8ef0bb648f0087_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x68bc527d64107e8d4e3faa69ce8ef0bb648f0087_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x68bc527d64107e8d4e3faa69ce8ef0bb648f0087_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x68bc527d64107e8d4e3faa69ce8ef0bb648f0087_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd25864e352665a4673dab808da06ae06b18c6f5c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd25864e352665a4673dab808da06ae06b18c6f5c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd25864e352665a4673dab808da06ae06b18c6f5c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd25864e352665a4673dab808da06ae06b18c6f5c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd25864e352665a4673dab808da06ae06b18c6f5c_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd25864e352665a4673dab808da06ae06b18c6f5c_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x0b7d546fed1d913cd6c770eaee0e804aed9874f5_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x0b7d546fed1d913cd6c770eaee0e804aed9874f5_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x0b7d546fed1d913cd6c770eaee0e804aed9874f5_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x0b7d546fed1d913cd6c770eaee0e804aed9874f5_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x0b7d546fed1d913cd6c770eaee0e804aed9874f5_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x0b7d546fed1d913cd6c770eaee0e804aed9874f5_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xcf7c9553be2bc2b75821cf207e2f731c1230484a_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xcf7c9553be2bc2b75821cf207e2f731c1230484a_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xcf7c9553be2bc2b75821cf207e2f731c1230484a_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xcf7c9553be2bc2b75821cf207e2f731c1230484a_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xcf7c9553be2bc2b75821cf207e2f731c1230484a_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xcf7c9553be2bc2b75821cf207e2f731c1230484a_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x4204f8e8618c49237c394853683aeea44103f119_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x4204f8e8618c49237c394853683aeea44103f119_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x4204f8e8618c49237c394853683aeea44103f119_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x4204f8e8618c49237c394853683aeea44103f119_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x4204f8e8618c49237c394853683aeea44103f119_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x4204f8e8618c49237c394853683aeea44103f119_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x837fddf58bcaa59c4b4f2a0210457cd85317f94e_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x837fddf58bcaa59c4b4f2a0210457cd85317f94e_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x837fddf58bcaa59c4b4f2a0210457cd85317f94e_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x837fddf58bcaa59c4b4f2a0210457cd85317f94e_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x837fddf58bcaa59c4b4f2a0210457cd85317f94e_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x837fddf58bcaa59c4b4f2a0210457cd85317f94e_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xbe309c56989ff9d9f9878248b2608e3bdb95dfe9_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xbe309c56989ff9d9f9878248b2608e3bdb95dfe9_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xbe309c56989ff9d9f9878248b2608e3bdb95dfe9_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xbe309c56989ff9d9f9878248b2608e3bdb95dfe9_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xbe309c56989ff9d9f9878248b2608e3bdb95dfe9_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xbe309c56989ff9d9f9878248b2608e3bdb95dfe9_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x1f8208c55ee2647146bf187fb4a07629324f604f_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x1f8208c55ee2647146bf187fb4a07629324f604f_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x1f8208c55ee2647146bf187fb4a07629324f604f_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x1f8208c55ee2647146bf187fb4a07629324f604f_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x1f8208c55ee2647146bf187fb4a07629324f604f_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x1f8208c55ee2647146bf187fb4a07629324f604f_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x4714ec25b22c5cd4b652be4fc101d15c3927984f_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x4714ec25b22c5cd4b652be4fc101d15c3927984f_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x4714ec25b22c5cd4b652be4fc101d15c3927984f_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x4714ec25b22c5cd4b652be4fc101d15c3927984f_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x4714ec25b22c5cd4b652be4fc101d15c3927984f_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x4714ec25b22c5cd4b652be4fc101d15c3927984f_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x6781c01d5f0e71dec13b4d160b26d7427a124614_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x6781c01d5f0e71dec13b4d160b26d7427a124614_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x6781c01d5f0e71dec13b4d160b26d7427a124614_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x6781c01d5f0e71dec13b4d160b26d7427a124614_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x6781c01d5f0e71dec13b4d160b26d7427a124614_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x6781c01d5f0e71dec13b4d160b26d7427a124614_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x19118ff2939d13559bde2975605ccef348001e7c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x19118ff2939d13559bde2975605ccef348001e7c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x19118ff2939d13559bde2975605ccef348001e7c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x19118ff2939d13559bde2975605ccef348001e7c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x19118ff2939d13559bde2975605ccef348001e7c_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x19118ff2939d13559bde2975605ccef348001e7c_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd0e9df0d3aa1114de7c8537d249745b656dd0087_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd0e9df0d3aa1114de7c8537d249745b656dd0087_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd0e9df0d3aa1114de7c8537d249745b656dd0087_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd0e9df0d3aa1114de7c8537d249745b656dd0087_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd0e9df0d3aa1114de7c8537d249745b656dd0087_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd0e9df0d3aa1114de7c8537d249745b656dd0087_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x26d1ffbbb8b310b090ee0536748b4adfc88ae644_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x26d1ffbbb8b310b090ee0536748b4adfc88ae644_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x26d1ffbbb8b310b090ee0536748b4adfc88ae644_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x26d1ffbbb8b310b090ee0536748b4adfc88ae644_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x26d1ffbbb8b310b090ee0536748b4adfc88ae644_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x26d1ffbbb8b310b090ee0536748b4adfc88ae644_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x2bf344e4db67f87c29946c89fbd3467f983bd5da_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x2bf344e4db67f87c29946c89fbd3467f983bd5da_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x2bf344e4db67f87c29946c89fbd3467f983bd5da_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x2bf344e4db67f87c29946c89fbd3467f983bd5da_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x2bf344e4db67f87c29946c89fbd3467f983bd5da_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x2bf344e4db67f87c29946c89fbd3467f983bd5da_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x489ff48cb3aced14795d31542624c55a6a952776_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x489ff48cb3aced14795d31542624c55a6a952776_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x489ff48cb3aced14795d31542624c55a6a952776_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x489ff48cb3aced14795d31542624c55a6a952776_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x489ff48cb3aced14795d31542624c55a6a952776_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x489ff48cb3aced14795d31542624c55a6a952776_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x868de9b34c718e969580ba4a6862db52ddfe4009_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x868de9b34c718e969580ba4a6862db52ddfe4009_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x868de9b34c718e969580ba4a6862db52ddfe4009_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x868de9b34c718e969580ba4a6862db52ddfe4009_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x868de9b34c718e969580ba4a6862db52ddfe4009_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x868de9b34c718e969580ba4a6862db52ddfe4009_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xe5a30d513af97de13bb2774b85f6a1f548c4c154_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xe5a30d513af97de13bb2774b85f6a1f548c4c154_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xe5a30d513af97de13bb2774b85f6a1f548c4c154_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xe5a30d513af97de13bb2774b85f6a1f548c4c154_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xe5a30d513af97de13bb2774b85f6a1f548c4c154_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xe5a30d513af97de13bb2774b85f6a1f548c4c154_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa334578135ea44ce644abc08dc741ac8bcac4fa6_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa334578135ea44ce644abc08dc741ac8bcac4fa6_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa334578135ea44ce644abc08dc741ac8bcac4fa6_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa334578135ea44ce644abc08dc741ac8bcac4fa6_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa334578135ea44ce644abc08dc741ac8bcac4fa6_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa334578135ea44ce644abc08dc741ac8bcac4fa6_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xe867816e9519b476790a4110fd4836ad3e54e98f_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xe867816e9519b476790a4110fd4836ad3e54e98f_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xe867816e9519b476790a4110fd4836ad3e54e98f_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xe867816e9519b476790a4110fd4836ad3e54e98f_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xe867816e9519b476790a4110fd4836ad3e54e98f_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xe867816e9519b476790a4110fd4836ad3e54e98f_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x63c19bac71ad5af2992f8cc5f38ea4d87ffa0917_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x63c19bac71ad5af2992f8cc5f38ea4d87ffa0917_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x63c19bac71ad5af2992f8cc5f38ea4d87ffa0917_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x63c19bac71ad5af2992f8cc5f38ea4d87ffa0917_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x63c19bac71ad5af2992f8cc5f38ea4d87ffa0917_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x63c19bac71ad5af2992f8cc5f38ea4d87ffa0917_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd8d726576e4da068f8343c48d0e740eacd241173_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd8d726576e4da068f8343c48d0e740eacd241173_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd8d726576e4da068f8343c48d0e740eacd241173_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd8d726576e4da068f8343c48d0e740eacd241173_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd8d726576e4da068f8343c48d0e740eacd241173_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd8d726576e4da068f8343c48d0e740eacd241173_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x197e1106a6b1e5117ea1168c833685455a45e94a_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x197e1106a6b1e5117ea1168c833685455a45e94a_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x197e1106a6b1e5117ea1168c833685455a45e94a_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x197e1106a6b1e5117ea1168c833685455a45e94a_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x197e1106a6b1e5117ea1168c833685455a45e94a_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x197e1106a6b1e5117ea1168c833685455a45e94a_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf36c1b39d6c334a8d1ed363105f31c94a8547606_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf36c1b39d6c334a8d1ed363105f31c94a8547606_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf36c1b39d6c334a8d1ed363105f31c94a8547606_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf36c1b39d6c334a8d1ed363105f31c94a8547606_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf36c1b39d6c334a8d1ed363105f31c94a8547606_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf36c1b39d6c334a8d1ed363105f31c94a8547606_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x6a0e36514e823123f3bdcdb62cee697ed57d884c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x6a0e36514e823123f3bdcdb62cee697ed57d884c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x6a0e36514e823123f3bdcdb62cee697ed57d884c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x6a0e36514e823123f3bdcdb62cee697ed57d884c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x6a0e36514e823123f3bdcdb62cee697ed57d884c_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x6a0e36514e823123f3bdcdb62cee697ed57d884c_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x744f13d1476fdbd4c25ac9de17a7de8297db0993_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x744f13d1476fdbd4c25ac9de17a7de8297db0993_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x744f13d1476fdbd4c25ac9de17a7de8297db0993_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x744f13d1476fdbd4c25ac9de17a7de8297db0993_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x744f13d1476fdbd4c25ac9de17a7de8297db0993_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x744f13d1476fdbd4c25ac9de17a7de8297db0993_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xaeeda3fa8781433bf5769e636b79479b98263571_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xaeeda3fa8781433bf5769e636b79479b98263571_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xaeeda3fa8781433bf5769e636b79479b98263571_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xaeeda3fa8781433bf5769e636b79479b98263571_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xaeeda3fa8781433bf5769e636b79479b98263571_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xaeeda3fa8781433bf5769e636b79479b98263571_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa330fa9f9fa91052450deabf1a903322ec32403a_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa330fa9f9fa91052450deabf1a903322ec32403a_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa330fa9f9fa91052450deabf1a903322ec32403a_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa330fa9f9fa91052450deabf1a903322ec32403a_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa330fa9f9fa91052450deabf1a903322ec32403a_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa330fa9f9fa91052450deabf1a903322ec32403a_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x624f32f3ea47f0b77153a66a74247c9435197aa8_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x624f32f3ea47f0b77153a66a74247c9435197aa8_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x624f32f3ea47f0b77153a66a74247c9435197aa8_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x624f32f3ea47f0b77153a66a74247c9435197aa8_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x624f32f3ea47f0b77153a66a74247c9435197aa8_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x624f32f3ea47f0b77153a66a74247c9435197aa8_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd771f6c6f0340e73b3c6b0ce541908d5482f468c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd771f6c6f0340e73b3c6b0ce541908d5482f468c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd771f6c6f0340e73b3c6b0ce541908d5482f468c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd771f6c6f0340e73b3c6b0ce541908d5482f468c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd771f6c6f0340e73b3c6b0ce541908d5482f468c_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd771f6c6f0340e73b3c6b0ce541908d5482f468c_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x99995d1654fda707ed47dd5a57fae9d0b7410087_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x99995d1654fda707ed47dd5a57fae9d0b7410087_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x99995d1654fda707ed47dd5a57fae9d0b7410087_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x99995d1654fda707ed47dd5a57fae9d0b7410087_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x99995d1654fda707ed47dd5a57fae9d0b7410087_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x99995d1654fda707ed47dd5a57fae9d0b7410087_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x68850c2cc0647bf5100a62132ff454ecb9784436_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x68850c2cc0647bf5100a62132ff454ecb9784436_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x68850c2cc0647bf5100a62132ff454ecb9784436_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x68850c2cc0647bf5100a62132ff454ecb9784436_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x68850c2cc0647bf5100a62132ff454ecb9784436_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x68850c2cc0647bf5100a62132ff454ecb9784436_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x682f9fe98ea83e99fbe59c9aaee3e85b2398e061_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x682f9fe98ea83e99fbe59c9aaee3e85b2398e061_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x682f9fe98ea83e99fbe59c9aaee3e85b2398e061_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x682f9fe98ea83e99fbe59c9aaee3e85b2398e061_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x682f9fe98ea83e99fbe59c9aaee3e85b2398e061_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x682f9fe98ea83e99fbe59c9aaee3e85b2398e061_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x1453665c91699c49020a66e5ad53056328d1fb34_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x1453665c91699c49020a66e5ad53056328d1fb34_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x1453665c91699c49020a66e5ad53056328d1fb34_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x1453665c91699c49020a66e5ad53056328d1fb34_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x1453665c91699c49020a66e5ad53056328d1fb34_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x1453665c91699c49020a66e5ad53056328d1fb34_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xc90ca665d8807ba4a94b2e048a53135f5335865c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xc90ca665d8807ba4a94b2e048a53135f5335865c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xc90ca665d8807ba4a94b2e048a53135f5335865c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xc90ca665d8807ba4a94b2e048a53135f5335865c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xc90ca665d8807ba4a94b2e048a53135f5335865c_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xc90ca665d8807ba4a94b2e048a53135f5335865c_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x3f400a923e41cfe4a95dfe03e87f5d451630fe32_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x3f400a923e41cfe4a95dfe03e87f5d451630fe32_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x3f400a923e41cfe4a95dfe03e87f5d451630fe32_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x3f400a923e41cfe4a95dfe03e87f5d451630fe32_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x3f400a923e41cfe4a95dfe03e87f5d451630fe32_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x3f400a923e41cfe4a95dfe03e87f5d451630fe32_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x26dbb8ed2709bf01c25c7b53b1b3e78444a145b6_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x26dbb8ed2709bf01c25c7b53b1b3e78444a145b6_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x26dbb8ed2709bf01c25c7b53b1b3e78444a145b6_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x26dbb8ed2709bf01c25c7b53b1b3e78444a145b6_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x26dbb8ed2709bf01c25c7b53b1b3e78444a145b6_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x26dbb8ed2709bf01c25c7b53b1b3e78444a145b6_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x1bbd9c025855a02e9b7fdb6f9f3be0f7fb231b6e_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x1bbd9c025855a02e9b7fdb6f9f3be0f7fb231b6e_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x1bbd9c025855a02e9b7fdb6f9f3be0f7fb231b6e_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x1bbd9c025855a02e9b7fdb6f9f3be0f7fb231b6e_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x1bbd9c025855a02e9b7fdb6f9f3be0f7fb231b6e_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x1bbd9c025855a02e9b7fdb6f9f3be0f7fb231b6e_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x269c805cbe7bdbb32b6b4fbad87c9de189d38460_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x269c805cbe7bdbb32b6b4fbad87c9de189d38460_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x269c805cbe7bdbb32b6b4fbad87c9de189d38460_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x269c805cbe7bdbb32b6b4fbad87c9de189d38460_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x269c805cbe7bdbb32b6b4fbad87c9de189d38460_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x269c805cbe7bdbb32b6b4fbad87c9de189d38460_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x21f8b0a55752f008cdd14524d183eaac17740a03_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x21f8b0a55752f008cdd14524d183eaac17740a03_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x21f8b0a55752f008cdd14524d183eaac17740a03_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x21f8b0a55752f008cdd14524d183eaac17740a03_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x21f8b0a55752f008cdd14524d183eaac17740a03_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x21f8b0a55752f008cdd14524d183eaac17740a03_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x898d6dcddc3780fb4d1b08f8c1fc16009ba2c9f9_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x898d6dcddc3780fb4d1b08f8c1fc16009ba2c9f9_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x898d6dcddc3780fb4d1b08f8c1fc16009ba2c9f9_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x898d6dcddc3780fb4d1b08f8c1fc16009ba2c9f9_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x898d6dcddc3780fb4d1b08f8c1fc16009ba2c9f9_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x898d6dcddc3780fb4d1b08f8c1fc16009ba2c9f9_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xb3b734d19f815cd097f7a689cfd2831439931054_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xb3b734d19f815cd097f7a689cfd2831439931054_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xb3b734d19f815cd097f7a689cfd2831439931054_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xb3b734d19f815cd097f7a689cfd2831439931054_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xb3b734d19f815cd097f7a689cfd2831439931054_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xb3b734d19f815cd097f7a689cfd2831439931054_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x2a878e8b77175c31ae887c32d32320ac4e8b4c94_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x2a878e8b77175c31ae887c32d32320ac4e8b4c94_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x2a878e8b77175c31ae887c32d32320ac4e8b4c94_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x2a878e8b77175c31ae887c32d32320ac4e8b4c94_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x2a878e8b77175c31ae887c32d32320ac4e8b4c94_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x2a878e8b77175c31ae887c32d32320ac4e8b4c94_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x9055e6e4262b9eba8af425c0132a71229086b650_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x9055e6e4262b9eba8af425c0132a71229086b650_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x9055e6e4262b9eba8af425c0132a71229086b650_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x9055e6e4262b9eba8af425c0132a71229086b650_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x9055e6e4262b9eba8af425c0132a71229086b650_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x9055e6e4262b9eba8af425c0132a71229086b650_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd771f6c6f0340e73b3c6b0ce541908d5482f468c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd771f6c6f0340e73b3c6b0ce541908d5482f468c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd771f6c6f0340e73b3c6b0ce541908d5482f468c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd771f6c6f0340e73b3c6b0ce541908d5482f468c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd771f6c6f0340e73b3c6b0ce541908d5482f468c_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd771f6c6f0340e73b3c6b0ce541908d5482f468c_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x47cc7ebf6e4cb7655c2cd02ab6c591d00846df5a_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x47cc7ebf6e4cb7655c2cd02ab6c591d00846df5a_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x47cc7ebf6e4cb7655c2cd02ab6c591d00846df5a_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x47cc7ebf6e4cb7655c2cd02ab6c591d00846df5a_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x47cc7ebf6e4cb7655c2cd02ab6c591d00846df5a_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x47cc7ebf6e4cb7655c2cd02ab6c591d00846df5a_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x0a053561f817c330d157f1679e6928c5abdd0698_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x0a053561f817c330d157f1679e6928c5abdd0698_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x0a053561f817c330d157f1679e6928c5abdd0698_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x0a053561f817c330d157f1679e6928c5abdd0698_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x0a053561f817c330d157f1679e6928c5abdd0698_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x0a053561f817c330d157f1679e6928c5abdd0698_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x8ec9d88e9e8a961e133b14fe7ce3ae72aeb3d89a_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x8ec9d88e9e8a961e133b14fe7ce3ae72aeb3d89a_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x8ec9d88e9e8a961e133b14fe7ce3ae72aeb3d89a_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x8ec9d88e9e8a961e133b14fe7ce3ae72aeb3d89a_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x8ec9d88e9e8a961e133b14fe7ce3ae72aeb3d89a_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x8ec9d88e9e8a961e133b14fe7ce3ae72aeb3d89a_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf677ddedfdc92bf923a95bf4ad0785d00a43dd45_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf677ddedfdc92bf923a95bf4ad0785d00a43dd45_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf677ddedfdc92bf923a95bf4ad0785d00a43dd45_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf677ddedfdc92bf923a95bf4ad0785d00a43dd45_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf677ddedfdc92bf923a95bf4ad0785d00a43dd45_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf677ddedfdc92bf923a95bf4ad0785d00a43dd45_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x0ab03d8e5c77399c7303755dd5a8f505048c52bc_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x0ab03d8e5c77399c7303755dd5a8f505048c52bc_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x0ab03d8e5c77399c7303755dd5a8f505048c52bc_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x0ab03d8e5c77399c7303755dd5a8f505048c52bc_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x0ab03d8e5c77399c7303755dd5a8f505048c52bc_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x0ab03d8e5c77399c7303755dd5a8f505048c52bc_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xca863e16a0cb8852c2dcfc5cab4b55d873d9bb90_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xca863e16a0cb8852c2dcfc5cab4b55d873d9bb90_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xca863e16a0cb8852c2dcfc5cab4b55d873d9bb90_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xca863e16a0cb8852c2dcfc5cab4b55d873d9bb90_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xca863e16a0cb8852c2dcfc5cab4b55d873d9bb90_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xca863e16a0cb8852c2dcfc5cab4b55d873d9bb90_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x12d663428fda8a7cad9a2cdb62d6f684f919f194_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x12d663428fda8a7cad9a2cdb62d6f684f919f194_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x12d663428fda8a7cad9a2cdb62d6f684f919f194_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x12d663428fda8a7cad9a2cdb62d6f684f919f194_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x12d663428fda8a7cad9a2cdb62d6f684f919f194_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x12d663428fda8a7cad9a2cdb62d6f684f919f194_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x42c5001b4e3038116237d37424bd18df4346e820_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x42c5001b4e3038116237d37424bd18df4346e820_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x42c5001b4e3038116237d37424bd18df4346e820_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x42c5001b4e3038116237d37424bd18df4346e820_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x42c5001b4e3038116237d37424bd18df4346e820_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x42c5001b4e3038116237d37424bd18df4346e820_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xeb16508a28bb17aa36a1dce031baea6b55221014_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xeb16508a28bb17aa36a1dce031baea6b55221014_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xeb16508a28bb17aa36a1dce031baea6b55221014_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xeb16508a28bb17aa36a1dce031baea6b55221014_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xeb16508a28bb17aa36a1dce031baea6b55221014_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xeb16508a28bb17aa36a1dce031baea6b55221014_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x285049bfd84a06b0c1f6e7ffef9647eccae07a32_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x285049bfd84a06b0c1f6e7ffef9647eccae07a32_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x285049bfd84a06b0c1f6e7ffef9647eccae07a32_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x285049bfd84a06b0c1f6e7ffef9647eccae07a32_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x285049bfd84a06b0c1f6e7ffef9647eccae07a32_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x285049bfd84a06b0c1f6e7ffef9647eccae07a32_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa274444648a78fa6fce650155829fc01466b9042_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa274444648a78fa6fce650155829fc01466b9042_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa274444648a78fa6fce650155829fc01466b9042_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa274444648a78fa6fce650155829fc01466b9042_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa274444648a78fa6fce650155829fc01466b9042_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa274444648a78fa6fce650155829fc01466b9042_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x524402e9028453d9288dfb82b875cde51af45362_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x524402e9028453d9288dfb82b875cde51af45362_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x524402e9028453d9288dfb82b875cde51af45362_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x524402e9028453d9288dfb82b875cde51af45362_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x524402e9028453d9288dfb82b875cde51af45362_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x524402e9028453d9288dfb82b875cde51af45362_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x734bbf3d237e6380dc9168146188659b9a45907c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x734bbf3d237e6380dc9168146188659b9a45907c_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x734bbf3d237e6380dc9168146188659b9a45907c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x734bbf3d237e6380dc9168146188659b9a45907c_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x734bbf3d237e6380dc9168146188659b9a45907c_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x734bbf3d237e6380dc9168146188659b9a45907c_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x604a8cb517fb0b538af7aff5f4dab78d67a9e789_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x604a8cb517fb0b538af7aff5f4dab78d67a9e789_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x604a8cb517fb0b538af7aff5f4dab78d67a9e789_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x604a8cb517fb0b538af7aff5f4dab78d67a9e789_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x604a8cb517fb0b538af7aff5f4dab78d67a9e789_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x604a8cb517fb0b538af7aff5f4dab78d67a9e789_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x4af6f46346664730685b664f098dfff9b3a1c9c6_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x4af6f46346664730685b664f098dfff9b3a1c9c6_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x4af6f46346664730685b664f098dfff9b3a1c9c6_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x4af6f46346664730685b664f098dfff9b3a1c9c6_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x4af6f46346664730685b664f098dfff9b3a1c9c6_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x4af6f46346664730685b664f098dfff9b3a1c9c6_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x6dc190c4efe4801c701ff3f542fe84c494883f58_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x6dc190c4efe4801c701ff3f542fe84c494883f58_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x6dc190c4efe4801c701ff3f542fe84c494883f58_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x6dc190c4efe4801c701ff3f542fe84c494883f58_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x6dc190c4efe4801c701ff3f542fe84c494883f58_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x6dc190c4efe4801c701ff3f542fe84c494883f58_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x36264c8670b57b1e21560faa2ffa88443c8bf975_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x36264c8670b57b1e21560faa2ffa88443c8bf975_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x36264c8670b57b1e21560faa2ffa88443c8bf975_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x36264c8670b57b1e21560faa2ffa88443c8bf975_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x36264c8670b57b1e21560faa2ffa88443c8bf975_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x36264c8670b57b1e21560faa2ffa88443c8bf975_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfffffffffffffffffffffffffffffffffffffffe_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd521132e30e54db451ea3d641a640077ef1d4818_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd521132e30e54db451ea3d641a640077ef1d4818_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd521132e30e54db451ea3d641a640077ef1d4818_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd521132e30e54db451ea3d641a640077ef1d4818_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xd521132e30e54db451ea3d641a640077ef1d4818_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xd521132e30e54db451ea3d641a640077ef1d4818_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xf5b08979251f398180385b54381ee3d6fa1bbe09_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x7ce5e3fb080545c8912cf93297d93441911e9e4d_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x7ce5e3fb080545c8912cf93297d93441911e9e4d_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x7ce5e3fb080545c8912cf93297d93441911e9e4d_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x7ce5e3fb080545c8912cf93297d93441911e9e4d_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x7ce5e3fb080545c8912cf93297d93441911e9e4d_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x7ce5e3fb080545c8912cf93297d93441911e9e4d_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa68d3ed1dd7c199c80c5f4f352769d8efddaff43_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa68d3ed1dd7c199c80c5f4f352769d8efddaff43_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa68d3ed1dd7c199c80c5f4f352769d8efddaff43_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa68d3ed1dd7c199c80c5f4f352769d8efddaff43_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa68d3ed1dd7c199c80c5f4f352769d8efddaff43_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa68d3ed1dd7c199c80c5f4f352769d8efddaff43_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x438c21dd1d60f9d475b116f0c58f37bd7cf91ef0_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x438c21dd1d60f9d475b116f0c58f37bd7cf91ef0_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x438c21dd1d60f9d475b116f0c58f37bd7cf91ef0_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x438c21dd1d60f9d475b116f0c58f37bd7cf91ef0_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x438c21dd1d60f9d475b116f0c58f37bd7cf91ef0_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x438c21dd1d60f9d475b116f0c58f37bd7cf91ef0_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xade193fce0666636b6fd1ec91ea970709d186dfd_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xade193fce0666636b6fd1ec91ea970709d186dfd_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xade193fce0666636b6fd1ec91ea970709d186dfd_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xade193fce0666636b6fd1ec91ea970709d186dfd_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xade193fce0666636b6fd1ec91ea970709d186dfd_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xade193fce0666636b6fd1ec91ea970709d186dfd_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xfdd489aa05b452f2b042f34d12569dbe76fa1e61_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x93a9223372d4446dda7420327b48d2de2623326b_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x93a9223372d4446dda7420327b48d2de2623326b_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x93a9223372d4446dda7420327b48d2de2623326b_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x93a9223372d4446dda7420327b48d2de2623326b_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0x93a9223372d4446dda7420327b48d2de2623326b_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0x93a9223372d4446dda7420327b48d2de2623326b_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xeaedb6851eb670f0c5dabe26ac935d3d3643b99a_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xeaedb6851eb670f0c5dabe26ac935d3d3643b99a_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xeaedb6851eb670f0c5dabe26ac935d3d3643b99a_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xeaedb6851eb670f0c5dabe26ac935d3d3643b99a_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xeaedb6851eb670f0c5dabe26ac935d3d3643b99a_name.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xeaedb6851eb670f0c5dabe26ac935d3d3643b99a_name.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa6fbd8e2e3fff4cbc7f8ec490fbc7913f8160566_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa6fbd8e2e3fff4cbc7f8ec490fbc7913f8160566_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_candidate_0xa6fbd8e2e3fff4cbc7f8ec490fbc7913f8160566_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_candidate_0xa6fbd8e2e3fff4cbc7f8ec490fbc7913f8160566_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_current_price.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_current_price.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_historical_prices.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_historical_prices.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\cctp_current_fee_ethereum_avalanche.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\cctp_current_fee_ethereum_avalanche.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\product_snapshot_height.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\product_snapshot_height.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_arc_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_arc_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_arc_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_arc_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_arc_total_supply.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_arc_total_supply.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\chain_quicknode_mints.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\chain_quicknode_mints.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_current_price.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_current_price.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_historical_prices.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_historical_prices.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\cctp_current_fee_ethereum_avalanche.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\cctp_current_fee_ethereum_avalanche.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\product_snapshot_height.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\product_snapshot_height.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_arc_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_arc_symbol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_arc_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_arc_decimals.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_arc_total_supply.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_arc_total_supply.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_product_page.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_product_page.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\llama_usyc_dashboard.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\llama_usyc_dashboard.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\llama_cctp_dashboard.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\llama_cctp_dashboard.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\llama_usyc_adapter.txt",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\llama_usyc_adapter.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\llama_cctp_adapter.txt",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\llama_cctp_adapter.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\llama_usyc_fee_history.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\llama_usyc_fee_history.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\llama_cctp_fee_history.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\llama_cctp_fee_history.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_history_limit_test.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_history_limit_test.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_history_offset_test.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_history_offset_test.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\llama_usyc_revenue_history.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\llama_usyc_revenue_history.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\usyc_fee_receipt.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\usyc_fee_receipt.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\llama_usyc_adapter_commit.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\llama_usyc_adapter_commit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\llama_cctp_adapter_commit.json",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\llama_cctp_adapter_commit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\july_2026_arc_8k.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\july_2026_arc_8k.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\july_2026_arc_8k_index.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\july_2026_arc_8k_index.html",
+      "passed": true
+    },
+    {
+      "name": "manifest path remains inside stage4 raw\\arc_blog_index_final.html",
+      "passed": true
+    },
+    {
+      "name": "source hash raw\\arc_blog_index_final.html",
+      "passed": true
+    }
+  ]
+}

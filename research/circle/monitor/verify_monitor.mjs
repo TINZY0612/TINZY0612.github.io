@@ -1,0 +1,35 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import { monitorIncome, validateMonitor, currentMonitorTarget } from '../reserve_report/repository/circle/monitor.mjs';
+
+const view = JSON.parse(fs.readFileSync(new URL('runs/live-export/monitor.json', import.meta.url), 'utf8'));
+let checks = 0;
+function check(fn) { fn(); checks++; }
+check(() => validateMonitor(view));
+const snapshot = currentMonitorTarget(view).forecast;
+check(() => assert.ok(Math.abs(monitorIncome(snapshot) - snapshot.estimates_million.fund_proportional) < 1e-6));
+check(() => assert.ok(Math.abs(monitorIncome(snapshot, 'sofr_lagged_spread') - snapshot.estimates_million.sofr_lagged_spread) < 1e-6));
+const futureSupply = snapshot.rows.filter(r => r.supply_status === 'flat_future_assumption').reduce((n, r) => n + r.supply_million, 0);
+check(() => assert.ok(Math.abs(monitorIncome(snapshot, 'fund_proportional', 0, 25) - monitorIncome(snapshot) - futureSupply * .0025 * snapshot.fund_yield_ratio / 365) < 1e-6));
+check(() => assert.ok(Math.abs(monitorIncome(snapshot, 'sofr_lagged_spread', 0, 25) - monitorIncome(snapshot, 'sofr_lagged_spread') - futureSupply * .0025 / 360) < 1e-6));
+const complete = structuredClone(snapshot);
+complete.rows.forEach(r => r.supply_status = 'provider_observed');
+check(() => assert.equal(monitorIncome(complete, 'fund_proportional', 10, 100), monitorIncome(complete)));
+check(() => assert.throws(() => monitorIncome(snapshot, 'fund_proportional', -101)));
+check(() => assert.throws(() => monitorIncome(snapshot, 'fund_proportional', NaN)));
+const corrupt = structuredClone(view);
+currentMonitorTarget(corrupt).forecast.estimates_million.fund_proportional += 1;
+check(() => assert.throws(() => validateMonitor(corrupt)));
+const missing = structuredClone(view);
+currentMonitorTarget(missing).forecast.rows.pop();
+check(() => assert.throws(() => validateMonitor(missing)));
+const unavailable = structuredClone(snapshot);
+unavailable.primary_available = false;
+check(() => assert.equal(monitorIncome(unavailable), null));
+check(() => assert.equal(currentMonitorTarget({as_of_utc:'2027-01-08T12:00:00Z', targets:[{period:'2026Q4'},{period:'2027Q1'}]}).period, '2027Q1'));
+const badScore = structuredClone(view);
+badScore.validations = [{actual_million:100,estimate_million:101,difference_million:1,signed_error:.5}];
+check(() => assert.throws(() => validateMonitor(badScore)));
+const receipt = {passed:true,checks_passed:checks,tested_at_utc:new Date().toISOString(),forecast_period:snapshot.period};
+fs.writeFileSync(new URL('runs/javascript_verification.json', import.meta.url), JSON.stringify(receipt,null,2));
+console.log(JSON.stringify(receipt));

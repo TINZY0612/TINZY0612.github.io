@@ -1,0 +1,294 @@
+{
+  "checks": [
+    {
+      "name": "flat_cost cost MAPE",
+      "passed": true
+    },
+    {
+      "name": "flat_cost underlying MAPE",
+      "passed": true
+    },
+    {
+      "name": "flat_cost 0 cost",
+      "passed": true
+    },
+    {
+      "name": "flat_cost 1 cost",
+      "passed": true
+    },
+    {
+      "name": "flat_cost 2 cost",
+      "passed": true
+    },
+    {
+      "name": "flat_cost 3 cost",
+      "passed": true
+    },
+    {
+      "name": "flat_cost 4 cost",
+      "passed": true
+    },
+    {
+      "name": "flat_cost 5 cost",
+      "passed": true
+    },
+    {
+      "name": "lag_ratio cost MAPE",
+      "passed": true
+    },
+    {
+      "name": "lag_ratio underlying MAPE",
+      "passed": true
+    },
+    {
+      "name": "lag_ratio 0 cost",
+      "passed": true
+    },
+    {
+      "name": "lag_ratio 1 cost",
+      "passed": true
+    },
+    {
+      "name": "lag_ratio 2 cost",
+      "passed": true
+    },
+    {
+      "name": "lag_ratio 3 cost",
+      "passed": true
+    },
+    {
+      "name": "lag_ratio 4 cost",
+      "passed": true
+    },
+    {
+      "name": "lag_ratio 5 cost",
+      "passed": true
+    },
+    {
+      "name": "pool3_ratio cost MAPE",
+      "passed": true
+    },
+    {
+      "name": "pool3_ratio underlying MAPE",
+      "passed": true
+    },
+    {
+      "name": "pool3_ratio 0 cost",
+      "passed": true
+    },
+    {
+      "name": "pool3_ratio 1 cost",
+      "passed": true
+    },
+    {
+      "name": "pool3_ratio 2 cost",
+      "passed": true
+    },
+    {
+      "name": "pool3_ratio 3 cost",
+      "passed": true
+    },
+    {
+      "name": "pool3_ratio 4 cost",
+      "passed": true
+    },
+    {
+      "name": "pool3_ratio 5 cost",
+      "passed": true
+    },
+    {
+      "name": "ewma_ratio cost MAPE",
+      "passed": true
+    },
+    {
+      "name": "ewma_ratio underlying MAPE",
+      "passed": true
+    },
+    {
+      "name": "ewma_ratio 0 cost",
+      "passed": true
+    },
+    {
+      "name": "ewma_ratio 1 cost",
+      "passed": true
+    },
+    {
+      "name": "ewma_ratio 2 cost",
+      "passed": true
+    },
+    {
+      "name": "ewma_ratio 3 cost",
+      "passed": true
+    },
+    {
+      "name": "ewma_ratio 4 cost",
+      "passed": true
+    },
+    {
+      "name": "ewma_ratio 5 cost",
+      "passed": true
+    },
+    {
+      "name": "platform_change cost MAPE",
+      "passed": true
+    },
+    {
+      "name": "platform_change underlying MAPE",
+      "passed": true
+    },
+    {
+      "name": "platform_change 0 cost",
+      "passed": true
+    },
+    {
+      "name": "platform_change 1 cost",
+      "passed": true
+    },
+    {
+      "name": "platform_change 2 cost",
+      "passed": true
+    },
+    {
+      "name": "platform_change 3 cost",
+      "passed": true
+    },
+    {
+      "name": "platform_change 4 cost",
+      "passed": true
+    },
+    {
+      "name": "platform_change 5 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_scaled_residual cost MAPE",
+      "passed": true
+    },
+    {
+      "name": "partner_scaled_residual underlying MAPE",
+      "passed": true
+    },
+    {
+      "name": "partner_scaled_residual 0 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_scaled_residual 1 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_scaled_residual 2 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_scaled_residual 3 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_scaled_residual 4 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_scaled_residual 5 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_total_scale cost MAPE",
+      "passed": true
+    },
+    {
+      "name": "partner_total_scale underlying MAPE",
+      "passed": true
+    },
+    {
+      "name": "partner_total_scale 0 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_total_scale 1 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_total_scale 2 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_total_scale 3 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_total_scale 4 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_total_scale 5 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_flat_residual cost MAPE",
+      "passed": true
+    },
+    {
+      "name": "partner_flat_residual underlying MAPE",
+      "passed": true
+    },
+    {
+      "name": "partner_flat_residual 0 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_flat_residual 1 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_flat_residual 2 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_flat_residual 3 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_flat_residual 4 cost",
+      "passed": true
+    },
+    {
+      "name": "partner_flat_residual 5 cost",
+      "passed": true
+    },
+    {
+      "name": "forward reserve independently matches Python",
+      "passed": true
+    },
+    {
+      "name": "forward selected RLDC matches Python",
+      "passed": true
+    },
+    {
+      "name": "lag_ratio selector updates same build",
+      "passed": true
+    },
+    {
+      "name": "ewma_ratio selector updates same build",
+      "passed": true
+    },
+    {
+      "name": "later-period supply input changes forward RLDC",
+      "passed": true
+    },
+    {
+      "name": "source cost actual unchanged",
+      "passed": true
+    },
+    {
+      "name": "zero ARC preserved and lowers reported RLDC by 60.4",
+      "passed": true
+    },
+    {
+      "name": "forward base restored",
+      "passed": true
+    }
+  ],
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "forecast_inspection": "{\"kind\":\"table\",\"sheet\":\"RLDC\",\"address\":\"C32:E38\",\"rows\":7,\"cols\":3,\"values\":[[\"Reserve income\",null,674.3119456386792],[\"Non-ARC other revenue\",null,25.464],[\"Underlying total revenue\",null,699.7759456386791],[\"Distribution and other costs\",null,419.6446467314329],[\"Underlying RLDC\",null,280.1312989072462],[\"ARC recognition assumption\",null,60.4],[\"RLDC including ARC\",null,340.5312989072462]]}"
+}

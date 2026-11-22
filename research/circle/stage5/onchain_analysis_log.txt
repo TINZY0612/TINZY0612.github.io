@@ -1,0 +1,31 @@
+{
+  "flow": {
+    "amounts_usd_million": {
+      "mint": 58581.614229706654,
+      "cctp_mint": 15431.088314996176,
+      "burn": 60178.35851516318,
+      "cctp_burn": 14853.765072330692,
+      "non_cctp_mint": 43150.52591471048,
+      "non_cctp_burn": 45324.59344283248
+    },
+    "counts": {
+      "cctp_mint": 246885,
+      "cctp_burn": 178667,
+      "non_cctp_mint": 43421,
+      "non_cctp_burn": 19621
+    },
+    "net_usd_million": -1596.744285456517,
+    "cctp_net_usd_million": 577.323242665486,
+    "non_cctp_net_usd_million": -2174.067528122003
+  },
+  "supply_reconciliation_raw_units": "0",
+  "routes": 155899,
+  "unique_source_depositors": 22219,
+  "fee_usd": 154093.848015,
+  "fund_reports": 438,
+  "fund_nowcast_metrics": {
+    "n": 5,
+    "flat_mape": 0.2516119605066186,
+    "fee_plus_residual_mape": 0.2501396686269213
+  }
+}

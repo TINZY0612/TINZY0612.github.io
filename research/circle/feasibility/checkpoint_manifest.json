@@ -1,0 +1,537 @@
+{
+  "finished_at_utc": "2026-11-21T06:58:34.937203+00:00",
+  "sources": [
+    {
+      "name": "attestation_2026_June",
+      "url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20June%2026.pdf",
+      "retrieved_at_utc": "2026-11-21T06:58:14.947123+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20June%2026.pdf",
+      "bytes": 395967,
+      "file": "raw\\attestation_2026_June.pdf",
+      "sha256": "933edcb3846e26e6a87b1476cedc12a14d9e1d3e42dcd30aa73f41d9a4cf5b74",
+      "status": "received",
+      "elapsed_seconds": 3.718
+    },
+    {
+      "name": "attestation_2026_September",
+      "url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "retrieved_at_utc": "2026-11-21T06:58:14.952967+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "bytes": 522322,
+      "file": "raw\\attestation_2026_September.pdf",
+      "sha256": "3c7d773aedb18078d92d8f9be3e6d26fb1e219446ee17624e0f6a376e9399e6a",
+      "status": "received",
+      "elapsed_seconds": 3.765
+    },
+    {
+      "name": "attestation_2026_July",
+      "url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20July%2026%20(1).pdf",
+      "retrieved_at_utc": "2026-11-21T06:58:14.949297+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20July%2026%20(1).pdf",
+      "bytes": 400610,
+      "file": "raw\\attestation_2026_July.pdf",
+      "sha256": "9bb3e852cc468819261b1f72bba3e8344c414f93f95765ef963aaf1e9b6ec0e2",
+      "status": "received",
+      "elapsed_seconds": 4.031
+    },
+    {
+      "name": "attestation_2026_August",
+      "url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20August%2026.pdf",
+      "retrieved_at_utc": "2026-11-21T06:58:14.949297+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20August%2026.pdf",
+      "bytes": 408882,
+      "file": "raw\\attestation_2026_August.pdf",
+      "sha256": "ae9d0a3bece12334d24392d8fcdd3fdda3a8662fc05addbe95db928f0a1f2485",
+      "status": "received",
+      "elapsed_seconds": 4.312
+    },
+    {
+      "name": "defillama_find_closest",
+      "url": "https://raw.githubusercontent.com/DefiLlama/dimension-adapters/master/helpers/utils/findClosest.ts",
+      "retrieved_at_utc": "2026-11-21T06:58:18.719963+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "final_url": "https://raw.githubusercontent.com/DefiLlama/dimension-adapters/master/helpers/utils/findClosest.ts",
+      "bytes": 786,
+      "file": "raw\\defillama_find_closest.txt",
+      "sha256": "003b61e1a983ee11bfe2adf1aca5069aee8a35dd298af6e9c89c7ecec2f1b338",
+      "status": "received",
+      "elapsed_seconds": 1.156
+    },
+    {
+      "name": "defillama_usdc_supply_adapter",
+      "url": "https://raw.githubusercontent.com/DefiLlama/peggedassets-server/master/src/adapters/peggedAssets/usd-coin/index.ts",
+      "retrieved_at_utc": "2026-11-21T06:58:18.670226+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "final_url": "https://raw.githubusercontent.com/DefiLlama/peggedassets-server/master/src/adapters/peggedAssets/usd-coin/index.ts",
+      "bytes": 32967,
+      "file": "raw\\defillama_usdc_supply_adapter.txt",
+      "sha256": "5f5042c38da4d3af31912841bd8c173134354657dc65f69110617c3eda2fc506",
+      "status": "received",
+      "elapsed_seconds": 1.578
+    },
+    {
+      "name": "checkpoint_2026_06_30_block_lookup",
+      "url": "https://coins.llama.fi/block/ethereum/1782863999",
+      "retrieved_at_utc": "2026-11-21T06:58:20.244736+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://coins.llama.fi/block/ethereum/1782863999",
+      "bytes": 42,
+      "file": "raw\\checkpoint_2026_06_30_block_lookup.json",
+      "sha256": "026830c5e82877f1419660dba2e373c7131ccc24a696192de1f21aab50c4d728",
+      "status": "received",
+      "elapsed_seconds": 2.407
+    },
+    {
+      "name": "checkpoint_2026_06_30_tenderly_supply",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:58:22.654468+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x1841752"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 102,
+      "file": "raw\\checkpoint_2026_06_30_tenderly_supply.json",
+      "sha256": "e08ea233f6577e6fafa2fdcac9d4628a8648f9684288db144046010309a7f15a",
+      "status": "received",
+      "elapsed_seconds": 2.25
+    },
+    {
+      "name": "checkpoint_2026_06_30_tenderly_block",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:58:24.906982+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1841752",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 11567,
+      "file": "raw\\checkpoint_2026_06_30_tenderly_block.json",
+      "sha256": "f7547954a8507bfd8d68ce344a199bc52d72cc16b8f78abe668e1371b7f6c517",
+      "status": "received",
+      "elapsed_seconds": 1.062
+    },
+    {
+      "name": "checkpoint_2026_06_30_tenderly_next_block",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:58:25.964159+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1841753",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 32419,
+      "file": "raw\\checkpoint_2026_06_30_tenderly_next_block.json",
+      "sha256": "601a21cb0bb932bdd525dda2902b099231656d06b55376762072fb1c0690bf6c",
+      "status": "received",
+      "elapsed_seconds": 1.266
+    },
+    {
+      "name": "checkpoint_2026_06_30_drpc_supply",
+      "url": "https://eth.drpc.org",
+      "retrieved_at_utc": "2026-11-21T06:58:27.235752+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x1841752"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://eth.drpc.org",
+      "bytes": 102,
+      "file": "raw\\checkpoint_2026_06_30_drpc_supply.json",
+      "sha256": "e08ea233f6577e6fafa2fdcac9d4628a8648f9684288db144046010309a7f15a",
+      "status": "received",
+      "elapsed_seconds": 2.14
+    },
+    {
+      "name": "checkpoint_2026_07_31_block_lookup",
+      "url": "https://coins.llama.fi/block/ethereum/1785542399",
+      "retrieved_at_utc": "2026-11-21T06:58:20.245263+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://coins.llama.fi/block/ethereum/1785542399",
+      "bytes": 42,
+      "file": "raw\\checkpoint_2026_07_31_block_lookup.json",
+      "sha256": "d20c58183dbc69246baee6e68e6724d26fcb0a986098c7a9d2b964fdda7e6a89",
+      "status": "received",
+      "elapsed_seconds": 2.438
+    },
+    {
+      "name": "checkpoint_2026_07_31_tenderly_supply",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:58:22.680286+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x1877be4"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 102,
+      "file": "raw\\checkpoint_2026_07_31_tenderly_supply.json",
+      "sha256": "f4b927a20fbb8170ab92c2e6149e3e0de344daa4e530801eb7debafb69ae3468",
+      "status": "received",
+      "elapsed_seconds": 2.312
+    },
+    {
+      "name": "checkpoint_2026_07_31_tenderly_block",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:58:24.988813+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1877be4",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 15881,
+      "file": "raw\\checkpoint_2026_07_31_tenderly_block.json",
+      "sha256": "23ae7361db4d489c7ac7a030e11e54a9c3995bec9628aa4cc81a437fb2a0b81c",
+      "status": "received",
+      "elapsed_seconds": 1.079
+    },
+    {
+      "name": "checkpoint_2026_07_31_tenderly_next_block",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:58:26.072055+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1877be5",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 18911,
+      "file": "raw\\checkpoint_2026_07_31_tenderly_next_block.json",
+      "sha256": "ef800f14e7a026ea45f97c24aee7676fc33f0c2b537ddc13389139499a3d353b",
+      "status": "received",
+      "elapsed_seconds": 1.078
+    },
+    {
+      "name": "checkpoint_2026_07_31_drpc_supply",
+      "url": "https://eth.drpc.org",
+      "retrieved_at_utc": "2026-11-21T06:58:27.153507+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x1877be4"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://eth.drpc.org",
+      "bytes": 102,
+      "file": "raw\\checkpoint_2026_07_31_drpc_supply.json",
+      "sha256": "f4b927a20fbb8170ab92c2e6149e3e0de344daa4e530801eb7debafb69ae3468",
+      "status": "received",
+      "elapsed_seconds": 2.25
+    },
+    {
+      "name": "checkpoint_2026_09_30_block_lookup",
+      "url": "https://coins.llama.fi/block/ethereum/1790812799",
+      "retrieved_at_utc": "2026-11-21T06:58:29.404936+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://coins.llama.fi/block/ethereum/1790812799",
+      "bytes": 42,
+      "file": "raw\\checkpoint_2026_09_30_block_lookup.json",
+      "sha256": "a75d2342745c6a96516242a59ac31954a88cfe78bf8df0e9b4b0d09888d999a8",
+      "status": "received",
+      "elapsed_seconds": 0.968
+    },
+    {
+      "name": "checkpoint_2026_09_30_tenderly_supply",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:58:30.370710+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x18e28a9"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 102,
+      "file": "raw\\checkpoint_2026_09_30_tenderly_supply.json",
+      "sha256": "2f0aea999759cab650b0425085ae3c693bfcb47807f175843c9de3b25ee9bd7f",
+      "status": "received",
+      "elapsed_seconds": 0.969
+    },
+    {
+      "name": "checkpoint_2026_09_30_tenderly_block",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:58:31.334757+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x18e28a9",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 19466,
+      "file": "raw\\checkpoint_2026_09_30_tenderly_block.json",
+      "sha256": "d7a547546a39c5eacadd9faeabe5d5fec7b2b3f21db4fca5c53ca48589b018ed",
+      "status": "received",
+      "elapsed_seconds": 1.063
+    },
+    {
+      "name": "checkpoint_2026_09_30_tenderly_next_block",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:58:32.406499+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x18e28aa",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 3937,
+      "file": "raw\\checkpoint_2026_09_30_tenderly_next_block.json",
+      "sha256": "f587b975952458839712a7b89976d01a9cd7a1c0328572d39ec5d42620805af0",
+      "status": "received",
+      "elapsed_seconds": 1.0
+    },
+    {
+      "name": "checkpoint_2026_09_30_drpc_supply",
+      "url": "https://eth.drpc.org",
+      "retrieved_at_utc": "2026-11-21T06:58:33.401098+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x18e28a9"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://eth.drpc.org",
+      "bytes": 102,
+      "file": "raw\\checkpoint_2026_09_30_drpc_supply.json",
+      "sha256": "2f0aea999759cab650b0425085ae3c693bfcb47807f175843c9de3b25ee9bd7f",
+      "status": "received",
+      "elapsed_seconds": 1.0
+    },
+    {
+      "name": "checkpoint_2026_08_31_block_lookup",
+      "url": "https://coins.llama.fi/block/ethereum/1788220799",
+      "retrieved_at_utc": "2026-11-21T06:58:29.377853+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://coins.llama.fi/block/ethereum/1788220799",
+      "bytes": 42,
+      "file": "raw\\checkpoint_2026_08_31_block_lookup.json",
+      "sha256": "19a5d59dc5e53d0787f728f50577048094403d4f7057e45d3047043cc0a79aed",
+      "status": "received",
+      "elapsed_seconds": 1.079
+    },
+    {
+      "name": "checkpoint_2026_08_31_tenderly_supply",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:58:30.451888+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x18ae0b0"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 102,
+      "file": "raw\\checkpoint_2026_08_31_tenderly_supply.json",
+      "sha256": "b6e650c50a5a134a97e54ca00396fdab4107c83f08beb36d552f7ce6abf63e06",
+      "status": "received",
+      "elapsed_seconds": 0.984
+    },
+    {
+      "name": "checkpoint_2026_08_31_tenderly_block",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:58:31.432074+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x18ae0b0",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 26225,
+      "file": "raw\\checkpoint_2026_08_31_tenderly_block.json",
+      "sha256": "58a780ae0b2657447c666437f1fb621b423bb530109481473c48048e4eaff249",
+      "status": "received",
+      "elapsed_seconds": 1.25
+    },
+    {
+      "name": "checkpoint_2026_08_31_tenderly_next_block",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:58:32.675766+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x18ae0b1",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 28363,
+      "file": "raw\\checkpoint_2026_08_31_tenderly_next_block.json",
+      "sha256": "1ccf058f0137f658156bc4feb3b9f270d4ad4398bf6d2980920b8dd8ed7e667d",
+      "status": "received",
+      "elapsed_seconds": 1.25
+    },
+    {
+      "name": "checkpoint_2026_08_31_drpc_supply",
+      "url": "https://eth.drpc.org",
+      "retrieved_at_utc": "2026-11-21T06:58:33.936846+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x18ae0b0"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://eth.drpc.org",
+      "bytes": 102,
+      "file": "raw\\checkpoint_2026_08_31_drpc_supply.json",
+      "sha256": "b6e650c50a5a134a97e54ca00396fdab4107c83f08beb36d552f7ce6abf63e06",
+      "status": "received",
+      "elapsed_seconds": 1.0
+    }
+  ]
+}

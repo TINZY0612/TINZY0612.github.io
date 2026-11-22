@@ -1,0 +1,120 @@
+{
+  "series_id": "S000077205",
+  "report_date": "2026-09-30",
+  "fund_name": "Circle Reserve Fund",
+  "net_assets_usd": 62467425771.89,
+  "net_yield_observations": 21,
+  "net_yield_min": 0.036,
+  "net_yield_max": 0.0384,
+  "filing_date": "2026-10-07",
+  "accepted_datetime_edgar": "2026-10-07 14:13:37",
+  "filing_index_url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526416631/0001193125-26-416631-index.htm",
+  "qualification": "daily observations of trailing seven-business-day annualized yield, filed monthly; not same-day public observations or realized daily income",
+  "daily_yields": [
+    {
+      "date": "2026-09-01",
+      "gross_yield_decimal": 0.0371,
+      "net_yield_decimal": 0.0362
+    },
+    {
+      "date": "2026-09-02",
+      "gross_yield_decimal": 0.0371,
+      "net_yield_decimal": 0.0362
+    },
+    {
+      "date": "2026-09-03",
+      "gross_yield_decimal": 0.0371,
+      "net_yield_decimal": 0.0362
+    },
+    {
+      "date": "2026-09-04",
+      "gross_yield_decimal": 0.037,
+      "net_yield_decimal": 0.0361
+    },
+    {
+      "date": "2026-09-08",
+      "gross_yield_decimal": 0.0371,
+      "net_yield_decimal": 0.0362
+    },
+    {
+      "date": "2026-09-09",
+      "gross_yield_decimal": 0.0371,
+      "net_yield_decimal": 0.0362
+    },
+    {
+      "date": "2026-09-10",
+      "gross_yield_decimal": 0.037,
+      "net_yield_decimal": 0.0361
+    },
+    {
+      "date": "2026-09-11",
+      "gross_yield_decimal": 0.0369,
+      "net_yield_decimal": 0.036
+    },
+    {
+      "date": "2026-09-14",
+      "gross_yield_decimal": 0.0369,
+      "net_yield_decimal": 0.036
+    },
+    {
+      "date": "2026-09-15",
+      "gross_yield_decimal": 0.0369,
+      "net_yield_decimal": 0.036
+    },
+    {
+      "date": "2026-09-16",
+      "gross_yield_decimal": 0.0369,
+      "net_yield_decimal": 0.036
+    },
+    {
+      "date": "2026-09-17",
+      "gross_yield_decimal": 0.0372,
+      "net_yield_decimal": 0.0363
+    },
+    {
+      "date": "2026-09-18",
+      "gross_yield_decimal": 0.0381,
+      "net_yield_decimal": 0.0372
+    },
+    {
+      "date": "2026-09-21",
+      "gross_yield_decimal": 0.0383,
+      "net_yield_decimal": 0.0374
+    },
+    {
+      "date": "2026-09-22",
+      "gross_yield_decimal": 0.0386,
+      "net_yield_decimal": 0.0377
+    },
+    {
+      "date": "2026-09-23",
+      "gross_yield_decimal": 0.0389,
+      "net_yield_decimal": 0.038
+    },
+    {
+      "date": "2026-09-24",
+      "gross_yield_decimal": 0.039,
+      "net_yield_decimal": 0.0381
+    },
+    {
+      "date": "2026-09-25",
+      "gross_yield_decimal": 0.0392,
+      "net_yield_decimal": 0.0383
+    },
+    {
+      "date": "2026-09-28",
+      "gross_yield_decimal": 0.0392,
+      "net_yield_decimal": 0.0383
+    },
+    {
+      "date": "2026-09-29",
+      "gross_yield_decimal": 0.0393,
+      "net_yield_decimal": 0.0384
+    },
+    {
+      "date": "2026-09-30",
+      "gross_yield_decimal": 0.0393,
+      "net_yield_decimal": 0.0384
+    }
+  ]
+}

@@ -1,0 +1,464 @@
+{"name": "ethereum_identity", "status": "received", "bytes": 40, "error": null}
+{"name": "keccak_Transfer_33", "status": "received", "bytes": 102, "error": null}
+{"name": "cctp_v1_source", "status": "received", "bytes": 22628, "error": null}
+{"name": "cctp_v2_source", "status": "received", "bytes": 18190, "error": null}
+{"name": "lookup_2025-01-01", "status": "received", "bytes": 42, "error": null}
+{"name": "block_21525890", "status": "received", "bytes": 13923, "error": null}
+{"name": "block_21525891", "status": "received", "bytes": 20065, "error": null}
+{"name": "lookup_2025-04-01", "status": "received", "bytes": 42, "error": null}
+{"name": "block_22170334", "status": "received", "bytes": 5145, "error": null}
+{"name": "block_22170335", "status": "received", "bytes": 20133, "error": null}
+{"name": "lookup_2025-07-01", "status": "received", "bytes": 42, "error": null}
+{"name": "block_22820673", "status": "received", "bytes": 11355, "error": null}
+{"name": "block_22820674", "status": "received", "bytes": 32722, "error": null}
+{"name": "lookup_2025-10-01", "status": "received", "bytes": 42, "error": null}
+{"name": "block_23479243", "status": "received", "bytes": 29415, "error": null}
+{"name": "block_23479244", "status": "received", "bytes": 36989, "error": null}
+{"name": "lookup_2026-01-01", "status": "received", "bytes": 42, "error": null}
+{"name": "block_24136052", "status": "received", "bytes": 9335, "error": null}
+{"name": "block_24136053", "status": "received", "bytes": 26665, "error": null}
+{"name": "lookup_2026-04-01", "status": "received", "bytes": 42, "error": null}
+{"name": "block_24781026", "status": "received", "bytes": 32997, "error": null}
+{"name": "block_24781027", "status": "received", "bytes": 17387, "error": null}
+{"name": "lookup_2026-07-01", "status": "received", "bytes": 42, "error": null}
+{"name": "block_25433938", "status": "received", "bytes": 11568, "error": null}
+{"name": "block_25433939", "status": "received", "bytes": 32420, "error": null}
+{"name": "lookup_2026-10-01", "status": "received", "bytes": 42, "error": null}
+{"name": "block_26093737", "status": "received", "bytes": 19467, "error": null}
+{"name": "block_26093738", "status": "received", "bytes": 3938, "error": null}
+{"name": "keccak_localMinter_13", "status": "received", "bytes": 102, "error": null}
+{"name": "minter_v1_2026-07-01", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "minter_v1_2026-07-01", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "minter_v1_2026-07-01_tenderly", "status": "received", "bytes": 102, "error": null}
+{"name": "minter_v1_2026-10-01", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "minter_v1_2026-10-01_tenderly", "status": "received", "bytes": 102, "error": null}
+{"name": "minter_v2_2026-07-01", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "minter_v2_2026-07-01_tenderly", "status": "received", "bytes": 102, "error": null}
+{"name": "minter_v2_2026-10-01", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "minter_v2_2026-10-01_tenderly", "status": "received", "bytes": 102, "error": null}
+{"name": "keccak_Mint_29", "status": "received", "bytes": 102, "error": null}
+{"name": "keccak_Burn_21", "status": "received", "bytes": 102, "error": null}
+{"name": "usdc_flow_25433939_25483938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25433939_25483938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25433939_25483938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25433939_25458938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25433939_25458938_tenderly", "status": "received", "bytes": 9128545, "error": null}
+{"name": "usdc_flow_25433939_25446438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25433939_25446438_tenderly", "status": "received", "bytes": 4994303, "error": null}
+{"name": "usdc_flow_25446439_25458938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25446439_25458938_tenderly", "status": "received", "bytes": 4134277, "error": null}
+{"name": "usdc_flow_25458939_25483938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25458939_25483938_tenderly", "status": "received", "bytes": 8344654, "error": null}
+{"name": "usdc_flow_25458939_25471438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25458939_25471438_tenderly", "status": "received", "bytes": 3437222, "error": null}
+{"name": "usdc_flow_25471439_25483938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25471439_25483938_tenderly", "status": "received", "bytes": 4907467, "error": null}
+{"name": "usdc_flow_25483939_25533938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25483939_25533938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25483939_25533938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25483939_25508938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25483939_25508938_tenderly", "status": "received", "bytes": 9376787, "error": null}
+{"name": "usdc_flow_25483939_25496438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25483939_25496438_tenderly", "status": "received", "bytes": 5134562, "error": null}
+{"name": "usdc_flow_25496439_25508938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25496439_25508938_tenderly", "status": "received", "bytes": 4242260, "error": null}
+{"name": "usdc_flow_25508939_25533938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25508939_25533938_tenderly", "status": "received", "bytes": 8184365, "error": null}
+{"name": "usdc_flow_25508939_25521438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25508939_25521438_tenderly", "status": "received", "bytes": 3254307, "error": null}
+{"name": "usdc_flow_25521439_25533938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25521439_25533938_tenderly", "status": "received", "bytes": 4930093, "error": null}
+{"name": "usdc_flow_25533939_25583938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25533939_25583938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25533939_25583938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25533939_25558938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25533939_25558938_tenderly", "status": "received", "bytes": 10319246, "error": null}
+{"name": "usdc_flow_25533939_25546438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25533939_25546438_tenderly", "status": "received", "bytes": 5068933, "error": null}
+{"name": "usdc_flow_25546439_25558938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25546439_25558938_tenderly", "status": "received", "bytes": 5250348, "error": null}
+{"name": "usdc_flow_25558939_25583938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25558939_25583938_tenderly", "status": "received", "bytes": 9363438, "error": null}
+{"name": "usdc_flow_25558939_25571438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25558939_25571438_tenderly", "status": "received", "bytes": 4236063, "error": null}
+{"name": "usdc_flow_25571439_25583938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25571439_25583938_tenderly", "status": "received", "bytes": 5127410, "error": null}
+{"name": "usdc_flow_25583939_25633938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25583939_25633938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25583939_25633938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25583939_25608938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25583939_25608938_tenderly", "status": "received", "bytes": 8854735, "error": null}
+{"name": "usdc_flow_25583939_25596438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25583939_25596438_tenderly", "status": "received", "bytes": 4427972, "error": null}
+{"name": "usdc_flow_25596439_25608938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25596439_25608938_tenderly", "status": "received", "bytes": 4426798, "error": null}
+{"name": "usdc_flow_25608939_25633938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25608939_25633938_tenderly", "status": "received", "bytes": 9028607, "error": null}
+{"name": "usdc_flow_25608939_25621438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25608939_25621438_tenderly", "status": "received", "bytes": 3652801, "error": null}
+{"name": "usdc_flow_25621439_25633938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25621439_25633938_tenderly", "status": "received", "bytes": 5375841, "error": null}
+{"name": "usdc_flow_25633939_25683938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25633939_25683938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25633939_25683938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25633939_25658938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25633939_25658938_tenderly", "status": "received", "bytes": 10133190, "error": null}
+{"name": "usdc_flow_25633939_25646438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25633939_25646438_tenderly", "status": "received", "bytes": 5487184, "error": null}
+{"name": "usdc_flow_25646439_25658938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25646439_25658938_tenderly", "status": "received", "bytes": 4646041, "error": null}
+{"name": "usdc_flow_25658939_25683938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25658939_25683938_tenderly", "status": "received", "bytes": 8143218, "error": null}
+{"name": "usdc_flow_25658939_25671438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25658939_25671438_tenderly", "status": "received", "bytes": 3290326, "error": null}
+{"name": "usdc_flow_25671439_25683938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25671439_25683938_tenderly", "status": "received", "bytes": 4852927, "error": null}
+{"name": "usdc_flow_25683939_25733938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25683939_25733938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25683939_25733938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25683939_25708938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25683939_25708938_tenderly", "status": "received", "bytes": 8735754, "error": null}
+{"name": "usdc_flow_25683939_25696438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25683939_25696438_tenderly", "status": "received", "bytes": 4403525, "error": null}
+{"name": "usdc_flow_25696439_25708938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25696439_25708938_tenderly", "status": "received", "bytes": 4332264, "error": null}
+{"name": "usdc_flow_25708939_25733938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25708939_25733938_tenderly", "status": "received", "bytes": 8541866, "error": null}
+{"name": "usdc_flow_25708939_25721438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25708939_25721438_tenderly", "status": "received", "bytes": 3367536, "error": null}
+{"name": "usdc_flow_25721439_25733938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25721439_25733938_tenderly", "status": "received", "bytes": 5174365, "error": null}
+{"name": "usdc_flow_25733939_25783938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25733939_25783938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25733939_25783938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25733939_25758938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25733939_25758938_tenderly", "status": "received", "bytes": 11865950, "error": null}
+{"name": "usdc_flow_25733939_25746438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25733939_25746438_tenderly", "status": "received", "bytes": 6316051, "error": null}
+{"name": "usdc_flow_25733939_25740188", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25733939_25740188_tenderly", "status": "received", "bytes": 2454927, "error": null}
+{"name": "usdc_flow_25740189_25746438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25740189_25746438_tenderly", "status": "received", "bytes": 3861159, "error": null}
+{"name": "usdc_flow_25746439_25758938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25746439_25758938_tenderly", "status": "received", "bytes": 5549934, "error": null}
+{"name": "usdc_flow_25758939_25783938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25758939_25783938_tenderly", "status": "received", "bytes": 9899599, "error": null}
+{"name": "usdc_flow_25758939_25771438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25758939_25771438_tenderly", "status": "received", "bytes": 4286398, "error": null}
+{"name": "usdc_flow_25771439_25783938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25771439_25783938_tenderly", "status": "received", "bytes": 5613236, "error": null}
+{"name": "usdc_flow_25783939_25833938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25783939_25833938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25783939_25833938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25783939_25808938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25783939_25808938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25783939_25808938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25783939_25796438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25783939_25796438_tenderly", "status": "received", "bytes": 7082328, "error": null}
+{"name": "usdc_flow_25783939_25790188", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25783939_25790188_tenderly", "status": "received", "bytes": 2926098, "error": null}
+{"name": "usdc_flow_25790189_25796438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25790189_25796438_tenderly", "status": "received", "bytes": 4156265, "error": null}
+{"name": "usdc_flow_25796439_25808938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25796439_25808938_tenderly", "status": "received", "bytes": 8413057, "error": null}
+{"name": "usdc_flow_25796439_25802688", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25796439_25802688_tenderly", "status": "received", "bytes": 3901824, "error": null}
+{"name": "usdc_flow_25802689_25808938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25802689_25808938_tenderly", "status": "received", "bytes": 4511268, "error": null}
+{"name": "usdc_flow_25808939_25833938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25808939_25833938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25808939_25833938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25808939_25821438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25808939_25821438_tenderly", "status": "received", "bytes": 6052813, "error": null}
+{"name": "usdc_flow_25821439_25833938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25821439_25833938_tenderly", "status": "received", "bytes": 6786279, "error": null}
+{"name": "usdc_flow_25821439_25827688", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25821439_25827688_tenderly", "status": "received", "bytes": 3482488, "error": null}
+{"name": "usdc_flow_25827689_25833938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25827689_25833938_tenderly", "status": "received", "bytes": 3303826, "error": null}
+{"name": "usdc_flow_25833939_25883938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25833939_25883938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flo{"name": "usdc_flow_25433939_25483938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25433939_25483938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25483939_25533938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25483939_25533938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25533939_25583938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25533939_25583938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25583939_25633938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25583939_25633938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25633939_25683938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25633939_25683938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25683939_25733938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25683939_25733938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25733939_25783938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25733939_25783938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25783939_25833938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25783939_25833938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25783939_25808938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25783939_25808938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25808939_25833938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25808939_25833938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25833939_25883938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25833939_25883938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25833939_25858938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25833939_25858938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25883939_25933938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25883939_25933938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25883939_25908938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25883939_25908938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25908939_25933938_tenderly", "status": "received", "bytes": 11353162, "error": null}
+{"name": "usdc_flow_25933939_25983938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25933939_25983938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25933939_25983938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25933939_25958938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25933939_25958938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25933939_25958938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25933939_25946438_tenderly", "status": "received", "bytes": 6913180, "error": null}
+{"name": "usdc_flow_25946439_25958938_tenderly", "status": "received", "bytes": 6339769, "error": null}
+{"name": "usdc_flow_25958939_25983938_tenderly", "status": "received", "bytes": 9766860, "error": null}
+{"name": "usdc_flow_25983939_26033938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25983939_26033938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25983939_26033938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25983939_26008938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25983939_26008938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25983939_26008938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25983939_25996438_tenderly", "status": "received", "bytes": 10837645, "error": null}
+{"name": "usdc_flow_25996439_26008938_tenderly", "status": "received", "bytes": 8281344, "error": null}
+{"name": "usdc_flow_26008939_26033938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_26008939_26033938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_26008939_26033938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_26008939_26021438_tenderly", "status": "received", "bytes": 5390581, "error": null}
+{"name": "usdc_flow_26021439_26033938_tenderly", "status": "received", "bytes": 8070331, "error": null}
+{"name": "usdc_flow_26033939_26083938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_26033939_26083938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_26033939_26083938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_26033939_26058938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_26033939_26058938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_26033939_26058938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+ Forbidden"}
+{"name": "usdc_flow_25933939_25940188_tenderly", "status": "received", "bytes": 3592181, "error": null}
+{"name": "usdc_flow_25940189_25946438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25940189_25946438_tenderly", "status": "received", "bytes": 3321034, "error": null}
+{"name": "usdc_flow_25946439_25958938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25946439_25958938_tenderly", "status": "received", "bytes": 6339769, "error": null}
+{"name": "usdc_flow_25946439_25952688", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25946439_25952688_tenderly", "status": "received", "bytes": 3129632, "error": null}
+{"name": "usdc_flow_25952689_25958938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25952689_25958938_tenderly", "status": "received", "bytes": 3210172, "error": null}
+{"name": "usdc_flow_25958939_25983938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25958939_25983938_tenderly", "status": "received", "bytes": 9766860, "error": null}
+{"name": "usdc_flow_25958939_25971438", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25958939_25971438_tenderly", "status": "received", "bytes": 4074135, "error": null}
+{"name": "usdc_flow_25971439_25983938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25433939_25483938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25433939_25483938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25483939_25533938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25483939_25533938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25533939_25583938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25533939_25583938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25583939_25633938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25583939_25633938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25633939_25683938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25633939_25683938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25683939_25733938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25683939_25733938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25733939_25783938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25733939_25783938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25783939_25833938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25783939_25833938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25783939_25808938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25783939_25808938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25808939_25833938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25808939_25833938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25833939_25883938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25833939_25883938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25833939_25858938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25833939_25858938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25883939_25933938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25883939_25933938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25883939_25908938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25883939_25908938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25933939_25983938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25933939_25983938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25933939_25958938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25933939_25958938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25983939_26033938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25983939_26033938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25983939_26033938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25983939_26008938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_25983939_26008938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_25983939_26008938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_25983939_25996438_tenderly", "status": "received", "bytes": 10837645, "error": null}
+{"name": "usdc_flow_25996439_26008938_tenderly", "status": "received", "bytes": 8281344, "error": null}
+{"name": "usdc_flow_26008939_26033938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_26008939_26033938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_26008939_26033938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_26008939_26021438_tenderly", "status": "received", "bytes": 5390581, "error": null}
+{"name": "usdc_flow_26021439_26033938_tenderly", "status": "received", "bytes": 8070331, "error": null}
+{"name": "usdc_flow_26033939_26083938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_26033939_26083938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_26033939_26083938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_26033939_26058938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_26033939_26058938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_26033939_26058938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_26033939_26046438_tenderly", "status": "received", "bytes": 7257429, "error": null}
+{"name": "usdc_flow_26046439_26058938_tenderly", "status": "received", "bytes": 7827990, "error": null}
+{"name": "usdc_flow_26058939_26083938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "usdc_flow_26058939_26083938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "usdc_flow_26058939_26083938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "usdc_flow_26058939_26071438_tenderly", "status": "received", "bytes": 5355572, "error": null}
+{"name": "usdc_flow_26071439_26083938_tenderly", "status": "received", "bytes": 7439016, "error": null}
+{"name": "usdc_flow_26083939_26093737_tenderly", "status": "received", "bytes": 6364718, "error": null}
+{"name": "supply_2026-07-01_tenderly", "status": "received", "bytes": 102, "error": null}
+{"name": "supply_2026-10-01_tenderly", "status": "received", "bytes": 102, "error": null}
+{"name": "keccak_MintAndWithdraw_48", "status": "received", "bytes": 102, "error": null}
+{"name": "cctp_incoming_fees_25433939_25483938_tenderly", "status": "received", "bytes": 6301671, "error": null}
+{"name": "cctp_incoming_fees_25483939_25533938_tenderly", "status": "received", "bytes": 6064578, "error": null}
+{"name": "cctp_incoming_fees_25533939_25583938_tenderly", "status": "received", "bytes": 6037843, "error": null}
+{"name": "cctp_incoming_fees_25583939_25633938_tenderly", "status": "received", "bytes": 6045830, "error": null}
+{"name": "cctp_incoming_fees_25633939_25683938_tenderly", "status": "received", "bytes": 6174253, "error": null}
+{"name": "cctp_incoming_fees_25683939_25733938_tenderly", "status": "received", "bytes": 6094099, "error": null}
+{"name": "cctp_incoming_fees_25733939_25783938_tenderly", "status": "received", "bytes": 8275591, "error": null}
+{"name": "cctp_incoming_fees_25783939_25833938_tenderly", "status": "received", "bytes": 9596525, "error": null}
+{"name": "cctp_incoming_fees_25833939_25883938_tenderly", "status": "received", "bytes": 7205196, "error": null}
+{"name": "cctp_incoming_fees_25883939_25933938_tenderly", "status": "received", "bytes": 8828798, "error": null}
+{"name": "cctp_incoming_fees_25933939_25983938_tenderly", "status": "received", "bytes": 8091820, "error": null}
+{"name": "cctp_incoming_fees_25983939_26033938_tenderly", "status": "received", "bytes": 11878258, "error": null}
+{"name": "cctp_incoming_fees_26033939_26083938_tenderly", "status": "received", "bytes": 11809222, "error": null}
+{"name": "cctp_incoming_fees_26083939_26093737_tenderly", "status": "received", "bytes": 2893405, "error": null}
+{"name": "keccak_DepositForBurn_91", "status": "received", "bytes": 102, "error": null}
+{"name": "cctp_source_routes_25433939_25483938_tenderly", "status": "received", "bytes": 10477492, "error": null}
+{"name": "cctp_source_routes_25483939_25533938_tenderly", "status": "received", "bytes": 12207079, "error": null}
+{"name": "cctp_source_routes_25533939_25583938_tenderly", "status": "received", "bytes": 16317192, "error": null}
+{"name": "cctp_source_routes_25583939_25633938_tenderly", "status": "received", "bytes": 11972180, "error": null}
+{"name": "cctp_source_routes_25633939_25683938_tenderly", "status": "received", "bytes": 11293181, "error": null}
+{"name": "cctp_source_routes_25683939_25733938_tenderly", "status": "received", "bytes": 10154514, "error": null}
+{"name": "cctp_source_routes_25733939_25783938_tenderly", "status": "received", "bytes": 11969118, "error": null}
+{"name": "cctp_source_routes_25783939_25833938_tenderly", "status": "received", "bytes": 18560727, "error": null}
+{"name": "cctp_source_routes_25833939_25883938_tenderly", "status": "received", "bytes": 17462653, "error": null}
+{"name": "cctp_source_routes_25883939_25933938_tenderly", "status": "received", "bytes": 18452307, "error": null}
+{"name": "cctp_source_routes_25933939_25983938_tenderly", "status": "received", "bytes": 17223728, "error": null}
+{"name": "cctp_source_routes_25983939_26033938_tenderly", "status": "received", "bytes": 174, "error": null}
+{"name": "cctp_source_routes_25983939_26033938", "status": "failed", "bytes": null, "error": "HTTP Error 403: Forbidden"}
+{"name": "cctp_source_routes_25983939_26033938_drpc", "status": "failed", "bytes": null, "error": "HTTP Error 400: Bad Request"}
+{"name": "cctp_source_routes_25983939_26008938_tenderly", "status": "received", "bytes": 17769803, "error": null}
+{"name": "cctp_source_routes_26008939_26033938_tenderly", "status": "received", "bytes": 9177206, "error": null}
+{"name": "cctp_source_routes_26033939_26083938_tenderly", "status": "received", "bytes": 17055862, "error": null}
+{"name": "cctp_source_routes_26083939_26093737_tenderly", "status": "received", "bytes": 3492342, "error": null}
+{"name": "keccak_Transmitted_76", "status": "received", "bytes": 102, "error": null}
+{"name": "keccak_Transmitted_84", "status": "received", "bytes": 102, "error": null}
+{"name": "usyc_reports_21525891_21575890_tenderly", "status": "received", "bytes": 3856, "error": null}
+{"name": "usyc_reports_21575891_21625890_tenderly", "status": "received", "bytes": 4814, "error": null}
+{"name": "usyc_reports_21625891_21675890_tenderly", "status": "received", "bytes": 3858, "error": null}
+{"name": "usyc_reports_21675891_21725890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_21725891_21775890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_21775891_21825890_tenderly", "status": "received", "bytes": 4814, "error": null}
+{"name": "usyc_reports_21825891_21875890_tenderly", "status": "received", "bytes": 3856, "error": null}
+{"name": "usyc_reports_21875891_21925890_tenderly", "status": "received", "bytes": 4814, "error": null}
+{"name": "usyc_reports_21925891_21975890_tenderly", "status": "received", "bytes": 4813, "error": null}
+{"name": "usyc_reports_21975891_22025890_tenderly", "status": "received", "bytes": 4813, "error": null}
+{"name": "usyc_reports_22025891_22075890_tenderly", "status": "received", "bytes": 4813, "error": null}
+{"name": "usyc_reports_22075891_22125890_tenderly", "status": "received", "bytes": 4811, "error": null}
+{"name": "usyc_reports_22125891_22175890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_22175891_22225890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_22225891_22275890_tenderly", "status": "received", "bytes": 4813, "error": null}
+{"name": "usyc_reports_22275891_22325890_tenderly", "status": "received", "bytes": 4814, "error": null}
+{"name": "usyc_reports_22325891_22375890_tenderly", "status": "received", "bytes": 4812, "error": null}
+{"name": "usyc_reports_22375891_22425890_tenderly", "status": "received", "bytes": 4814, "error": null}
+{"name": "usyc_reports_22425891_22475890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_22475891_22525890_tenderly", "status": "received", "bytes": 4813, "error": null}
+{"name": "usyc_reports_22525891_22575890_tenderly", "status": "received", "bytes": 3860, "error": null}
+{"name": "usyc_reports_22575891_22625890_tenderly", "status": "received", "bytes": 4812, "error": null}
+{"name": "usyc_reports_22625891_22675890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_22675891_22725890_tenderly", "status": "received", "bytes": 4814, "error": null}
+{"name": "usyc_reports_22725891_22775890_tenderly", "status": "received", "bytes": 3859, "error": null}
+{"name": "usyc_reports_22775891_22825890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_22825891_22875890_tenderly", "status": "received", "bytes": 3860, "error": null}
+{"name": "usyc_reports_22875891_22925890_tenderly", "status": "received", "bytes": 4812, "error": null}
+{"name": "usyc_reports_22925891_22975890_tenderly", "status": "received", "bytes": 4814, "error": null}
+{"name": "usyc_reports_22975891_23025890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_23025891_23075890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_23075891_23125890_tenderly", "status": "received", "bytes": 4817, "error": null}
+{"name": "usyc_reports_23125891_23175890_tenderly", "status": "received", "bytes": 4816, "error": null}
+{"name": "usyc_reports_23175891_23225890_tenderly", "status": "received", "bytes": 4814, "error": null}
+{"name": "usyc_reports_23225891_23275890_tenderly", "status": "received", "bytes": 3860, "error": null}
+{"name": "usyc_reports_23275891_23325890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_23325891_23375890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_23375891_23425890_tenderly", "status": "received", "bytes": 4816, "error": null}
+{"name": "usyc_reports_23425891_23475890_tenderly", "status": "received", "bytes": 4817, "error": null}
+{"name": "usyc_reports_23475891_23525890_tenderly", "status": "received", "bytes": 4814, "error": null}
+{"name": "usyc_reports_23525891_23575890_tenderly", "status": "received", "bytes": 2903, "error": null}
+{"name": "usyc_reports_23575891_23625890_tenderly", "status": "received", "bytes": 5772, "error": null}
+{"name": "usyc_reports_23625891_23675890_tenderly", "status": "received", "bytes": 4816, "error": null}
+{"name": "usyc_reports_23675891_23725890_tenderly", "status": "received", "bytes": 3861, "error": null}
+{"name": "usyc_reports_23725891_23775890_tenderly", "status": "received", "bytes": 4816, "error": null}
+{"name": "usyc_reports_23775891_23825890_tenderly", "status": "received", "bytes": 3860, "error": null}
+{"name": "usyc_reports_23825891_23875890_tenderly", "status": "received", "bytes": 5771, "error": null}
+{"name": "usyc_reports_23875891_23925890_tenderly", "status": "received", "bytes": 3862, "error": null}
+{"name": "usyc_reports_23925891_23975890_tenderly", "status": "received", "bytes": 4816, "error": null}
+{"name": "usyc_reports_23975891_24025890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_24025891_24075890_tenderly", "status": "received", "bytes": 4817, "error": null}
+{"name": "usyc_reports_24075891_24125890_tenderly", "status": "received", "bytes": 3860, "error": null}
+{"name": "usyc_reports_24125891_24175890_tenderly", "status": "received", "bytes": 3861, "error": null}
+{"name": "usyc_reports_24175891_24225890_tenderly", "status": "received", "bytes": 4819, "error": null}
+{"name": "usyc_reports_24225891_24275890_tenderly", "status": "received", "bytes": 2905, "error": null}
+{"name": "usyc_reports_24275891_24325890_tenderly", "status": "received", "bytes": 4817, "error": null}
+{"name": "usyc_reports_24325891_24375890_tenderly", "status": "received", "bytes": 4817, "error": null}
+{"name": "usyc_reports_24375891_24425890_tenderly", "status": "received", "bytes": 4817, "error": null}
+{"name": "usyc_reports_24425891_24475890_tenderly", "status": "received", "bytes": 3863, "error": null}
+{"name": "usyc_reports_24475891_24525890_tenderly", "status": "received", "bytes": 4819, "error": null}
+{"name": "usyc_reports_24525891_24575890_tenderly", "status": "received", "bytes": 4818, "error": null}
+{"name": "usyc_reports_24575891_24625890_tenderly", "status": "received", "bytes": 4819, "error": null}
+{"name": "usyc_reports_24625891_24675890_tenderly", "status": "received", "bytes": 4818, "error": null}
+{"name": "usyc_reports_24675891_24725890_tenderly", "status": "received", "bytes": 4819, "error": null}
+{"name": "usyc_reports_24725891_24775890_tenderly", "status": "received", "bytes": 4816, "error": null}
+{"name": "usyc_reports_24775891_24825890_tenderly", "status": "received", "bytes": 4818, "error": null}
+{"name": "usyc_reports_24825891_24875890_tenderly", "status": "received", "bytes": 4817, "error": null}
+{"name": "usyc_reports_24875891_24925890_tenderly", "status": "received", "bytes": 4816, "error": null}
+{"name": "usyc_reports_24925891_24975890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_24975891_25025890_tenderly", "status": "received", "bytes": 4817, "error": null}
+{"name": "usyc_reports_25025891_25075890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_25075891_25125890_tenderly", "status": "received", "bytes": 4816, "error": null}
+{"name": "usyc_reports_25125891_25175890_tenderly", "status": "received", "bytes": 3860, "error": null}
+{"name": "usyc_reports_25175891_25225890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_25225891_25275890_tenderly", "status": "received", "bytes": 4816, "error": null}
+{"name": "usyc_reports_25275891_25325890_tenderly", "status": "received", "bytes": 4815, "error": null}
+{"name": "usyc_reports_25325891_25375890_tenderly", "status": "received", "bytes": 3863, "error": null}
+{"name": "usyc_reports_25375891_25425890_tenderly", "status": "received", "bytes": 4817, "error": null}
+{"name": "usyc_reports_25425891_25475890_tenderly", "status": "received", "bytes": 3863, "error": null}
+{"name": "usyc_reports_25475891_25525890_tenderly", "status": "received", "bytes": 4817, "error": null}
+{"name": "usyc_reports_25525891_25575890_tenderly", "status": "received", "bytes": 4817, "error": null}
+{"name": "usyc_reports_25575891_25625890_tenderly", "status": "received", "bytes": 4882, "error": null}
+{"name": "usyc_reports_25625891_25675890_tenderly", "status": "received", "bytes": 5134, "error": null}
+{"name": "usyc_reports_25675891_25725890_tenderly", "status": "received", "bytes": 5135, "error": null}
+{"name": "usyc_reports_25725891_25775890_tenderly", "status": "received", "bytes": 5135, "error": null}
+{"name": "usyc_reports_25775891_25825890_tenderly", "status": "received", "bytes": 5135, "error": null}
+{"name": "usyc_reports_25825891_25875890_tenderly", "status": "received", "bytes": 5136, "error": null}
+{"name": "usyc_reports_25875891_25925890_tenderly", "status": "received", "bytes": 4116, "error": null}
+{"name": "usyc_reports_25925891_25975890_tenderly", "status": "received", "bytes": 5135, "error": null}
+{"name": "usyc_reports_25975891_26025890_tenderly", "status": "received", "bytes": 4119, "error": null}
+{"name": "usyc_reports_26025891_26075890_tenderly", "status": "received", "bytes": 5135, "error": null}
+{"name": "usyc_reports_26075891_26093737_tenderly", "status": "received", "bytes": 3095, "error": null}
+{"name": "usyc_block_batch_21536639", "status": "received", "bytes": 360572, "error": null}
+{"name": "usyc_block_batch_21744473", "status": "received", "bytes": 366398, "error": null}
+{"name": "usyc_block_batch_21966214", "status": "received", "bytes": 362550, "error": null}
+{"name": "usyc_block_batch_22167064", "status": "received", "bytes": 357499, "error": null}
+{"name": "usyc_block_batch_22367109", "status": "received", "bytes": 369965, "error": null}
+{"name": "usyc_block_batch_22573708", "status": "received", "bytes": 354147, "error": null}
+{"name": "usyc_block_batch_22781034", "status": "received", "bytes": 439652, "error": null}
+{"name": "usyc_block_batch_22988531", "status": "received", "bytes": 435859, "error": null}
+{"name": "usyc_block_batch_23188872", "status": "received", "bytes": 427002, "error": null}
+{"name": "usyc_block_batch_23396609", "status": "received", "bytes": 450615, "error": null}
+{"name": "usyc_block_batch_23618337", "status": "received", "bytes": 484642, "error": null}
+{"name": "usyc_block_batch_23825959", "status": "received", "bytes": 458285, "error": null}
+{"name": "usyc_block_batch_24032182", "status": "received", "bytes": 560584, "error": null}
+{"name": "usyc_block_batch_24247105", "status": "received", "bytes": 708218, "error": null}
+{"name": "usyc_block_batch_24477089", "status": "received", "bytes": 687330, "error": null}
+{"name": "usyc_block_batch_24677322", "status": "received", "bytes": 693973, "error": null}
+{"name": "usyc_block_batch_24878138", "status": "received", "bytes": 524156, "error": null}
+{"name": "usyc_block_batch_25079192", "status": "received", "bytes": 466234, "error": null}
+{"name": "usyc_block_batch_25287197", "status": "received", "bytes": 575479, "error": null}
+{"name": "usyc_block_batch_25502300", "status": "received", "bytes": 665304, "error": null}
+{"name": "usyc_block_batch_25703198", "status": "received", "bytes": 551735, "error": null}
+{"name": "usyc_block_batch_25904135", "status": "received", "bytes": 560264, "error": null}
+{"status": "completed", "usdc_flow_events": 488594, "cctp_fee_events": 150408, "usyc_reports": 438}

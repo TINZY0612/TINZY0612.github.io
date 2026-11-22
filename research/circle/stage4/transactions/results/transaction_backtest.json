@@ -1,0 +1,761 @@
+{
+  "as_of": "2026-11-21",
+  "unit": "USD million",
+  "scope": "Historical publication-filtered financial inputs and current reconstructed CCTP observations; not a blind forecast or verified historical data vintage",
+  "cctp_source_url": "https://api.llama.fi/summary/fees/circle-cctp?dataType=dailyFees",
+  "cctp_mapping_assumption": "Observed CCTP protocol fees map to same-period Circle transaction revenue; the rest is forecast as a lagged residual. Component GAAP reconciliation is not independently disclosed.",
+  "quarters": [
+    {
+      "period": "2025Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "days": 90,
+      "earnings_release_date": null,
+      "transaction_actual": 1.6259999999999994,
+      "published_by": "2025-08-12",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+      "cctp": {
+        "sum_observed": null,
+        "days_present": 0,
+        "days_expected": 90,
+        "missing_dates": [
+          "2025-01-01",
+          "2025-01-02",
+          "2025-01-03",
+          "2025-01-04",
+          "2025-01-05",
+          "2025-01-06",
+          "2025-01-07",
+          "2025-01-08",
+          "2025-01-09",
+          "2025-01-10",
+          "2025-01-11",
+          "2025-01-12",
+          "2025-01-13",
+          "2025-01-14",
+          "2025-01-15",
+          "2025-01-16",
+          "2025-01-17",
+          "2025-01-18",
+          "2025-01-19",
+          "2025-01-20",
+          "2025-01-21",
+          "2025-01-22",
+          "2025-01-23",
+          "2025-01-24",
+          "2025-01-25",
+          "2025-01-26",
+          "2025-01-27",
+          "2025-01-28",
+          "2025-01-29",
+          "2025-01-30",
+          "2025-01-31",
+          "2025-02-01",
+          "2025-02-02",
+          "2025-02-03",
+          "2025-02-04",
+          "2025-02-05",
+          "2025-02-06",
+          "2025-02-07",
+          "2025-02-08",
+          "2025-02-09",
+          "2025-02-10",
+          "2025-02-11",
+          "2025-02-12",
+          "2025-02-13",
+          "2025-02-14",
+          "2025-02-15",
+          "2025-02-16",
+          "2025-02-17",
+          "2025-02-18",
+          "2025-02-19",
+          "2025-02-20",
+          "2025-02-21",
+          "2025-02-22",
+          "2025-02-23",
+          "2025-02-24",
+          "2025-02-25",
+          "2025-02-26",
+          "2025-02-27",
+          "2025-02-28",
+          "2025-03-01",
+          "2025-03-02",
+          "2025-03-03",
+          "2025-03-04",
+          "2025-03-05",
+          "2025-03-06",
+          "2025-03-07",
+          "2025-03-08",
+          "2025-03-09",
+          "2025-03-10",
+          "2025-03-11",
+          "2025-03-12",
+          "2025-03-13",
+          "2025-03-14",
+          "2025-03-15",
+          "2025-03-16",
+          "2025-03-17",
+          "2025-03-18",
+          "2025-03-19",
+          "2025-03-20",
+          "2025-03-21",
+          "2025-03-22",
+          "2025-03-23",
+          "2025-03-24",
+          "2025-03-25",
+          "2025-03-26",
+          "2025-03-27",
+          "2025-03-28",
+          "2025-03-29",
+          "2025-03-30",
+          "2025-03-31"
+        ],
+        "complete": false
+      }
+    },
+    {
+      "period": "2025Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "days": 91,
+      "earnings_release_date": "2025-08-12",
+      "transaction_actual": 5.825,
+      "published_by": "2025-08-12",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+      "cctp": {
+        "sum_observed": 0.02111,
+        "days_present": 72,
+        "days_expected": 91,
+        "missing_dates": [
+          "2025-04-01",
+          "2025-04-02",
+          "2025-04-03",
+          "2025-04-04",
+          "2025-04-05",
+          "2025-04-06",
+          "2025-04-07",
+          "2025-04-08",
+          "2025-04-09",
+          "2025-04-10",
+          "2025-04-11",
+          "2025-04-12",
+          "2025-04-13",
+          "2025-04-14",
+          "2025-04-15",
+          "2025-04-16",
+          "2025-04-17",
+          "2025-04-18",
+          "2025-04-19"
+        ],
+        "complete": false
+      }
+    },
+    {
+      "period": "2025Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "days": 92,
+      "earnings_release_date": "2025-11-12",
+      "transaction_actual": 4.664,
+      "published_by": "2025-11-12",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "cctp": {
+        "sum_observed": 0.347579,
+        "days_present": 92,
+        "days_expected": 92,
+        "missing_dates": [],
+        "complete": true
+      }
+    },
+    {
+      "period": "2025Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "days": 92,
+      "earnings_release_date": "2026-02-25",
+      "transaction_actual": 12.22,
+      "published_by": "2026-03-09",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+      "cctp": {
+        "sum_observed": 0.551443,
+        "days_present": 92,
+        "days_expected": 92,
+        "missing_dates": [],
+        "complete": true
+      }
+    },
+    {
+      "period": "2026Q1",
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "days": 90,
+      "earnings_release_date": "2026-05-11",
+      "transaction_actual": 6.73,
+      "published_by": "2026-05-11",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+      "cctp": {
+        "sum_observed": 0.318316,
+        "days_present": 90,
+        "days_expected": 90,
+        "missing_dates": [],
+        "complete": true
+      }
+    },
+    {
+      "period": "2026Q2",
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "days": 91,
+      "earnings_release_date": "2026-08-05",
+      "transaction_actual": 5.33,
+      "published_by": "2026-08-05",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+      "cctp": {
+        "sum_observed": 0.307709,
+        "days_present": 91,
+        "days_expected": 91,
+        "missing_dates": [],
+        "complete": true
+      }
+    },
+    {
+      "period": "2026Q3",
+      "start": "2026-07-01",
+      "end": "2026-09-30",
+      "days": 92,
+      "earnings_release_date": "2026-11-04",
+      "transaction_actual": 5.335,
+      "published_by": "2026-11-04",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+      "cctp": {
+        "sum_observed": 0.47594000000000003,
+        "days_present": 92,
+        "days_expected": 92,
+        "missing_dates": [],
+        "complete": true
+      }
+    }
+  ],
+  "late": [
+    {
+      "period": "2025Q3",
+      "cutoff": "2025-11-11",
+      "actual": 4.664,
+      "current_cctp": 0.347579,
+      "prior_actual": 5.825,
+      "prior_cctp": 0.02111,
+      "lagged_non_cctp_residual": null,
+      "current_days": 92,
+      "prior_days": 91,
+      "lag_public_by": "2025-08-12",
+      "cctp_share_actual": 0.07452379931389366,
+      "methods": {
+        "prior_quarter_flat": 5.825,
+        "prior_quarter_day_scaled": 5.8890109890109885,
+        "repeat_prior_growth": 20.867543050430513
+      },
+      "unavailable": {
+        "observed_cctp_methods": "CCTP coverage incomplete in current or prior quarter; no zero fill"
+      },
+      "signed_error": {
+        "prior_quarter_flat": 0.2489279588336193,
+        "prior_quarter_day_scaled": 0.26265244189772496,
+        "repeat_prior_growth": 3.4741730382569713
+      }
+    },
+    {
+      "period": "2025Q4",
+      "cutoff": "2026-02-24",
+      "actual": 12.22,
+      "current_cctp": 0.551443,
+      "prior_actual": 4.664,
+      "prior_cctp": 0.347579,
+      "lagged_non_cctp_residual": 4.316421,
+      "current_days": 92,
+      "prior_days": 92,
+      "lag_public_by": "2025-11-12",
+      "cctp_share_actual": 0.04512626841243862,
+      "methods": {
+        "prior_quarter_flat": 4.664,
+        "prior_quarter_day_scaled": 4.664,
+        "repeat_prior_growth": 3.734402746781115,
+        "observed_cctp_plus_flat_residual": 4.867864,
+        "observed_cctp_plus_day_scaled_residual": 4.867864
+      },
+      "unavailable": {},
+      "signed_error": {
+        "prior_quarter_flat": -0.6183306055646481,
+        "prior_quarter_day_scaled": -0.6183306055646481,
+        "repeat_prior_growth": -0.6944023938804325,
+        "observed_cctp_plus_flat_residual": -0.6016477905073649,
+        "observed_cctp_plus_day_scaled_residual": -0.6016477905073649
+      }
+    },
+    {
+      "period": "2026Q1",
+      "cutoff": "2026-05-10",
+      "actual": 6.73,
+      "current_cctp": 0.318316,
+      "prior_actual": 12.22,
+      "prior_cctp": 0.551443,
+      "lagged_non_cctp_residual": 11.668557,
+      "current_days": 90,
+      "prior_days": 92,
+      "lag_public_by": "2026-03-09",
+      "cctp_share_actual": 0.047298068350668646,
+      "methods": {
+        "prior_quarter_flat": 12.22,
+        "prior_quarter_day_scaled": 11.954347826086956,
+        "repeat_prior_growth": 32.01723842195541,
+        "observed_cctp_plus_flat_residual": 11.986873,
+        "observed_cctp_plus_day_scaled_residual": 11.733208717391303
+      },
+      "unavailable": {},
+      "signed_error": {
+        "prior_quarter_flat": 0.8157503714710252,
+        "prior_quarter_day_scaled": 0.7762775373086115,
+        "repeat_prior_growth": 3.7573905530394365,
+        "observed_cctp_plus_flat_residual": 0.7811104011887071,
+        "observed_cctp_plus_day_scaled_residual": 0.7434188287357062
+      }
+    },
+    {
+      "period": "2026Q2",
+      "cutoff": "2026-08-04",
+      "actual": 5.33,
+      "current_cctp": 0.307709,
+      "prior_actual": 6.73,
+      "prior_cctp": 0.318316,
+      "lagged_non_cctp_residual": 6.411684,
+      "current_days": 91,
+      "prior_days": 90,
+      "lag_public_by": "2026-05-11",
+      "cctp_share_actual": 0.057731519699812384,
+      "methods": {
+        "prior_quarter_flat": 6.73,
+        "prior_quarter_day_scaled": 6.804777777777779,
+        "repeat_prior_growth": 3.706456628477905,
+        "observed_cctp_plus_flat_residual": 6.719393,
+        "observed_cctp_plus_day_scaled_residual": 6.790633933333334
+      },
+      "unavailable": {},
+      "signed_error": {
+        "prior_quarter_flat": 0.2626641651031896,
+        "prior_quarter_day_scaled": 0.27669376693766945,
+        "repeat_prior_growth": -0.30460476013547744,
+        "observed_cctp_plus_flat_residual": 0.26067410881801134,
+        "observed_cctp_plus_day_scaled_residual": 0.27404013758599133
+      }
+    },
+    {
+      "period": "2026Q3",
+      "cutoff": "2026-11-03",
+      "actual": 5.335,
+      "current_cctp": 0.47594000000000003,
+      "prior_actual": 5.33,
+      "prior_cctp": 0.307709,
+      "lagged_non_cctp_residual": 5.022291,
+      "current_days": 92,
+      "prior_days": 91,
+      "lag_public_by": "2026-08-05",
+      "cctp_share_actual": 0.08921087160262418,
+      "methods": {
+        "prior_quarter_flat": 5.33,
+        "prior_quarter_day_scaled": 5.388571428571429,
+        "repeat_prior_growth": 4.221233283803863,
+        "observed_cctp_plus_flat_residual": 5.4982310000000005,
+        "observed_cctp_plus_day_scaled_residual": 5.553421010989011
+      },
+      "unavailable": {},
+      "signed_error": {
+        "prior_quarter_flat": -0.0009372071227741197,
+        "prior_quarter_day_scaled": 0.010041504886865837,
+        "repeat_prior_growth": -0.2087660199055552,
+        "observed_cctp_plus_flat_residual": 0.030596251171508992,
+        "observed_cctp_plus_day_scaled_residual": 0.04094114545248573
+      }
+    }
+  ],
+  "early": [
+    {
+      "period": "2025Q3",
+      "cutoff": "2025-07-30",
+      "actual": 4.664,
+      "methods": {},
+      "unavailable": {
+        "all": "No comparable transaction-category financial result public by early cutoff; IPO Q1 category differs"
+      },
+      "first30_cctp": {
+        "sum_observed": 0.02176,
+        "days_present": 30,
+        "days_expected": 30,
+        "missing_dates": [],
+        "complete": true
+      },
+      "signed_error": {}
+    },
+    {
+      "period": "2025Q4",
+      "cutoff": "2025-10-30",
+      "actual": 12.22,
+      "methods": {
+        "latest_public_flat": 5.825,
+        "latest_public_day_scaled": 5.8890109890109885
+      },
+      "unavailable": {
+        "cctp_model": "First30 or calibration-quarter CCTP coverage incomplete"
+      },
+      "first30_cctp": {
+        "sum_observed": 0.221382,
+        "days_present": 30,
+        "days_expected": 30,
+        "missing_dates": [],
+        "complete": true
+      },
+      "base_period": "2025Q2",
+      "base_actual": 5.825,
+      "base_cctp": 0.02111,
+      "base_days": 91,
+      "base_public_by": "2025-08-12",
+      "current_days": 92,
+      "signed_error": {
+        "latest_public_flat": -0.5233224222585925,
+        "latest_public_day_scaled": -0.5180842071185771
+      }
+    },
+    {
+      "period": "2026Q1",
+      "cutoff": "2026-01-30",
+      "actual": 6.73,
+      "methods": {
+        "latest_public_flat": 4.664,
+        "latest_public_day_scaled": 4.562608695652174,
+        "first30_cctp_plus_latest_public_residual": 4.529014760869565
+      },
+      "unavailable": {},
+      "first30_cctp": {
+        "sum_observed": 0.102143,
+        "days_present": 30,
+        "days_expected": 30,
+        "missing_dates": [],
+        "complete": true
+      },
+      "base_period": "2025Q3",
+      "base_actual": 4.664,
+      "base_cctp": 0.347579,
+      "base_days": 92,
+      "base_public_by": "2025-11-12",
+      "current_days": 90,
+      "projected_cctp": 0.30642899999999995,
+      "projected_residual": 4.222585760869565,
+      "signed_error": {
+        "latest_public_flat": -0.3069836552748887,
+        "latest_public_day_scaled": -0.3220492279863041,
+        "first30_cctp_plus_latest_public_residual": -0.3270408973447898
+      }
+    },
+    {
+      "period": "2026Q2",
+      "cutoff": "2026-04-30",
+      "actual": 5.33,
+      "methods": {
+        "latest_public_flat": 12.22,
+        "latest_public_day_scaled": 12.087173913043477,
+        "first30_cctp_plus_latest_public_residual": 11.846632492028984
+      },
+      "unavailable": {},
+      "first30_cctp": {
+        "sum_observed": 0.100519,
+        "days_present": 30,
+        "days_expected": 30,
+        "missing_dates": [],
+        "complete": true
+      },
+      "base_period": "2025Q4",
+      "base_actual": 12.22,
+      "base_cctp": 0.551443,
+      "base_days": 92,
+      "base_public_by": "2026-03-09",
+      "current_days": 91,
+      "projected_cctp": 0.3049076333333333,
+      "projected_residual": 11.541724858695652,
+      "signed_error": {
+        "latest_public_flat": 1.2926829268292686,
+        "latest_public_day_scaled": 1.267762460233298,
+        "first30_cctp_plus_latest_public_residual": 1.2226327377165074
+      }
+    },
+    {
+      "period": "2026Q3",
+      "cutoff": "2026-07-30",
+      "actual": 5.335,
+      "methods": {
+        "latest_public_flat": 6.73,
+        "latest_public_day_scaled": 6.879555555555556,
+        "first30_cctp_plus_latest_public_residual": 6.977166533333334
+      },
+      "unavailable": {},
+      "first30_cctp": {
+        "sum_observed": 0.137935,
+        "days_present": 30,
+        "days_expected": 30,
+        "missing_dates": [],
+        "complete": true
+      },
+      "base_period": "2026Q1",
+      "base_actual": 6.73,
+      "base_cctp": 0.318316,
+      "base_days": 90,
+      "base_public_by": "2026-05-11",
+      "current_days": 92,
+      "projected_cctp": 0.4230006666666667,
+      "projected_residual": 6.554165866666668,
+      "signed_error": {
+        "latest_public_flat": 0.26148078725398327,
+        "latest_public_day_scaled": 0.289513693637405,
+        "first30_cctp_plus_latest_public_residual": 0.30781003436426135
+      }
+    }
+  ],
+  "late_all_available_metrics": {
+    "observed_cctp_plus_day_scaled_residual": {
+      "n": 4,
+      "periods": [
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.41501197557038705,
+      "mae_million": 3.508599915428412,
+      "worst_abs_error": 0.7434188287357062
+    },
+    "observed_cctp_plus_flat_residual": {
+      "n": 4,
+      "periods": [
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.4185071379213981,
+      "mae_million": 3.54040825,
+      "worst_abs_error": 0.7811104011887071
+    },
+    "prior_quarter_day_scaled": {
+      "n": 5,
+      "periods": [
+        "2025Q3",
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.38879917131910396,
+      "mae_million": 3.1067416042894305,
+      "worst_abs_error": 0.7762775373086115
+    },
+    "prior_quarter_flat": {
+      "n": 5,
+      "periods": [
+        "2025Q3",
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.38932206161905125,
+      "mae_million": 3.1224000000000003,
+      "worst_abs_error": 0.8157503714710252
+    },
+    "repeat_prior_growth": {
+      "n": 5,
+      "periods": [
+        "2025Q3",
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 1.6878673530435746,
+      "mae_million": 10.542737762664608,
+      "worst_abs_error": 3.7573905530394365
+    }
+  },
+  "late_common_metrics": {
+    "prior_quarter_flat": {
+      "n": 4,
+      "periods": [
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.42442058731540927,
+      "mae_million": 3.61275,
+      "worst_abs_error": 0.8157503714710252
+    },
+    "prior_quarter_day_scaled": {
+      "n": 4,
+      "periods": [
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.4203358536744487,
+      "mae_million": 3.577174258109041,
+      "worst_abs_error": 0.7762775373086115
+    },
+    "observed_cctp_plus_flat_residual": {
+      "n": 4,
+      "periods": [
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.4185071379213981,
+      "mae_million": 3.54040825,
+      "worst_abs_error": 0.7811104011887071
+    },
+    "observed_cctp_plus_day_scaled_residual": {
+      "n": 4,
+      "periods": [
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.41501197557038705,
+      "mae_million": 3.508599915428412,
+      "worst_abs_error": 0.7434188287357062
+    }
+  },
+  "early_all_available_metrics": {
+    "first30_cctp_plus_latest_public_residual": {
+      "n": 3,
+      "periods": [
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.6191612231418528,
+      "mae_million": 3.4532614214975847,
+      "worst_abs_error": 1.2226327377165074
+    },
+    "latest_public_day_scaled": {
+      "n": 4,
+      "periods": [
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.599352397243896,
+      "mae_million": 4.200027445983968,
+      "worst_abs_error": 1.267762460233298
+    },
+    "latest_public_flat": {
+      "n": 4,
+      "periods": [
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.5961174479041833,
+      "mae_million": 4.1865000000000006,
+      "worst_abs_error": 1.2926829268292686
+    }
+  },
+  "early_common_metrics": {
+    "latest_public_flat": {
+      "n": 3,
+      "periods": [
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.6203824564527135,
+      "mae_million": 3.450333333333334,
+      "worst_abs_error": 1.2926829268292686
+    },
+    "latest_public_day_scaled": {
+      "n": 3,
+      "periods": [
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.6264417939523357,
+      "mae_million": 3.48970692431562,
+      "worst_abs_error": 1.267762460233298
+    },
+    "first30_cctp_plus_latest_public_residual": {
+      "n": 3,
+      "periods": [
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.6191612231418528,
+      "mae_million": 3.4532614214975847,
+      "worst_abs_error": 1.2226327377165074
+    }
+  },
+  "checks": [
+    {
+      "name": "2025Q3 lag public before earnings",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 lag public before earnings",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 early base publicly available",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 lag public before earnings",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 early base publicly available",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 lag public before earnings",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 early base publicly available",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 lag public before earnings",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 early base publicly available",
+      "passed": true
+    },
+    {
+      "name": "five comparable late targets retained",
+      "passed": true
+    },
+    {
+      "name": "Q4 spike remains in all comparable late models",
+      "passed": true
+    },
+    {
+      "name": "Q3 2025 hybrid unavailable instead of imputing missing CCTP",
+      "passed": true
+    },
+    {
+      "name": "early Q3 2026 does not use unpublished Q2 financials",
+      "passed": true
+    }
+  ]
+}

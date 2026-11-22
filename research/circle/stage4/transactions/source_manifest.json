@@ -1,0 +1,99 @@
+[
+  {
+    "name": "total_stablecoin_history",
+    "url": "https://stablecoins.llama.fi/stablecoincharts/all",
+    "retrieved_at_utc": "2026-11-21T11:53:12.383607+00:00",
+    "status": "failed",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "btc_fred",
+    "url": "https://fred.stlouisfed.org/graph/?g=1&id=CBBTCUSD&cosd=2024-12-01&coed=2026-11-20&fq=Daily&fam=avg&fgst=lin&fgsnd=2020-02-01&line_index=1&line_id=CBBTCUSD&cosd=2024-12-01&coed=2026-11-20&vintage_date=2026-11-21&nd=2014-12-01",
+    "retrieved_at_utc": "2026-11-21T11:53:12.384746+00:00",
+    "status": "failed",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "btc_fred_csv",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=CBBTCUSD&cosd=2024-12-01&coed=2026-11-20",
+    "retrieved_at_utc": "2026-11-21T11:53:12.386002+00:00",
+    "status": "failed",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "redemption_policy",
+    "url": "https://help.circle.com/support/en/usdc-eurc-redemption-structure?id=kb_article_view&sysparm_article=KB0010644&sysparm_language=en",
+    "retrieved_at_utc": "2026-11-21T11:53:23.634968+00:00",
+    "status": "failed",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "circle_economics",
+    "url": "https://www.circle.com/blog/the-economics-of-usdc-and-why-our-partners-win",
+    "retrieved_at_utc": "2026-11-21T11:53:23.635729+00:00",
+    "status": "failed",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "usyc_fees",
+    "url": "https://www.circle.com/usyc",
+    "retrieved_at_utc": "2026-11-21T11:53:23.636124+00:00",
+    "status": "failed",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "total_stablecoin_history",
+    "url": "https://stablecoins.llama.fi/stablecoincharts/all",
+    "retrieved_at_utc": "2026-11-21T12:37:57.644158+00:00",
+    "final_url": "https://stablecoins.llama.fi/stablecoincharts/all",
+    "http_status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "status": "received",
+    "file": "raw\\total_stablecoin_history.json",
+    "sha256": "b789ca4030e16f561e142caf76e4004ea539eead646a8de54c9b3296da8c2f1f",
+    "bytes": 1362277
+  },
+  {
+    "name": "btc_fred_csv",
+    "url": "https://fred.stlouisfed.org/graph/graph.csv?id=CBBTCUSD&cosd=2024-12-01&coed=2026-11-20",
+    "retrieved_at_utc": "2026-11-21T12:37:57.646237+00:00",
+    "status": "failed",
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "name": "redemption_policy",
+    "url": "https://help.circle.com/support/en/usdc-eurc-redemption-structure?id=kb_article_view&sysparm_article=KB0010644&sysparm_language=en",
+    "retrieved_at_utc": "2026-11-21T12:37:57.647271+00:00",
+    "final_url": "https://help.circle.com/support/en/usdc-eurc-redemption-structure?id=kb_article_view&sysparm_article=KB0010644&sysparm_language=en",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "status": "received",
+    "file": "raw\\redemption_policy.html",
+    "sha256": "dc5a10c160061f10f72bd88559eaa50b4881286aa49ddfdda0f144a2ed714390",
+    "bytes": 221896
+  },
+  {
+    "name": "circle_economics",
+    "url": "https://www.circle.com/blog/the-economics-of-usdc-and-why-our-partners-win",
+    "retrieved_at_utc": "2026-11-21T12:37:58.109803+00:00",
+    "final_url": "https://www.circle.com/blog/the-economics-of-usdc-and-why-our-partners-win",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "status": "received",
+    "file": "raw\\circle_economics.html",
+    "sha256": "edbc88d093c662ec297e11c521d17c9a2a0913ab3f9573cb6bf8ba37f7b93ead",
+    "bytes": 235473
+  },
+  {
+    "name": "usyc_fees",
+    "url": "https://www.circle.com/usyc",
+    "retrieved_at_utc": "2026-11-21T12:37:58.255264+00:00",
+    "final_url": "https://www.circle.com/usyc",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "status": "received",
+    "file": "raw\\usyc_fees.html",
+    "sha256": "017d29ffb737fe04578b5836e32e5ee38355cb4ea8caddd9988ab006ce4f6634",
+    "bytes": 285469
+  }
+]

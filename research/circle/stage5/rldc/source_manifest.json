@@ -1,0 +1,203 @@
+[
+  {
+    "name": "coin_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001679788.json",
+    "retrieved_at_utc": "2026-11-21T13:31:12.650510+00:00",
+    "http_status": 200,
+    "final_url": "https://data.sec.gov/submissions/CIK0001679788.json",
+    "status": "received",
+    "file": "raw\\coin_submissions.json",
+    "sha256": "96322b3bd09d75b063e3d41130f47ff57e73862a44f9cb3550e6de32468a3e17",
+    "bytes": 159699
+  },
+  {
+    "name": "coin_2025Q1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000088/q125shareholderletter.htm",
+    "retrieved_at_utc": "2026-11-21T13:31:13.169742+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000088/q125shareholderletter.htm",
+    "status": "received",
+    "file": "raw\\coin_2025Q1.html",
+    "sha256": "5daf59f7f0d9ed614a467d2ad6172aec31d5432ff17a4651fe5e54b1f1f575c3",
+    "bytes": 1338416
+  },
+  {
+    "name": "coin_2025Q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000153/q225shareholderletter.htm",
+    "retrieved_at_utc": "2026-11-21T13:31:13.683763+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000153/q225shareholderletter.htm",
+    "status": "received",
+    "file": "raw\\coin_2025Q2.html",
+    "sha256": "61c0bfb5332d2cc13999a35456b4de3b1cff56731d61bb61c32c54e2e1de4b36",
+    "bytes": 1458647
+  },
+  {
+    "name": "coin_2025Q3",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000207/q325shareholderletter.htm",
+    "retrieved_at_utc": "2026-11-21T13:31:13.869304+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978825000207/q325shareholderletter.htm",
+    "status": "received",
+    "file": "raw\\coin_2025Q3.html",
+    "sha256": "f02dfd551d8c69bddc5c9e632de6a47bc44bf3f52203b8a2d15fc46d191ca41d",
+    "bytes": 1325891
+  },
+  {
+    "name": "coin_2026Q2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000087/q226earningsdeck_sec.htm",
+    "retrieved_at_utc": "2026-11-21T13:31:14.057383+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000087/q226earningsdeck_sec.htm",
+    "status": "received",
+    "file": "raw\\coin_2026Q2.html",
+    "sha256": "0934eff2eadd38d5e68ab3e89343d7da014c85045a3ffe8b3a0c68f421dc9598",
+    "bytes": 91339
+  },
+  {
+    "name": "coin_2026Q3",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000121/q326earningsdeck_vsec.htm",
+    "retrieved_at_utc": "2026-11-21T13:31:14.167099+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000121/q326earningsdeck_vsec.htm",
+    "status": "received",
+    "file": "raw\\coin_2026Q3.html",
+    "sha256": "c2026384a63f9de20e88f767862c9f711eb4c71a4628311aea599ef0134df6f1",
+    "bytes": 88921
+  },
+  {
+    "name": "coin_2026Q1_pdf",
+    "url": "https://s27.q4cdn.com/397450999/files/doc_financials/2026/q1/v3/Q1-26-Earnings-Deck.pdf",
+    "retrieved_at_utc": "2026-11-21T13:31:14.259271+00:00",
+    "http_status": 200,
+    "final_url": "https://s27.q4cdn.com/397450999/files/doc_financials/2026/q1/v3/Q1-26-Earnings-Deck.pdf",
+    "status": "received",
+    "file": "raw\\coin_2026Q1_pdf.pdf",
+    "sha256": "27e91be21322ae85aa3c846f6dca98f5543f19701a6a08ee2100e265a2831db4",
+    "bytes": 7352148
+  },
+  {
+    "name": "coin_quarterly",
+    "url": "https://investor.coinbase.com/financials/quarterly-results/default.aspx",
+    "retrieved_at_utc": "2026-11-21T13:31:14.598006+00:00",
+    "http_status": 200,
+    "final_url": "https://investor.coinbase.com/financials/quarterly-results/default.aspx",
+    "status": "received",
+    "file": "raw\\coin_quarterly.html",
+    "sha256": "652a9eab8ec53589778bd5e680b623ee607c649cec8ab3ca3f97e1a9e3930bf5",
+    "bytes": 61702
+  },
+  {
+    "name": "coin_2025Q4_index",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000011/coin-20260212-index.html",
+    "retrieved_at_utc": "2026-11-21T13:32:00.740576+00:00",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "coin_2026Q1_index",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000053/coin-20260507-index.html",
+    "retrieved_at_utc": "2026-11-21T13:32:01.144193+00:00",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "coin_2026Q2_slide40",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000087/q226earningsdeck_sec040.jpg",
+    "retrieved_at_utc": "2026-11-21T13:32:01.418945+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000087/q226earningsdeck_sec040.jpg",
+    "status": "received",
+    "file": "raw\\coin_2026Q2_slide40.jpg",
+    "sha256": "48a5e13cf2ac729d399ecc214591998f26cae0c8a557da3863a4e9cc62b71c42",
+    "bytes": 71244
+  },
+  {
+    "name": "coin_2026Q3_slide36",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000121/q326earningsdeck_vsec036.jpg",
+    "retrieved_at_utc": "2026-11-21T13:32:01.510998+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000121/q326earningsdeck_vsec036.jpg",
+    "status": "received",
+    "file": "raw\\coin_2026Q3_slide36.jpg",
+    "sha256": "b8c888a939e7a64aebe5061967421bb6f4ece2214f80a1f6f39848a8007ef774",
+    "bytes": 65179
+  },
+  {
+    "name": "coin_2025Q4_index_v2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000011/0001679788-26-000011-index.html",
+    "retrieved_at_utc": "2026-11-21T13:32:26.746891+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000011/0001679788-26-000011-index.html",
+    "status": "received",
+    "file": "raw\\coin_2025Q4_index_v2.html",
+    "sha256": "953dc1d28eb4972907947684cb992d8acd179095c074698134e457f0d0d7c3e2",
+    "bytes": 15742
+  },
+  {
+    "name": "coin_2026Q1_index_v2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000053/0001679788-26-000053-index.html",
+    "retrieved_at_utc": "2026-11-21T13:32:27.560101+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000053/0001679788-26-000053-index.html",
+    "status": "received",
+    "file": "raw\\coin_2026Q1_index_v2.html",
+    "sha256": "437f9e8bd195650c53f4d164d512d972bc954412869fd44200380bf5ecb761b8",
+    "bytes": 24597
+  },
+  {
+    "name": "coin_2025Q4",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000011/q425shareholderletter.htm",
+    "retrieved_at_utc": "2026-11-21T13:32:51.352458+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000011/q425shareholderletter.htm",
+    "status": "received",
+    "file": "raw\\coin_2025Q4.html",
+    "sha256": "8800cffb3f640ee0abbed166603c53017db6384b9a010f1dc2476e5276b3df80",
+    "bytes": 1381125
+  },
+  {
+    "name": "coin_2026Q1_original",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000053/q126earningsdeck-finalse.htm",
+    "retrieved_at_utc": "2026-11-21T13:32:51.713426+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000053/q126earningsdeck-finalse.htm",
+    "status": "received",
+    "file": "raw\\coin_2026Q1_original.html",
+    "sha256": "1843a1f052e10f0efb9c6a6752ecd9b39c0419929f36b0ce9c6fb7c339b5940a",
+    "bytes": 53417
+  },
+  {
+    "name": "collaboration_agreement",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525070481/d737521dex101.htm",
+    "retrieved_at_utc": "2026-11-21T13:38:06.673621+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525070481/d737521dex101.htm",
+    "status": "received",
+    "file": "raw\\collaboration_agreement.html",
+    "sha256": "38fdb9f1739b3c354a7e49f36196230ebc0472c060078c206db74ac2cb38204d",
+    "bytes": 225749
+  },
+  {
+    "name": "ecosystem_agreement",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525070481/d737521dex102.htm",
+    "retrieved_at_utc": "2026-11-21T13:38:07.686435+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525070481/d737521dex102.htm",
+    "status": "received",
+    "file": "raw\\ecosystem_agreement.html",
+    "sha256": "a749372f9c57ee9f8bc413a38634c4016c288309cd1640349c283aad1c116db8",
+    "bytes": 70475
+  },
+  {
+    "name": "coin_2026Q1_slide38",
+    "url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000053/q126earningsdeck-finalse038.jpg",
+    "retrieved_at_utc": "2026-11-21T13:38:07.756213+00:00",
+    "http_status": 200,
+    "final_url": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000053/q126earningsdeck-finalse038.jpg",
+    "status": "received",
+    "file": "raw\\coin_2026Q1_slide38.jpg",
+    "sha256": "fd35de0d7c2a33e413acac8281f0f6ec2f3e6045a0c97e4f4a2a4d313e8f91b4",
+    "bytes": 59695
+  }
+]

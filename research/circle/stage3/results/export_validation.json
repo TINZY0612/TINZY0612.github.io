@@ -1,0 +1,1112 @@
+{
+  "workbook": "C:\\Users\\Tin\\OneDrive\\Documents\\ChatGPT\\Trading Agent\\Circle\\outputs\\01a1fcd4-2a0f-7c92-a89f-a871c89c1db7\\Circle_Reserve_Income_Backtest.xlsx",
+  "checks_passed": 184,
+  "checks_total": 184,
+  "checks": [
+    {
+      "check": "export contains no Excel error cells",
+      "passed": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "Backtest!D9",
+      "passed": true,
+      "actual": 634.274,
+      "expected": 634.274
+    },
+    {
+      "check": "Backtest!D11",
+      "passed": true,
+      "actual": 564.1100111111111,
+      "expected": 564.1100111111111
+    },
+    {
+      "check": "Backtest!D12",
+      "passed": true,
+      "actual": -0.11062094440082504,
+      "expected": -0.11062094440082504
+    },
+    {
+      "check": "Backtest!D14",
+      "passed": true,
+      "actual": 634.71717143004,
+      "expected": 634.7171714300403
+    },
+    {
+      "check": "Backtest!D15",
+      "passed": true,
+      "actual": 0.000698706600049892,
+      "expected": 0.0006987066000501141
+    },
+    {
+      "check": "Backtest!D17",
+      "passed": true,
+      "actual": 665.2672355636331,
+      "expected": 665.2672355636333
+    },
+    {
+      "check": "Backtest!D18",
+      "passed": true,
+      "actual": 0.04886411166724969,
+      "expected": 0.04886411166724991
+    },
+    {
+      "check": "Backtest!D20",
+      "passed": true,
+      "actual": 663.0159435658856,
+      "expected": 663.0159435658854
+    },
+    {
+      "check": "Backtest!D21",
+      "passed": true,
+      "actual": 0.04531471188458869,
+      "expected": 0.045314711884588466
+    },
+    {
+      "check": "Backtest!D23",
+      "passed": true,
+      "actual": 633.0946828872205,
+      "expected": 633.094682887221
+    },
+    {
+      "check": "Backtest!D24",
+      "passed": true,
+      "actual": -0.0018593180751212968,
+      "expected": -0.0018593180751205196
+    },
+    {
+      "check": "Backtest!D26",
+      "passed": true,
+      "actual": 631.5908631594624,
+      "expected": 631.5908631594625
+    },
+    {
+      "check": "Backtest!D27",
+      "passed": true,
+      "actual": -0.004230248820758176,
+      "expected": -0.004230248820758065
+    },
+    {
+      "check": "Backtest!D30",
+      "passed": true,
+      "actual": 631.5908631594624,
+      "expected": 631.5908631594625
+    },
+    {
+      "check": "Backtest!D34",
+      "passed": true,
+      "actual": 633.2208015088172,
+      "expected": 633.2208015088175
+    },
+    {
+      "check": "RLDC!D9",
+      "passed": true,
+      "actual": 633.0946828872205,
+      "expected": 633.094682887221
+    },
+    {
+      "check": "RLDC!D10",
+      "passed": true,
+      "actual": 20.662,
+      "expected": 20.662
+    },
+    {
+      "check": "RLDC!D11",
+      "passed": true,
+      "actual": 653.7566828872206,
+      "expected": 653.756682887221
+    },
+    {
+      "check": "RLDC!D13",
+      "passed": true,
+      "actual": 0.6231226844425007,
+      "expected": 0.6231226844425007
+    },
+    {
+      "check": "RLDC!D19",
+      "passed": true,
+      "actual": 394.4956583069586,
+      "expected": 394.4956583069589
+    },
+    {
+      "check": "RLDC!D20",
+      "passed": true,
+      "actual": 259.26102458026196,
+      "expected": 259.26102458026213
+    },
+    {
+      "check": "RLDC!D22",
+      "passed": true,
+      "actual": 658.078,
+      "expected": 658.078
+    },
+    {
+      "check": "RLDC!D23",
+      "passed": true,
+      "actual": -0.006566572826898098,
+      "expected": -0.006566572826897321
+    },
+    {
+      "check": "RLDC!D25",
+      "passed": true,
+      "actual": 251.13599999999997,
+      "expected": 251.13599999999997
+    },
+    {
+      "check": "RLDC!D26",
+      "passed": true,
+      "actual": 0.03235308589872421,
+      "expected": 0.032353085898724876
+    },
+    {
+      "check": "RLDC!D31",
+      "passed": true,
+      "actual": 37.96567630635615,
+      "expected": 37.965676306356166
+    },
+    {
+      "check": "Backtest!E9",
+      "passed": true,
+      "actual": 711.241,
+      "expected": 711.241
+    },
+    {
+      "check": "Backtest!E11",
+      "passed": true,
+      "actual": 641.2440439560439,
+      "expected": 641.2440439560439
+    },
+    {
+      "check": "Backtest!E12",
+      "passed": true,
+      "actual": -0.09841524327753326,
+      "expected": -0.09841524327753326
+    },
+    {
+      "check": "Backtest!E14",
+      "passed": true,
+      "actual": 709.1571761283916,
+      "expected": 709.1571761283913
+    },
+    {
+      "check": "Backtest!E15",
+      "passed": true,
+      "actual": -0.002929842165466212,
+      "expected": -0.0029298421654667672
+    },
+    {
+      "check": "Backtest!E17",
+      "passed": true,
+      "actual": 746.1070096753963,
+      "expected": 746.1070096753964
+    },
+    {
+      "check": "Backtest!E18",
+      "passed": true,
+      "actual": 0.04902137204603818,
+      "expected": 0.0490213720460384
+    },
+    {
+      "check": "Backtest!E20",
+      "passed": true,
+      "actual": 723.6912014184013,
+      "expected": 723.6912014184016
+    },
+    {
+      "check": "Backtest!E21",
+      "passed": true,
+      "actual": 0.017504898365534816,
+      "expected": 0.01750489836553526
+    },
+    {
+      "check": "Backtest!E23",
+      "passed": true,
+      "actual": 709.903411689691,
+      "expected": 709.903411689691
+    },
+    {
+      "check": "Backtest!E24",
+      "passed": true,
+      "actual": -0.0018806400507127563,
+      "expected": -0.0018806400507127563
+    },
+    {
+      "check": "Backtest!E26",
+      "passed": true,
+      "actual": 710.0595336559006,
+      "expected": 710.0595336559004
+    },
+    {
+      "check": "Backtest!E27",
+      "passed": true,
+      "actual": -0.001661133629950129,
+      "expected": -0.001661133629950462
+    },
+    {
+      "check": "Backtest!E30",
+      "passed": true,
+      "actual": 710.0595336559006,
+      "expected": 710.0595336559004
+    },
+    {
+      "check": "Backtest!E34",
+      "passed": true,
+      "actual": 711.3341490200942,
+      "expected": 711.3341490200944
+    },
+    {
+      "check": "RLDC!E9",
+      "passed": true,
+      "actual": 709.903411689691,
+      "expected": 709.903411689691
+    },
+    {
+      "check": "RLDC!E10",
+      "passed": true,
+      "actual": 23.804,
+      "expected": 23.804
+    },
+    {
+      "check": "RLDC!E11",
+      "passed": true,
+      "actual": 733.707411689691,
+      "expected": 733.707411689691
+    },
+    {
+      "check": "RLDC!E13",
+      "passed": true,
+      "actual": 0.6415870743558778,
+      "expected": 0.6415870743558778
+    },
+    {
+      "check": "RLDC!E19",
+      "passed": true,
+      "actual": 455.4648529812451,
+      "expected": 455.4648529812451
+    },
+    {
+      "check": "RLDC!E20",
+      "passed": true,
+      "actual": 278.24255870844587,
+      "expected": 278.24255870844587
+    },
+    {
+      "check": "RLDC!E22",
+      "passed": true,
+      "actual": 739.759,
+      "expected": 739.759
+    },
+    {
+      "check": "RLDC!E23",
+      "passed": true,
+      "actual": -0.008180486226337269,
+      "expected": -0.008180486226337269
+    },
+    {
+      "check": "RLDC!E25",
+      "passed": true,
+      "actual": 292.147,
+      "expected": 292.147
+    },
+    {
+      "check": "RLDC!E26",
+      "passed": true,
+      "actual": -0.04759398964067452,
+      "expected": -0.04759398964067452
+    },
+    {
+      "check": "RLDC!E31",
+      "passed": true,
+      "actual": 42.536479130068514,
+      "expected": 42.53647913006849
+    },
+    {
+      "check": "Backtest!F9",
+      "passed": true,
+      "actual": 733.3960000000002,
+      "expected": 733.3960000000002
+    },
+    {
+      "check": "Backtest!F11",
+      "passed": true,
+      "actual": 711.241,
+      "expected": 711.241
+    },
+    {
+      "check": "Backtest!F12",
+      "passed": true,
+      "actual": -0.030208782158615777,
+      "expected": -0.030208782158615777
+    },
+    {
+      "check": "Backtest!F14",
+      "passed": true,
+      "actual": 795.6816993954137,
+      "expected": 795.6816993954137
+    },
+    {
+      "check": "Backtest!F15",
+      "passed": true,
+      "actual": 0.08492778716466076,
+      "expected": 0.08492778716466076
+    },
+    {
+      "check": "Backtest!F17",
+      "passed": true,
+      "actual": 773.9690438471991,
+      "expected": 773.9690438471991
+    },
+    {
+      "check": "Backtest!F18",
+      "passed": true,
+      "actual": 0.05532215044423339,
+      "expected": 0.05532215044423339
+    },
+    {
+      "check": "Backtest!F20",
+      "passed": true,
+      "actual": 738.1202115845603,
+      "expected": 738.1202115845603
+    },
+    {
+      "check": "Backtest!F21",
+      "passed": true,
+      "actual": 0.006441556245957214,
+      "expected": 0.006441556245957214
+    },
+    {
+      "check": "Backtest!F23",
+      "passed": true,
+      "actual": 730.7785849445594,
+      "expected": 730.7785849445589
+    },
+    {
+      "check": "Backtest!F24",
+      "passed": true,
+      "actual": -0.0035688973698259074,
+      "expected": -0.0035688973698264626
+    },
+    {
+      "check": "Backtest!F26",
+      "passed": true,
+      "actual": 731.9092743367196,
+      "expected": 731.9092743367198
+    },
+    {
+      "check": "Backtest!F27",
+      "passed": true,
+      "actual": -0.002027179945459978,
+      "expected": -0.002027179945459756
+    },
+    {
+      "check": "Backtest!F30",
+      "passed": true,
+      "actual": 731.9092743367196,
+      "expected": 731.9092743367198
+    },
+    {
+      "check": "Backtest!F34",
+      "passed": true,
+      "actual": 730.9807798909324,
+      "expected": 730.9807798909324
+    },
+    {
+      "check": "RLDC!F9",
+      "passed": true,
+      "actual": 730.7785849445594,
+      "expected": 730.7785849445589
+    },
+    {
+      "check": "RLDC!F10",
+      "passed": true,
+      "actual": 28.518,
+      "expected": 28.518
+    },
+    {
+      "check": "RLDC!F11",
+      "passed": true,
+      "actual": 759.2965849445594,
+      "expected": 759.296584944559
+    },
+    {
+      "check": "RLDC!F13",
+      "passed": true,
+      "actual": 0.62933942222116,
+      "expected": 0.62933942222116
+    },
+    {
+      "check": "RLDC!F19",
+      "passed": true,
+      "actual": 459.9077724206059,
+      "expected": 459.9077724206056
+    },
+    {
+      "check": "RLDC!F20",
+      "passed": true,
+      "actual": 299.3888125239535,
+      "expected": 299.38881252395333
+    },
+    {
+      "check": "RLDC!F22",
+      "passed": true,
+      "actual": 770.2319999999997,
+      "expected": 770.2319999999997
+    },
+    {
+      "check": "RLDC!F23",
+      "passed": true,
+      "actual": -0.014197560027940037,
+      "expected": -0.014197560027940703
+    },
+    {
+      "check": "RLDC!F25",
+      "passed": true,
+      "actual": 308.7819999999997,
+      "expected": 308.7819999999997
+    },
+    {
+      "check": "RLDC!F26",
+      "passed": true,
+      "actual": -0.0304201264194357,
+      "expected": -0.030420126419436255
+    },
+    {
+      "check": "RLDC!F31",
+      "passed": true,
+      "actual": 47.82513445325342,
+      "expected": 47.82513445325342
+    },
+    {
+      "check": "Backtest!G9",
+      "passed": true,
+      "actual": 652.508,
+      "expected": 652.508
+    },
+    {
+      "check": "Backtest!G11",
+      "passed": true,
+      "actual": 717.4526086956523,
+      "expected": 717.4526086956523
+    },
+    {
+      "check": "Backtest!G12",
+      "passed": true,
+      "actual": 0.09953074704931164,
+      "expected": 0.09953074704931164
+    },
+    {
+      "check": "Backtest!G14",
+      "passed": true,
+      "actual": 708.8586796187192,
+      "expected": 708.8586796187192
+    },
+    {
+      "check": "Backtest!G15",
+      "passed": true,
+      "actual": 0.08636013599636971,
+      "expected": 0.08636013599636971
+    },
+    {
+      "check": "Backtest!G17",
+      "passed": true,
+      "actual": 688.870044621793,
+      "expected": 688.8700446217931
+    },
+    {
+      "check": "Backtest!G18",
+      "passed": true,
+      "actual": 0.055726588213160566,
+      "expected": 0.05572658821316079
+    },
+    {
+      "check": "Backtest!G20",
+      "passed": true,
+      "actual": 684.9832547232285,
+      "expected": 684.9832547232285
+    },
+    {
+      "check": "Backtest!G21",
+      "passed": true,
+      "actual": 0.049769895117344864,
+      "expected": 0.049769895117344864
+    },
+    {
+      "check": "Backtest!G23",
+      "passed": true,
+      "actual": 646.6621084032749,
+      "expected": 646.662108403275
+    },
+    {
+      "check": "Backtest!G24",
+      "passed": true,
+      "actual": -0.008959110994386399,
+      "expected": -0.008959110994386288
+    },
+    {
+      "check": "Backtest!G26",
+      "passed": true,
+      "actual": 648.6769385245476,
+      "expected": 648.676938524547
+    },
+    {
+      "check": "Backtest!G27",
+      "passed": true,
+      "actual": -0.0058712865979457796,
+      "expected": -0.005871286597946668
+    },
+    {
+      "check": "Backtest!G30",
+      "passed": true,
+      "actual": 648.6769385245476,
+      "expected": 648.676938524547
+    },
+    {
+      "check": "Backtest!G34",
+      "passed": true,
+      "actual": 646.8062163591637,
+      "expected": 646.8062163591637
+    },
+    {
+      "check": "RLDC!G9",
+      "passed": true,
+      "actual": 646.6621084032749,
+      "expected": 646.662108403275
+    },
+    {
+      "check": "RLDC!G10",
+      "passed": true,
+      "actual": 36.836,
+      "expected": 36.836
+    },
+    {
+      "check": "RLDC!G11",
+      "passed": true,
+      "actual": 683.498108403275,
+      "expected": 683.4981084032751
+    },
+    {
+      "check": "RLDC!G13",
+      "passed": true,
+      "actual": 0.6291962323219651,
+      "expected": 0.6291962323219651
+    },
+    {
+      "check": "RLDC!G19",
+      "passed": true,
+      "actual": 406.87736219271875,
+      "expected": 406.8773621927188
+    },
+    {
+      "check": "RLDC!G20",
+      "passed": true,
+      "actual": 276.6207462105562,
+      "expected": 276.62074621055626
+    },
+    {
+      "check": "RLDC!G22",
+      "passed": true,
+      "actual": 694.133,
+      "expected": 694.133
+    },
+    {
+      "check": "RLDC!G23",
+      "passed": true,
+      "actual": -0.015321115112989947,
+      "expected": -0.015321115112989836
+    },
+    {
+      "check": "RLDC!G25",
+      "passed": true,
+      "actual": 287.35200000000003,
+      "expected": 287.35200000000003
+    },
+    {
+      "check": "RLDC!G26",
+      "passed": true,
+      "actual": -0.037345324860950435,
+      "expected": -0.03734532486095021
+    },
+    {
+      "check": "RLDC!G31",
+      "passed": true,
+      "actual": 46.409946458863004,
+      "expected": 46.40994645886301
+    },
+    {
+      "check": "Backtest!H9",
+      "passed": true,
+      "actual": 667.733,
+      "expected": 667.733
+    },
+    {
+      "check": "Backtest!H11",
+      "passed": true,
+      "actual": 659.7580888888889,
+      "expected": 659.7580888888889
+    },
+    {
+      "check": "Backtest!H12",
+      "passed": true,
+      "actual": -0.011943263416831384,
+      "expected": -0.011943263416831384
+    },
+    {
+      "check": "Backtest!H14",
+      "passed": true,
+      "actual": 673.2084840204242,
+      "expected": 673.2084840204242
+    },
+    {
+      "check": "Backtest!H15",
+      "passed": true,
+      "actual": 0.008200109954763724,
+      "expected": 0.008200109954763724
+    },
+    {
+      "check": "Backtest!H17",
+      "passed": true,
+      "actual": 702.0071454490388,
+      "expected": 702.0071454490386
+    },
+    {
+      "check": "Backtest!H18",
+      "passed": true,
+      "actual": 0.05132911725051614,
+      "expected": 0.0513291172505157
+    },
+    {
+      "check": "Backtest!H20",
+      "passed": true,
+      "actual": 713.4377754614527,
+      "expected": 713.4377754614526
+    },
+    {
+      "check": "Backtest!H21",
+      "passed": true,
+      "actual": 0.0684476811262178,
+      "expected": 0.06844768112621757
+    },
+    {
+      "check": "Backtest!H23",
+      "passed": true,
+      "actual": 665.3151547011523,
+      "expected": 665.3151547011521
+    },
+    {
+      "check": "Backtest!H24",
+      "passed": true,
+      "actual": -0.0036209761968445386,
+      "expected": -0.0036209761968448717
+    },
+    {
+      "check": "Backtest!H26",
+      "passed": true,
+      "actual": 667.5540644824656,
+      "expected": 667.5540644824664
+    },
+    {
+      "check": "Backtest!H27",
+      "passed": true,
+      "actual": -0.00026797465084749117,
+      "expected": -0.0002679746508462699
+    },
+    {
+      "check": "Backtest!H30",
+      "passed": true,
+      "actual": 667.3518591380491,
+      "expected": 667.3518591380497
+    },
+    {
+      "check": "Backtest!H34",
+      "passed": true,
+      "actual": 664.9628837640008,
+      "expected": 664.9628837640005
+    },
+    {
+      "check": "RLDC!H9",
+      "passed": true,
+      "actual": 665.3151547011523,
+      "expected": 665.3151547011521
+    },
+    {
+      "check": "RLDC!H10",
+      "passed": true,
+      "actual": 41.625,
+      "expected": 41.625
+    },
+    {
+      "check": "RLDC!H11",
+      "passed": true,
+      "actual": 706.9401547011523,
+      "expected": 706.9401547011521
+    },
+    {
+      "check": "RLDC!H13",
+      "passed": true,
+      "actual": 0.6234115137285673,
+      "expected": 0.6234115137285673
+    },
+    {
+      "check": "RLDC!H19",
+      "passed": true,
+      "actual": 414.7651276988013,
+      "expected": 414.76512769880117
+    },
+    {
+      "check": "RLDC!H20",
+      "passed": true,
+      "actual": 292.17502700235104,
+      "expected": 292.17502700235093
+    },
+    {
+      "check": "RLDC!H22",
+      "passed": true,
+      "actual": 701.315,
+      "expected": 701.315
+    },
+    {
+      "check": "RLDC!H23",
+      "passed": true,
+      "actual": 0.008020867514814789,
+      "expected": 0.008020867514814345
+    },
+    {
+      "check": "RLDC!H25",
+      "passed": true,
+      "actual": 288.845,
+      "expected": 288.845
+    },
+    {
+      "check": "RLDC!H26",
+      "passed": true,
+      "actual": 0.011528768032512238,
+      "expected": 0.011528768032512016
+    },
+    {
+      "check": "RLDC!H31",
+      "passed": true,
+      "actual": 47.826790092472606,
+      "expected": 47.826790092472606
+    },
+    {
+      "check": "Backtest!I9",
+      "passed": true,
+      "actual": 657.624,
+      "expected": 657.624
+    },
+    {
+      "check": "Backtest!I11",
+      "passed": true,
+      "actual": 675.0707252747252,
+      "expected": 675.0707252747252
+    },
+    {
+      "check": "Backtest!I12",
+      "passed": true,
+      "actual": 0.02652994001849862,
+      "expected": 0.02652994001849862
+    },
+    {
+      "check": "Backtest!I14",
+      "passed": true,
+      "actual": 648.5777850940163,
+      "expected": 648.5777850940163
+    },
+    {
+      "check": "Backtest!I15",
+      "passed": true,
+      "actual": -0.013755907488144703,
+      "expected": -0.013755907488144703
+    },
+    {
+      "check": "Backtest!I17",
+      "passed": true,
+      "actual": 689.264364852191,
+      "expected": 689.2643648521909
+    },
+    {
+      "check": "Backtest!I18",
+      "passed": true,
+      "actual": 0.04811315410050576,
+      "expected": 0.04811315410050554
+    },
+    {
+      "check": "Backtest!I20",
+      "passed": true,
+      "actual": 730.4392918460179,
+      "expected": 730.4392918460178
+    },
+    {
+      "check": "Backtest!I21",
+      "passed": true,
+      "actual": 0.11072480907937954,
+      "expected": 0.11072480907937932
+    },
+    {
+      "check": "Backtest!I23",
+      "passed": true,
+      "actual": 657.8314796733507,
+      "expected": 657.8314796733508
+    },
+    {
+      "check": "Backtest!I24",
+      "passed": true,
+      "actual": 0.0003154989376159545,
+      "expected": 0.0003154989376159545
+    },
+    {
+      "check": "Backtest!I26",
+      "passed": true,
+      "actual": 657.7389826097967,
+      "expected": 657.7389826097964
+    },
+    {
+      "check": "Backtest!I27",
+      "passed": true,
+      "actual": 0.0001748455193191223,
+      "expected": 0.0001748455193186782
+    },
+    {
+      "check": "Backtest!I30",
+      "passed": true,
+      "actual": 657.7389826097967,
+      "expected": 657.7389826097964
+    },
+    {
+      "check": "Backtest!I34",
+      "passed": true,
+      "actual": 657.895142904402,
+      "expected": 657.8951429044018
+    },
+    {
+      "check": "RLDC!I9",
+      "passed": true,
+      "actual": 657.8314796733507,
+      "expected": 657.8314796733508
+    },
+    {
+      "check": "RLDC!I10",
+      "passed": true,
+      "actual": 33.582,
+      "expected": 33.582
+    },
+    {
+      "check": "RLDC!I11",
+      "passed": true,
+      "actual": 691.4134796733507,
+      "expected": 691.4134796733508
+    },
+    {
+      "check": "RLDC!I13",
+      "passed": true,
+      "actual": 0.6177169617197293,
+      "expected": 0.6177169617197293
+    },
+    {
+      "check": "RLDC!I19",
+      "passed": true,
+      "actual": 406.35366294741607,
+      "expected": 406.3536629474162
+    },
+    {
+      "check": "RLDC!I20",
+      "passed": true,
+      "actual": 285.05981672593464,
+      "expected": 285.05981672593464
+    },
+    {
+      "check": "RLDC!I22",
+      "passed": true,
+      "actual": 864.888,
+      "expected": 864.888
+    },
+    {
+      "check": "RLDC!I23",
+      "passed": true,
+      "actual": -0.200574548758509,
+      "expected": -0.20057454875850889
+    },
+    {
+      "check": "RLDC!I25",
+      "passed": true,
+      "actual": 453.254,
+      "expected": 453.254
+    },
+    {
+      "check": "RLDC!I26",
+      "passed": true,
+      "actual": -0.37108152001761785,
+      "expected": -0.37108152001761785
+    },
+    {
+      "check": "RLDC!I31",
+      "passed": true,
+      "actual": 46.32820021650685,
+      "expected": 46.32820021650685
+    },
+    {
+      "check": "Backtest!L8",
+      "passed": true,
+      "actual": 0.06287482005360262,
+      "expected": 0.06287482005360262
+    },
+    {
+      "check": "Backtest!M8",
+      "passed": true,
+      "actual": 0.11062094440082504,
+      "expected": 0.11062094440082504
+    },
+    {
+      "check": "Backtest!N8",
+      "passed": true,
+      "actual": 42.11369833572227,
+      "expected": 42.11369833572227
+    },
+    {
+      "check": "Backtest!O8",
+      "passed": true,
+      "actual": 0.0,
+      "expected": 0
+    },
+    {
+      "check": "Backtest!L9",
+      "passed": true,
+      "actual": 0.032812081561575834,
+      "expected": 0.032812081561575966
+    },
+    {
+      "check": "Backtest!M9",
+      "passed": true,
+      "actual": 0.08636013599636971,
+      "expected": 0.08636013599636971
+    },
+    {
+      "check": "Backtest!N9",
+      "passed": true,
+      "actual": 22.614178873698165,
+      "expected": 22.61417887369826
+    },
+    {
+      "check": "Backtest!O9",
+      "passed": true,
+      "actual": 5.0,
+      "expected": 5
+    },
+    {
+      "check": "Backtest!L10",
+      "passed": true,
+      "actual": 0.05139608228695062,
+      "expected": 0.05139608228695062
+    },
+    {
+      "check": "Backtest!M10",
+      "passed": true,
+      "actual": 0.055726588213160566,
+      "expected": 0.05572658821316079
+    },
+    {
+      "check": "Backtest!N10",
+      "passed": true,
+      "actual": 34.78480733487519,
+      "expected": 34.78480733487521
+    },
+    {
+      "check": "Backtest!O10",
+      "passed": true,
+      "actual": 3.0,
+      "expected": 3
+    },
+    {
+      "check": "Backtest!L11",
+      "passed": true,
+      "actual": 0.04970059196983715,
+      "expected": 0.049700591969837116
+    },
+    {
+      "check": "Backtest!M11",
+      "passed": true,
+      "actual": 0.11072480907937954,
+      "expected": 0.11072480907937932
+    },
+    {
+      "check": "Backtest!N11",
+      "passed": true,
+      "actual": 32.818613099924335,
+      "expected": 32.818613099924335
+    },
+    {
+      "check": "Backtest!O11",
+      "passed": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "Backtest!L12",
+      "passed": true,
+      "actual": 0.0033674069374178086,
+      "expected": 0.0033674069374178086
+    },
+    {
+      "check": "Backtest!M12",
+      "passed": true,
+      "actual": 0.008959110994386399,
+      "expected": 0.008959110994386288
+    },
+    {
+      "check": "Backtest!N12",
+      "passed": true,
+      "actual": 2.267589507908781,
+      "expected": 2.2675895079088186
+    },
+    {
+      "check": "Backtest!O12",
+      "passed": true,
+      "actual": 6.0,
+      "expected": 6
+    },
+    {
+      "check": "Backtest!L13",
+      "passed": true,
+      "actual": 0.0023721115273801128,
+      "expected": 0.002372111527379983
+    },
+    {
+      "check": "Backtest!M13",
+      "passed": true,
+      "actual": 0.0058712865979457796,
+      "expected": 0.005871286597946668
+    },
+    {
+      "check": "Backtest!N13",
+      "passed": true,
+      "actual": 1.5793847417835043,
+      "expected": 1.5793847417833906
+    },
+    {
+      "check": "Backtest!O13",
+      "passed": true,
+      "actual": 6.0,
+      "expected": 6
+    },
+    {
+      "check": "RLDC!D4",
+      "passed": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "Source inputs!D4",
+      "passed": true,
+      "actual": 0.005,
+      "expected": 0.005
+    },
+    {
+      "check": "Source inputs!G4",
+      "passed": true,
+      "actual": 0.01,
+      "expected": 0.01
+    }
+  ],
+  "native_excel_recalculation_tested": false
+}

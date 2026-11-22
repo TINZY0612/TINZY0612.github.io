@@ -1,0 +1,300 @@
+{
+  "as_of": "2026-11-21",
+  "scope": "Current public data reconstruction, not historical-vintage backtest or audited product-revenue reconciliation",
+  "usyc_issuer_api": {
+    "rows": 45,
+    "first_date": "2026-09-17",
+    "last_date": "2026-11-20",
+    "history_limit": "Only 45 reports returned; limit=2000 and offset=45 unchanged"
+  },
+  "usyc_fee_mint_control": {
+    "date": "2026-11-20",
+    "tx_hash": "0x309c7a14200c4fd021deaf33e3670dd70e4c1c70132614c4bb31e273a91cbff8",
+    "block": 26456761,
+    "token_address": "0x136471a34f6ef19fe571effc1ca711fdb8e49f2b",
+    "token_address_source": "https://developers.circle.com/tokenized/usyc/smart-contracts",
+    "fee_usyc_shares": "18580.964598",
+    "price_usd": "1.144377646131036353",
+    "fee_usd": "21263.64052950335814414403109",
+    "gross_yield_usd": "212636.4053",
+    "fee_recipient": "0xed96e247655361031aee6514cd1b89c7141b59d5",
+    "scope": "One transaction validates the unit conversion and fee mint, not all history or Circle consolidated GAAP recognition"
+  },
+  "quarterly_fee_observations": [
+    {
+      "period": "2025Q2",
+      "ordinary_other_actual_scoring_only": 23.804,
+      "usyc_performance_fees_usd": 456296.0,
+      "usyc_performance_fees_days_present": 91,
+      "usyc_performance_fees_calendar_days": 91,
+      "usyc_performance_fees_missing_dates": [],
+      "usyc_gross_fund_yield_usd": 4562917.0,
+      "usyc_gross_fund_yield_days_present": 91,
+      "usyc_gross_fund_yield_calendar_days": 91,
+      "usyc_gross_fund_yield_missing_dates": [],
+      "cctp_protocol_fees_usd": 21110.0,
+      "cctp_protocol_fees_days_present": 72,
+      "cctp_protocol_fees_calendar_days": 91,
+      "cctp_protocol_fees_missing_dates": [
+        "2025-04-01",
+        "2025-04-02",
+        "2025-04-03",
+        "2025-04-04",
+        "2025-04-05",
+        "2025-04-06",
+        "2025-04-07",
+        "2025-04-08",
+        "2025-04-09",
+        "2025-04-10",
+        "2025-04-11",
+        "2025-04-12",
+        "2025-04-13",
+        "2025-04-14",
+        "2025-04-15",
+        "2025-04-16",
+        "2025-04-17",
+        "2025-04-18",
+        "2025-04-19"
+      ],
+      "tracked_fees_usd": 477406.0,
+      "tracked_fees_share_ordinary_other": 0.020055704923542264
+    },
+    {
+      "period": "2025Q3",
+      "ordinary_other_actual_scoring_only": 28.518,
+      "usyc_performance_fees_usd": 510327.0,
+      "usyc_performance_fees_days_present": 92,
+      "usyc_performance_fees_calendar_days": 92,
+      "usyc_performance_fees_missing_dates": [],
+      "usyc_gross_fund_yield_usd": 5103253.0,
+      "usyc_gross_fund_yield_days_present": 92,
+      "usyc_gross_fund_yield_calendar_days": 92,
+      "usyc_gross_fund_yield_missing_dates": [],
+      "cctp_protocol_fees_usd": 347579.0,
+      "cctp_protocol_fees_days_present": 92,
+      "cctp_protocol_fees_calendar_days": 92,
+      "cctp_protocol_fees_missing_dates": [],
+      "tracked_fees_usd": 857906.0,
+      "tracked_fees_share_ordinary_other": 0.03008296514482081
+    },
+    {
+      "period": "2025Q4",
+      "ordinary_other_actual_scoring_only": 36.836,
+      "usyc_performance_fees_usd": 1025421.0,
+      "usyc_performance_fees_days_present": 92,
+      "usyc_performance_fees_calendar_days": 92,
+      "usyc_performance_fees_missing_dates": [],
+      "usyc_gross_fund_yield_usd": 10254230.0,
+      "usyc_gross_fund_yield_days_present": 92,
+      "usyc_gross_fund_yield_calendar_days": 92,
+      "usyc_gross_fund_yield_missing_dates": [],
+      "cctp_protocol_fees_usd": 551443.0,
+      "cctp_protocol_fees_days_present": 92,
+      "cctp_protocol_fees_calendar_days": 92,
+      "cctp_protocol_fees_missing_dates": [],
+      "tracked_fees_usd": 1576864.0,
+      "tracked_fees_share_ordinary_other": 0.042807688131176025
+    },
+    {
+      "period": "2026Q1",
+      "ordinary_other_actual_scoring_only": 41.625,
+      "usyc_performance_fees_usd": 1616717.0,
+      "usyc_performance_fees_days_present": 90,
+      "usyc_performance_fees_calendar_days": 90,
+      "usyc_performance_fees_missing_dates": [],
+      "usyc_gross_fund_yield_usd": 16167172.0,
+      "usyc_gross_fund_yield_days_present": 90,
+      "usyc_gross_fund_yield_calendar_days": 90,
+      "usyc_gross_fund_yield_missing_dates": [],
+      "cctp_protocol_fees_usd": 318316.0,
+      "cctp_protocol_fees_days_present": 90,
+      "cctp_protocol_fees_calendar_days": 90,
+      "cctp_protocol_fees_missing_dates": [],
+      "tracked_fees_usd": 1935033.0,
+      "tracked_fees_share_ordinary_other": 0.04648727927927928
+    },
+    {
+      "period": "2026Q2",
+      "ordinary_other_actual_scoring_only": 33.582,
+      "usyc_performance_fees_usd": 2560849.0,
+      "usyc_performance_fees_days_present": 91,
+      "usyc_performance_fees_calendar_days": 91,
+      "usyc_performance_fees_missing_dates": [],
+      "usyc_gross_fund_yield_usd": 25608469.0,
+      "usyc_gross_fund_yield_days_present": 91,
+      "usyc_gross_fund_yield_calendar_days": 91,
+      "usyc_gross_fund_yield_missing_dates": [],
+      "cctp_protocol_fees_usd": 307709.0,
+      "cctp_protocol_fees_days_present": 91,
+      "cctp_protocol_fees_calendar_days": 91,
+      "cctp_protocol_fees_missing_dates": [],
+      "tracked_fees_usd": 2868558.0,
+      "tracked_fees_share_ordinary_other": 0.08541951045202788
+    },
+    {
+      "period": "2026Q3",
+      "ordinary_other_actual_scoring_only": 25.464,
+      "usyc_performance_fees_usd": 2545515.0,
+      "usyc_performance_fees_days_present": 92,
+      "usyc_performance_fees_calendar_days": 92,
+      "usyc_performance_fees_missing_dates": [],
+      "usyc_gross_fund_yield_usd": 25455153.0,
+      "usyc_gross_fund_yield_days_present": 92,
+      "usyc_gross_fund_yield_calendar_days": 92,
+      "usyc_gross_fund_yield_missing_dates": [],
+      "cctp_protocol_fees_usd": 475940.0,
+      "cctp_protocol_fees_days_present": 92,
+      "cctp_protocol_fees_calendar_days": 92,
+      "cctp_protocol_fees_missing_dates": [],
+      "tracked_fees_usd": 3021455.0,
+      "tracked_fees_share_ordinary_other": 0.11865594564875905
+    }
+  ],
+  "q4_guidance_based_forecast": {
+    "as_of": "2026-11-21",
+    "period": "2026Q4",
+    "actual": null,
+    "method": "Full-year guidance less reported nine months; conditional on guidance being achieved",
+    "ytd_total_other": 282.471,
+    "total_other_fy_guidance": [
+      310,
+      330
+    ],
+    "implied_q4_total_other_low": 27.528999999999996,
+    "implied_q4_total_other_high": 47.528999999999996,
+    "implied_q4_total_other_midpoint": 37.528999999999996,
+    "ordinary_ytd": 100.67099999999999,
+    "ordinary_other_fy_guidance": [
+      130,
+      150
+    ],
+    "implied_q4_ordinary_low": 29.329000000000008,
+    "implied_q4_ordinary_high": 49.32900000000001,
+    "implied_q4_ordinary_midpoint": 39.32900000000001,
+    "incremental_arc_base_case": 0,
+    "remaining_existing_arc_consideration_approx": 60.4,
+    "guidance_source": "https://s206.q4cdn.com/265218871/files/doc_earnings/2026/q3/transcript/Q326-Earnings-Transcript.pdf",
+    "public_by": "2026-11-04",
+    "locator": "printed page 9, guidance section (zero-based PDF page 8)",
+    "limitations": [
+      "Total guidance and ordinary guidance plus actual ARC differ by $1.8m at both endpoints; preserve the disclosed ranges rather than force them to reconcile.",
+      "No announced recognition schedule established for remaining $60.4m; it is not automatically Q4 revenue.",
+      "This is management-guidance-based, not an independent on-chain point estimate.",
+      "Guidance can change, integration acceptance dates and fee terms are private."
+    ]
+  },
+  "adapter_vintages": {
+    "llama_usyc": {
+      "sha": "2d4dd77f27eac54cd2775e8a9985f2670090d6c7",
+      "commit_date": "2026-11-17T09:55:36Z"
+    },
+    "llama_cctp": {
+      "sha": "20ab464f3c861eb321de098945369d4cb51763bd",
+      "commit_date": "2026-07-31T10:10:46Z"
+    }
+  },
+  "checks": [
+    {
+      "name": "receipt success",
+      "passed": true
+    },
+    {
+      "name": "receipt is issuer API transaction",
+      "passed": true
+    },
+    {
+      "name": "one official-token mint matches fee shares",
+      "passed": true
+    },
+    {
+      "name": "latest fee equals ten percent of gross yield including embedded income",
+      "passed": true
+    },
+    {
+      "name": "every returned price report has same fee identity",
+      "passed": true
+    },
+    {
+      "name": "limit parameter did not extend history",
+      "passed": true
+    },
+    {
+      "name": "offset parameter did not extend history",
+      "passed": true
+    },
+    {
+      "name": "usyc_performance_fees 2025Q2 dates unique",
+      "passed": true
+    },
+    {
+      "name": "usyc_gross_fund_yield 2025Q2 dates unique",
+      "passed": true
+    },
+    {
+      "name": "cctp_protocol_fees 2025Q2 dates unique",
+      "passed": true
+    },
+    {
+      "name": "usyc_performance_fees 2025Q3 dates unique",
+      "passed": true
+    },
+    {
+      "name": "usyc_gross_fund_yield 2025Q3 dates unique",
+      "passed": true
+    },
+    {
+      "name": "cctp_protocol_fees 2025Q3 dates unique",
+      "passed": true
+    },
+    {
+      "name": "usyc_performance_fees 2025Q4 dates unique",
+      "passed": true
+    },
+    {
+      "name": "usyc_gross_fund_yield 2025Q4 dates unique",
+      "passed": true
+    },
+    {
+      "name": "cctp_protocol_fees 2025Q4 dates unique",
+      "passed": true
+    },
+    {
+      "name": "usyc_performance_fees 2026Q1 dates unique",
+      "passed": true
+    },
+    {
+      "name": "usyc_gross_fund_yield 2026Q1 dates unique",
+      "passed": true
+    },
+    {
+      "name": "cctp_protocol_fees 2026Q1 dates unique",
+      "passed": true
+    },
+    {
+      "name": "usyc_performance_fees 2026Q2 dates unique",
+      "passed": true
+    },
+    {
+      "name": "usyc_gross_fund_yield 2026Q2 dates unique",
+      "passed": true
+    },
+    {
+      "name": "cctp_protocol_fees 2026Q2 dates unique",
+      "passed": true
+    },
+    {
+      "name": "usyc_performance_fees 2026Q3 dates unique",
+      "passed": true
+    },
+    {
+      "name": "usyc_gross_fund_yield 2026Q3 dates unique",
+      "passed": true
+    },
+    {
+      "name": "cctp_protocol_fees 2026Q3 dates unique",
+      "passed": true
+    }
+  ],
+  "checks_passed": 25,
+  "checks_total": 25
+}

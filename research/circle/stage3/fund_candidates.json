@@ -1,0 +1,1013 @@
+[
+  {
+    "accession": "0001193125-26-459922",
+    "report_date": "2026-07-31",
+    "filed": "2026-11-13",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2026-07-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2026-11-13",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3/A",
+      "adsh": "0001193125-26-459922",
+      "film_num": [
+        "261550656"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3/A",
+      "ma_i_individual": null,
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526459922/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-26-337709",
+    "report_date": "2026-07-31",
+    "filed": "2026-08-06",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2026-07-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2026-08-06",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001193125-26-337709",
+      "film_num": [
+        "261248356"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526337709/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-26-298262",
+    "report_date": "2026-06-30",
+    "filed": "2026-07-08",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2026-06-30",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2026-07-08",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001193125-26-298262",
+      "film_num": [
+        "261161609"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526298262/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-26-208592",
+    "report_date": "2026-04-30",
+    "filed": "2026-05-06",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2026-04-30",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2026-05-06",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001193125-26-208592",
+      "film_num": [
+        "26947746"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526208592/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-26-459924",
+    "report_date": "2026-08-31",
+    "filed": "2026-11-13",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2026-08-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2026-11-13",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3/A",
+      "adsh": "0001193125-26-459924",
+      "film_num": [
+        "261550670"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3/A",
+      "ma_i_individual": null,
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526459924/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-26-258597",
+    "report_date": "2026-05-31",
+    "filed": "2026-06-05",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2026-05-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2026-06-05",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001193125-26-258597",
+      "film_num": [
+        "261067265"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526258597/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-26-384920",
+    "report_date": "2026-08-31",
+    "filed": "2026-09-08",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2026-08-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2026-09-08",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001193125-26-384920",
+      "film_num": [
+        "261364360"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526384920/primary_doc.xml"
+  },
+  {
+    "accession": "0001145549-25-057954",
+    "report_date": "2025-08-31",
+    "filed": "2025-09-08",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2025-08-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2025-09-08",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001145549-25-057954",
+      "film_num": [
+        "251299051"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000114554925057954/primary_doc.xml"
+  },
+  {
+    "accession": "0001145549-25-050582",
+    "report_date": "2025-07-31",
+    "filed": "2025-08-06",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2025-07-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2025-08-06",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001145549-25-050582",
+      "film_num": [
+        "251188698"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000114554925050582/primary_doc.xml"
+  },
+  {
+    "accession": "0001145549-25-045932",
+    "report_date": "2025-06-30",
+    "filed": "2025-07-07",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2025-06-30",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2025-07-07",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001145549-25-045932",
+      "film_num": [
+        "251108447"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000114554925045932/primary_doc.xml"
+  },
+  {
+    "accession": "0001145549-25-038812",
+    "report_date": "2025-05-31",
+    "filed": "2025-06-06",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2025-05-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2025-06-06",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001145549-25-038812",
+      "film_num": [
+        "251029624"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000114554925038812/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-26-093396",
+    "report_date": "2026-02-28",
+    "filed": "2026-03-05",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2026-02-28",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2026-03-05",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001193125-26-093396",
+      "film_num": [
+        "26725344"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526093396/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-25-271132",
+    "report_date": "2025-10-31",
+    "filed": "2025-11-07",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2025-10-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2025-11-07",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001193125-25-271132",
+      "film_num": [
+        "251460632"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312525271132/primary_doc.xml"
+  },
+  {
+    "accession": "0001145549-25-000837",
+    "report_date": "2024-12-31",
+    "filed": "2025-01-07",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2024-12-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2025-01-07",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001145549-25-000837",
+      "film_num": [
+        "25514755"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000114554925000837/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-26-144819",
+    "report_date": "2026-03-31",
+    "filed": "2026-04-07",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2026-03-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2026-04-07",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001193125-26-144819",
+      "film_num": [
+        "26843481"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526144819/primary_doc.xml"
+  },
+  {
+    "accession": "0001145549-25-029363",
+    "report_date": "2025-04-30",
+    "filed": "2025-05-07",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2025-04-30",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2025-05-07",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001145549-25-029363",
+      "film_num": [
+        "25921987"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000114554925029363/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-26-040594",
+    "report_date": "2026-01-31",
+    "filed": "2026-02-06",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2026-01-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2026-02-06",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001193125-26-040594",
+      "film_num": [
+        "26605805"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526040594/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-25-233100",
+    "report_date": "2025-09-30",
+    "filed": "2025-10-07",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2025-09-30",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2025-10-07",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001193125-25-233100",
+      "film_num": [
+        "251379050"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312525233100/primary_doc.xml"
+  },
+  {
+    "accession": "0001145549-25-006067",
+    "report_date": "2025-01-31",
+    "filed": "2025-02-06",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2025-01-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2025-02-06",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001145549-25-006067",
+      "film_num": [
+        "25595994"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000114554925006067/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-26-006231",
+    "report_date": "2025-12-31",
+    "filed": "2026-01-07",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2025-12-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2026-01-07",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001193125-26-006231",
+      "film_num": [
+        "26515536"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526006231/primary_doc.xml"
+  },
+  {
+    "accession": "0001145549-25-016532",
+    "report_date": "2025-02-28",
+    "filed": "2025-03-06",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2025-02-28",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2025-03-06",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001145549-25-016532",
+      "film_num": [
+        "25714445"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000114554925016532/primary_doc.xml"
+  },
+  {
+    "accession": "0001145549-25-024211",
+    "report_date": "2025-03-31",
+    "filed": "2025-04-07",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2025-03-31",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2025-04-07",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001145549-25-024211",
+      "film_num": [
+        "25816786"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000114554925024211/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-26-416631",
+    "report_date": "2026-09-30",
+    "filed": "2026-10-07",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2026-09-30",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2026-10-07",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001193125-26-416631",
+      "film_num": [
+        "261446555"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "ma_i_individual": null,
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526416631/primary_doc.xml"
+  },
+  {
+    "accession": "0001193125-25-309323",
+    "report_date": "2025-11-30",
+    "filed": "2025-12-05",
+    "search_source": {
+      "ciks": [
+        "0000844779"
+      ],
+      "period_ending": "2025-11-30",
+      "file_num": [
+        "811-05742"
+      ],
+      "display_names": [
+        "BLACKROCK FUNDS  (CIK 0000844779)"
+      ],
+      "xsl": "xslN-MFP3_X01",
+      "sequence": 1,
+      "root_forms": [
+        "N-MFP3"
+      ],
+      "file_date": "2025-12-05",
+      "biz_states": [
+        "DE"
+      ],
+      "sics": [],
+      "form": "N-MFP3",
+      "adsh": "0001193125-25-309323",
+      "film_num": [
+        "251552268"
+      ],
+      "biz_locations": [
+        "Wilmington, DE"
+      ],
+      "file_type": "N-MFP3",
+      "file_description": null,
+      "inc_states": [
+        "MA"
+      ],
+      "items": []
+    },
+    "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312525309323/primary_doc.xml"
+  }
+]

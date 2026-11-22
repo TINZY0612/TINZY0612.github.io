@@ -1,0 +1,24 @@
+[
+  {
+    "name": "q4_kpi_image1",
+    "url": "https://cdn.prod.website-files.com/67116d0daddc92483c812ead/699e89c26f5c9274d7fff5ad_Image1.png",
+    "retrieved_at_utc": "2026-11-21T07:16:50.483409+00:00",
+    "http_status": 200,
+    "content_type": "image/png",
+    "status": "received",
+    "file": "raw\\q4_kpi_image1.png",
+    "sha256": "01b77925d9c10e25db6782b9969962041144c6bf2a014bca4293c2db8fa71962",
+    "bytes": 73237
+  },
+  {
+    "name": "q4_kpi_image2",
+    "url": "https://cdn.prod.website-files.com/67116d0daddc92483c812ead/699e89e6d948db527ee4ac43_Image2.png",
+    "retrieved_at_utc": "2026-11-21T07:16:50.484617+00:00",
+    "http_status": 200,
+    "content_type": "image/png",
+    "status": "received",
+    "file": "raw\\q4_kpi_image2.png",
+    "sha256": "72a2785d167cdf287e4671af417acb31f3029838f951a586d15db6f222d86a5b",
+    "bytes": 116826
+  }
+]

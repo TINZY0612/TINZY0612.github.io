@@ -1,0 +1,121 @@
+{
+  "as_of": "2026-11-21",
+  "period": "2026Q4",
+  "actual": null,
+  "units": "USD million unless specified",
+  "observed_supply_through": "2026-11-20",
+  "observed_calendar_days": 51,
+  "projected_calendar_days": 41,
+  "last_observed_usdc_million": 68811.090993,
+  "projected_average_usdc_million": 70461.87862273912,
+  "last_available_sofr": 0.039,
+  "lag_period": "2026Q3",
+  "lag_reserve_income": 657.624,
+  "lag_reported_average_usdc_million": 73264.0,
+  "lag_days": 92,
+  "lag_implied_yield": 0.03561164745482685,
+  "lag_supply_weighted_sofr_365": 0.037194643955033475,
+  "annual_spread": -0.0015829965002066224,
+  "known_supply_days_million": 3661238.102579,
+  "projected_supply_days_million": 2821254.730713,
+  "raw_sofr_income": 702.4263660981733,
+  "reserve_income_forecast": 674.311945638678,
+  "non_arc_other_revenue_assumption_approx": 25.464,
+  "arc_recognition_assumption": 60.4,
+  "selected_method": "pool3_ratio",
+  "cost_calibration_periods": [
+    "2026Q1",
+    "2026Q2",
+    "2026Q3"
+  ],
+  "cost_calibration_rows": [
+    {
+      "period": "2025Q1",
+      "reserve": 557.911,
+      "cost": 347.647
+    },
+    {
+      "period": "2025Q2",
+      "reserve": 634.274,
+      "cost": 406.942
+    },
+    {
+      "period": "2025Q3",
+      "reserve": 711.241,
+      "cost": 447.612
+    },
+    {
+      "period": "2025Q4",
+      "reserve": 733.3960000000002,
+      "cost": 461.45000000000005
+    },
+    {
+      "period": "2026Q1",
+      "reserve": 652.508,
+      "cost": 406.781
+    },
+    {
+      "period": "2026Q2",
+      "reserve": 667.733,
+      "cost": 412.47
+    },
+    {
+      "period": "2026Q3",
+      "reserve": 657.624,
+      "cost": 411.634
+    }
+  ],
+  "cost_ratios": {
+    "pool3_ratio": 0.622330138811294,
+    "lag_ratio": 0.6259412673503401,
+    "ewma_ratio": 0.624086555005707
+  },
+  "estimates": {
+    "pool3_ratio": {
+      "cost_ratio": 0.622330138811294,
+      "total_costs": 419.6446467314322,
+      "underlying_rldc": 280.13129890724576,
+      "rldc_including_arc": 340.53129890724574
+    },
+    "lag_ratio": {
+      "cost_ratio": 0.6259412673503401,
+      "total_costs": 422.0796738425477,
+      "underlying_rldc": 277.69627179613025,
+      "rldc_including_arc": 338.0962717961302
+    },
+    "ewma_ratio": {
+      "cost_ratio": 0.624086555005707,
+      "total_costs": 420.8290191528381,
+      "underlying_rldc": 278.94692648583987,
+      "rldc_including_arc": 339.34692648583984
+    }
+  },
+  "simple_sensitivities": {
+    "cost_ratio_plus_1pp_rldc_change": -6.74311945638678,
+    "reserve_income_plus_10m_rldc_change_at_fixed_ratio": 3.7766986118870607,
+    "arc_delayed_recognition_rldc_change": -60.4
+  },
+  "assumptions": [
+    "Remaining daily global USDC stays at the last complete observed date",
+    "Remaining SOFR stays at the latest published value; following-business-day publication control",
+    "Lagged reserve spread uses the Stage3 reported-average-supply implied-yield convention",
+    "Non-ARC operating other revenue stays flat at Q3 level",
+    "Existing ARC 60.4m is recognized in Q4 only as user-directed scenario",
+    "No separate incremental distribution cost assigned to ARC recognition; costs scale with reserve income",
+    "No current Q4 Coinbase earnings available; partner models cannot be populated as observed forecasts"
+  ],
+  "limitations": [
+    "Prospective scenario, not a completed-quarter nowcast",
+    "Current provider histories are not archived point-in-time vintages",
+    "Supply uses provider daily buckets, not independently proven EOD alignment",
+    "Q4 ARC recognition timetable is unverified",
+    "Not EPS, net income or new cash receipts",
+    "Comparative formula cases are alternative methods, not confidence bounds"
+  ],
+  "source_hashes": {
+    "stage5\\raw\\usdc_current_history.json": "f3291f730854c4427b278214ae361c4ecdc7087cc73311373eab2569eabf377e",
+    "feasibility\\raw\\nyfed_sofr_2023_2026.json": "6eff522920a04d74fcf17422f23726a3fa2b8a09aa218abfd71fceb0045cd5cd",
+    "stage2\\results\\stage2_data_model.json": "7e89b1b95def9b1a0daa1baad298b38a5f98fecef33a33819b0a7b9ef957d8c1",
+    "stage5\\results\\2026-11-21_flat_other_ARC_working_case.json": "2179677fbf0d24cc907d096bfaf02a10576383bd244645d4b2d37fa5a9d0359d"
+  }
+}

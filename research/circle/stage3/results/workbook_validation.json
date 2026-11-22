@@ -1,0 +1,195 @@
+{
+  "checks_passed": 47,
+  "checks_total": 47,
+  "checks": [
+    {
+      "check": "2025Q2_late primary matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late fund matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late early fund matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late alignment matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late RLDC matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late primary matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late fund matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late early fund matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late alignment matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late RLDC matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late primary matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late fund matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late early fund matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late alignment matches Python",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late RLDC matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late primary matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late fund matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late early fund matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late alignment matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late RLDC matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late primary matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late fund matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late early fund matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late alignment matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late RLDC matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late primary matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late fund matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late early fund matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late alignment matches Python",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late RLDC matches Python",
+      "passed": true
+    },
+    {
+      "check": "carry_forward MAPE matches Python",
+      "passed": true
+    },
+    {
+      "check": "lagged_implied_yield MAPE matches Python",
+      "passed": true
+    },
+    {
+      "check": "sofr MAPE matches Python",
+      "passed": true
+    },
+    {
+      "check": "treasury_3m MAPE matches Python",
+      "passed": true
+    },
+    {
+      "check": "sofr_lagged_spread MAPE matches Python",
+      "passed": true
+    },
+    {
+      "check": "fund_lagged_spread MAPE matches Python",
+      "passed": true
+    },
+    {
+      "check": "higher cost case recalculates",
+      "passed": true
+    },
+    {
+      "check": "actuals unchanged by case",
+      "passed": true
+    },
+    {
+      "check": "lower cost case recalculates",
+      "passed": true
+    },
+    {
+      "check": "blank unselected case increment does not block base",
+      "passed": true
+    },
+    {
+      "check": "missing selected case increment exposed",
+      "passed": true
+    },
+    {
+      "check": "valid zero other revenue preserved",
+      "passed": true
+    },
+    {
+      "check": "missing lag reserve income exposed",
+      "passed": true
+    },
+    {
+      "check": "current target shock leaves prediction unchanged",
+      "passed": true
+    },
+    {
+      "check": "missing daily balance exposed",
+      "passed": true
+    },
+    {
+      "check": "supply tolerance boundary recalculates",
+      "passed": true
+    },
+    {
+      "check": "all temporary edits restored",
+      "passed": true
+    }
+  ],
+  "output": "C:\\Users\\Tin\\OneDrive\\Documents\\ChatGPT\\Trading Agent\\Circle\\outputs\\01a1fcd4-2a0f-7c92-a89f-a871c89c1db7\\Circle_Reserve_Income_Backtest.xlsx"
+}

@@ -1,0 +1,908 @@
+[
+  {
+    "period": "2025Q1",
+    "start": "2025-01-01",
+    "end": "2025-03-31",
+    "days": 90,
+    "metrics": {
+      "reserve_income": {
+        "value": 557.911,
+        "basis": "reported",
+        "input_ids": [
+          "O013"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-06-05"
+      },
+      "other_revenue": {
+        "value": 20.662,
+        "basis": "reported",
+        "input_ids": [
+          "O014"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-06-05"
+      },
+      "total_revenue": {
+        "value": 578.573,
+        "basis": "reported",
+        "input_ids": [
+          "O015"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-06-05"
+      },
+      "distribution_transaction_costs": {
+        "value": 347.312,
+        "basis": "reported",
+        "input_ids": [
+          "O016"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-06-05"
+      },
+      "other_costs": {
+        "value": 0.335,
+        "basis": "reported",
+        "input_ids": [
+          "O017"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-06-05"
+      },
+      "total_costs": {
+        "value": 347.647,
+        "basis": "reported",
+        "input_ids": [
+          "O018"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-06-05"
+      },
+      "usdc_end": {
+        "value": 59976.0,
+        "basis": "reported",
+        "input_ids": [
+          "O019"
+        ],
+        "unit": "USDC million",
+        "published_by": "2025-06-05",
+        "precision": 1,
+        "note": ""
+      },
+      "usdc_average": {
+        "value": 54136.0,
+        "basis": "reported",
+        "input_ids": [
+          "O020"
+        ],
+        "unit": "USDC million",
+        "published_by": "2025-06-05",
+        "precision": 1,
+        "note": ""
+      },
+      "reserve_return": {
+        "value": 0.042,
+        "basis": "reported; later comparative",
+        "input_ids": [
+          "O021"
+        ],
+        "unit": "decimal",
+        "published_by": "2026-05-11",
+        "precision": 0.001,
+        "note": "Later comparative. Earlier original publication of this KPI has not been established; do not use as a Q2 2025 forecast input."
+      },
+      "platform_weight": {
+        "value": 0.057,
+        "basis": "reported; later comparative",
+        "input_ids": [
+          "O022"
+        ],
+        "unit": "decimal",
+        "published_by": "2026-05-11",
+        "precision": 0.001,
+        "note": "Later comparative. Earlier original publication of this KPI has not been established; do not use as a Q2 2025 forecast input."
+      },
+      "rldc": {
+        "value": 230.926,
+        "basis": "calculated revenue less total costs",
+        "unit": "USD million"
+      },
+      "rldc_margin": {
+        "value": 0.3991302739671571,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "reserve_income_share": {
+        "value": 0.9642879982301282,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "cost_ratio_to_reserve_income": {
+        "value": 0.6231226844425007,
+        "basis": "calculated",
+        "unit": "decimal"
+      }
+    }
+  },
+  {
+    "period": "2025Q2",
+    "start": "2025-04-01",
+    "end": "2025-06-30",
+    "days": 91,
+    "metrics": {
+      "reserve_income": {
+        "value": 634.274,
+        "basis": "reported",
+        "input_ids": [
+          "O023"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-08-12"
+      },
+      "other_revenue": {
+        "value": 23.804,
+        "basis": "reported",
+        "input_ids": [
+          "O024"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-08-12"
+      },
+      "total_revenue": {
+        "value": 658.078,
+        "basis": "reported",
+        "input_ids": [
+          "O025"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-08-12"
+      },
+      "distribution_transaction_costs": {
+        "value": 406.472,
+        "basis": "reported",
+        "input_ids": [
+          "O026"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-08-12"
+      },
+      "other_costs": {
+        "value": 0.47,
+        "basis": "reported",
+        "input_ids": [
+          "O027"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-08-12"
+      },
+      "total_costs": {
+        "value": 406.942,
+        "basis": "reported",
+        "input_ids": [
+          "O028"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-08-12"
+      },
+      "usdc_end": {
+        "value": 61333.0,
+        "basis": "reported",
+        "input_ids": [
+          "O029"
+        ],
+        "unit": "USDC million",
+        "published_by": "2025-08-12",
+        "precision": 1,
+        "note": ""
+      },
+      "usdc_average": {
+        "value": 61039.0,
+        "basis": "reported",
+        "input_ids": [
+          "O030"
+        ],
+        "unit": "USDC million",
+        "published_by": "2025-08-12",
+        "precision": 1,
+        "note": ""
+      },
+      "reserve_return": {
+        "value": 0.040999999999999995,
+        "basis": "reported",
+        "input_ids": [
+          "O031"
+        ],
+        "unit": "decimal",
+        "published_by": "2025-08-12",
+        "precision": 0.001,
+        "note": ""
+      },
+      "platform_weight": {
+        "value": 0.07400000000000001,
+        "basis": "reported",
+        "input_ids": [
+          "O032"
+        ],
+        "unit": "decimal",
+        "published_by": "2025-08-12",
+        "precision": 0.001,
+        "note": ""
+      },
+      "rldc": {
+        "value": 251.13599999999997,
+        "basis": "calculated revenue less total costs",
+        "unit": "USD million"
+      },
+      "rldc_margin": {
+        "value": 0.38162041581697,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "reserve_income_share": {
+        "value": 0.9638279960734139,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "cost_ratio_to_reserve_income": {
+        "value": 0.6415870743558778,
+        "basis": "calculated",
+        "unit": "decimal"
+      }
+    },
+    "earnings_release_date": "2025-08-12",
+    "earnings_release_input_id": "O077"
+  },
+  {
+    "period": "2025Q3",
+    "start": "2025-07-01",
+    "end": "2025-09-30",
+    "days": 92,
+    "metrics": {
+      "reserve_income": {
+        "value": 711.241,
+        "basis": "reported",
+        "input_ids": [
+          "O033"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-11-12"
+      },
+      "other_revenue": {
+        "value": 28.518,
+        "basis": "reported",
+        "input_ids": [
+          "O034"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-11-12"
+      },
+      "total_revenue": {
+        "value": 739.759,
+        "basis": "reported",
+        "input_ids": [
+          "O035"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-11-12"
+      },
+      "distribution_transaction_costs": {
+        "value": 447.199,
+        "basis": "reported",
+        "input_ids": [
+          "O036"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-11-12"
+      },
+      "other_costs": {
+        "value": 0.413,
+        "basis": "reported",
+        "input_ids": [
+          "O037"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-11-12"
+      },
+      "total_costs": {
+        "value": 447.612,
+        "basis": "reported",
+        "input_ids": [
+          "O038"
+        ],
+        "unit": "USD million",
+        "published_by": "2025-11-12"
+      },
+      "usdc_end": {
+        "value": 73749.0,
+        "basis": "reported",
+        "input_ids": [
+          "O039"
+        ],
+        "unit": "USDC million",
+        "published_by": "2025-11-12",
+        "precision": 1,
+        "note": ""
+      },
+      "usdc_average": {
+        "value": 67842.0,
+        "basis": "reported",
+        "input_ids": [
+          "O040"
+        ],
+        "unit": "USDC million",
+        "published_by": "2025-11-12",
+        "precision": 1,
+        "note": ""
+      },
+      "reserve_return": {
+        "value": 0.042,
+        "basis": "reported",
+        "input_ids": [
+          "O041"
+        ],
+        "unit": "decimal",
+        "published_by": "2025-11-12",
+        "precision": 0.001,
+        "note": ""
+      },
+      "platform_weight": {
+        "value": 0.135,
+        "basis": "reported",
+        "input_ids": [
+          "O042"
+        ],
+        "unit": "decimal",
+        "published_by": "2025-11-12",
+        "precision": 0.001,
+        "note": ""
+      },
+      "rldc": {
+        "value": 292.147,
+        "basis": "calculated revenue less total costs",
+        "unit": "USD million"
+      },
+      "rldc_margin": {
+        "value": 0.3949218596867358,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "reserve_income_share": {
+        "value": 0.9614496072369515,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "cost_ratio_to_reserve_income": {
+        "value": 0.62933942222116,
+        "basis": "calculated",
+        "unit": "decimal"
+      }
+    },
+    "earnings_release_date": "2025-11-12",
+    "earnings_release_input_id": "O078"
+  },
+  {
+    "period": "2025Q4",
+    "start": "2025-10-01",
+    "end": "2025-12-31",
+    "days": 92,
+    "metrics": {
+      "reserve_income": {
+        "value": 733.3960000000002,
+        "basis": "derived FY minus 9M",
+        "operation": "subtract",
+        "input_ids": [
+          "O001",
+          "O007"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-03-09"
+      },
+      "other_revenue": {
+        "value": 36.836,
+        "basis": "derived FY minus 9M",
+        "operation": "subtract",
+        "input_ids": [
+          "O002",
+          "O008"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-03-09"
+      },
+      "total_revenue": {
+        "value": 770.2319999999997,
+        "basis": "derived FY minus 9M",
+        "operation": "subtract",
+        "input_ids": [
+          "O003",
+          "O009"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-03-09"
+      },
+      "distribution_transaction_costs": {
+        "value": 460.56600000000003,
+        "basis": "derived FY minus 9M",
+        "operation": "subtract",
+        "input_ids": [
+          "O004",
+          "O010"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-03-09"
+      },
+      "other_costs": {
+        "value": 0.8839999999999999,
+        "basis": "derived FY minus 9M",
+        "operation": "subtract",
+        "input_ids": [
+          "O005",
+          "O011"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-03-09"
+      },
+      "total_costs": {
+        "value": 461.45000000000005,
+        "basis": "derived FY minus 9M",
+        "operation": "subtract",
+        "input_ids": [
+          "O006",
+          "O012"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-03-09"
+      },
+      "usdc_end": {
+        "value": 75266.0,
+        "basis": "reported",
+        "input_ids": [
+          "O043"
+        ],
+        "unit": "USDC million",
+        "published_by": "2026-03-09",
+        "precision": 1,
+        "note": ""
+      },
+      "usdc_average": {
+        "value": 76200,
+        "basis": "reported",
+        "input_ids": [
+          "O044"
+        ],
+        "unit": "USDC million",
+        "published_by": "2026-02-25",
+        "precision": 100,
+        "note": "Average circulation is reported to USD 0.1 billion; do not imply million-level precision."
+      },
+      "reserve_return": {
+        "value": 0.038,
+        "basis": "reported",
+        "input_ids": [
+          "O045"
+        ],
+        "unit": "decimal",
+        "published_by": "2026-02-25",
+        "precision": 0.001,
+        "note": ""
+      },
+      "platform_weight": {
+        "value": 0.178,
+        "basis": "reported",
+        "input_ids": [
+          "O046"
+        ],
+        "unit": "decimal",
+        "published_by": "2026-02-25",
+        "precision": 0.001,
+        "note": ""
+      },
+      "rldc": {
+        "value": 308.7819999999997,
+        "basis": "calculated revenue less total costs",
+        "unit": "USD million"
+      },
+      "rldc_margin": {
+        "value": 0.4008947953343925,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "reserve_income_share": {
+        "value": 0.9521754484363159,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "cost_ratio_to_reserve_income": {
+        "value": 0.6291962323219651,
+        "basis": "calculated",
+        "unit": "decimal"
+      }
+    },
+    "earnings_release_date": "2026-02-25",
+    "earnings_release_input_id": "O079"
+  },
+  {
+    "period": "2026Q1",
+    "start": "2026-01-01",
+    "end": "2026-03-31",
+    "days": 90,
+    "metrics": {
+      "reserve_income": {
+        "value": 652.508,
+        "basis": "reported",
+        "input_ids": [
+          "O047"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-05-11"
+      },
+      "other_revenue": {
+        "value": 41.625,
+        "basis": "reported",
+        "input_ids": [
+          "O048"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-05-11"
+      },
+      "total_revenue": {
+        "value": 694.133,
+        "basis": "reported",
+        "input_ids": [
+          "O049"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-05-11"
+      },
+      "distribution_transaction_costs": {
+        "value": 405.402,
+        "basis": "reported",
+        "input_ids": [
+          "O050"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-05-11"
+      },
+      "other_costs": {
+        "value": 1.379,
+        "basis": "reported",
+        "input_ids": [
+          "O051"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-05-11"
+      },
+      "total_costs": {
+        "value": 406.781,
+        "basis": "reported",
+        "input_ids": [
+          "O052"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-05-11"
+      },
+      "usdc_end": {
+        "value": 77049.0,
+        "basis": "reported",
+        "input_ids": [
+          "O053"
+        ],
+        "unit": "USDC million",
+        "published_by": "2026-05-11",
+        "precision": 1,
+        "note": ""
+      },
+      "usdc_average": {
+        "value": 75200.0,
+        "basis": "reported",
+        "input_ids": [
+          "O054"
+        ],
+        "unit": "USDC million",
+        "published_by": "2026-05-11",
+        "precision": 1,
+        "note": ""
+      },
+      "reserve_return": {
+        "value": 0.035,
+        "basis": "reported",
+        "input_ids": [
+          "O055"
+        ],
+        "unit": "decimal",
+        "published_by": "2026-05-11",
+        "precision": 0.001,
+        "note": ""
+      },
+      "platform_weight": {
+        "value": 0.172,
+        "basis": "reported",
+        "input_ids": [
+          "O056"
+        ],
+        "unit": "decimal",
+        "published_by": "2026-05-11",
+        "precision": 0.001,
+        "note": ""
+      },
+      "rldc": {
+        "value": 287.35200000000003,
+        "basis": "calculated revenue less total costs",
+        "unit": "USD million"
+      },
+      "rldc_margin": {
+        "value": 0.4139725384040235,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "reserve_income_share": {
+        "value": 0.9400331060474001,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "cost_ratio_to_reserve_income": {
+        "value": 0.6234115137285673,
+        "basis": "calculated",
+        "unit": "decimal"
+      }
+    },
+    "earnings_release_date": "2026-05-11",
+    "earnings_release_input_id": "O080"
+  },
+  {
+    "period": "2026Q2",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "days": 91,
+    "metrics": {
+      "reserve_income": {
+        "value": 667.733,
+        "basis": "reported",
+        "input_ids": [
+          "O057"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-08-05"
+      },
+      "other_revenue": {
+        "value": 33.582,
+        "basis": "reported",
+        "input_ids": [
+          "O058"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-08-05"
+      },
+      "total_revenue": {
+        "value": 701.315,
+        "basis": "reported",
+        "input_ids": [
+          "O059"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-08-05"
+      },
+      "distribution_transaction_costs": {
+        "value": 410.414,
+        "basis": "reported",
+        "input_ids": [
+          "O060"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-08-05"
+      },
+      "other_costs": {
+        "value": 2.056,
+        "basis": "reported",
+        "input_ids": [
+          "O061"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-08-05"
+      },
+      "total_costs": {
+        "value": 412.47,
+        "basis": "reported",
+        "input_ids": [
+          "O062"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-08-05"
+      },
+      "usdc_end": {
+        "value": 73269.0,
+        "basis": "reported",
+        "input_ids": [
+          "O063"
+        ],
+        "unit": "USDC million",
+        "published_by": "2026-08-05",
+        "precision": 1,
+        "note": ""
+      },
+      "usdc_average": {
+        "value": 76524.0,
+        "basis": "reported",
+        "input_ids": [
+          "O064"
+        ],
+        "unit": "USDC million",
+        "published_by": "2026-08-05",
+        "precision": 1,
+        "note": ""
+      },
+      "reserve_return": {
+        "value": 0.035,
+        "basis": "reported",
+        "input_ids": [
+          "O065"
+        ],
+        "unit": "decimal",
+        "published_by": "2026-08-05",
+        "precision": 0.001,
+        "note": ""
+      },
+      "platform_weight": {
+        "value": 0.195,
+        "basis": "reported",
+        "input_ids": [
+          "O066"
+        ],
+        "unit": "decimal",
+        "published_by": "2026-08-05",
+        "precision": 0.001,
+        "note": ""
+      },
+      "rldc": {
+        "value": 288.845,
+        "basis": "calculated revenue less total costs",
+        "unit": "USD million"
+      },
+      "rldc_margin": {
+        "value": 0.4118620020960624,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "reserve_income_share": {
+        "value": 0.9521156684228911,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "cost_ratio_to_reserve_income": {
+        "value": 0.6177169617197293,
+        "basis": "calculated",
+        "unit": "decimal"
+      }
+    },
+    "earnings_release_date": "2026-08-05",
+    "earnings_release_input_id": "O081"
+  },
+  {
+    "period": "2026Q3",
+    "start": "2026-07-01",
+    "end": "2026-09-30",
+    "days": 92,
+    "metrics": {
+      "reserve_income": {
+        "value": 657.624,
+        "basis": "reported",
+        "input_ids": [
+          "O067"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-11-04"
+      },
+      "other_revenue": {
+        "value": 207.264,
+        "basis": "reported",
+        "input_ids": [
+          "O068"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-11-04"
+      },
+      "total_revenue": {
+        "value": 864.888,
+        "basis": "reported",
+        "input_ids": [
+          "O069"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-11-04"
+      },
+      "distribution_transaction_costs": {
+        "value": 409.169,
+        "basis": "reported",
+        "input_ids": [
+          "O070"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-11-04"
+      },
+      "other_costs": {
+        "value": 2.465,
+        "basis": "reported",
+        "input_ids": [
+          "O071"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-11-04"
+      },
+      "total_costs": {
+        "value": 411.634,
+        "basis": "reported",
+        "input_ids": [
+          "O072"
+        ],
+        "unit": "USD million",
+        "published_by": "2026-11-04"
+      },
+      "usdc_end": {
+        "value": 73879.0,
+        "basis": "reported",
+        "input_ids": [
+          "O073"
+        ],
+        "unit": "USDC million",
+        "published_by": "2026-11-04",
+        "precision": 1,
+        "note": ""
+      },
+      "usdc_average": {
+        "value": 73264.0,
+        "basis": "reported",
+        "input_ids": [
+          "O074"
+        ],
+        "unit": "USDC million",
+        "published_by": "2026-11-04",
+        "precision": 1,
+        "note": ""
+      },
+      "reserve_return": {
+        "value": 0.035,
+        "basis": "reported",
+        "input_ids": [
+          "O075"
+        ],
+        "unit": "decimal",
+        "published_by": "2026-11-04",
+        "precision": 0.001,
+        "note": ""
+      },
+      "platform_weight": {
+        "value": 0.18100000000000002,
+        "basis": "reported",
+        "input_ids": [
+          "O076"
+        ],
+        "unit": "decimal",
+        "published_by": "2026-11-04",
+        "precision": 0.001,
+        "note": ""
+      },
+      "rldc": {
+        "value": 453.254,
+        "basis": "calculated revenue less total costs",
+        "unit": "USD million"
+      },
+      "rldc_margin": {
+        "value": 0.5240609188704202,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "reserve_income_share": {
+        "value": 0.7603574104392707,
+        "basis": "calculated",
+        "unit": "decimal"
+      },
+      "cost_ratio_to_reserve_income": {
+        "value": 0.6259412673503401,
+        "basis": "calculated",
+        "unit": "decimal"
+      }
+    },
+    "earnings_release_date": "2026-11-04",
+    "earnings_release_input_id": "O082"
+  }
+]

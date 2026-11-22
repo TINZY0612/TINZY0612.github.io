@@ -1,0 +1,228 @@
+{
+  "scope": "feasibility pilot; not out-of-sample backtest",
+  "q3_2026_actuals_usd": {
+    "reserve_income": 657624000.0,
+    "other_revenue": 207264000.0,
+    "total_revenue": 864888000.0,
+    "distribution_and_transaction_costs": 409169000.0,
+    "other_costs": 2465000.0,
+    "total_distribution_transaction_other_costs": 411634000.0,
+    "rldc": 453254000.0,
+    "average_usdc_reported": 73264000000.0,
+    "end_usdc_reported": 73879000000.0,
+    "rldc_margin": 0.5240609188704202,
+    "filing_date": "2026-11-04",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm"
+  },
+  "supply_and_rate_coverage": {
+    "global_history_records": 2994,
+    "first_date": "2018-09-11",
+    "last_date": "2026-11-21",
+    "global_non_daily_intervals": 0,
+    "q3_days": 92,
+    "chain_series_count": 165,
+    "q3_average_as_labeled": 73520839474.02174,
+    "q3_average_next_midnight_alignment": 73528108204.31522,
+    "q3_average_reported": 73264000000.0,
+    "average_gap_percent": 0.36048837671327494,
+    "q3_eod_defillama_global": 74148312961,
+    "q3_eod_attestation_circulation": 73878861314,
+    "q3_eod_gap_usd": 269451647,
+    "q3_eod_gap_percent": 0.3647208987896722,
+    "chain_circulating_sum": 74148312956,
+    "chain_sum_minus_global": -5,
+    "chain_sum_note": "Chain circulation may include reallocated bridged representations; inspect the aggregator before adding chains.",
+    "sofr_observation_count": 969,
+    "sofr_first_date": "2023-01-03",
+    "sofr_last_date": "2026-11-19",
+    "treasury_observation_count": 971,
+    "treasury_first_date": "2023-01-03",
+    "treasury_last_date": "2026-11-19",
+    "q3_calendar_sofr_average": 0.036678260869565216,
+    "q3_calendar_treasury_average": 0.039404347826086955
+  },
+  "reserve_income_baselines": [
+    {
+      "name": "SOFR ACT/360",
+      "estimate_usd": 689331520.1673417,
+      "error_usd": 31707520.16734171,
+      "error_percent": 4.821527220317634,
+      "qualification": "unadjusted supply proxy and benchmark yield; reconstruction, not archived forecast"
+    },
+    {
+      "name": "3-month Treasury ACT/365 proxy",
+      "estimate_usd": 730503057.8599842,
+      "error_usd": 72879057.85998416,
+      "error_percent": 11.082177332333387,
+      "qualification": "unadjusted supply proxy and benchmark yield; reconstruction, not archived forecast"
+    },
+    {
+      "name": "Q2 reported rounded reserve return ACT/365 proxy",
+      "annual_rate": 0.035,
+      "estimate_usd": 648658927.1723151,
+      "error_usd": -8965072.82768488,
+      "error_percent": -1.3632520753021349,
+      "qualification": "lagged rounded return applied to unadjusted USDC supply; does not resolve the reserve denominator or establish forecast accuracy"
+    }
+  ],
+  "attestation_reconciliation": {
+    "date": "2026-09-30",
+    "raw_approved_chain_supply": 75866964179,
+    "tokens_allowed_but_not_issued": 1856810081,
+    "access_denied_tokens": 131245845,
+    "gateway_pending_burns": 46939,
+    "circulation": 73878861314,
+    "reserve_assets_fair_value": 73956687701,
+    "report_signature_date": "2026-10-26",
+    "publication_timestamp": "not established",
+    "source_file": "raw/attestation_2026_September.pdf",
+    "source_pdf_page": 2
+  },
+  "ethereum_checkpoints": [
+    {
+      "economic_date": "2026-06-30",
+      "block": 25433938,
+      "block_hash": "0x82ba65044cd2af79c7e3e21dd4a87a26d257e6f9abcf585eed201f2d177f35a0",
+      "block_utc": "2026-06-30T23:59:59+00:00",
+      "next_block_utc": "2026-07-01T00:00:11+00:00",
+      "raw_supply_integer": "50892445423586874",
+      "decimals": 6,
+      "rpc_total_supply_tokens": 50892445423.58687,
+      "providers_agree": true,
+      "defillama_snapshot_date": "2026-07-01",
+      "defillama_minted": 50717325905,
+      "defillama_chain_circulating": 46964656535,
+      "difference_rpc_minus_minted_tokens": 175119518.5868683,
+      "difference_rpc_minus_minted_bps": 34.52853940187906,
+      "difference_rpc_minus_circulating_tokens": 3927788888.5868683
+    },
+    {
+      "economic_date": "2026-07-31",
+      "block": 25656292,
+      "block_hash": "0x0485b1eb7ba44d0e9cc31f1ac5e203b86e6525feb0c36283bef329e903bbf507",
+      "block_utc": "2026-07-31T23:59:59+00:00",
+      "next_block_utc": "2026-08-01T00:00:11+00:00",
+      "raw_supply_integer": "49437395057412854",
+      "decimals": 6,
+      "rpc_total_supply_tokens": 49437395057.41286,
+      "providers_agree": true,
+      "defillama_snapshot_date": "2026-08-01",
+      "defillama_minted": 49435364594,
+      "defillama_chain_circulating": 45781489494,
+      "difference_rpc_minus_minted_tokens": 2030463.4128570557,
+      "difference_rpc_minus_minted_bps": 0.4107309472756171,
+      "difference_rpc_minus_circulating_tokens": 3655905563.412857
+    },
+    {
+      "economic_date": "2026-08-31",
+      "block": 25878704,
+      "block_hash": "0x1d63bf12e101c849b9e8bceca81a71d801735fca65ff9f1f12284e9d77c20547",
+      "block_utc": "2026-08-31T23:59:59+00:00",
+      "next_block_utc": "2026-09-01T00:00:11+00:00",
+      "raw_supply_integer": "50516268512473003",
+      "decimals": 6,
+      "rpc_total_supply_tokens": 50516268512.473,
+      "providers_agree": true,
+      "defillama_snapshot_date": "2026-09-01",
+      "defillama_minted": 50709819688,
+      "defillama_chain_circulating": 47078803123,
+      "difference_rpc_minus_minted_tokens": -193551175.52700043,
+      "difference_rpc_minus_minted_bps": -38.16838172919002,
+      "difference_rpc_minus_circulating_tokens": 3437465389.4729996
+    },
+    {
+      "economic_date": "2026-09-30",
+      "block": 26093737,
+      "block_hash": "0xcd26204e996dceb606ccf0bc6f5bf8ea6747a471df8be73b5855f01624d5d743",
+      "block_utc": "2026-09-30T23:59:59+00:00",
+      "next_block_utc": "2026-10-01T00:00:11+00:00",
+      "raw_supply_integer": "49295701138130357",
+      "decimals": 6,
+      "rpc_total_supply_tokens": 49295701138.13036,
+      "providers_agree": true,
+      "defillama_snapshot_date": "2026-10-01",
+      "defillama_minted": 49295159718,
+      "defillama_chain_circulating": 45651902554,
+      "difference_rpc_minus_minted_tokens": 541420.1303634644,
+      "difference_rpc_minus_minted_bps": 0.10983231081063138,
+      "difference_rpc_minus_circulating_tokens": 3643798584.1303635
+    }
+  ],
+  "fund_regulatory_data": {
+    "series_id": "S000077205",
+    "report_date": "2026-09-30",
+    "fund_name": "Circle Reserve Fund",
+    "net_assets_usd": 62467425771.89,
+    "net_yield_observations": 21,
+    "net_yield_min": 0.036,
+    "net_yield_max": 0.0384,
+    "filing_date": "2026-10-07",
+    "accepted_datetime_edgar": "2026-10-07 14:13:37",
+    "filing_index_url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526416631/0001193125-26-416631-index.htm",
+    "qualification": "daily observations of trailing seven-business-day annualized yield, filed monthly; not same-day public observations or realized daily income"
+  },
+  "sec_direct_quarterly_revenue_periods": [
+    [
+      "2024-04-01",
+      "2024-06-30"
+    ],
+    [
+      "2024-07-01",
+      "2024-09-30"
+    ],
+    [
+      "2025-01-01",
+      "2025-03-31"
+    ],
+    [
+      "2025-04-01",
+      "2025-06-30"
+    ],
+    [
+      "2025-07-01",
+      "2025-09-30"
+    ],
+    [
+      "2026-01-01",
+      "2026-03-31"
+    ],
+    [
+      "2026-04-01",
+      "2026-06-30"
+    ],
+    [
+      "2026-07-01",
+      "2026-09-30"
+    ]
+  ],
+  "rldc_cost_sensitivity": [
+    {
+      "distribution_transaction_other_cost_ratio_to_reserve_income": 0.5,
+      "rldc_holding_actual_q3_revenue_constant": 536076000.0,
+      "qualification": "illustrative sensitivity; not a forecast or contractual payout formula"
+    },
+    {
+      "distribution_transaction_other_cost_ratio_to_reserve_income": 0.55,
+      "rldc_holding_actual_q3_revenue_constant": 503194800.0,
+      "qualification": "illustrative sensitivity; not a forecast or contractual payout formula"
+    },
+    {
+      "distribution_transaction_other_cost_ratio_to_reserve_income": 0.6,
+      "rldc_holding_actual_q3_revenue_constant": 470313600.0,
+      "qualification": "illustrative sensitivity; not a forecast or contractual payout formula"
+    },
+    {
+      "distribution_transaction_other_cost_ratio_to_reserve_income": 0.65,
+      "rldc_holding_actual_q3_revenue_constant": 437432400.0,
+      "qualification": "illustrative sensitivity; not a forecast or contractual payout formula"
+    },
+    {
+      "distribution_transaction_other_cost_ratio_to_reserve_income": 0.7,
+      "rldc_holding_actual_q3_revenue_constant": 404551200.0,
+      "qualification": "illustrative sensitivity; not a forecast or contractual payout formula"
+    }
+  ],
+  "rldc_impact_of_one_percentage_point_cost_ratio_to_reserve_income": 6576240.0,
+  "checks_passed": 34,
+  "checks_total": 34
+}

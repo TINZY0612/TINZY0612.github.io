@@ -1,0 +1,344 @@
+{
+  "run_finished_at_utc": "2026-11-21T06:55:24.290007+00:00",
+  "purpose": "feasibility only; not a historical forecast",
+  "sources": [
+    {
+      "name": "blackrock_usdxx",
+      "url": "https://www.blackrock.com/cash/en-us/products/329365/circle-reserve-fund",
+      "retrieved_at_utc": "2026-11-21T06:55:06.734280+00:00",
+      "method": "GET",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden",
+      "elapsed_seconds": 2.297
+    },
+    {
+      "name": "circle_contracts",
+      "url": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+      "retrieved_at_utc": "2026-11-21T06:55:06.665094+00:00",
+      "method": "GET",
+      "status": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+      "elapsed_seconds": 2.0
+    },
+    {
+      "name": "circle_q3_2026_html",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001876042/e607a289-7db3-44a8-bdf6-c6624a132a27.html",
+      "retrieved_at_utc": "2026-11-21T06:55:05.820739+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "text/html",
+      "final_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001876042/e607a289-7db3-44a8-bdf6-c6624a132a27.html",
+      "bytes": 2047933,
+      "file": "raw\\circle_q3_2026_html.html",
+      "sha256": "720e4ca73157703f9eb628ca7f287dd74cd1b23b8ad1d17f792a594b05b1a287",
+      "status": "received",
+      "elapsed_seconds": 4.281
+    },
+    {
+      "name": "circle_q3_2026_pdf",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001876042/b3ce97a8-6be6-4a55-bf46-b670adcb57f1.pdf",
+      "retrieved_at_utc": "2026-11-21T06:55:06.150839+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "final_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001876042/b3ce97a8-6be6-4a55-bf46-b670adcb57f1.pdf",
+      "bytes": 5830995,
+      "file": "raw\\circle_q3_2026_pdf.pdf",
+      "sha256": "b7fa8f7eaaf8e2e54a81a8767fc5884d39074356ffdbbaaabfccbca23b6ba254",
+      "status": "received",
+      "elapsed_seconds": 8.484
+    },
+    {
+      "name": "circle_transparency",
+      "url": "https://www.circle.com/transparency",
+      "retrieved_at_utc": "2026-11-21T06:55:06.223835+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.circle.com/transparency",
+      "bytes": 424129,
+      "file": "raw\\circle_transparency.html",
+      "sha256": "df57e3125a296478fb147f3a84c5169c3e39dbbc409572a63b9bf58e57d551fa",
+      "status": "received",
+      "elapsed_seconds": 3.375
+    },
+    {
+      "name": "defillama_circle_adapter",
+      "url": "https://raw.githubusercontent.com/DefiLlama/dimension-adapters/master/fees/circle.ts",
+      "retrieved_at_utc": "2026-11-21T06:55:09.021618+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "final_url": "https://raw.githubusercontent.com/DefiLlama/dimension-adapters/master/fees/circle.ts",
+      "bytes": 6583,
+      "file": "raw\\defillama_circle_adapter.txt",
+      "sha256": "784bc48dea8cf85cdbb718d724ccd40c3c7a7daa9fedc44ae05dd854f835b505",
+      "status": "received",
+      "elapsed_seconds": 2.406
+    },
+    {
+      "name": "defillama_stablecoin_helper",
+      "url": "https://raw.githubusercontent.com/DefiLlama/dimension-adapters/master/helpers/attestations-stablecoins.ts",
+      "retrieved_at_utc": "2026-11-21T06:55:09.597883+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "final_url": "https://raw.githubusercontent.com/DefiLlama/dimension-adapters/master/helpers/attestations-stablecoins.ts",
+      "bytes": 3059,
+      "file": "raw\\defillama_stablecoin_helper.txt",
+      "sha256": "02569dcde28ef945c7ab6d505159fe76661439d034afa600f4a39ac352bc4b6c",
+      "status": "received",
+      "elapsed_seconds": 1.859
+    },
+    {
+      "name": "defillama_usdc",
+      "url": "https://stablecoins.llama.fi/stablecoin/2",
+      "retrieved_at_utc": "2026-11-21T06:55:02.869143+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "bytes": 23726028,
+      "file": "raw\\defillama_usdc.json",
+      "sha256": "1bb445228cda784788091999be8d3b5859b27c538ffb91a24dad19f352beafe1",
+      "status": "received",
+      "elapsed_seconds": 14.672
+    },
+    {
+      "name": "defillama_usdc_chart",
+      "url": "https://stablecoins.llama.fi/stablecoincharts/all?stablecoin=2",
+      "retrieved_at_utc": "2026-11-21T06:55:02.869143+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://stablecoins.llama.fi/stablecoincharts/all?stablecoin=2",
+      "bytes": 358928,
+      "file": "raw\\defillama_usdc_chart.json",
+      "sha256": "3d90c37182414c6ce49a4be50bbb17ae297c64e4b0732f89e1c1fa7a37760363",
+      "status": "received",
+      "elapsed_seconds": 3.797
+    },
+    {
+      "name": "eth_q3_end_block",
+      "url": "https://coins.llama.fi/block/ethereum/1790812799",
+      "retrieved_at_utc": "2026-11-21T06:55:10.109136+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://coins.llama.fi/block/ethereum/1790812799",
+      "bytes": 42,
+      "file": "raw\\eth_q3_end_block.json",
+      "sha256": "a75d2342745c6a96516242a59ac31954a88cfe78bf8df0e9b4b0d09888d999a8",
+      "status": "received",
+      "elapsed_seconds": 2.312
+    },
+    {
+      "name": "fred_dgs3mo",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS3MO&cosd=2023-01-01&coed=2026-11-20",
+      "retrieved_at_utc": "2026-11-21T06:55:02.869143+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/csv",
+      "final_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS3MO&cosd=2023-01-01&coed=2026-11-20",
+      "bytes": 16064,
+      "file": "raw\\fred_dgs3mo.txt",
+      "sha256": "fbc5880fe61b121c4d2f97ff4f7479097b79a479857de9270b04bf8617812a12",
+      "status": "received",
+      "elapsed_seconds": 3.282
+    },
+    {
+      "name": "nyfed_sofr_2023_2026",
+      "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/search.json?startDate=2023-01-01&endDate=2026-11-20",
+      "retrieved_at_utc": "2026-11-21T06:55:02.869143+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "final_url": "https://markets.newyorkfed.org/api/rates/secured/sofr/search.json?startDate=2023-01-01&endDate=2026-11-20",
+      "bytes": 230640,
+      "file": "raw\\nyfed_sofr_2023_2026.json",
+      "sha256": "6eff522920a04d74fcf17422f23726a3fa2b8a09aa218abfd71fceb0045cd5cd",
+      "status": "received",
+      "elapsed_seconds": 3.86
+    },
+    {
+      "name": "nyfed_sofr_q3",
+      "url": "https://markets.newyorkfed.org/api/rates/secured/sofr/search.json?startDate=2026-07-01&endDate=2026-09-30",
+      "retrieved_at_utc": "2026-11-21T06:55:02.869143+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/json;charset=utf-8",
+      "final_url": "https://markets.newyorkfed.org/api/rates/secured/sofr/search.json?startDate=2026-07-01&endDate=2026-09-30",
+      "bytes": 15250,
+      "file": "raw\\nyfed_sofr_q3.json",
+      "sha256": "6b7847047e11a5161bcadd28ec18412760b860fb3b6e806103a96e538f054c29",
+      "status": "received",
+      "elapsed_seconds": 2.954
+    },
+    {
+      "name": "rpc_1rpc_chainid",
+      "url": "https://1rpc.io/eth",
+      "retrieved_at_utc": "2026-11-21T06:55:17.638852+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_chainId",
+        "params": []
+      },
+      "status": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+      "elapsed_seconds": 1.969
+    },
+    {
+      "name": "rpc_llamarpc_chainid",
+      "url": "https://eth.llamarpc.com",
+      "retrieved_at_utc": "2026-11-21T06:55:17.638349+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_chainId",
+        "params": []
+      },
+      "status": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+      "elapsed_seconds": 1.969
+    },
+    {
+      "name": "rpc_publicnode_chainid",
+      "url": "https://ethereum-rpc.publicnode.com",
+      "retrieved_at_utc": "2026-11-21T06:55:17.636345+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_chainId",
+        "params": []
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://ethereum-rpc.publicnode.com",
+      "bytes": 40,
+      "file": "raw\\rpc_publicnode_chainid.json",
+      "sha256": "208c0be5a34cd9b241311e625b3035aa89cb237969cbc1a0c9cbd8c8517087eb",
+      "status": "received",
+      "elapsed_seconds": 2.234
+    },
+    {
+      "name": "rpc_publicnode_decimals",
+      "url": "https://ethereum-rpc.publicnode.com",
+      "retrieved_at_utc": "2026-11-21T06:55:23.311870+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x313ce567"
+          },
+          "latest"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://ethereum-rpc.publicnode.com",
+      "bytes": 103,
+      "file": "raw\\rpc_publicnode_decimals.json",
+      "sha256": "b9affdcdc9ebdd0148b7e901e8839657e1a9bb488878788e7234df75a6d8099e",
+      "status": "received",
+      "elapsed_seconds": 0.984
+    },
+    {
+      "name": "rpc_publicnode_historic_block",
+      "url": "https://ethereum-rpc.publicnode.com",
+      "retrieved_at_utc": "2026-11-21T06:55:21.157447+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1406f40",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://ethereum-rpc.publicnode.com",
+      "bytes": 16181,
+      "file": "raw\\rpc_publicnode_historic_block.json",
+      "sha256": "d46254fe136b81abd3782e29c8c89e2fdd61d2238d89781a484c7c5c62add537",
+      "status": "received",
+      "elapsed_seconds": 1.187
+    },
+    {
+      "name": "rpc_publicnode_historic_supply",
+      "url": "https://ethereum-rpc.publicnode.com",
+      "retrieved_at_utc": "2026-11-21T06:55:22.335860+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x1406f40"
+        ]
+      },
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden",
+      "elapsed_seconds": 0.969
+    },
+    {
+      "name": "rpc_publicnode_latest_block",
+      "url": "https://ethereum-rpc.publicnode.com",
+      "retrieved_at_utc": "2026-11-21T06:55:19.874193+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "latest",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://ethereum-rpc.publicnode.com",
+      "bytes": 20430,
+      "file": "raw\\rpc_publicnode_latest_block.json",
+      "sha256": "dd5b1810ec42b8c10af618fe78d1e0dc33bc5e20b9c9bcd0bd6eebc186f36387",
+      "status": "received",
+      "elapsed_seconds": 1.282
+    },
+    {
+      "name": "sec_companyfacts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001876042.json",
+      "retrieved_at_utc": "2026-11-21T06:55:08.670033+00:00",
+      "method": "GET",
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001876042.json",
+      "bytes": 528665,
+      "file": "raw\\sec_companyfacts.json",
+      "sha256": "6a47e3f75460e8d3e6f860b4a713bacac5862c47cd968b730d55fe7df28fde36",
+      "status": "received",
+      "elapsed_seconds": 3.782
+    },
+    {
+      "name": "treasury_2026",
+      "url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026",
+      "retrieved_at_utc": "2026-11-21T06:55:02.875793+00:00",
+      "method": "GET",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "elapsed_seconds": 3.36
+    }
+  ]
+}

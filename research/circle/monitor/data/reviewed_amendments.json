@@ -1,0 +1,8 @@
+{
+  "0001876042-26-000228": {
+    "sha256": "e58a1c94855090a2639067a06b3e6f50c94d63eef92839c94dd670f085cd638c",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000228/crcl-20251231.htm",
+    "reviewed_at_utc": "2026-11-22T10:43:32.174172+00:00",
+    "reason": "Adds separately audited Circle Reserve Fund statements under Rule 3-09. The explanatory note states that other disclosures in the original Circle 10-K are not restated. It does not replace Circle reserve-income inputs."
+  }
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "name": "sec_submissions",
+    "url": "https://data.sec.gov/submissions/CIK0001876042.json",
+    "retrieved_at_utc": "2026-11-21T07:13:11.915224+00:00",
+    "http_status": 200,
+    "content_type": "application/json",
+    "status": "received",
+    "file": "raw\\sec_submissions.json",
+    "sha256": "a4bb5cd03b5e635e918dfa04cde74354e4651e0c2cc65ad48ffac979862d3426",
+    "bytes": 72773
+  },
+  {
+    "name": "fy2025_html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+    "retrieved_at_utc": "2026-11-21T07:13:11.917348+00:00",
+    "http_status": 200,
+    "content_type": "text/html",
+    "status": "received",
+    "file": "raw\\fy2025_html.html",
+    "sha256": "6a9dd22d03e65b6bfa8d6f67fa5e5c8a02a2a18ba0f6d4d9f63b12d6414edbb0",
+    "bytes": 3721553
+  },
+  {
+    "name": "q3_2025_html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+    "retrieved_at_utc": "2026-11-21T07:13:11.918026+00:00",
+    "http_status": 200,
+    "content_type": "text/html",
+    "status": "received",
+    "file": "raw\\q3_2025_html.html",
+    "sha256": "a31c8477e18337936f7ead105139bb183a0e07db18f29dc0d62a8cbc6e80d87e",
+    "bytes": 2412071
+  },
+  {
+    "name": "q2_2025_html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+    "retrieved_at_utc": "2026-11-21T07:13:11.918538+00:00",
+    "http_status": 200,
+    "content_type": "text/html",
+    "status": "received",
+    "file": "raw\\q2_2025_html.html",
+    "sha256": "f6db6ecda0a543688a48c8d919d702831e8a3d998ef0ded369c1a52ae9800e90",
+    "bytes": 2225193
+  },
+  {
+    "name": "q1_2026_html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+    "retrieved_at_utc": "2026-11-21T07:13:14.972551+00:00",
+    "http_status": 200,
+    "content_type": "text/html",
+    "status": "received",
+    "file": "raw\\q1_2026_html.html",
+    "sha256": "061aaea7b7409449196754db824db217ff7444d272e3e1e362e5e6c5aab4b7dc",
+    "bytes": 1671799
+  },
+  {
+    "name": "q2_2026_html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+    "retrieved_at_utc": "2026-11-21T07:13:16.904015+00:00",
+    "http_status": 200,
+    "content_type": "text/html",
+    "status": "received",
+    "file": "raw\\q2_2026_html.html",
+    "sha256": "e03f08f8b9f2ce9d19c17f7f912a0c268d27f022c5adcf0e6398d4e2162b2f9f",
+    "bytes": 2077031
+  },
+  {
+    "name": "q3_2026_html",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+    "retrieved_at_utc": "2026-11-21T07:13:17.744548+00:00",
+    "http_status": 200,
+    "content_type": "text/html",
+    "status": "received",
+    "file": "raw\\q3_2026_html.html",
+    "sha256": "e7f829169897fd56c153a30cf2f034b4e374416e1058bc5517acf976a07e8ae3",
+    "bytes": 2317278
+  },
+  {
+    "name": "ipo_prospectus",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm",
+    "retrieved_at_utc": "2026-11-21T07:13:19.911030+00:00",
+    "http_status": 200,
+    "content_type": "text/html",
+    "status": "received",
+    "file": "raw\\ipo_prospectus.html",
+    "sha256": "497bb050b2b632baf5c87a5ab53f3696222002a4d7f3073254823896e57f8b1d",
+    "bytes": 3830378
+  },
+  {
+    "name": "usdc_config",
+    "url": "https://raw.githubusercontent.com/DefiLlama/peggedassets-server/master/src/adapters/peggedAssets/usd-coin/config.ts",
+    "retrieved_at_utc": "2026-11-21T07:13:20.332652+00:00",
+    "http_status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "status": "received",
+    "file": "raw\\usdc_config.txt",
+    "sha256": "1b665bef6ac7af00d09a396838f833af6d8cecbd67ab52096116d53a5945e2fd",
+    "bytes": 23447
+  },
+  {
+    "name": "peggedassets_tree",
+    "url": "https://api.github.com/repos/DefiLlama/peggedassets-server/git/trees/master?recursive=1",
+    "retrieved_at_utc": "2026-11-21T07:13:21.583160+00:00",
+    "http_status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "status": "received",
+    "file": "raw\\peggedassets_tree.json",
+    "sha256": "171f4525cb9e91d30049cf454b9cad6e80bcb752280f9e3dc2f0f34098783983",
+    "bytes": 73810
+  },
+  {
+    "name": "circle_contracts",
+    "url": "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "retrieved_at_utc": "2026-11-21T07:13:22.901505+00:00",
+    "status": "failed",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+  }
+]

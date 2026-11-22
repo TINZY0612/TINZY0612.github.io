@@ -1,0 +1,402 @@
+{
+  "checks_passed": 98,
+  "checks_total": 98,
+  "checks": [
+    {
+      "name": "all received source response hashes verified",
+      "passed": true
+    },
+    {
+      "name": "dated forecast source input hashes unchanged",
+      "passed": true
+    },
+    {
+      "name": "seven original partner dates and six scored quarters",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 independent pooled-ratio estimate",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 calibration was public before partner report",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 partner original publication eligible for late cutoff",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 original Stage3 reserve estimate preserved",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 flat_cost bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 lag_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 pool3_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 ewma_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 platform_change bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 partner_scaled_residual bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 partner_total_scale bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 partner_flat_residual bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 independent pooled-ratio estimate",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 calibration was public before partner report",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 partner original publication eligible for late cutoff",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 original Stage3 reserve estimate preserved",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 flat_cost bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 lag_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 pool3_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 ewma_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 platform_change bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 partner_scaled_residual bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 partner_total_scale bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 partner_flat_residual bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 independent pooled-ratio estimate",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 calibration was public before partner report",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 partner original publication eligible for late cutoff",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 original Stage3 reserve estimate preserved",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 flat_cost bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 lag_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 pool3_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 ewma_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 platform_change bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 partner_scaled_residual bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 partner_total_scale bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 partner_flat_residual bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 independent pooled-ratio estimate",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 calibration was public before partner report",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 partner original publication eligible for late cutoff",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 original Stage3 reserve estimate preserved",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 flat_cost bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 lag_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 pool3_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 ewma_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 platform_change bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 partner_scaled_residual bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 partner_total_scale bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 partner_flat_residual bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 independent pooled-ratio estimate",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 calibration was public before partner report",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 partner original publication eligible for late cutoff",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 original Stage3 reserve estimate preserved",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 flat_cost bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 lag_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 pool3_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 ewma_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 platform_change bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 partner_scaled_residual bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 partner_total_scale bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 partner_flat_residual bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 independent pooled-ratio estimate",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 calibration was public before partner report",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 partner original publication eligible for late cutoff",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 original Stage3 reserve estimate preserved",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 flat_cost bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 lag_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 pool3_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 ewma_ratio bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 platform_change bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 partner_scaled_residual bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 partner_total_scale bridge and error",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 partner_flat_residual bridge and error",
+      "passed": true
+    },
+    {
+      "name": "flat_cost aggregate cost and underlying errors recomputed",
+      "passed": true
+    },
+    {
+      "name": "lag_ratio aggregate cost and underlying errors recomputed",
+      "passed": true
+    },
+    {
+      "name": "pool3_ratio aggregate cost and underlying errors recomputed",
+      "passed": true
+    },
+    {
+      "name": "ewma_ratio aggregate cost and underlying errors recomputed",
+      "passed": true
+    },
+    {
+      "name": "platform_change aggregate cost and underlying errors recomputed",
+      "passed": true
+    },
+    {
+      "name": "partner_scaled_residual aggregate cost and underlying errors recomputed",
+      "passed": true
+    },
+    {
+      "name": "partner_total_scale aggregate cost and underlying errors recomputed",
+      "passed": true
+    },
+    {
+      "name": "partner_flat_residual aggregate cost and underlying errors recomputed",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 target actual mutation leaves predictions unchanged",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 target actual mutation leaves predictions unchanged",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 target actual mutation leaves predictions unchanged",
+      "passed": true
+    },
+    {
+      "name": "current partner income cannot change pre-partner rules",
+      "passed": true
+    },
+    {
+      "name": "current partner income changes intended late proxy rule",
+      "passed": true
+    },
+    {
+      "name": "184 distinct quarter-role dates with 51 observed and 41 projected Q4 days",
+      "passed": true
+    },
+    {
+      "name": "daily forward reserve arithmetic matches immutable forecast",
+      "passed": true
+    },
+    {
+      "name": "future SOFR uses only a published effective date",
+      "passed": true
+    },
+    {
+      "name": "Q4 pooled ratio and both RLDC cases independently reconcile",
+      "passed": true
+    },
+    {
+      "name": "forecast keeps actual unknown and future partner earnings unavailable",
+      "passed": true
+    },
+    {
+      "name": "four exported sheets and no cached error cells",
+      "passed": true
+    },
+    {
+      "name": "exported cost MAPE and Q4 RLDC cache match analysis",
+      "passed": true
+    },
+    {
+      "name": "exported forecast and cost estimates contain live formulas",
+      "passed": true
+    },
+    {
+      "name": "native chart has two source-bound series",
+      "passed": true
+    },
+    {
+      "name": "workbook input changes and zero-ARC test passed",
+      "passed": true
+    }
+  ],
+  "received_source_hashes_checked": 17,
+  "workbook_sha256": "928e67692aae4388e04ca9c3966a79da76b3d489643d05575ae463a1aa92c694",
+  "native_excel_application_recalculation_tested": false,
+  "interpretation": "Controls verify source integrity, calculations and input separation, not future predictive accuracy."
+}

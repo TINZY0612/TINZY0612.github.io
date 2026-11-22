@@ -1,0 +1,76 @@
+{
+  "as_of": "2026-11-21",
+  "historical_cutoff": "2026-11-03",
+  "events": [
+    {
+      "event_date": "2026-05-08",
+      "public_by": "2026-05-11",
+      "evidence": "signed presale agreements disclosed in 8-K",
+      "amount_usd_million": 222,
+      "tokens_million": 740,
+      "price_usd": 0.3,
+      "source": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000148/crcl-20260511.htm",
+      "q3_pre_earnings_eligible": true
+    },
+    {
+      "event_date": "2026-06-30",
+      "public_by": "2026-07-02",
+      "evidence": "June 29-30 second closing: 67.5m additional ARC at $0.30, $20.25m, disclosed in original July 2 8-K",
+      "additional_amount_usd_million": 20.25,
+      "source": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000205/crcl-20260629.htm",
+      "q3_pre_earnings_eligible": true
+    },
+    {
+      "event_date": "2026-06-30",
+      "public_by": "2026-08-05",
+      "evidence": "quarterly agreement totals: 807.5m ARC at $0.30; rounded consideration $242.2m, Q2 cash received $222m; initially deferred",
+      "amount_usd_million": 242.2,
+      "source": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+      "q3_pre_earnings_eligible": true
+    },
+    {
+      "event_date": "2026-08-05",
+      "public_by": "2026-08-05",
+      "evidence": "FY2026 ~75% milestone/revenue expectation and $180m included in guidance; no exact Q3 recognition commitment",
+      "source": "https://s206.q4cdn.com/265218871/files/doc_earnings/2026/q2/transcript/Q226-Earnings-Transcript.pdf",
+      "locator": "page 9",
+      "q3_pre_earnings_eligible": true
+    },
+    {
+      "event_date": "2026-08-05",
+      "public_by": "2026-08-05",
+      "evidence": "September 16 mainnet launch scheduled",
+      "source": "https://www.arc.io/blog/arc-mainnet-goes-live-on-september-16-2026",
+      "q3_pre_earnings_eligible": true
+    },
+    {
+      "event_date": "2026-09-16",
+      "public_by": "2026-09-16",
+      "evidence": "Circle announces mainnet launch AND completed 10bn ARC genesis mint that week; distinguishes mint from a commitment to public token launch; supports a milestone scenario without an exact GAAP progress fraction",
+      "source": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+      "q3_pre_earnings_eligible": true
+    },
+    {
+      "event_date": "2026-09-14",
+      "public_by": "2026-11-04",
+      "evidence": "Exact September 14 mint date and subsequent investor distribution/escrow established in Q3 filing; mint completion was already announced September 16",
+      "source": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+      "q3_pre_earnings_eligible": false
+    },
+    {
+      "event_date": "2026-09-30",
+      "public_by": "2026-11-04",
+      "evidence": "Q3 ARC revenue $181.8m and remaining ARC deferred balance about $60.4m; scoring only for historical test",
+      "source": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+      "q3_pre_earnings_eligible": false
+    },
+    {
+      "event_date": "2026-11-04",
+      "public_by": "2026-11-04",
+      "evidence": "FY other revenue guide $310m-$330m maintained; ordinary products $130m-$150m, Q4 expected to improve; usable for forward Q4 projection",
+      "source": "https://s206.q4cdn.com/265218871/files/doc_earnings/2026/q3/transcript/Q326-Earnings-Transcript.pdf",
+      "locator": "page 9",
+      "q3_pre_earnings_eligible": false
+    }
+  ]
+}

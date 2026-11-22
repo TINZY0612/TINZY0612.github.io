@@ -1,0 +1,433 @@
+{
+  "finished_at_utc": "2026-11-21T06:56:35.244058+00:00",
+  "sources": [
+    {
+      "name": "archive_publicnode_chainid",
+      "url": "https://ethereum-rpc.publicnode.com",
+      "retrieved_at_utc": "2026-11-21T06:56:26.391314+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_chainId",
+        "params": []
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://ethereum-rpc.publicnode.com",
+      "bytes": 40,
+      "file": "raw\\archive_publicnode_chainid.json",
+      "sha256": "208c0be5a34cd9b241311e625b3035aa89cb237969cbc1a0c9cbd8c8517087eb",
+      "status": "received",
+      "elapsed_seconds": 1.25
+    },
+    {
+      "name": "archive_publicnode_latest_supply",
+      "url": "https://ethereum-rpc.publicnode.com",
+      "retrieved_at_utc": "2026-11-21T06:56:27.639305+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "latest"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://ethereum-rpc.publicnode.com",
+      "bytes": 103,
+      "file": "raw\\archive_publicnode_latest_supply.json",
+      "sha256": "4dcfff75080a3eac0879c0051d6f0ce10cb8931d4b8eea25f923647afe8a269e",
+      "status": "received",
+      "elapsed_seconds": 0.984
+    },
+    {
+      "name": "archive_publicnode_q3_block",
+      "url": "https://ethereum-rpc.publicnode.com",
+      "retrieved_at_utc": "2026-11-21T06:56:28.625520+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x18e28a9",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://ethereum-rpc.publicnode.com",
+      "bytes": 19467,
+      "file": "raw\\archive_publicnode_q3_block.json",
+      "sha256": "e7f23de7443548b383033caef780cceb28082f2b2bec948d9c0fb07f0147c65b",
+      "status": "received",
+      "elapsed_seconds": 1.204
+    },
+    {
+      "name": "archive_publicnode_q3_next_block",
+      "url": "https://ethereum-rpc.publicnode.com",
+      "retrieved_at_utc": "2026-11-21T06:56:29.828559+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x18e28aa",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://ethereum-rpc.publicnode.com",
+      "bytes": 3938,
+      "file": "raw\\archive_publicnode_q3_next_block.json",
+      "sha256": "f3ba03ae6694e5b96a851ee49817cf576f5665cfddbe44c76f4e186d4a54a1cd",
+      "status": "received",
+      "elapsed_seconds": 0.984
+    },
+    {
+      "name": "archive_publicnode_q3_supply",
+      "url": "https://ethereum-rpc.publicnode.com",
+      "retrieved_at_utc": "2026-11-21T06:56:30.808209+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x18e28a9"
+        ]
+      },
+      "status": "failed",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "error_body_file": "raw\\archive_publicnode_q3_supply_http_error.txt",
+      "error_body_sha256": "9a9c4cad7278f824736e3f2579d619b818ecf0c17cab024fb739e1cb63fe82e8",
+      "elapsed_seconds": 0.984
+    },
+    {
+      "name": "archive_publicnode_2024_supply",
+      "url": "https://ethereum-rpc.publicnode.com",
+      "retrieved_at_utc": "2026-11-21T06:56:31.789759+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x1406f40"
+        ]
+      },
+      "status": "failed",
+      "http_status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "error_body_file": "raw\\archive_publicnode_2024_supply_http_error.txt",
+      "error_body_sha256": "9a9c4cad7278f824736e3f2579d619b818ecf0c17cab024fb739e1cb63fe82e8",
+      "elapsed_seconds": 0.985
+    },
+    {
+      "name": "archive_tenderly_chainid",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:56:26.391314+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_chainId",
+        "params": []
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 39,
+      "file": "raw\\archive_tenderly_chainid.json",
+      "sha256": "79226432df73e05966f20e4d291fb5048bfef1138d7078f8feab534126df1aa5",
+      "status": "received",
+      "elapsed_seconds": 2.438
+    },
+    {
+      "name": "archive_tenderly_latest_supply",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:56:28.820913+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "latest"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 102,
+      "file": "raw\\archive_tenderly_latest_supply.json",
+      "sha256": "8a09eb6803509cf3d061a20304bd90a88cab5fec4a52bf5350393755df8277d3",
+      "status": "received",
+      "elapsed_seconds": 0.984
+    },
+    {
+      "name": "archive_tenderly_q3_block",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:56:29.802272+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x18e28a9",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 19466,
+      "file": "raw\\archive_tenderly_q3_block.json",
+      "sha256": "d7a547546a39c5eacadd9faeabe5d5fec7b2b3f21db4fca5c53ca48589b018ed",
+      "status": "received",
+      "elapsed_seconds": 1.078
+    },
+    {
+      "name": "archive_tenderly_q3_next_block",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:56:30.882513+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x18e28aa",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 3937,
+      "file": "raw\\archive_tenderly_q3_next_block.json",
+      "sha256": "f587b975952458839712a7b89976d01a9cd7a1c0328572d39ec5d42620805af0",
+      "status": "received",
+      "elapsed_seconds": 0.984
+    },
+    {
+      "name": "archive_tenderly_q3_supply",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:56:31.877956+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x18e28a9"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 102,
+      "file": "raw\\archive_tenderly_q3_supply.json",
+      "sha256": "2f0aea999759cab650b0425085ae3c693bfcb47807f175843c9de3b25ee9bd7f",
+      "status": "received",
+      "elapsed_seconds": 1.0
+    },
+    {
+      "name": "archive_tenderly_2024_supply",
+      "url": "https://mainnet.gateway.tenderly.co",
+      "retrieved_at_utc": "2026-11-21T06:56:32.863086+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x1406f40"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "final_url": "https://mainnet.gateway.tenderly.co",
+      "bytes": 102,
+      "file": "raw\\archive_tenderly_2024_supply.json",
+      "sha256": "bb416b98a61a628f01e0ee4b1af7480a7cb28eb09e1a3d2aba0be3231c7e132b",
+      "status": "received",
+      "elapsed_seconds": 1.016
+    },
+    {
+      "name": "archive_drpc_chainid",
+      "url": "https://eth.drpc.org",
+      "retrieved_at_utc": "2026-11-21T06:56:26.391314+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_chainId",
+        "params": []
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://eth.drpc.org",
+      "bytes": 39,
+      "file": "raw\\archive_drpc_chainid.json",
+      "sha256": "79226432df73e05966f20e4d291fb5048bfef1138d7078f8feab534126df1aa5",
+      "status": "received",
+      "elapsed_seconds": 2.438
+    },
+    {
+      "name": "archive_drpc_latest_supply",
+      "url": "https://eth.drpc.org",
+      "retrieved_at_utc": "2026-11-21T06:56:28.818518+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "latest"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://eth.drpc.org",
+      "bytes": 102,
+      "file": "raw\\archive_drpc_latest_supply.json",
+      "sha256": "8a09eb6803509cf3d061a20304bd90a88cab5fec4a52bf5350393755df8277d3",
+      "status": "received",
+      "elapsed_seconds": 1.0
+    },
+    {
+      "name": "archive_drpc_q3_block",
+      "url": "https://eth.drpc.org",
+      "retrieved_at_utc": "2026-11-21T06:56:29.822218+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x18e28a9",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://eth.drpc.org",
+      "bytes": 19466,
+      "file": "raw\\archive_drpc_q3_block.json",
+      "sha256": "6669f7491c93c55adee08a3ead7dee670d78c678c756c66fa6959d8f72d22081",
+      "status": "received",
+      "elapsed_seconds": 1.218
+    },
+    {
+      "name": "archive_drpc_q3_next_block",
+      "url": "https://eth.drpc.org",
+      "retrieved_at_utc": "2026-11-21T06:56:31.039506+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x18e28aa",
+          false
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://eth.drpc.org",
+      "bytes": 3937,
+      "file": "raw\\archive_drpc_q3_next_block.json",
+      "sha256": "39d4a5e0b38c6ee86db6951fa4534c18410fc2b08b8f6018a5e3e6e24e9b25a2",
+      "status": "received",
+      "elapsed_seconds": 1.016
+    },
+    {
+      "name": "archive_drpc_q3_supply",
+      "url": "https://eth.drpc.org",
+      "retrieved_at_utc": "2026-11-21T06:56:32.065892+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x18e28a9"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://eth.drpc.org",
+      "bytes": 102,
+      "file": "raw\\archive_drpc_q3_supply.json",
+      "sha256": "2f0aea999759cab650b0425085ae3c693bfcb47807f175843c9de3b25ee9bd7f",
+      "status": "received",
+      "elapsed_seconds": 1.016
+    },
+    {
+      "name": "archive_drpc_2024_supply",
+      "url": "https://eth.drpc.org",
+      "retrieved_at_utc": "2026-11-21T06:56:33.077829+00:00",
+      "method": "POST",
+      "request_json": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "data": "0x18160ddd"
+          },
+          "0x1406f40"
+        ]
+      },
+      "http_status": 200,
+      "content_type": "application/json",
+      "final_url": "https://eth.drpc.org",
+      "bytes": 102,
+      "file": "raw\\archive_drpc_2024_supply.json",
+      "sha256": "bb416b98a61a628f01e0ee4b1af7480a7cb28eb09e1a3d2aba0be3231c7e132b",
+      "status": "received",
+      "elapsed_seconds": 2.171
+    }
+  ]
+}

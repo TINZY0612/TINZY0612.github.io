@@ -1,0 +1,46 @@
+[
+  {
+    "name": "getAndStorePeggedAssets",
+    "url": "https://raw.githubusercontent.com/DefiLlama/peggedassets-server/master/src/peggedAssets/storePeggedAssets/getAndStorePeggedAssets.ts",
+    "retrieved_at_utc": "2026-11-21T07:14:06.079589+00:00",
+    "http_status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "status": "received",
+    "file": "raw\\getAndStorePeggedAssets.txt",
+    "sha256": "dff4474362f4f38ed27fb26dc0e9b808a354fe1c68dbfd523d6b0afb93c8a40b",
+    "bytes": 15970
+  },
+  {
+    "name": "storeNewPeggedBalances",
+    "url": "https://raw.githubusercontent.com/DefiLlama/peggedassets-server/master/src/peggedAssets/storePeggedAssets/storeNewPeggedBalances.ts",
+    "retrieved_at_utc": "2026-11-21T07:14:06.080377+00:00",
+    "http_status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "status": "received",
+    "file": "raw\\storeNewPeggedBalances.txt",
+    "sha256": "0439095db54648e3cdc27afea25cb53f93efbb5622e5e048ca41c553ef8e3d02",
+    "bytes": 15887
+  },
+  {
+    "name": "reconcileDailyFromHourly",
+    "url": "https://raw.githubusercontent.com/DefiLlama/peggedassets-server/master/src/peggedAssets/storePeggedAssets/reconcileDailyFromHourly.ts",
+    "retrieved_at_utc": "2026-11-21T07:14:06.081880+00:00",
+    "http_status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "status": "received",
+    "file": "raw\\reconcileDailyFromHourly.txt",
+    "sha256": "89c4cbe7a5a52e870b4541b60ac54b6c1febbbd10381f6f6ece4e5cacc1d9898",
+    "bytes": 7242
+  },
+  {
+    "name": "storePegged",
+    "url": "https://raw.githubusercontent.com/DefiLlama/peggedassets-server/master/src/peggedAssets/storePeggedAssets/storePegged.ts",
+    "retrieved_at_utc": "2026-11-21T07:14:06.082876+00:00",
+    "http_status": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "status": "received",
+    "file": "raw\\storePegged.txt",
+    "sha256": "fb1f377b9b227289702cb98244e1f8c9c63aa5d5671bf27943f97bc81a1f00a1",
+    "bytes": 2176
+  }
+]

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+monitor/config.json
+monitor/state/
+monitor/export/

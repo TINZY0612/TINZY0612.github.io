@@ -1,0 +1,47 @@
+{
+  "withheld": [
+    {
+      "path": "stage2/workspace_crosscheck.py",
+      "reason": "Local account integration or obsolete inspection metadata"
+    },
+    {
+      "path": "stage2/workspace_manifest.json",
+      "reason": "Local account integration or obsolete inspection metadata"
+    },
+    {
+      "path": "data_inventory/website_inspection.json",
+      "reason": "Local account integration or obsolete inspection metadata"
+    },
+    {
+      "path": "outputs/01a1fcd4-2a0f-7c92-a89f-a871c89c1db7/Circle_Quarterly_Actuals.xlsx",
+      "reason": "Workbook contains licensed Workspace cross-check; public SEC ledger is included instead"
+    },
+    {
+      "path": "stage2/licensed/circle_fundamentals_quarterly.json",
+      "reason": "Licensed Refinitiv/LSEG export; redistribution not established"
+    },
+    {
+      "path": "stage2/licensed/circle_identity.json",
+      "reason": "Licensed Refinitiv/LSEG export; redistribution not established"
+    },
+    {
+      "path": "stage2/licensed/circle_quarterly_revenue.json",
+      "reason": "Licensed Refinitiv/LSEG export; redistribution not established"
+    },
+    {
+      "path": "stage2/licensed/circle_quarterly_revenue_period_fq.json",
+      "reason": "Licensed Refinitiv/LSEG export; redistribution not established"
+    }
+  ],
+  "excluded_directory_classes": [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "archive",
+    "licensed",
+    "node_modules",
+    "previews",
+    "revisions"
+  ],
+  "local_state": "Credentials, private integration helpers, VM/account configuration, mutable production state, synthetic UI replay exports, editing backups and dependency installs are not published."
+}

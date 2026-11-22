@@ -1,0 +1,167 @@
+[
+  {
+    "name": "arc_whitepaper_library",
+    "url": "https://www.arc.io/whitepaper"
+  },
+  {
+    "name": "arc_connect_docs",
+    "url": "https://docs.arc.network/arc/references/connect-to-arc"
+  },
+  {
+    "name": "arc_rpc_docs",
+    "url": "https://docs.arc.network/arc/references/rpc-endpoints"
+  },
+  {
+    "name": "arc_docs_index",
+    "url": "https://docs.arc.network/llms.txt"
+  },
+  {
+    "name": "arc_explorer_home",
+    "url": "https://explorer.arc.io/"
+  },
+  {
+    "name": "arc_explorer_search",
+    "url": "https://explorer.arc.io/api/v2/search?q=ARC"
+  },
+  {
+    "name": "may_release_sec_exhibit",
+    "url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000148/final_05x11q1epr30.htm"
+  },
+  {
+    "name": "q2_2026_release",
+    "url": "https://www.circle.com/pressroom/circle-reports-second-quarter-2026-results"
+  },
+  {
+    "name": "q3_2026_release",
+    "url": "https://www.circle.com/pressroom/circle-reports-third-quarter-2026-results"
+  },
+  {
+    "name": "q3_2026_transcript",
+    "url": "https://s206.q4cdn.com/265218871/files/doc_earnings/2026/q3/transcript/Q326-Earnings-Transcript.pdf"
+  },
+  {
+    "name": "arc_rpc_circle",
+    "url": "https://rpc.mainnet.arc.io",
+    "payload": [
+      {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_chainId",
+        "params": []
+      },
+      {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x0",
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "name": "arc_rpc_drpc",
+    "url": "https://rpc.drpc.mainnet.arc.io",
+    "payload": [
+      {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_chainId",
+        "params": []
+      },
+      {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x0",
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "name": "arc_rpc_quicknode",
+    "url": "https://rpc.quicknode.mainnet.arc.io",
+    "payload": [
+      {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_chainId",
+        "params": []
+      },
+      {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x0",
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "name": "q2_2026_transcript",
+    "url": "https://s206.q4cdn.com/265218871/files/doc_earnings/2026/q2/transcript/Q226-Earnings-Transcript.pdf"
+  },
+  {
+    "name": "arc_token_page",
+    "url": "https://www.arc.io/arc-token-whitepaper"
+  },
+  {
+    "name": "arc_whitepaper",
+    "url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/PDFs/arc_whitepaper.pdf"
+  },
+  {
+    "name": "arc_mainnet_launch_release",
+    "url": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet"
+  },
+  {
+    "name": "arc_whitepaper_announcement",
+    "url": "https://www.arc.io/blog/introducing-the-arc-token-whitepaper"
+  },
+  {
+    "name": "investor_home",
+    "url": "https://investor.circle.com/"
+  },
+  {
+    "name": "q2_guidance_image",
+    "url": "https://cdn.prod.website-files.com/67116d0daddc92483c812ead/6a72be681382013d689494f6_Table12.png"
+  },
+  {
+    "name": "arc_precompiles",
+    "url": "https://raw.githubusercontent.com/circlefin/arc-node/main/contracts/src/Precompiles.sol"
+  },
+  {
+    "name": "circle_cctp_fees_skill",
+    "url": "https://raw.githubusercontent.com/circlefin/skills/master/plugins/circle/skills/bridge-stablecoin/SKILL.md"
+  },
+  {
+    "name": "usyc_overview",
+    "url": "https://developers.circle.com/usyc/overview.md"
+  },
+  {
+    "name": "cctp_fees_markdown",
+    "url": "https://developers.circle.com/cctp/fees.md"
+  }
+]

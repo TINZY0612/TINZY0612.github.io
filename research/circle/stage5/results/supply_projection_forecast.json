@@ -1,0 +1,177 @@
+{
+  "scope": "Exploratory first-30-calendar-day reserve forecast from global chain-derived supply, not Ethereum-only gross flow extrapolation",
+  "formula": "Sum projected USDC * observed/projected SOFR /360 plus eligible lagged annual spread * projected USDC-days /365",
+  "rule": "Known first30 supply; future supply flat at day30 or daily net change over first30 continued. SOFR available only from next NY Fed business day, represented by next effective date in the continuous rate series. Future SOFR flat at latest available rate. No target-quarter financials in calibration.",
+  "rows": [
+    {
+      "period": "2025Q3",
+      "cutoff": "2025-07-30",
+      "base_period": "2025Q1",
+      "base_public_by": "2025-06-05",
+      "actual_reserve_income": 711.241,
+      "last_known_sofr": 0.0436,
+      "lagged_annual_spread": -0.002053081905017696,
+      "first30_net_flow_pace_usdc_million_per_day": 74.91595823333337,
+      "methods": {
+        "flat_last_supply": 672.4734481389277,
+        "continue_first30_net_flow_pace": 689.3703383908872
+      },
+      "details": {
+        "flat_last_supply": {
+          "estimated_mean_usdc_million": 63418.36470742391,
+          "estimated_end_usdc_million": 63588.373339,
+          "error": -0.05450691377616357
+        },
+        "continue_first30_net_flow_pace": {
+          "estimated_mean_usdc_million": 65008.70021209456,
+          "estimated_end_usdc_million": 68233.16274946666,
+          "error": -0.03075000120790672
+        }
+      }
+    },
+    {
+      "period": "2025Q4",
+      "cutoff": "2025-10-30",
+      "base_period": "2025Q2",
+      "base_public_by": "2025-08-12",
+      "actual_reserve_income": 733.3960000000002,
+      "last_known_sofr": 0.042699999999999995,
+      "lagged_annual_spread": -0.0020408720836117755,
+      "first30_net_flow_pace_usdc_million_per_day": 87.49858543333345,
+      "methods": {
+        "flat_last_supply": 782.9260582418008,
+        "continue_first30_net_flow_pace": 802.2393967014467
+      },
+      "details": {
+        "flat_last_supply": {
+          "estimated_mean_usdc_million": 75702.99164331522,
+          "estimated_end_usdc_million": 75847.900221,
+          "error": 0.06753521732024792
+        },
+        "continue_first30_net_flow_pace": {
+          "estimated_mean_usdc_million": 77560.43444061196,
+          "estimated_end_usdc_million": 81272.81251786668,
+          "error": 0.09386933757676141
+        }
+      }
+    },
+    {
+      "period": "2026Q1",
+      "cutoff": "2026-01-30",
+      "base_period": "2025Q3",
+      "base_public_by": "2025-11-12",
+      "actual_reserve_income": 652.508,
+      "last_known_sofr": 0.0365,
+      "lagged_annual_spread": -0.002049182865416691,
+      "first30_net_flow_pace_usdc_million_per_day": -191.79335443333306,
+      "methods": {
+        "flat_last_supply": 618.8843310411338,
+        "continue_first30_net_flow_pace": 585.2691545129092
+      },
+      "details": {
+        "flat_last_supply": {
+          "estimated_mean_usdc_million": 71677.2348174,
+          "estimated_end_usdc_million": 70258.547139,
+          "error": -0.05152989535586727
+        },
+        "continue_first30_net_flow_pace": {
+          "estimated_mean_usdc_million": 67777.43661058889,
+          "estimated_end_usdc_million": 58750.94587300002,
+          "error": -0.1030467756519321
+        }
+      }
+    },
+    {
+      "period": "2026Q2",
+      "cutoff": "2026-04-30",
+      "base_period": "2025Q4",
+      "base_public_by": "2026-03-09",
+      "actual_reserve_income": 667.733,
+      "last_known_sofr": 0.0363,
+      "lagged_annual_spread": -0.0021209058955629803,
+      "first30_net_flow_pace_usdc_million_per_day": -0.8590864666664857,
+      "methods": {
+        "flat_last_supply": 671.8742362104508,
+        "continue_first30_net_flow_pace": 671.7198688553214
+      },
+      "details": {
+        "flat_last_supply": {
+          "estimated_mean_usdc_million": 77606.94650417582,
+          "estimated_end_usdc_million": 77368.228354,
+          "error": 0.006201934321728775
+        },
+        "continue_first30_net_flow_pace": {
+          "estimated_mean_usdc_million": 77589.09449858828,
+          "estimated_end_usdc_million": 77315.82407953335,
+          "error": 0.005970753063457179
+        }
+      }
+    },
+    {
+      "period": "2026Q3",
+      "cutoff": "2026-07-30",
+      "base_period": "2026Q1",
+      "base_public_by": "2026-05-11",
+      "actual_reserve_income": 657.624,
+      "last_known_sofr": 0.0365,
+      "lagged_annual_spread": -0.0019587420044765496,
+      "first30_net_flow_pace_usdc_million_per_day": -52.07043136666665,
+      "methods": {
+        "flat_last_supply": 638.9645433325147,
+        "continue_first30_net_flow_pace": 629.1996769943612
+      },
+      "details": {
+        "flat_last_supply": {
+          "estimated_mean_usdc_million": 72574.23609471739,
+          "estimated_end_usdc_million": 72221.34629,
+          "error": -0.028374050623890423
+        },
+        "continue_first30_net_flow_pace": {
+          "estimated_mean_usdc_million": 71468.871394075,
+          "estimated_end_usdc_million": 68992.97954526667,
+          "error": -0.043222757997942285
+        }
+      }
+    }
+  ],
+  "metrics": {
+    "flat_last_supply": {
+      "n": 5,
+      "mape": 0.04162960227957959,
+      "mae_million": 28.944394387935063
+    },
+    "continue_first30_net_flow_pace": {
+      "n": 5,
+      "mape": 0.05537192509959994,
+      "mae_million": 38.07281913172208
+    }
+  },
+  "checks": [
+    {
+      "name": "2025Q3 calibration public before cutoff",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 calibration public before cutoff",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 calibration public before cutoff",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 calibration public before cutoff",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 calibration public before cutoff",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Fixed simple extrapolations, not optimized",
+    "Current historical supply/rate vintages",
+    "Net supply changes do not identify gross customer mint/redemption volume",
+    "Does not change the original Stage3 reserve backtest or the dated Q4 forecast"
+  ]
+}

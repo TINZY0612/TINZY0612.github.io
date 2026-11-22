@@ -1,0 +1,176 @@
+{
+  "late_rows": [
+    {
+      "period": "2025Q3",
+      "actual": 4.664,
+      "methods": {
+        "prior_quarter_flat": 5.825,
+        "prior_quarter_day_scaled": 5.8890109890109885,
+        "repeat_prior_growth": 20.867543050430513
+      },
+      "errors": {
+        "prior_quarter_flat": 0.2489279588336193,
+        "prior_quarter_day_scaled": 0.26265244189772496,
+        "repeat_prior_growth": 3.4741730382569713
+      }
+    },
+    {
+      "period": "2025Q4",
+      "actual": 12.22,
+      "methods": {
+        "prior_quarter_flat": 4.664,
+        "prior_quarter_day_scaled": 4.664,
+        "repeat_prior_growth": 3.734402746781115,
+        "observed_cctp_plus_flat_residual": 4.867864,
+        "observed_cctp_plus_day_scaled_residual": 4.867864
+      },
+      "errors": {
+        "prior_quarter_flat": -0.6183306055646481,
+        "prior_quarter_day_scaled": -0.6183306055646481,
+        "repeat_prior_growth": -0.6944023938804325,
+        "observed_cctp_plus_flat_residual": -0.6016477905073649,
+        "observed_cctp_plus_day_scaled_residual": -0.6016477905073649
+      }
+    },
+    {
+      "period": "2026Q1",
+      "actual": 6.73,
+      "methods": {
+        "prior_quarter_flat": 12.22,
+        "prior_quarter_day_scaled": 11.954347826086956,
+        "repeat_prior_growth": 32.01723842195541,
+        "observed_cctp_plus_flat_residual": 11.986873,
+        "observed_cctp_plus_day_scaled_residual": 11.733208717391303
+      },
+      "errors": {
+        "prior_quarter_flat": 0.8157503714710252,
+        "prior_quarter_day_scaled": 0.7762775373086115,
+        "repeat_prior_growth": 3.7573905530394365,
+        "observed_cctp_plus_flat_residual": 0.7811104011887071,
+        "observed_cctp_plus_day_scaled_residual": 0.7434188287357062
+      }
+    },
+    {
+      "period": "2026Q2",
+      "actual": 5.33,
+      "methods": {
+        "prior_quarter_flat": 6.73,
+        "prior_quarter_day_scaled": 6.804777777777779,
+        "repeat_prior_growth": 3.706456628477905,
+        "observed_cctp_plus_flat_residual": 6.719393,
+        "observed_cctp_plus_day_scaled_residual": 6.790633933333334
+      },
+      "errors": {
+        "prior_quarter_flat": 0.2626641651031896,
+        "prior_quarter_day_scaled": 0.27669376693766945,
+        "repeat_prior_growth": -0.30460476013547744,
+        "observed_cctp_plus_flat_residual": 0.26067410881801134,
+        "observed_cctp_plus_day_scaled_residual": 0.27404013758599133
+      }
+    },
+    {
+      "period": "2026Q3",
+      "actual": 5.335,
+      "methods": {
+        "prior_quarter_flat": 5.33,
+        "prior_quarter_day_scaled": 5.388571428571429,
+        "repeat_prior_growth": 4.221233283803863,
+        "observed_cctp_plus_flat_residual": 5.4982310000000005,
+        "observed_cctp_plus_day_scaled_residual": 5.553421010989011
+      },
+      "errors": {
+        "prior_quarter_flat": -0.0009372071227741197,
+        "prior_quarter_day_scaled": 0.010041504886865837,
+        "repeat_prior_growth": -0.2087660199055552,
+        "observed_cctp_plus_flat_residual": 0.030596251171508992,
+        "observed_cctp_plus_day_scaled_residual": 0.04094114545248573
+      }
+    }
+  ],
+  "late_common": {
+    "prior_quarter_flat": {
+      "n": 4,
+      "periods": [
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.42442058731540927,
+      "mae_million": 3.61275,
+      "worst_abs_error": 0.8157503714710252
+    },
+    "prior_quarter_day_scaled": {
+      "n": 4,
+      "periods": [
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.4203358536744487,
+      "mae_million": 3.577174258109041,
+      "worst_abs_error": 0.7762775373086115
+    },
+    "observed_cctp_plus_flat_residual": {
+      "n": 4,
+      "periods": [
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.4185071379213981,
+      "mae_million": 3.54040825,
+      "worst_abs_error": 0.7811104011887071
+    },
+    "observed_cctp_plus_day_scaled_residual": {
+      "n": 4,
+      "periods": [
+        "2025Q4",
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.41501197557038705,
+      "mae_million": 3.508599915428412,
+      "worst_abs_error": 0.7434188287357062
+    }
+  },
+  "early_common": {
+    "latest_public_flat": {
+      "n": 3,
+      "periods": [
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.6203824564527135,
+      "mae_million": 3.450333333333334,
+      "worst_abs_error": 1.2926829268292686
+    },
+    "latest_public_day_scaled": {
+      "n": 3,
+      "periods": [
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.6264417939523357,
+      "mae_million": 3.48970692431562,
+      "worst_abs_error": 1.267762460233298
+    },
+    "first30_cctp_plus_latest_public_residual": {
+      "n": 3,
+      "periods": [
+        "2026Q1",
+        "2026Q2",
+        "2026Q3"
+      ],
+      "mape": 0.6191612231418528,
+      "mae_million": 3.4532614214975847,
+      "worst_abs_error": 1.2226327377165074
+    }
+  },
+  "checks": 13
+}

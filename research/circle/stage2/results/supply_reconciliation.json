@@ -1,0 +1,1236 @@
+{
+  "checkpoints": [
+    {
+      "period": "2025Q1",
+      "end": "2025-03-31",
+      "official_circulation": 59975771715,
+      "official_reserve_assets": 60040707040,
+      "source_pdf": "stage2\\raw\\attestation_2025_March.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 60264872986,
+      "provider_following_date_bucket": 60141755212,
+      "following_bucket_gap": 165983497,
+      "following_bucket_gap_pct": 0.002767509150007008,
+      "provider_average_as_labeled": 54051361667.388885,
+      "provider_average_next_date": 54231411801.41111,
+      "reported_average_million": 54136.0,
+      "average_gap_pct": -0.0015634389798122594,
+      "materiality_flag": true,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O083",
+        "reserve_assets": "O084",
+        "provider_same_date_bucket": "O085",
+        "provider_following_date_bucket": "O086"
+      }
+    },
+    {
+      "period": "2025Q2",
+      "end": "2025-06-30",
+      "official_circulation": 61332530506,
+      "official_reserve_assets": 61397784739,
+      "source_pdf": "stage2\\raw\\attestation_2025_June.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 61340894592,
+      "provider_following_date_bucket": 61233561658,
+      "following_bucket_gap": -98968848,
+      "following_bucket_gap_pct": -0.0016136436436503532,
+      "provider_average_as_labeled": 60911964183.82417,
+      "provider_average_next_date": 60923962056.85714,
+      "reported_average_million": 61039.0,
+      "average_gap_pct": -0.0020812237450781312,
+      "materiality_flag": true,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O087",
+        "reserve_assets": "O088",
+        "provider_same_date_bucket": "O089",
+        "provider_following_date_bucket": "O090"
+      }
+    },
+    {
+      "period": "2025Q3",
+      "end": "2025-09-30",
+      "official_circulation": 73748934193,
+      "official_reserve_assets": 73814526973,
+      "source_pdf": "stage2\\raw\\attestation_2025_September.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 73222942658,
+      "provider_following_date_bucket": 73651646952,
+      "following_bucket_gap": -97287241,
+      "following_bucket_gap_pct": -0.0013191680946249562,
+      "provider_average_as_labeled": 67503542967.28261,
+      "provider_average_next_date": 67638522155.26087,
+      "reported_average_million": 67842.0,
+      "average_gap_pct": -0.004988901163252679,
+      "materiality_flag": true,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O091",
+        "reserve_assets": "O092",
+        "provider_same_date_bucket": "O093",
+        "provider_following_date_bucket": "O094"
+      }
+    },
+    {
+      "period": "2025Q4",
+      "end": "2025-12-31",
+      "official_circulation": 75266033823,
+      "official_reserve_assets": 75332981976,
+      "source_pdf": "stage2\\raw\\attestation_2025_December.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 76012347772,
+      "provider_following_date_bucket": 75320757493,
+      "following_bucket_gap": 54723670,
+      "following_bucket_gap_pct": 0.000727069930756441,
+      "provider_average_as_labeled": 75896409023.64131,
+      "provider_average_next_date": 75914551529.52174,
+      "reported_average_million": 76200,
+      "average_gap_pct": -0.003984133548014301,
+      "materiality_flag": false,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O095",
+        "reserve_assets": "O096",
+        "provider_same_date_bucket": "O097",
+        "provider_following_date_bucket": "O098"
+      }
+    },
+    {
+      "period": "2026Q1",
+      "end": "2026-03-31",
+      "official_circulation": 77049290538,
+      "official_reserve_assets": 77125330954,
+      "source_pdf": "stage2\\raw\\attestation_2026_March.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 77394000948,
+      "provider_following_date_bucket": 77136558069,
+      "following_bucket_gap": 87267531,
+      "following_bucket_gap_pct": 0.0011326195269372175,
+      "provider_average_as_labeled": 75287246477.7111,
+      "provider_average_next_date": 75307422039.66667,
+      "reported_average_million": 75200.0,
+      "average_gap_pct": 0.001160192522754011,
+      "materiality_flag": true,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O099",
+        "reserve_assets": "O100",
+        "provider_same_date_bucket": "O101",
+        "provider_following_date_bucket": "O102"
+      }
+    },
+    {
+      "period": "2026Q2",
+      "end": "2026-06-30",
+      "official_circulation": 73268560097,
+      "official_reserve_assets": 73344909176,
+      "source_pdf": "feasibility\\raw\\attestation_2026_June.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 73783459231,
+      "provider_following_date_bucket": 73479589774,
+      "following_bucket_gap": 211029677,
+      "following_bucket_gap_pct": 0.002880221430864971,
+      "provider_average_as_labeled": 76733091796.71428,
+      "provider_average_next_date": 76692905331.93407,
+      "reported_average_million": 76524.0,
+      "average_gap_pct": 0.0027323688870717344,
+      "materiality_flag": true,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O103",
+        "reserve_assets": "O104",
+        "provider_same_date_bucket": "O105",
+        "provider_following_date_bucket": "O106"
+      }
+    },
+    {
+      "period": "2026Q3",
+      "end": "2026-09-30",
+      "official_circulation": 73878861314,
+      "official_reserve_assets": 73956687701,
+      "source_pdf": "feasibility\\raw\\attestation_2026_September.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 74591240709,
+      "provider_following_date_bucket": 74148312961,
+      "following_bucket_gap": 269451647,
+      "following_bucket_gap_pct": 0.0036472089878967218,
+      "provider_average_as_labeled": 73520839474.02174,
+      "provider_average_next_date": 73528108204.31522,
+      "reported_average_million": 73264.0,
+      "average_gap_pct": 0.0035056709164356104,
+      "materiality_flag": true,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O107",
+        "reserve_assets": "O108",
+        "provider_same_date_bucket": "O109",
+        "provider_following_date_bucket": "O110"
+      }
+    }
+  ],
+  "decomposition": {
+    "date_bucket": "2026-10-01",
+    "official_period_end": "2026-09-30",
+    "api_minted_sum": 75121383589,
+    "api_unreleased_sum": 980895824,
+    "api_circulating_chain_sum": 74148312956,
+    "api_global_circulation": 74148312961,
+    "official_raw_approved_supply": 75866964179,
+    "official_allowed_not_issued": 1856810081,
+    "official_access_denied": 131245845,
+    "official_pending_burns": 46939,
+    "official_circulation": 73878861314,
+    "components": [
+      {
+        "component": "API minted minus Circle raw approved supply",
+        "tokens": -745580590
+      },
+      {
+        "component": "Effect of different unreleased versus allowed-not-issued totals",
+        "tokens": 875914257
+      },
+      {
+        "component": "Circle access-denied exclusion",
+        "tokens": 131245845
+      },
+      {
+        "component": "Circle pending-burn exclusion",
+        "tokens": 46939
+      },
+      {
+        "component": "API chain aggregation residual after minted less unreleased",
+        "tokens": 7825191
+      },
+      {
+        "component": "API global versus chain sum rounding",
+        "tokens": 5
+      }
+    ],
+    "qualification": "Exact algebraic decomposition of different snapshots and definitions. Component differences are not proven causal corrections, and the residual is not asserted to be entirely bridge error.",
+    "official_input_ids": {
+      "official_raw_supply": "O111",
+      "official_allowed_not_issued": "O112",
+      "official_access_denied": "O113",
+      "official_pending_burns": "O114"
+    }
+  },
+  "chain_fields": [
+    {
+      "chain": "Manta",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1349957,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "RISE",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 23845079,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Horizen L3",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 3254,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "BSquared",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 177875,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Movement",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 256100,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "BOB",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 81862,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Starknet",
+      "api_minted": 133949395,
+      "api_unreleased": 0,
+      "api_circulating": 138718468,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Tron",
+      "api_minted": 27934099,
+      "api_unreleased": 0,
+      "api_circulating": 27934099,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "XRPL",
+      "api_minted": 4526516,
+      "api_unreleased": 0,
+      "api_circulating": 4526516,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "CORE",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 600434,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "WEMIX3.0",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 3,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "ApeChain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 373754,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Peaq",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 191962,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Monad",
+      "api_minted": 214652662,
+      "api_unreleased": 0,
+      "api_circulating": 214652662,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Aptos",
+      "api_minted": 354615766,
+      "api_unreleased": 0,
+      "api_circulating": 356204496,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "PulseChain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 15058416,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Edu_chain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1026,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Immutable zkEVM",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2455511,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Hedera",
+      "api_minted": 27188859,
+      "api_unreleased": 0,
+      "api_circulating": 27188859,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Algorand",
+      "api_minted": 195785404,
+      "api_unreleased": 148124019,
+      "api_circulating": 47661385,
+      "minted_field_present": true,
+      "unreleased_field_present": true
+    },
+    {
+      "chain": "Polygon",
+      "api_minted": 617743055,
+      "api_unreleased": 0,
+      "api_circulating": 1619152049,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "MANTRA",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 129933,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Unichain",
+      "api_minted": 22764437,
+      "api_unreleased": 0,
+      "api_circulating": 22764437,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Camp Network",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 90,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Zkfair",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 85548,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Karura",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 68740,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Moca",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Wanchain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 436492,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Metis",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 4164993,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Kava",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 5326805,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Ink",
+      "api_minted": 51201214,
+      "api_unreleased": 0,
+      "api_circulating": 51443394,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Kaia",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2888711,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Morph",
+      "api_minted": 23212879,
+      "api_unreleased": 0,
+      "api_circulating": 23214062,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "IoTeX",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2533268,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Osmosis",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 17120078,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Ethereum",
+      "api_minted": 49295159718,
+      "api_unreleased": 61565551,
+      "api_circulating": 45651902554,
+      "minted_field_present": true,
+      "unreleased_field_present": true
+    },
+    {
+      "chain": "Linea",
+      "api_minted": 23917208,
+      "api_unreleased": 0,
+      "api_circulating": 23917208,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "XDC",
+      "api_minted": 57709672,
+      "api_unreleased": 0,
+      "api_circulating": 57712808,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Cardano",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 46657944,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "EthereumClassic",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 11096,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Waves",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 23107,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Lisk",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 34065,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Soneium",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1806138,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Vana",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 74220,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Cronos",
+      "api_minted": 9544893,
+      "api_unreleased": 0,
+      "api_circulating": 138474909,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Somnia",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 555225,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Mode",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 422147,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "KCC",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1806150,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "EDU Chain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 178426,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Berachain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 5171569,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Base",
+      "api_minted": 4318851867,
+      "api_unreleased": 0,
+      "api_circulating": 4324916142,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Noble",
+      "api_minted": 98450729,
+      "api_unreleased": 0,
+      "api_circulating": 88867591,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "GateLayer",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 269514,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Theta",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 19550,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Ronin",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Shape",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 146116,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Katana",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 8600022,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "OP Mainnet",
+      "api_minted": 157477753,
+      "api_unreleased": 0,
+      "api_circulating": 178582691,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "IOTA EVM",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 161398,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "edgeX L1",
+      "api_minted": 1817773,
+      "api_unreleased": 0,
+      "api_circulating": 1817773,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "World Chain",
+      "api_minted": 17279249,
+      "api_unreleased": 0,
+      "api_circulating": 17279249,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "BSC",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1589076344,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Codex",
+      "api_minted": 14674472,
+      "api_unreleased": 0,
+      "api_circulating": 14674472,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Flow",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2438447,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Astar",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 885708,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Oasis Emerald",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 76588,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Citrea",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 83640,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Data Network",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 531240,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Avalanche",
+      "api_minted": 417516115,
+      "api_unreleased": 0,
+      "api_circulating": 450170760,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Telos",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 509595,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Arbitrum",
+      "api_minted": 2719587098,
+      "api_unreleased": 0,
+      "api_circulating": 2767834685,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Stacks",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 9418393,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Redbelly",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 121071,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Viction",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 172,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "GOAT",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 102176,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Zircuit",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 276661,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Sui",
+      "api_minted": 299492647,
+      "api_unreleased": 0,
+      "api_circulating": 302462330,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Arbitrum Nova",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 292360,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Rootstock",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 217055,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "ALEO",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 3965852,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Abstract",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 9762131,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Apex Fusion",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 84,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Arc",
+      "api_minted": 458881905,
+      "api_unreleased": 0,
+      "api_circulating": 458881905,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "ZKsync Era",
+      "api_minted": 10636491,
+      "api_unreleased": 0,
+      "api_circulating": 33833799,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Aurora",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2442907,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Sei",
+      "api_minted": 42290510,
+      "api_unreleased": 0,
+      "api_circulating": 42634056,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Gravity by Galxe",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 11949,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Bittensor EVM",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 338234,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Injective",
+      "api_minted": 8761711,
+      "api_unreleased": 0,
+      "api_circulating": 9123014,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Stellar",
+      "api_minted": 400201104,
+      "api_unreleased": 0,
+      "api_circulating": 400201104,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "LightLink",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 22464,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Bitlayer",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 36914,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Scroll",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 4986550,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Mixin",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2460996,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Fogo",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 788429,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Stable",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2261,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "X Layer",
+      "api_minted": 17011838,
+      "api_unreleased": 0,
+      "api_circulating": 18028186,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Etherlink",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 12696584,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Gnosis",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 13902856,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Orderly Network",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 51,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Gensyn",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 761297,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Nibiru",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 89266,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Celo",
+      "api_minted": 14973144,
+      "api_unreleased": 0,
+      "api_circulating": 15392096,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Taiko",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 229996,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Rayls",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 6401,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Fuse",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 138473,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Doma",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1297184,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Fantom",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 298294,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Hyperliquid L1",
+      "api_minted": 6954919001,
+      "api_unreleased": 0,
+      "api_circulating": 7353792937,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Pharos",
+      "api_minted": 8669468,
+      "api_unreleased": 0,
+      "api_circulating": 8669468,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "OKTChain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 206928,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Hemi",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 386351,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Mantle",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 12775720,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Near",
+      "api_minted": 35762058,
+      "api_unreleased": 0,
+      "api_circulating": 48242687,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Flare",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 3350237,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Elastos",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 107829,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Plume Mainnet",
+      "api_minted": 3609858,
+      "api_unreleased": 0,
+      "api_circulating": 4346073,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Boba",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1042067,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Nero",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 11,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Sonic",
+      "api_minted": 187984399,
+      "api_unreleased": 0,
+      "api_circulating": 187984399,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Syscoin",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 171892,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Solana",
+      "api_minted": 7841583254,
+      "api_unreleased": 771206254,
+      "api_circulating": 7070396143,
+      "minted_field_present": true,
+      "unreleased_field_present": true
+    },
+    {
+      "chain": "ICP",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2085460,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "0G",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 173,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Tempo",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 92186226,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Xai",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 25,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Polkadot",
+      "api_minted": 31045368,
+      "api_unreleased": 0,
+      "api_circulating": 31045368,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    }
+  ]
+}

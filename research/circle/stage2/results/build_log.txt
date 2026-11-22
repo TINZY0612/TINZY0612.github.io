@@ -1,0 +1,131 @@
+{
+  "quarters": [
+    {
+      "2025Q1": {
+        "reserve_income": 557.911,
+        "other_revenue": 20.662,
+        "total_revenue": 578.573,
+        "total_costs": 347.647,
+        "rldc": 230.926,
+        "usdc_average": 54136.0
+      }
+    },
+    {
+      "2025Q2": {
+        "reserve_income": 634.274,
+        "other_revenue": 23.804,
+        "total_revenue": 658.078,
+        "total_costs": 406.942,
+        "rldc": 251.13599999999997,
+        "usdc_average": 61039.0
+      }
+    },
+    {
+      "2025Q3": {
+        "reserve_income": 711.241,
+        "other_revenue": 28.518,
+        "total_revenue": 739.759,
+        "total_costs": 447.612,
+        "rldc": 292.147,
+        "usdc_average": 67842.0
+      }
+    },
+    {
+      "2025Q4": {
+        "reserve_income": 733.3960000000002,
+        "other_revenue": 36.836,
+        "total_revenue": 770.2319999999997,
+        "total_costs": 461.45000000000005,
+        "rldc": 308.7819999999997,
+        "usdc_average": 76200
+      }
+    },
+    {
+      "2026Q1": {
+        "reserve_income": 652.508,
+        "other_revenue": 41.625,
+        "total_revenue": 694.133,
+        "total_costs": 406.781,
+        "rldc": 287.35200000000003,
+        "usdc_average": 75200.0
+      }
+    },
+    {
+      "2026Q2": {
+        "reserve_income": 667.733,
+        "other_revenue": 33.582,
+        "total_revenue": 701.315,
+        "total_costs": 412.47,
+        "rldc": 288.845,
+        "usdc_average": 76524.0
+      }
+    },
+    {
+      "2026Q3": {
+        "reserve_income": 657.624,
+        "other_revenue": 207.264,
+        "total_revenue": 864.888,
+        "total_costs": 411.634,
+        "rldc": 453.254,
+        "usdc_average": 73264.0
+      }
+    }
+  ],
+  "checks_passed": 81,
+  "checks_total": 81,
+  "supply_gaps_pct": {
+    "2025Q1": 0.2767509150007008,
+    "2025Q2": -0.16136436436503532,
+    "2025Q3": -0.13191680946249562,
+    "2025Q4": 0.0727069930756441,
+    "2026Q1": 0.11326195269372175,
+    "2026Q2": 0.2880221430864971,
+    "2026Q3": 0.3647208987896722
+  },
+  "decomposition": {
+    "date_bucket": "2026-10-01",
+    "official_period_end": "2026-09-30",
+    "api_minted_sum": 75121383589,
+    "api_unreleased_sum": 980895824,
+    "api_circulating_chain_sum": 74148312956,
+    "api_global_circulation": 74148312961,
+    "official_raw_approved_supply": 75866964179,
+    "official_allowed_not_issued": 1856810081,
+    "official_access_denied": 131245845,
+    "official_pending_burns": 46939,
+    "official_circulation": 73878861314,
+    "components": [
+      {
+        "component": "API minted minus Circle raw approved supply",
+        "tokens": -745580590
+      },
+      {
+        "component": "Effect of different unreleased versus allowed-not-issued totals",
+        "tokens": 875914257
+      },
+      {
+        "component": "Circle access-denied exclusion",
+        "tokens": 131245845
+      },
+      {
+        "component": "Circle pending-burn exclusion",
+        "tokens": 46939
+      },
+      {
+        "component": "API chain aggregation residual after minted less unreleased",
+        "tokens": 7825191
+      },
+      {
+        "component": "API global versus chain sum rounding",
+        "tokens": 5
+      }
+    ],
+    "qualification": "Exact algebraic decomposition of different snapshots and definitions. Component differences are not proven causal corrections, and the residual is not asserted to be entirely bridge error.",
+    "official_input_ids": {
+      "official_raw_supply": "O111",
+      "official_allowed_not_issued": "O112",
+      "official_access_denied": "O113",
+      "official_pending_burns": "O114"
+    }
+  }
+}

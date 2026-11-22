@@ -1,0 +1,22 @@
+{
+  "usdc": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+  "usyc": "0x136471a34f6ef19fe571effc1ca711fdb8e49f2b",
+  "usyc_reporter": "0x9fde717a21c5b272b8956d3aa0c3551e1ffd23d7",
+  "token_messengers": {
+    "v1": "0xbd3fa81b58ba92a82136038b25adec7066af3155",
+    "v2": "0x28b5a0e9c621a5badaa536219b3a228c8168cf5d"
+  },
+  "minters": {
+    "v1_2026-07-01": "0xc4922d64a24675e16e1586e3e3aa56c06fabe907",
+    "v1_2026-10-01": "0xc4922d64a24675e16e1586e3e3aa56c06fabe907",
+    "v2_2026-07-01": "0xfd78ee919681417d192449715b2594ab58f5d002",
+    "v2_2026-10-01": "0xfd78ee919681417d192449715b2594ab58f5d002"
+  },
+  "sources": [
+    "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "https://developers.circle.com/cctp/references/contract-addresses",
+    "https://developers.circle.com/cctp/v1/evm-smart-contracts",
+    "https://developers.circle.com/tokenized/usyc/smart-contracts"
+  ],
+  "usyc_reporter_authentication": "Reporter appears in transaction hash supplied by issuer USYC API, verified in prior stage; token filter uses official USYC address."
+}

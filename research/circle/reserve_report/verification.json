@@ -1,0 +1,1053 @@
+{
+  "passed": true,
+  "checks_total": 261,
+  "checks_passed": 261,
+  "compact_full_shared_dates": 144,
+  "compact_full_max_difference_usd": 0,
+  "checks": [
+    {
+      "check": "seven quarters, twelve evaluations, eight methods",
+      "passed": true
+    },
+    {
+      "check": "638 unique displayed daily observations",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early complete current and lag daily coverage",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early fund dates eligible",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early carry_forward independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early carry_forward signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early lagged_implied_yield independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early lagged_implied_yield signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early sofr independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early sofr signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early treasury_3m independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early treasury_3m signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early sofr_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early sofr_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early sofr_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early sofr_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early fund_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early fund_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early fund_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early fund_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_early target is scoring only",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late complete current and lag daily coverage",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late fund dates eligible",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late carry_forward independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late carry_forward signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late lagged_implied_yield independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late lagged_implied_yield signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late sofr independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late sofr signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late treasury_3m independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late treasury_3m signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late sofr_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late sofr_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late sofr_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late sofr_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late fund_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late fund_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late fund_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late fund_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q2_late target is scoring only",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early complete current and lag daily coverage",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early fund dates eligible",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early carry_forward independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early carry_forward signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early lagged_implied_yield independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early lagged_implied_yield signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early sofr independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early sofr signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early treasury_3m independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early treasury_3m signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early sofr_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early sofr_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early sofr_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early sofr_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early fund_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early fund_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early fund_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early fund_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_early target is scoring only",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late complete current and lag daily coverage",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late fund dates eligible",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late carry_forward independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late carry_forward signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late lagged_implied_yield independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late lagged_implied_yield signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late sofr independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late sofr signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late treasury_3m independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late treasury_3m signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late sofr_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late sofr_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late sofr_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late sofr_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late fund_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late fund_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late fund_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late fund_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q3_late target is scoring only",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early complete current and lag daily coverage",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early fund dates eligible",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early carry_forward independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early carry_forward signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early lagged_implied_yield independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early lagged_implied_yield signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early sofr independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early sofr signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early treasury_3m independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early treasury_3m signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early sofr_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early sofr_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early sofr_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early sofr_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early fund_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early fund_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early fund_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early fund_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_early target is scoring only",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late complete current and lag daily coverage",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late fund dates eligible",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late carry_forward independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late carry_forward signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late lagged_implied_yield independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late lagged_implied_yield signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late sofr independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late sofr signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late treasury_3m independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late treasury_3m signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late sofr_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late sofr_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late sofr_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late sofr_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late fund_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late fund_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late fund_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late fund_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2025Q4_late target is scoring only",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early complete current and lag daily coverage",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early fund dates eligible",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early carry_forward independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early carry_forward signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early lagged_implied_yield independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early lagged_implied_yield signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early sofr independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early sofr signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early treasury_3m independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early treasury_3m signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early sofr_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early sofr_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early sofr_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early sofr_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early fund_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early fund_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early fund_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early fund_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_early target is scoring only",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late complete current and lag daily coverage",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late fund dates eligible",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late carry_forward independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late carry_forward signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late lagged_implied_yield independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late lagged_implied_yield signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late sofr independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late sofr signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late treasury_3m independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late treasury_3m signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late sofr_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late sofr_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late sofr_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late sofr_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late fund_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late fund_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late fund_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late fund_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q1_late target is scoring only",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early complete current and lag daily coverage",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early fund dates eligible",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early carry_forward independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early carry_forward signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early lagged_implied_yield independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early lagged_implied_yield signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early sofr independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early sofr signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early treasury_3m independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early treasury_3m signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early sofr_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early sofr_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early sofr_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early sofr_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early fund_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early fund_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early fund_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early fund_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_early target is scoring only",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late complete current and lag daily coverage",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late fund dates eligible",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late carry_forward independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late carry_forward signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late lagged_implied_yield independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late lagged_implied_yield signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late sofr independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late sofr signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late treasury_3m independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late treasury_3m signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late sofr_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late sofr_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late sofr_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late sofr_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late fund_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late fund_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late fund_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late fund_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q2_late target is scoring only",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early complete current and lag daily coverage",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early fund dates eligible",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early carry_forward independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early carry_forward signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early lagged_implied_yield independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early lagged_implied_yield signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early sofr independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early sofr signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early treasury_3m independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early treasury_3m signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early sofr_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early sofr_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early sofr_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early sofr_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early fund_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early fund_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early fund_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early fund_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_early target is scoring only",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late complete current and lag daily coverage",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late fund dates eligible",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late carry_forward independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late carry_forward signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late lagged_implied_yield independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late lagged_implied_yield signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late sofr independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late sofr signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late treasury_3m independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late treasury_3m signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late sofr_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late sofr_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late sofr_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late sofr_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late fund_lagged_spread independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late fund_lagged_spread signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late fund_proportional independent arithmetic",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late fund_proportional signed error",
+      "passed": true
+    },
+    {
+      "check": "2026Q3_late target is scoring only",
+      "passed": true
+    },
+    {
+      "check": "early carry_forward mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "early lagged_implied_yield mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "early sofr mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "early treasury_3m mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "early sofr_lagged_spread mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "early fund_lagged_spread mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "early sofr_proportional mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "early fund_proportional mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "late carry_forward mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "late lagged_implied_yield mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "late sofr mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "late treasury_3m mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "late sofr_lagged_spread mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "late fund_lagged_spread mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "late sofr_proportional mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "late fund_proportional mean and worst error",
+      "passed": true
+    },
+    {
+      "check": "immutable source stage2\\results\\stage2_data_model.json",
+      "passed": true
+    },
+    {
+      "check": "immutable source stage3\\results\\stage3_model.json",
+      "passed": true
+    },
+    {
+      "check": "immutable source stage3\\results\\daily_model_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "immutable source stage3\\results\\yield_adjustment_comparison.json",
+      "passed": true
+    },
+    {
+      "check": "immutable source stage5\\rldc\\results\\2026-11-21_Q4_RLDC_forecast.json",
+      "passed": true
+    },
+    {
+      "check": "current scenario arithmetic",
+      "passed": true
+    },
+    {
+      "check": "forward excluded from accuracy metrics",
+      "passed": true
+    },
+    {
+      "check": "forward has 92 calendar dates",
+      "passed": true
+    },
+    {
+      "check": "current-day supply excluded",
+      "passed": true
+    },
+    {
+      "check": "observed plus projected days",
+      "passed": true
+    },
+    {
+      "check": "index.html unique ids",
+      "passed": true
+    },
+    {
+      "check": "index.html local assets and anchors exist",
+      "passed": true
+    },
+    {
+      "check": "report.html unique ids",
+      "passed": true
+    },
+    {
+      "check": "report.html local assets and anchors exist",
+      "passed": true
+    },
+    {
+      "check": "compact feed matches full feed over July to November shared dates",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,830 @@
+[
+  {
+    "economic_date": "2026-07-01",
+    "supply_snapshot_utc": "2026-07-02T00:00:00Z",
+    "supply_snapshot_tokens": 73408054534,
+    "sofr_decimal": 0.0366,
+    "sofr_effective_date": "2026-07-01",
+    "treasury_3m_decimal": 0.0385,
+    "treasury_effective_date": "2026-07-01"
+  },
+  {
+    "economic_date": "2026-07-02",
+    "supply_snapshot_utc": "2026-07-03T00:00:00Z",
+    "supply_snapshot_tokens": 73376566356,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-07-02",
+    "treasury_3m_decimal": 0.0382,
+    "treasury_effective_date": "2026-07-02"
+  },
+  {
+    "economic_date": "2026-07-03",
+    "supply_snapshot_utc": "2026-07-04T00:00:00Z",
+    "supply_snapshot_tokens": 73111664682,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-07-02",
+    "treasury_3m_decimal": 0.0382,
+    "treasury_effective_date": "2026-07-02"
+  },
+  {
+    "economic_date": "2026-07-04",
+    "supply_snapshot_utc": "2026-07-05T00:00:00Z",
+    "supply_snapshot_tokens": 73074185044,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-07-02",
+    "treasury_3m_decimal": 0.0382,
+    "treasury_effective_date": "2026-07-02"
+  },
+  {
+    "economic_date": "2026-07-05",
+    "supply_snapshot_utc": "2026-07-06T00:00:00Z",
+    "supply_snapshot_tokens": 73056153791,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-07-02",
+    "treasury_3m_decimal": 0.0382,
+    "treasury_effective_date": "2026-07-02"
+  },
+  {
+    "economic_date": "2026-07-06",
+    "supply_snapshot_utc": "2026-07-07T00:00:00Z",
+    "supply_snapshot_tokens": 73135196473,
+    "sofr_decimal": 0.0363,
+    "sofr_effective_date": "2026-07-06",
+    "treasury_3m_decimal": 0.0387,
+    "treasury_effective_date": "2026-07-06"
+  },
+  {
+    "economic_date": "2026-07-07",
+    "supply_snapshot_utc": "2026-07-08T00:00:00Z",
+    "supply_snapshot_tokens": 73403458414,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-07-07",
+    "treasury_3m_decimal": 0.038599999999999995,
+    "treasury_effective_date": "2026-07-07"
+  },
+  {
+    "economic_date": "2026-07-08",
+    "supply_snapshot_utc": "2026-07-09T00:00:00Z",
+    "supply_snapshot_tokens": 73420325678,
+    "sofr_decimal": 0.0358,
+    "sofr_effective_date": "2026-07-08",
+    "treasury_3m_decimal": 0.0387,
+    "treasury_effective_date": "2026-07-08"
+  },
+  {
+    "economic_date": "2026-07-09",
+    "supply_snapshot_utc": "2026-07-10T00:00:00Z",
+    "supply_snapshot_tokens": 73448550065,
+    "sofr_decimal": 0.0353,
+    "sofr_effective_date": "2026-07-09",
+    "treasury_3m_decimal": 0.0383,
+    "treasury_effective_date": "2026-07-09"
+  },
+  {
+    "economic_date": "2026-07-10",
+    "supply_snapshot_utc": "2026-07-11T00:00:00Z",
+    "supply_snapshot_tokens": 73422020663,
+    "sofr_decimal": 0.0355,
+    "sofr_effective_date": "2026-07-10",
+    "treasury_3m_decimal": 0.0385,
+    "treasury_effective_date": "2026-07-10"
+  },
+  {
+    "economic_date": "2026-07-11",
+    "supply_snapshot_utc": "2026-07-12T00:00:00Z",
+    "supply_snapshot_tokens": 73482939331,
+    "sofr_decimal": 0.0355,
+    "sofr_effective_date": "2026-07-10",
+    "treasury_3m_decimal": 0.0385,
+    "treasury_effective_date": "2026-07-10"
+  },
+  {
+    "economic_date": "2026-07-12",
+    "supply_snapshot_utc": "2026-07-13T00:00:00Z",
+    "supply_snapshot_tokens": 73548638702,
+    "sofr_decimal": 0.0355,
+    "sofr_effective_date": "2026-07-10",
+    "treasury_3m_decimal": 0.0385,
+    "treasury_effective_date": "2026-07-10"
+  },
+  {
+    "economic_date": "2026-07-13",
+    "supply_snapshot_utc": "2026-07-14T00:00:00Z",
+    "supply_snapshot_tokens": 73103839500,
+    "sofr_decimal": 0.036000000000000004,
+    "sofr_effective_date": "2026-07-13",
+    "treasury_3m_decimal": 0.038900000000000004,
+    "treasury_effective_date": "2026-07-13"
+  },
+  {
+    "economic_date": "2026-07-14",
+    "supply_snapshot_utc": "2026-07-15T00:00:00Z",
+    "supply_snapshot_tokens": 73183232825,
+    "sofr_decimal": 0.0363,
+    "sofr_effective_date": "2026-07-14",
+    "treasury_3m_decimal": 0.0384,
+    "treasury_effective_date": "2026-07-14"
+  },
+  {
+    "economic_date": "2026-07-15",
+    "supply_snapshot_utc": "2026-07-16T00:00:00Z",
+    "supply_snapshot_tokens": 73225428829,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-07-15",
+    "treasury_3m_decimal": 0.0383,
+    "treasury_effective_date": "2026-07-15"
+  },
+  {
+    "economic_date": "2026-07-16",
+    "supply_snapshot_utc": "2026-07-17T00:00:00Z",
+    "supply_snapshot_tokens": 73287726089,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-07-16",
+    "treasury_3m_decimal": 0.0384,
+    "treasury_effective_date": "2026-07-16"
+  },
+  {
+    "economic_date": "2026-07-17",
+    "supply_snapshot_utc": "2026-07-18T00:00:00Z",
+    "supply_snapshot_tokens": 73397327011,
+    "sofr_decimal": 0.0359,
+    "sofr_effective_date": "2026-07-17",
+    "treasury_3m_decimal": 0.0385,
+    "treasury_effective_date": "2026-07-17"
+  },
+  {
+    "economic_date": "2026-07-18",
+    "supply_snapshot_utc": "2026-07-19T00:00:00Z",
+    "supply_snapshot_tokens": 73398113678,
+    "sofr_decimal": 0.0359,
+    "sofr_effective_date": "2026-07-17",
+    "treasury_3m_decimal": 0.0385,
+    "treasury_effective_date": "2026-07-17"
+  },
+  {
+    "economic_date": "2026-07-19",
+    "supply_snapshot_utc": "2026-07-20T00:00:00Z",
+    "supply_snapshot_tokens": 73396076501,
+    "sofr_decimal": 0.0359,
+    "sofr_effective_date": "2026-07-17",
+    "treasury_3m_decimal": 0.0385,
+    "treasury_effective_date": "2026-07-17"
+  },
+  {
+    "economic_date": "2026-07-20",
+    "supply_snapshot_utc": "2026-07-21T00:00:00Z",
+    "supply_snapshot_tokens": 73375491710,
+    "sofr_decimal": 0.035699999999999996,
+    "sofr_effective_date": "2026-07-20",
+    "treasury_3m_decimal": 0.038599999999999995,
+    "treasury_effective_date": "2026-07-20"
+  },
+  {
+    "economic_date": "2026-07-21",
+    "supply_snapshot_utc": "2026-07-22T00:00:00Z",
+    "supply_snapshot_tokens": 73326856614,
+    "sofr_decimal": 0.0361,
+    "sofr_effective_date": "2026-07-21",
+    "treasury_3m_decimal": 0.0387,
+    "treasury_effective_date": "2026-07-21"
+  },
+  {
+    "economic_date": "2026-07-22",
+    "supply_snapshot_utc": "2026-07-23T00:00:00Z",
+    "supply_snapshot_tokens": 74084264409,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-07-22",
+    "treasury_3m_decimal": 0.038900000000000004,
+    "treasury_effective_date": "2026-07-22"
+  },
+  {
+    "economic_date": "2026-07-23",
+    "supply_snapshot_utc": "2026-07-24T00:00:00Z",
+    "supply_snapshot_tokens": 73966081561,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-07-23",
+    "treasury_3m_decimal": 0.0395,
+    "treasury_effective_date": "2026-07-23"
+  },
+  {
+    "economic_date": "2026-07-24",
+    "supply_snapshot_utc": "2026-07-25T00:00:00Z",
+    "supply_snapshot_tokens": 73658121150,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-07-24",
+    "treasury_3m_decimal": 0.039599999999999996,
+    "treasury_effective_date": "2026-07-24"
+  },
+  {
+    "economic_date": "2026-07-25",
+    "supply_snapshot_utc": "2026-07-26T00:00:00Z",
+    "supply_snapshot_tokens": 73576459095,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-07-24",
+    "treasury_3m_decimal": 0.039599999999999996,
+    "treasury_effective_date": "2026-07-24"
+  },
+  {
+    "economic_date": "2026-07-26",
+    "supply_snapshot_utc": "2026-07-27T00:00:00Z",
+    "supply_snapshot_tokens": 73498736257,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-07-24",
+    "treasury_3m_decimal": 0.039599999999999996,
+    "treasury_effective_date": "2026-07-24"
+  },
+  {
+    "economic_date": "2026-07-27",
+    "supply_snapshot_utc": "2026-07-28T00:00:00Z",
+    "supply_snapshot_tokens": 72529782386,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-07-27",
+    "treasury_3m_decimal": 0.039599999999999996,
+    "treasury_effective_date": "2026-07-27"
+  },
+  {
+    "economic_date": "2026-07-28",
+    "supply_snapshot_utc": "2026-07-29T00:00:00Z",
+    "supply_snapshot_tokens": 72510023322,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-07-28",
+    "treasury_3m_decimal": 0.039,
+    "treasury_effective_date": "2026-07-28"
+  },
+  {
+    "economic_date": "2026-07-29",
+    "supply_snapshot_utc": "2026-07-30T00:00:00Z",
+    "supply_snapshot_tokens": 72221346290,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-07-29",
+    "treasury_3m_decimal": 0.0383,
+    "treasury_effective_date": "2026-07-29"
+  },
+  {
+    "economic_date": "2026-07-30",
+    "supply_snapshot_utc": "2026-07-31T00:00:00Z",
+    "supply_snapshot_tokens": 72063349266,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-07-30",
+    "treasury_3m_decimal": 0.0382,
+    "treasury_effective_date": "2026-07-30"
+  },
+  {
+    "economic_date": "2026-07-31",
+    "supply_snapshot_utc": "2026-08-01T00:00:00Z",
+    "supply_snapshot_tokens": 72056215862,
+    "sofr_decimal": 0.0366,
+    "sofr_effective_date": "2026-07-31",
+    "treasury_3m_decimal": 0.0383,
+    "treasury_effective_date": "2026-07-31"
+  },
+  {
+    "economic_date": "2026-08-01",
+    "supply_snapshot_utc": "2026-08-02T00:00:00Z",
+    "supply_snapshot_tokens": 72082990011,
+    "sofr_decimal": 0.0366,
+    "sofr_effective_date": "2026-07-31",
+    "treasury_3m_decimal": 0.0383,
+    "treasury_effective_date": "2026-07-31"
+  },
+  {
+    "economic_date": "2026-08-02",
+    "supply_snapshot_utc": "2026-08-03T00:00:00Z",
+    "supply_snapshot_tokens": 71987865981,
+    "sofr_decimal": 0.0366,
+    "sofr_effective_date": "2026-07-31",
+    "treasury_3m_decimal": 0.0383,
+    "treasury_effective_date": "2026-07-31"
+  },
+  {
+    "economic_date": "2026-08-03",
+    "supply_snapshot_utc": "2026-08-04T00:00:00Z",
+    "supply_snapshot_tokens": 72263475252,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-08-03",
+    "treasury_3m_decimal": 0.0391,
+    "treasury_effective_date": "2026-08-03"
+  },
+  {
+    "economic_date": "2026-08-04",
+    "supply_snapshot_utc": "2026-08-05T00:00:00Z",
+    "supply_snapshot_tokens": 72306267723,
+    "sofr_decimal": 0.0366,
+    "sofr_effective_date": "2026-08-04",
+    "treasury_3m_decimal": 0.038900000000000004,
+    "treasury_effective_date": "2026-08-04"
+  },
+  {
+    "economic_date": "2026-08-05",
+    "supply_snapshot_utc": "2026-08-06T00:00:00Z",
+    "supply_snapshot_tokens": 71853995077,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-08-05",
+    "treasury_3m_decimal": 0.038900000000000004,
+    "treasury_effective_date": "2026-08-05"
+  },
+  {
+    "economic_date": "2026-08-06",
+    "supply_snapshot_utc": "2026-08-07T00:00:00Z",
+    "supply_snapshot_tokens": 72016749897,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-08-06",
+    "treasury_3m_decimal": 0.039,
+    "treasury_effective_date": "2026-08-06"
+  },
+  {
+    "economic_date": "2026-08-07",
+    "supply_snapshot_utc": "2026-08-08T00:00:00Z",
+    "supply_snapshot_tokens": 72296822433,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-08-07",
+    "treasury_3m_decimal": 0.0387,
+    "treasury_effective_date": "2026-08-07"
+  },
+  {
+    "economic_date": "2026-08-08",
+    "supply_snapshot_utc": "2026-08-09T00:00:00Z",
+    "supply_snapshot_tokens": 72295865507,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-08-07",
+    "treasury_3m_decimal": 0.0387,
+    "treasury_effective_date": "2026-08-07"
+  },
+  {
+    "economic_date": "2026-08-09",
+    "supply_snapshot_utc": "2026-08-10T00:00:00Z",
+    "supply_snapshot_tokens": 72361096714,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-08-07",
+    "treasury_3m_decimal": 0.0387,
+    "treasury_effective_date": "2026-08-07"
+  },
+  {
+    "economic_date": "2026-08-10",
+    "supply_snapshot_utc": "2026-08-11T00:00:00Z",
+    "supply_snapshot_tokens": 72350376026,
+    "sofr_decimal": 0.0363,
+    "sofr_effective_date": "2026-08-10",
+    "treasury_3m_decimal": 0.038900000000000004,
+    "treasury_effective_date": "2026-08-10"
+  },
+  {
+    "economic_date": "2026-08-11",
+    "supply_snapshot_utc": "2026-08-12T00:00:00Z",
+    "supply_snapshot_tokens": 72215637631,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-08-11",
+    "treasury_3m_decimal": 0.038900000000000004,
+    "treasury_effective_date": "2026-08-11"
+  },
+  {
+    "economic_date": "2026-08-12",
+    "supply_snapshot_utc": "2026-08-13T00:00:00Z",
+    "supply_snapshot_tokens": 72223530877,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-08-12",
+    "treasury_3m_decimal": 0.0387,
+    "treasury_effective_date": "2026-08-12"
+  },
+  {
+    "economic_date": "2026-08-13",
+    "supply_snapshot_utc": "2026-08-14T00:00:00Z",
+    "supply_snapshot_tokens": 72133135491,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-08-13",
+    "treasury_3m_decimal": 0.0387,
+    "treasury_effective_date": "2026-08-13"
+  },
+  {
+    "economic_date": "2026-08-14",
+    "supply_snapshot_utc": "2026-08-15T00:00:00Z",
+    "supply_snapshot_tokens": 72053846123,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-08-14",
+    "treasury_3m_decimal": 0.038599999999999995,
+    "treasury_effective_date": "2026-08-14"
+  },
+  {
+    "economic_date": "2026-08-15",
+    "supply_snapshot_utc": "2026-08-16T00:00:00Z",
+    "supply_snapshot_tokens": 72024888429,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-08-14",
+    "treasury_3m_decimal": 0.038599999999999995,
+    "treasury_effective_date": "2026-08-14"
+  },
+  {
+    "economic_date": "2026-08-16",
+    "supply_snapshot_utc": "2026-08-17T00:00:00Z",
+    "supply_snapshot_tokens": 71993672846,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-08-14",
+    "treasury_3m_decimal": 0.038599999999999995,
+    "treasury_effective_date": "2026-08-14"
+  },
+  {
+    "economic_date": "2026-08-17",
+    "supply_snapshot_utc": "2026-08-18T00:00:00Z",
+    "supply_snapshot_tokens": 72025797115,
+    "sofr_decimal": 0.0366,
+    "sofr_effective_date": "2026-08-17",
+    "treasury_3m_decimal": 0.0387,
+    "treasury_effective_date": "2026-08-17"
+  },
+  {
+    "economic_date": "2026-08-18",
+    "supply_snapshot_utc": "2026-08-19T00:00:00Z",
+    "supply_snapshot_tokens": 71988615454,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-08-18",
+    "treasury_3m_decimal": 0.038599999999999995,
+    "treasury_effective_date": "2026-08-18"
+  },
+  {
+    "economic_date": "2026-08-19",
+    "supply_snapshot_utc": "2026-08-20T00:00:00Z",
+    "supply_snapshot_tokens": 72497436272,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-08-19",
+    "treasury_3m_decimal": 0.038599999999999995,
+    "treasury_effective_date": "2026-08-19"
+  },
+  {
+    "economic_date": "2026-08-20",
+    "supply_snapshot_utc": "2026-08-21T00:00:00Z",
+    "supply_snapshot_tokens": 73356570419,
+    "sofr_decimal": 0.0363,
+    "sofr_effective_date": "2026-08-20",
+    "treasury_3m_decimal": 0.0387,
+    "treasury_effective_date": "2026-08-20"
+  },
+  {
+    "economic_date": "2026-08-21",
+    "supply_snapshot_utc": "2026-08-22T00:00:00Z",
+    "supply_snapshot_tokens": 73606170157,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-08-21",
+    "treasury_3m_decimal": 0.0388,
+    "treasury_effective_date": "2026-08-21"
+  },
+  {
+    "economic_date": "2026-08-22",
+    "supply_snapshot_utc": "2026-08-23T00:00:00Z",
+    "supply_snapshot_tokens": 73621753025,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-08-21",
+    "treasury_3m_decimal": 0.0388,
+    "treasury_effective_date": "2026-08-21"
+  },
+  {
+    "economic_date": "2026-08-23",
+    "supply_snapshot_utc": "2026-08-24T00:00:00Z",
+    "supply_snapshot_tokens": 73678220394,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-08-21",
+    "treasury_3m_decimal": 0.0388,
+    "treasury_effective_date": "2026-08-21"
+  },
+  {
+    "economic_date": "2026-08-24",
+    "supply_snapshot_utc": "2026-08-25T00:00:00Z",
+    "supply_snapshot_tokens": 73892686377,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-08-24",
+    "treasury_3m_decimal": 0.0387,
+    "treasury_effective_date": "2026-08-24"
+  },
+  {
+    "economic_date": "2026-08-25",
+    "supply_snapshot_utc": "2026-08-26T00:00:00Z",
+    "supply_snapshot_tokens": 73895877013,
+    "sofr_decimal": 0.0366,
+    "sofr_effective_date": "2026-08-25",
+    "treasury_3m_decimal": 0.038599999999999995,
+    "treasury_effective_date": "2026-08-25"
+  },
+  {
+    "economic_date": "2026-08-26",
+    "supply_snapshot_utc": "2026-08-27T00:00:00Z",
+    "supply_snapshot_tokens": 74029406066,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-08-26",
+    "treasury_3m_decimal": 0.0385,
+    "treasury_effective_date": "2026-08-26"
+  },
+  {
+    "economic_date": "2026-08-27",
+    "supply_snapshot_utc": "2026-08-28T00:00:00Z",
+    "supply_snapshot_tokens": 73952883259,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-08-27",
+    "treasury_3m_decimal": 0.0384,
+    "treasury_effective_date": "2026-08-27"
+  },
+  {
+    "economic_date": "2026-08-28",
+    "supply_snapshot_utc": "2026-08-29T00:00:00Z",
+    "supply_snapshot_tokens": 74203694168,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-08-28",
+    "treasury_3m_decimal": 0.039,
+    "treasury_effective_date": "2026-08-28"
+  },
+  {
+    "economic_date": "2026-08-29",
+    "supply_snapshot_utc": "2026-08-30T00:00:00Z",
+    "supply_snapshot_tokens": 74064628178,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-08-28",
+    "treasury_3m_decimal": 0.039,
+    "treasury_effective_date": "2026-08-28"
+  },
+  {
+    "economic_date": "2026-08-30",
+    "supply_snapshot_utc": "2026-08-31T00:00:00Z",
+    "supply_snapshot_tokens": 74073213088,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-08-28",
+    "treasury_3m_decimal": 0.039,
+    "treasury_effective_date": "2026-08-28"
+  },
+  {
+    "economic_date": "2026-08-31",
+    "supply_snapshot_utc": "2026-09-01T00:00:00Z",
+    "supply_snapshot_tokens": 73709723131,
+    "sofr_decimal": 0.0368,
+    "sofr_effective_date": "2026-08-31",
+    "treasury_3m_decimal": 0.0391,
+    "treasury_effective_date": "2026-08-31"
+  },
+  {
+    "economic_date": "2026-09-01",
+    "supply_snapshot_utc": "2026-09-02T00:00:00Z",
+    "supply_snapshot_tokens": 73711894274,
+    "sofr_decimal": 0.0366,
+    "sofr_effective_date": "2026-09-01",
+    "treasury_3m_decimal": 0.0392,
+    "treasury_effective_date": "2026-09-01"
+  },
+  {
+    "economic_date": "2026-09-02",
+    "supply_snapshot_utc": "2026-09-03T00:00:00Z",
+    "supply_snapshot_tokens": 73911446426,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-09-02",
+    "treasury_3m_decimal": 0.0392,
+    "treasury_effective_date": "2026-09-02"
+  },
+  {
+    "economic_date": "2026-09-03",
+    "supply_snapshot_utc": "2026-09-04T00:00:00Z",
+    "supply_snapshot_tokens": 74509288165,
+    "sofr_decimal": 0.0366,
+    "sofr_effective_date": "2026-09-03",
+    "treasury_3m_decimal": 0.038900000000000004,
+    "treasury_effective_date": "2026-09-03"
+  },
+  {
+    "economic_date": "2026-09-04",
+    "supply_snapshot_utc": "2026-09-05T00:00:00Z",
+    "supply_snapshot_tokens": 74753501160,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-09-04",
+    "treasury_3m_decimal": 0.0391,
+    "treasury_effective_date": "2026-09-04"
+  },
+  {
+    "economic_date": "2026-09-05",
+    "supply_snapshot_utc": "2026-09-06T00:00:00Z",
+    "supply_snapshot_tokens": 74729006668,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-09-04",
+    "treasury_3m_decimal": 0.0391,
+    "treasury_effective_date": "2026-09-04"
+  },
+  {
+    "economic_date": "2026-09-06",
+    "supply_snapshot_utc": "2026-09-07T00:00:00Z",
+    "supply_snapshot_tokens": 74714297757,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-09-04",
+    "treasury_3m_decimal": 0.0391,
+    "treasury_effective_date": "2026-09-04"
+  },
+  {
+    "economic_date": "2026-09-07",
+    "supply_snapshot_utc": "2026-09-08T00:00:00Z",
+    "supply_snapshot_tokens": 74533399954,
+    "sofr_decimal": 0.0365,
+    "sofr_effective_date": "2026-09-04",
+    "treasury_3m_decimal": 0.0391,
+    "treasury_effective_date": "2026-09-04"
+  },
+  {
+    "economic_date": "2026-09-08",
+    "supply_snapshot_utc": "2026-09-09T00:00:00Z",
+    "supply_snapshot_tokens": 74650368141,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-09-08",
+    "treasury_3m_decimal": 0.0394,
+    "treasury_effective_date": "2026-09-08"
+  },
+  {
+    "economic_date": "2026-09-09",
+    "supply_snapshot_utc": "2026-09-10T00:00:00Z",
+    "supply_snapshot_tokens": 74545695863,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-09-09",
+    "treasury_3m_decimal": 0.0395,
+    "treasury_effective_date": "2026-09-09"
+  },
+  {
+    "economic_date": "2026-09-10",
+    "supply_snapshot_utc": "2026-09-11T00:00:00Z",
+    "supply_snapshot_tokens": 74359078093,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-09-10",
+    "treasury_3m_decimal": 0.04,
+    "treasury_effective_date": "2026-09-10"
+  },
+  {
+    "economic_date": "2026-09-11",
+    "supply_snapshot_utc": "2026-09-12T00:00:00Z",
+    "supply_snapshot_tokens": 74465245800,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-09-11",
+    "treasury_3m_decimal": 0.0407,
+    "treasury_effective_date": "2026-09-11"
+  },
+  {
+    "economic_date": "2026-09-12",
+    "supply_snapshot_utc": "2026-09-13T00:00:00Z",
+    "supply_snapshot_tokens": 74422442088,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-09-11",
+    "treasury_3m_decimal": 0.0407,
+    "treasury_effective_date": "2026-09-11"
+  },
+  {
+    "economic_date": "2026-09-13",
+    "supply_snapshot_utc": "2026-09-14T00:00:00Z",
+    "supply_snapshot_tokens": 74363052614,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-09-11",
+    "treasury_3m_decimal": 0.0407,
+    "treasury_effective_date": "2026-09-11"
+  },
+  {
+    "economic_date": "2026-09-14",
+    "supply_snapshot_utc": "2026-09-15T00:00:00Z",
+    "supply_snapshot_tokens": 74447452768,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-09-14",
+    "treasury_3m_decimal": 0.041100000000000005,
+    "treasury_effective_date": "2026-09-14"
+  },
+  {
+    "economic_date": "2026-09-15",
+    "supply_snapshot_utc": "2026-09-16T00:00:00Z",
+    "supply_snapshot_tokens": 73680474077,
+    "sofr_decimal": 0.0364,
+    "sofr_effective_date": "2026-09-15",
+    "treasury_3m_decimal": 0.041100000000000005,
+    "treasury_effective_date": "2026-09-15"
+  },
+  {
+    "economic_date": "2026-09-16",
+    "supply_snapshot_utc": "2026-09-17T00:00:00Z",
+    "supply_snapshot_tokens": 73813308298,
+    "sofr_decimal": 0.0362,
+    "sofr_effective_date": "2026-09-16",
+    "treasury_3m_decimal": 0.0414,
+    "treasury_effective_date": "2026-09-16"
+  },
+  {
+    "economic_date": "2026-09-17",
+    "supply_snapshot_utc": "2026-09-18T00:00:00Z",
+    "supply_snapshot_tokens": 74004259229,
+    "sofr_decimal": 0.0385,
+    "sofr_effective_date": "2026-09-17",
+    "treasury_3m_decimal": 0.0412,
+    "treasury_effective_date": "2026-09-17"
+  },
+  {
+    "economic_date": "2026-09-18",
+    "supply_snapshot_utc": "2026-09-19T00:00:00Z",
+    "supply_snapshot_tokens": 74451264916,
+    "sofr_decimal": 0.0385,
+    "sofr_effective_date": "2026-09-18",
+    "treasury_3m_decimal": 0.0414,
+    "treasury_effective_date": "2026-09-18"
+  },
+  {
+    "economic_date": "2026-09-19",
+    "supply_snapshot_utc": "2026-09-20T00:00:00Z",
+    "supply_snapshot_tokens": 74363228896,
+    "sofr_decimal": 0.0385,
+    "sofr_effective_date": "2026-09-18",
+    "treasury_3m_decimal": 0.0414,
+    "treasury_effective_date": "2026-09-18"
+  },
+  {
+    "economic_date": "2026-09-20",
+    "supply_snapshot_utc": "2026-09-21T00:00:00Z",
+    "supply_snapshot_tokens": 74451712107,
+    "sofr_decimal": 0.0385,
+    "sofr_effective_date": "2026-09-18",
+    "treasury_3m_decimal": 0.0414,
+    "treasury_effective_date": "2026-09-18"
+  },
+  {
+    "economic_date": "2026-09-21",
+    "supply_snapshot_utc": "2026-09-22T00:00:00Z",
+    "supply_snapshot_tokens": 74839376971,
+    "sofr_decimal": 0.0385,
+    "sofr_effective_date": "2026-09-21",
+    "treasury_3m_decimal": 0.0417,
+    "treasury_effective_date": "2026-09-21"
+  },
+  {
+    "economic_date": "2026-09-22",
+    "supply_snapshot_utc": "2026-09-23T00:00:00Z",
+    "supply_snapshot_tokens": 75430163062,
+    "sofr_decimal": 0.0387,
+    "sofr_effective_date": "2026-09-22",
+    "treasury_3m_decimal": 0.0416,
+    "treasury_effective_date": "2026-09-22"
+  },
+  {
+    "economic_date": "2026-09-23",
+    "supply_snapshot_utc": "2026-09-24T00:00:00Z",
+    "supply_snapshot_tokens": 75456554372,
+    "sofr_decimal": 0.0387,
+    "sofr_effective_date": "2026-09-23",
+    "treasury_3m_decimal": 0.04190000000000001,
+    "treasury_effective_date": "2026-09-23"
+  },
+  {
+    "economic_date": "2026-09-24",
+    "supply_snapshot_utc": "2026-09-25T00:00:00Z",
+    "supply_snapshot_tokens": 75486373074,
+    "sofr_decimal": 0.0388,
+    "sofr_effective_date": "2026-09-24",
+    "treasury_3m_decimal": 0.0424,
+    "treasury_effective_date": "2026-09-24"
+  },
+  {
+    "economic_date": "2026-09-25",
+    "supply_snapshot_utc": "2026-09-26T00:00:00Z",
+    "supply_snapshot_tokens": 75480577982,
+    "sofr_decimal": 0.039,
+    "sofr_effective_date": "2026-09-25",
+    "treasury_3m_decimal": 0.0424,
+    "treasury_effective_date": "2026-09-25"
+  },
+  {
+    "economic_date": "2026-09-26",
+    "supply_snapshot_utc": "2026-09-27T00:00:00Z",
+    "supply_snapshot_tokens": 75347823956,
+    "sofr_decimal": 0.039,
+    "sofr_effective_date": "2026-09-25",
+    "treasury_3m_decimal": 0.0424,
+    "treasury_effective_date": "2026-09-25"
+  },
+  {
+    "economic_date": "2026-09-27",
+    "supply_snapshot_utc": "2026-09-28T00:00:00Z",
+    "supply_snapshot_tokens": 75254967013,
+    "sofr_decimal": 0.039,
+    "sofr_effective_date": "2026-09-25",
+    "treasury_3m_decimal": 0.0424,
+    "treasury_effective_date": "2026-09-25"
+  },
+  {
+    "economic_date": "2026-09-28",
+    "supply_snapshot_utc": "2026-09-29T00:00:00Z",
+    "supply_snapshot_tokens": 74867031181,
+    "sofr_decimal": 0.039,
+    "sofr_effective_date": "2026-09-28",
+    "treasury_3m_decimal": 0.042800000000000005,
+    "treasury_effective_date": "2026-09-28"
+  },
+  {
+    "economic_date": "2026-09-29",
+    "supply_snapshot_utc": "2026-09-30T00:00:00Z",
+    "supply_snapshot_tokens": 74591240709,
+    "sofr_decimal": 0.0388,
+    "sofr_effective_date": "2026-09-29",
+    "treasury_3m_decimal": 0.0425,
+    "treasury_effective_date": "2026-09-29"
+  },
+  {
+    "economic_date": "2026-09-30",
+    "supply_snapshot_utc": "2026-10-01T00:00:00Z",
+    "supply_snapshot_tokens": 74148312961,
+    "sofr_decimal": 0.039,
+    "sofr_effective_date": "2026-09-30",
+    "treasury_3m_decimal": 0.042,
+    "treasury_effective_date": "2026-09-30"
+  }
+]

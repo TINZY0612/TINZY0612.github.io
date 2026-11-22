@@ -1,0 +1,195 @@
+{
+  "prepared_date": "2026-11-21",
+  "scope": "All six verified public-company quarterly earnings releases through Q3 2026, plus Q1 2025 IPO reference",
+  "formula": "reserve_income / total_revenue_and_reserve_income",
+  "quarterly_rows": [
+    {
+      "period": "2025Q1",
+      "earnings_release_date": null,
+      "reference_status": "pre-IPO quarter disclosed in IPO prospectus",
+      "reserve_income_usd_million": 557.911,
+      "other_revenue_usd_million": 20.662,
+      "total_revenue_usd_million": 578.573,
+      "reserve_income_share": 0.9642879982301282,
+      "other_revenue_share": 0.035712001769871736,
+      "financial_source_public_by": "2025-06-05",
+      "flow_basis": "reported",
+      "source_ids": [
+        "O013",
+        "O015"
+      ],
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm"
+      ]
+    },
+    {
+      "period": "2025Q2",
+      "earnings_release_date": "2025-08-12",
+      "reference_status": "public-company earnings release",
+      "reserve_income_usd_million": 634.274,
+      "other_revenue_usd_million": 23.804,
+      "total_revenue_usd_million": 658.078,
+      "reserve_income_share": 0.9638279960734139,
+      "other_revenue_share": 0.03617200392658621,
+      "financial_source_public_by": "2025-08-12",
+      "flow_basis": "reported",
+      "source_ids": [
+        "O023",
+        "O025"
+      ],
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm"
+      ]
+    },
+    {
+      "period": "2025Q3",
+      "earnings_release_date": "2025-11-12",
+      "reference_status": "public-company earnings release",
+      "reserve_income_usd_million": 711.241,
+      "other_revenue_usd_million": 28.518,
+      "total_revenue_usd_million": 739.759,
+      "reserve_income_share": 0.9614496072369515,
+      "other_revenue_share": 0.03855039276304851,
+      "financial_source_public_by": "2025-11-12",
+      "flow_basis": "reported",
+      "source_ids": [
+        "O033",
+        "O035"
+      ],
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm"
+      ]
+    },
+    {
+      "period": "2025Q4",
+      "earnings_release_date": "2026-02-25",
+      "reference_status": "public-company earnings release",
+      "reserve_income_usd_million": 733.3960000000002,
+      "other_revenue_usd_million": 36.836,
+      "total_revenue_usd_million": 770.2319999999997,
+      "reserve_income_share": 0.9521754484363159,
+      "other_revenue_share": 0.047824551563684724,
+      "financial_source_public_by": "2026-03-09",
+      "flow_basis": "derived FY minus 9M",
+      "source_ids": [
+        "O001",
+        "O007",
+        "O003",
+        "O009"
+      ],
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+        "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm"
+      ]
+    },
+    {
+      "period": "2026Q1",
+      "earnings_release_date": "2026-05-11",
+      "reference_status": "public-company earnings release",
+      "reserve_income_usd_million": 652.508,
+      "other_revenue_usd_million": 41.625,
+      "total_revenue_usd_million": 694.133,
+      "reserve_income_share": 0.9400331060474001,
+      "other_revenue_share": 0.05996689395259986,
+      "financial_source_public_by": "2026-05-11",
+      "flow_basis": "reported",
+      "source_ids": [
+        "O047",
+        "O049"
+      ],
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm"
+      ]
+    },
+    {
+      "period": "2026Q2",
+      "earnings_release_date": "2026-08-05",
+      "reference_status": "public-company earnings release",
+      "reserve_income_usd_million": 667.733,
+      "other_revenue_usd_million": 33.582,
+      "total_revenue_usd_million": 701.315,
+      "reserve_income_share": 0.9521156684228911,
+      "other_revenue_share": 0.04788433157710872,
+      "financial_source_public_by": "2026-08-05",
+      "flow_basis": "reported",
+      "source_ids": [
+        "O057",
+        "O059"
+      ],
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm"
+      ]
+    },
+    {
+      "period": "2026Q3",
+      "earnings_release_date": "2026-11-04",
+      "reference_status": "public-company earnings release",
+      "reserve_income_usd_million": 657.624,
+      "other_revenue_usd_million": 207.264,
+      "total_revenue_usd_million": 864.888,
+      "reserve_income_share": 0.7603574104392707,
+      "other_revenue_share": 0.23964258956072926,
+      "financial_source_public_by": "2026-11-04",
+      "flow_basis": "reported",
+      "source_ids": [
+        "O067",
+        "O069"
+      ],
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm"
+      ]
+    }
+  ],
+  "fy2025_reserve_income_share": 0.9600166312173193,
+  "q3_2026_arc_revenue_usd_million": 181.8,
+  "q3_2026_revenue_share_excluding_arc_recognition_only": 0.962722226126063,
+  "arc_diagnostic_definition": "Remove only $181.8m ARC recognition from the revenue denominator. Not a cost-adjusted earnings or profit measure.",
+  "source_file": "stage2\\results\\stage2_data_model.json",
+  "source_sha256": "7e89b1b95def9b1a0daa1baad298b38a5f98fecef33a33819b0a7b9ef957d8c1",
+  "checks": [
+    {
+      "period": "2025Q1",
+      "revenue_components_match": true,
+      "share_matches_stage2": true,
+      "share_components_sum_to_one": true
+    },
+    {
+      "period": "2025Q2",
+      "revenue_components_match": true,
+      "share_matches_stage2": true,
+      "share_components_sum_to_one": true
+    },
+    {
+      "period": "2025Q3",
+      "revenue_components_match": true,
+      "share_matches_stage2": true,
+      "share_components_sum_to_one": true
+    },
+    {
+      "period": "2025Q4",
+      "revenue_components_match": true,
+      "share_matches_stage2": true,
+      "share_components_sum_to_one": true
+    },
+    {
+      "period": "2026Q1",
+      "revenue_components_match": true,
+      "share_matches_stage2": true,
+      "share_components_sum_to_one": true
+    },
+    {
+      "period": "2026Q2",
+      "revenue_components_match": true,
+      "share_matches_stage2": true,
+      "share_components_sum_to_one": true
+    },
+    {
+      "period": "2026Q3",
+      "revenue_components_match": true,
+      "share_matches_stage2": true,
+      "share_components_sum_to_one": true
+    }
+  ],
+  "checks_passed": 21,
+  "checks_total": 21
+}

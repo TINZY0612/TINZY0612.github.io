@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Projects — Zi Yik</title>
+<meta name="description" content="Explore Zi Yik's AI projects, experiments, and updates, including AI-assisted market research.">
+<style>
+  :root {
+    --ink: #f4f1e8;
+    --muted: #b6b1a4;
+    --soft: rgba(244, 241, 232, .72);
+    --line: rgba(244, 241, 232, .18);
+    --panel: rgba(255,255,255,.04);
+    --acid: #c9ff3b;
+    --amber: #ffb84d;
+    --cyan: #58f0ff;
+    --black: #050604;
+    --status-finished: #71e69a;
+    --status-working: #ffd166;
+    --status-idea: #ff7777;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    color: var(--ink);
+    background:
+      linear-gradient(120deg, rgba(201,255,59,.08), transparent 28%),
+      linear-gradient(240deg, rgba(88,240,255,.07), transparent 32%),
+      var(--black);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+  }
+
+  a { color: inherit; text-decoration: none; }
+  button, a { -webkit-tap-highlight-color: transparent; }
+
+  .wrap {
+    width: min(1180px, calc(100% - 36px));
+    margin: 0 auto;
+  }
+
+  .topbar {
+    position: fixed;
+    inset: 0 0 auto;
+    z-index: 20;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 24px;
+    padding: 24px clamp(18px, 4vw, 56px);
+    color: var(--ink);
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 0.12em;
+    background: linear-gradient(180deg, rgba(5,6,4,.92), transparent);
+  }
+  .brand { font-weight: 900; }
+  .brand span { color: var(--acid); }
+  .top-action { color: var(--acid); font-weight: 800; text-transform: uppercase; letter-spacing: .1em; }
+  .top-action:hover { opacity: .7; }
+
+  .hero {
+    min-height: 72svh;
+    position: relative;
+    display: grid;
+    align-items: end;
+    overflow: hidden;
+    border-bottom: 1px solid var(--line);
+    background: #080906;
+  }
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .66;
+    filter: saturate(1.06) contrast(1.08);
+  }
+  .hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(90deg, rgba(0,0,0,.9), rgba(0,0,0,.38) 46%, rgba(0,0,0,.76)),
+      linear-gradient(0deg, rgba(5,6,4,.96), transparent 48%, rgba(5,6,4,.44));
+    pointer-events: none;
+  }
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 112px 0 54px;
+  }
+  .eyebrow {
+    margin: 0 0 16px;
+    color: var(--amber);
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    font-size: 12px;
+    font-weight: 900;
+  }
+  h1 {
+    margin: 0;
+    max-width: 1080px;
+    font-size: clamp(50px, 8.6vw, 126px);
+    line-height: .86;
+    text-transform: uppercase;
+    font-weight: 950;
+  }
+  h1 span { color: var(--acid); display: block; }
+  .intro {
+    margin: 26px 0 0;
+    max-width: 720px;
+    color: var(--soft);
+    font-size: 17px;
+    line-height: 1.7;
+  }
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 28px;
+  }
+  .btn, .open-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0 18px;
+    border: 1px solid var(--line);
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 11px;
+    font-weight: 900;
+    white-space: nowrap;
+    background: rgba(5,6,4,.45);
+  }
+  .btn.primary, .open-link:hover {
+    color: #111;
+    background: var(--acid);
+    border-color: var(--acid);
+  }
+
+  .status-strip {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    border-left: 1px solid var(--line);
+    border-top: 1px solid var(--line);
+    margin: 44px 0 0;
+  }
+  .metric {
+    padding: 18px;
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: rgba(255,255,255,.035);
+    backdrop-filter: blur(10px);
+  }
+  .metric b {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--acid);
+    font-size: 22px;
+  }
+  .metric span {
+    color: var(--muted);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+
+  main { padding: 58px 0 92px; }
+  .projects-section {
+    padding: clamp(56px, 8vw, 100px) 0;
+    border-bottom: 1px solid var(--line);
+    scroll-margin-top: 140px;
+  }
+  .project-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 28px;
+    list-style: none;
+    margin: 24px 0 32px;
+    padding: 0;
+  }
+  .project-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--ink);
+  }
+  .project-status--finished { --status-color: var(--status-finished); }
+  .project-status--working { --status-color: var(--status-working); }
+  .project-status--idea { --status-color: var(--status-idea); }
+  .project-status__light {
+    flex: 0 0 12px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--status-color);
+    box-shadow: 0 0 12px color-mix(in srgb, var(--status-color) 35%, transparent);
+  }
+  .project-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid var(--line);
+    background: var(--panel);
+  }
+  .project-table th,
+  .project-table td {
+    padding: 24px 28px;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid var(--line);
+    overflow-wrap: break-word;
+  }
+  .project-table thead th {
+    color: var(--amber);
+    background: rgba(255,255,255,.035);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+  .project-table thead th:first-child { width: 64%; }
+  .project-table tbody th { font-size: 18px; font-weight: 600; line-height: 1.5; }
+  .project-table tbody tr:last-child th,
+  .project-table tbody tr:last-child td { border-bottom: 0; }
+  .section-title {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: end;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 18px;
+  }
+  .section-title h2 {
+    margin: 0;
+    font-size: clamp(30px, 4vw, 56px);
+    line-height: .95;
+    text-transform: uppercase;
+  }
+  .section-title p {
+    margin: 0;
+    color: var(--muted);
+    max-width: 440px;
+    line-height: 1.6;
+  }
+
+  .report-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 14px;
+  }
+  .report-item {
+    display: grid;
+    grid-template-columns: 140px minmax(0, 1fr) 140px;
+    gap: 22px;
+    align-items: center;
+    padding: 28px 26px;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    transition: border-color .2s, background .2s;
+  }
+  .report-item:hover {
+    border-color: rgba(244,241,232,.32);
+    background: rgba(255,255,255,.055);
+  }
+  .report-date {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .report-num {
+    color: var(--acid);
+    font-weight: 950;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -.02em;
+  }
+  .report-label {
+    color: var(--muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+  }
+  .report-item h3 {
+    margin: 0 0 6px;
+    font-size: clamp(18px, 2.6vw, 26px);
+    line-height: 1.12;
+  }
+  .report-item p {
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.55;
+    font-size: 14px;
+  }
+  .report-cta {
+    justify-self: end;
+  }
+
+  .stack-section {
+    padding: clamp(56px, 8vw, 100px) 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .stack-section h2 {
+    margin: 0 0 32px;
+    font-size: clamp(36px, 4vw, 56px);
+    line-height: .95;
+    text-transform: uppercase;
+    max-width: 900px;
+  }
+  .systems {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    border-top: 1px solid var(--line);
+    border-left: 1px solid var(--line);
+  }
+  .system {
+    min-height: 230px;
+    padding: 22px;
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: linear-gradient(180deg, rgba(255,255,255,.035), rgba(255,255,255,.01));
+  }
+  .system strong {
+    display: block;
+    color: var(--acid);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    margin-bottom: 28px;
+  }
+  .system h3 {
+    margin: 0 0 12px;
+    font-size: 24px;
+    line-height: 1.05;
+  }
+  .system p {
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.6;
+    font-size: 14px;
+  }
+
+  .pipeline {
+    margin-top: 72px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border-left: 1px solid var(--line);
+    border-top: 1px solid var(--line);
+  }
+  .pipeline div {
+    padding: 22px;
+    min-height: 180px;
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: var(--panel);
+  }
+  .pipeline strong {
+    color: var(--amber);
+    display: block;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    font-size: 12px;
+  }
+  .pipeline p {
+    color: var(--muted);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 28px 0;
+    color: rgba(244,241,232,.58);
+    font-size: 13px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-bg { display: none; }
+  }
+  @media (max-width: 820px) {
+    .hero { min-height: 50svh; }
+    .hero-content { padding-top: 80px; }
+    .hero h1 { font-size: clamp(32px, 10vw, 64px); }
+    .status-strip, .pipeline { grid-template-columns: 1fr 1fr; }
+    .systems { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .section-title { display: block; }
+    .section-title p { margin-top: 12px; }
+    .report-item { grid-template-columns: 1fr; gap: 14px; }
+    .report-cta { justify-self: start; }
+    .open-link { width: fit-content; }
+  }
+  @media (max-width: 560px) {
+    .project-table th, .project-table td { padding: 18px 12px; }
+    .project-table thead th:first-child { width: 55%; }
+    .project-table tbody th { font-size: 16px; }
+    .project-table .project-status { gap: 10px; font-size: 14px; }
+    .topbar { font-size: 12px; padding: 14px 12px; gap: 6px; }
+    .top-action { font-size: 10px; }
+    .topbar .brand { font-size: 14px; }
+    .status-strip, .pipeline { grid-template-columns: 1fr; }
+    .systems { grid-template-columns: 1fr; }
+    .system { min-height: 190px; }
+    .hero { min-height: 44svh; }
+    .hero h1 { font-size: clamp(32px, 12vw, 52px); }
+    .hero-content { padding-top: 64px; }
+    .report-item h3 { font-size: 16px; }
+    .metric b { font-size: 16px; }
+  }
+
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 32px;
+  }
+  .page-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    height: 44px;
+    padding: 0 12px;
+    border: 1px solid var(--line);
+    background: var(--panel);
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+  }
+  .page-btn:hover { border-color: var(--ink); color: var(--ink); }
+  .page-btn.active {
+    color: var(--acid);
+    border-color: var(--acid);
+    background: rgba(201,255,59,0.06);
+    pointer-events: none;
+  }
+  .page-btn.arrow { font-size: 16px; padding: 0 10px; }
+  .page-btn.disabled {
+    opacity: .3;
+    pointer-events: none;
+  }
+
+</style>
+  <link rel="stylesheet" href="/assets/site-footer.css">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3">
+  <link rel="apple-touch-icon" href="/favicon.svg?v=3">
+  <link rel="stylesheet" href="/assets/site-accessibility.css">
+  <link rel="stylesheet" href="/assets/site-topbar.css">
+</head>
+<body class="site-news-page">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-topbar">
+    <a class="site-topbar__brand" href="/">ZI<span>YIK</span></a>
+    <nav class="site-topbar__nav" aria-label="Primary navigation">
+      <a href="/resume/">Resume</a>
+      <a href="/news/" aria-current="page">AI Projects</a>
+      <a href="/circle/">Circle Research</a>
+      <a href="https://tin-paper-ledger.indigolyric.chatgpt.site/?book=migration" target="_blank" rel="noopener noreferrer" aria-label="Paper Ledger (opens in a new tab)">Paper Ledger</a>
+    </nav>
+    <div class="site-topbar__social" aria-label="Social links">
+      <a href="https://www.linkedin.com/in/tin-zi-yik/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.476-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.123 2.062 2.062 0 0 1 0 4.123zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="https://github.com/TINZY0612/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.11.79-.25.79-.56v-2.17c-3.2.7-3.87-1.37-3.87-1.37-.53-1.34-1.28-1.7-1.28-1.7-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.33.96.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.47.11-3.07 0 0 .96-.31 3.15 1.18A10.9 10.9 0 0 1 12 8.35c.97 0 1.94.13 2.85.38 2.18-1.49 3.14-1.18 3.14-1.18.62 1.6.23 2.78.11 3.07.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.25 5.69.41.36.78 1.08.78 2.18v3.23c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+      </a>
+      <a href="https://x.com/ZiYik0612" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231Zm-1.161 17.52h1.833L7.083 4.126H5.117Z"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <header class="hero">
+    <video class="hero-bg" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+      <source src="/assets/news-bg.mp4" type="video/mp4">
+    </video>
+    <div class="wrap hero-content">
+      <p class="eyebrow"></p>
+      <h1>AI <span>Projects.</span></h1>
+      <p class="intro">Experiments, tools, and updates from the AI projects I'm building, starting with AI-assisted market research.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">Browse projects</a>
+        <a class="btn" href="https://t.me/ZiYik0612_Sentiment_Research" target="_blank" rel="noreferrer">Telegram channel</a>
+      </div>
+      <div class="status-strip">
+        <div class="metric"><b>08:00</b><span>UTC+8 daily</span></div>
+        <div class="metric"><b>7+</b><span>data sources</span></div>
+        <div class="metric"><b>2</b><span>report segments</span></div>
+        <div class="metric"><b>0</b><span>financial advice</span></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="projects-section" id="projects" aria-labelledby="projects-title">
+    <div class="wrap">
+      <div class="section-title">
+        <h2 id="projects-title">Project roadmap</h2>
+      </div>
+      <ul class="project-legend" aria-label="Project progress legend">
+        <li class="project-status project-status--finished"><span class="project-status__light" aria-hidden="true"></span>Finished / Published</li>
+        <li class="project-status project-status--working"><span class="project-status__light" aria-hidden="true"></span>Working on it</li>
+        <li class="project-status project-status--idea"><span class="project-status__light" aria-hidden="true"></span>Still an idea</li>
+      </ul>
+      <table class="project-table" aria-labelledby="projects-title">
+        <thead>
+          <tr><th scope="col">AI project</th><th scope="col">Progress</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">AI Equity Research Agent</th>
+            <td><span class="project-status project-status--working"><span class="project-status__light" aria-hidden="true"></span>Working on it</span></td>
+          </tr>
+          <tr>
+            <th scope="row">Daily News Writer</th>
+            <td><span class="project-status project-status--finished"><span class="project-status__light" aria-hidden="true"></span>Finished / Published</span></td>
+          </tr>
+          <tr>
+            <th scope="row">TikTok Social Media Manager</th>
+            <td><span class="project-status project-status--finished"><span class="project-status__light" aria-hidden="true"></span>Finished / Published</span></td>
+          </tr>
+          <tr>
+            <th scope="row">Job Application Agent</th>
+            <td><span class="project-status project-status--working"><span class="project-status__light" aria-hidden="true"></span>Working on it</span></td>
+          </tr>
+          <tr>
+            <th scope="row">Crypto Research and Trading Agent</th>
+            <td><span class="project-status project-status--working"><span class="project-status__light" aria-hidden="true"></span>Working on it</span></td>
+          </tr>
+          <tr>
+            <th scope="row">Dating App</th>
+            <td><span class="project-status project-status--idea"><span class="project-status__light" aria-hidden="true"></span>Still an idea</span></td>
+          </tr>
+          <tr>
+            <th scope="row">Frontend UI Developer Agent</th>
+            <td><span class="project-status project-status--finished"><span class="project-status__light" aria-hidden="true"></span>Finished / Published</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="stack-section" aria-label="Research stack">
+    <div class="wrap">
+      <div class="eyebrow">Research stack</div>
+      <h2>One operator. Multiple agents. A cleaner signal feed.</h2>
+
+      <div class="systems">
+        <article class="system">
+          <strong>01 / News</strong>
+          <h3>Market narrative map</h3>
+          <p>BlockBeats, macro events, ETF flow, regulation, protocol incidents, and major capital stories.</p>
+        </article>
+        <article class="system">
+          <strong>02 / Data</strong>
+          <h3>Price and leverage context</h3>
+          <p>BTC, ETH, SOL, derivatives, liquidations, open interest, volatility, and risk-on/risk-off pressure.</p>
+        </article>
+        <article class="system">
+          <strong>03 / On-chain</strong>
+          <h3>DEX and meme pulse</h3>
+          <p>GeckoTerminal, Dexscreener, new pools, trending pools, liquidity, volume, and token safety checks.</p>
+        </article>
+        <article class="system">
+          <strong>04 / Output</strong>
+          <h3>Readable daily brief</h3>
+          <p>Telegram-first reports, public archive, and future handoff into trader and portfolio agents.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap" id="main-content">
+    <div class="section-title" id="reports">
+      <h2>Latest reports</h2>
+      <p></p>
+    </div>
+
+    <ul class="report-list">
+      <li class="report-item">
+        <div class="report-date">
+          <span class="report-num">3</span>
+          <span class="report-label">Jul 2026</span>
+        </div>
+        <div>
+          <h3>半导体崩盘两日-11%，AI叙事裂痕扩大 · NFP爆冷推迟加息，加密逆势脱钩半导体</h3>
+          <p>F&amp;G 21 (Extreme Fear) · BTC $61,448 (+2.54%) · ETH $1,699 (+5.87%) · Liq $476M (↘ 9.5%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-07-03/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">2</span>
+          <span class="report-label">Jul 2026</span>
+        </div>
+        <div>
+          <h3>SOL领涨+5%,强于BTC和ETH</h3>
+          <p>F&amp;G 18 (Extreme Fear) · BTC $59,961 (+2.15%) · ETH $1,606 (+2.02%) · Liq $525.66M (↗ +95.79%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-07-02/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">1</span>
+          <span class="report-label">Jul 2026</span>
+        </div>
+        <div>
+          <h3>ETH巨鲸清仓$86.6M , 三季连跌历史首次 · Visa/BlackRock联手推出OUSD , 稳定币格局重塑</h3>
+          <p>F&amp;G 16 (Extreme Fear) · BTC $58,644 (-2.61%) · ETH $1,573 (-2.47%) · Liq $268M (↘ 7.1%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-07-01/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">30</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>Solana Meme热: ANSEM+45% DEX成交量$2344万, pump.fun生态+44% · AI/VC活跃: a16z领投$3300万, Framework募$4亿, AI股V型反弹</h3>
+          <p>F&amp;G 16 (Extreme Fear) · BTC $60,129 (+1.3%) · ETH $1,610 (+2.8%) · Liq $288M (↗ 67.7%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-30/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">29</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>ETF资金外流创纪录 , $4.06B月度流出 · AI/Agent叙事持续走强 , DeFAI赛道+55%</h3>
+          <p>F&amp;G 16 (Extreme Fear) · BTC $59,517 (-0.71%) · ETH $1,571 (-0.07%) · Liq $171M (↗ 31.5%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-29/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">28</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>ETF周流出$17.87亿 , 机构持续撤离</h3>
+          <p>F&amp;G 16 (Extreme Fear) · BTC $59,978 (-0.07%) · ETH $1,572 (-0.27%) · Liq $1.30亿 (↘ 72.77%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-28/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">27</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>SOL领涨6.2%：山寨轮动信号初现，Solana生态流动性聚集 · MiCA大限7月1日：欧盟合规分水岭将至，交易所加速调整</h3>
+          <p>F&amp;G 16 (Extreme Fear) · BTC $60,105 (+0.41%) · ETH $1,579 (+0.60%) · Liq $477.76M (↘ 46.7%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-27/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">26</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>BTC 失守 6 万，ETH 领跌 3.2%，ETF 单周流出 $63.5 亿</h3>
+          <p>F&amp;G 16 (Extreme Fear) · BTC $59,850 (-2.0%) · ETH $1,570 (-3.2%) · Liq $894M (↘ 8.9%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-26/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">25</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>BTC短暂失守$60K + 加密股全线走弱 · AI/半导体强势：Micron超预期 + Broadcom+OpenAI</h3>
+          <p>F&amp;G 18 (Extreme Fear) · BTC $61,086 (-2.73%) · ETH $1,623 (-2.81%) · Liq $9.79亿 (↗ 69.78%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-25/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">24</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>半导体板块雪崩,AI引擎熄火 · 加密内部BlackRock背书vs ETF流出拉锯</h3>
+          <p>F&amp;G 20 (Extreme Fear) · BTC $62,779 (-1.89%) · ETH $1,669 (-3.40%) · Liq $576M (↗ 56%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-24/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">23</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>AI/Agent叙事主导X讨论(17%)，网络安全板块+58%领涨 · ETF累计失血$63.5亿，DXY 5日+1.48%压制风险资产</h3>
+          <p>F&amp;G 21 (Extreme Fear) · BTC $63,992 (+1.0%) · ETH $1,727 (+1.0%) · Liq $3.69亿 (↗ 202%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-23/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">22</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>BTC ETF创纪录$9.73亿月度净流出 · AI芯片超级周期 , JPMorgan极度看多美股</h3>
+          <p>F&amp;G 21 (Extreme Fear) · BTC $63,403 (-1.34%) · ETH $1,710 (-1.61%) · Liq $1.21亿 (↘ -33%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-22/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">21</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>AI/Agent叙事持续+Solana meme活跃+空头挤压反弹 · BTC主导地位上升至56.2% , 极度恐惧中市场未继续下跌</h3>
+          <p>F&amp;G 22 (Extreme Fear) · BTC $64,302 (+1.13%) · ETH $1,741 (+1.70%) · Liq $182M (↗ 13.8%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-21/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">20</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>FOMC魔咒触发BTC跌至$62.3k , ETH破上升通道 · $469M多头爆仓 , OI缩量去杠杆短期动能偏弱</h3>
+          <p>F&amp;G 20 (Extreme Fear) · BTC $62,893 (-2.57%) · ETH $1,710 (-2.44%) · Liq $469M (↗ 6.5%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-20/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">19</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>FOMC &quot;hex&quot; strikes BTC to $62.3k, $469M longs liquidated, F&amp;G stays at Extreme Fear 20, stocks rally divergently</h3>
+          <p>F&amp;G 20 (Extreme Fear) · BTC $62,893 (-2.57%) · ETH $1,710 (-2.44%) · Liq $469M (↗ 6.5%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-19/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">18</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>FOMC hawkish debut triggers crypto sell-off, F&amp;G drops to Extreme Fear 22, DXY surges 0.84%</h3>
+          <p>F&amp;G 22 (Extreme Fear) · BTC $64,577 (-1.75%) · ETH $1,752 (-2.35%) · Liq $4.40亿 (+16.8%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-18/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">17</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>US-Iran deal sends oil -7%, FOMC looms tomorrow, BTC consolidates $65-66k in Extreme Fear 24</h3>
+          <p>F&amp;G 24 (Extreme Fear) · BTC $65,732 (-0.87%) · ETH $1,795 (-0.03%) · Liq $3.77亿 (↘ 19.3%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-17/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">16</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>US-Iran Peace Fuels Risk-On Surge, SPX Record, ETH +10% Intraday, F&amp;G Fear 25</h3>
+          <p>F&amp;G 25 (Fear) · BTC $66,315 (+0.8%) · ETH $1,795 (+4.1%) · Liq $466M (↗ 51%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-16/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">15</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>US-Iran Deal Breakthrough Lifts Risk Assets, Bitcoin Rebounds from $63.6k Lows, F&amp;G Stays Extreme Fear 23</h3>
+          <p>F&amp;G 23 (Extreme Fear) · BTC $65,719 (+2.0%) · ETH $1,727 (+2.8%) · Liq $308M (↗ 137%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-15/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">14</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>BTC bounces on Iran deal hopes, ETF inflows return after 9-day drought, F&amp;G stays at Extreme Fear 20</h3>
+          <p>F&amp;G 20 (Extreme Fear) · BTC $64,414 (+1.3%) · ETH $1,680 (+0.8%) · Liq $130M (↘ 44%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-14/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">13</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>恐惧贪婪指数 16 与价格反弹背离，SOL 资金费率全市场深度负值 · 成交量萎缩 5% 但 OI 上升 3.4%，上涨由合约杠杆而非现货驱动</h3>
+          <p>F&amp;G 16 (Extreme Fear) · BTC $63,600 (+3.2%) · ETH $1,672 (+2.9%) · Liq $272M (↘ 34%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-13/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">12</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>US-Iran peace deal drives risk-on rally, BTC +3.2% ETH +2.9% SOL +5.5%, F&amp;G stays Extreme Fear 16, VIX drops to 19.44</h3>
+          <p>F&amp;G 16 (Extreme Fear) · BTC $63,600 (+3.2%) · ETH $1,672 (+2.9%) · Liq $272M (↘ 34%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-12/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">11</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>F&amp;G 14 Extreme Fear, US-Iran strikes roil macro, gold crashes -4.4%, BTC holds $61k</h3>
+          <p>F&amp;G 14 (Extreme Fear) · BTC $61,628 (-0.2%) · ETH $1,625 (-0.9%) · Liq $415M (↘ 9%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-11/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">10</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>BTC $61.8K in Extreme Fear, US-Iran Escalation + Nasdaq -3.5% Crash, CPI Tomorrow Keeps Market on Edge</h3>
+          <p>F&amp;G 14 (Extreme Fear) · BTC $61,796 (-2.1%) · ETH $1,641 (-2.9%) · Liq $456M (↗ 73%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-10/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">9</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>BTC consolidates at $63K, Extreme Fear persists at 15, liquidations tumble 60%, ETH-SOL IV spread signals alt speculatio</h3>
+          <p>F&amp;G 15 (Extreme Fear) · BTC $63,086 (-0.2%) · ETH $1,690 (+0.2%) · Liq $264M (↘ 60%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-09/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">8</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>BTC RSI触及疫情级超卖(~15.5)，30日跌近30% · 宏观全面逆风: DXY升破100 + US10Y 4.55% + VIX 21.5</h3>
+          <p>F&amp;G 13 (Extreme Fear) · BTC $60,922 (-0.55%) · ETH $1,572 (-1.25%) · Liq $3.96亿 (↘78%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-08/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">7</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>BTC RSI hits pandemic-level oversold, VIX surges to 21.5, HYPE ETF bucks trend with $160M inflow</h3>
+          <p>F&amp;G 13 (Extreme Fear) · BTC $60,922 (-0.55%) · ETH $1,572 (-1.25%) · Liq $3.96亿 (↘78%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-07/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">6</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>BTC flash-crashes below $60K on NFP rate-hike panic, ETH -10%, ZEC collapses -50%, liquidations surge to $1.8B</h3>
+          <p>F&amp;G 16 (Extreme Fear) · BTC $61,245 (-4.0%) · ETH $1,590 (-10.0%) · Liq $1.83B (↗ 26.8%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-06/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">5</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>BTC crash 15% in 3 days, V-bounce above $64k, $1.4B liquidations, F&amp;G at Extreme Fear 20, Iran ceasefire hopes rise</h3>
+          <p>F&amp;G 20 (Extreme Fear) · BTC $63,756 (-0.9%) · ETH $1,767 (-2.8%) · Liq $1.44B (↗ 55%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-05/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">4</span>
+          <span class="report-label">Jun 2026</span>
+        </div>
+        <div>
+          <h3>BTC plunges below $65K on MSTR selloff, Iran tensions, $1.67B ETF outflow — F&amp;G Extreme Fear 23</h3>
+          <p>F&amp;G 23 (Extreme Fear) · BTC $64,297 (-3.59%) · ETH $1,816 (-2.26%) · Liq $926M (-47.5%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-06-04/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">31</span>
+          <span class="report-label">May 2026</span>
+        </div>
+        <div>
+          <h3>HYPE ATH $68+, Grayscale bull thesis, BTC flat above $73K, volume collapses 50%, F&amp;G stays at Fear 31</h3>
+          <p>F&amp;G 31 (Fear) · BTC $73,776 (+0.6%) · ETH $2,020 (+0.4%) · Liq $112M (↘ 60.5%)</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-05-31/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">30</span>
+          <span class="report-label">May 2026</span>
+        </div>
+        <div>
+          <h3>HYPE ATH $67+, sentiment turns positive despite Iran risk</h3>
+          <p>F&G 31 (Fear) · BTC $73,539 (-0.21%) · ETH $2,015 (+0.24%) · Liq $283M (-63%) · HYPE ATH $67+ · ETF outflow streak D10</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-05-30/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">27</span>
+          <span class="report-label">May 2026</span>
+        </div>
+        <div>
+          <h3>BTC dips below $76K, AI sector rallies against tide</h3>
+          <p>BTC tests $75.6K support. Macro divergence: SPX hits ATH while crypto sinks. AI tokens (WLD +14%, FET +10%) lead. $341M liquidations, prediction markets surging +94%.</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-05-27/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">26</span>
+          <span class="report-label">May 2026</span>
+        </div>
+        <div>
+          <h3>Stablecoin ATH meets institutional outflows</h3>
+          <p>BTC consolidates at $76.8K in low-vol chop. Stablecoin market cap hits $322B ATH. ETF flows muted, F&G at 34. HYPE flips DOGE briefly.</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-05-26/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">25</span>
+          <span class="report-label">May 2026</span>
+        </div>
+        <div>
+          <h3>Iran agreement window opens, ETH whale selling</h3>
+          <p>Iran peace deal framework triggers risk-repositioning. ETH whale sells $107M. Derivatives leverage reset across exchanges. Solana and Base DEX activity surges.</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-05-25/">Open →</a>
+      </li>
+<li class="report-item">
+        <div class="report-date">
+          <span class="report-num">24</span>
+          <span class="report-label">May 2026</span>
+        </div>
+        <div>
+          <h3>Saylor buys bonds, CFTC reshuffle signals</h3>
+          <p>First-ever Saylor bond purchase shifts narrative. White House walks back Iran timeline. BTC liquidation maps show leverage flush. Source-tagged macro analysis.</p>
+        </div>
+        <a class="open-link report-cta" href="/news/2026-05-24/">Open →</a>
+      </li>
+<!-- NEW_REPORT_HERE -->
+      </ul>
+
+    <nav class="pagination" id="pagination" aria-label="Report pages"></nav>
+
+  <section class="pipeline" aria-label="Report pipeline">
+      <div>
+        <strong>Input</strong>
+        <p>BlockBeats, CoinGecko, GeckoTerminal, Binance, Dexscreener, Coinglass, Deribit, and Yahoo Finance.</p>
+      </div>
+      <div>
+        <strong>Analysis</strong>
+        <p>Sentiment scoring, narrative grouping, market structure checks, risk observations, and probability-weighted scenarios.</p>
+      </div>
+      <div>
+        <strong>Output</strong>
+        <p>Telegram-readable daily report, public web archive, and future handoff into trading-assistant agents.</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+  (function(){
+    var PER_PAGE = 5;
+    var items = document.querySelectorAll('.report-list .report-item');
+    var total = Math.ceil(items.length / PER_PAGE);
+    if (total <= 1) return;
+
+    var nav = document.getElementById('pagination');
+    var current = parseInt(location.hash.replace('#page=',''),10) || 1;
+    if (current < 1) current = 1;
+    if (current > total) current = total;
+
+    function show(page) {
+      current = page;
+      location.hash = 'page=' + page;
+      var start = (page - 1) * PER_PAGE;
+      items.forEach(function(el,i){
+        el.style.display = (i >= start && i < start + PER_PAGE) ? '' : 'none';
+      });
+      renderNav();
+    }
+
+    function renderNav() {
+      var html = '<button class="page-btn arrow' + (current===1?' disabled':'') + '" onclick="window.__goPage(' + (current-1) + ')">←</button>';
+      for (var i = 1; i <= total; i++) {
+        if (total > 7 && i > 2 && i < current-1) continue;
+        if (total > 7 && i < total-1 && i > current+1) continue;
+        if (i === 2 && current > 4) { html += '<span class="page-btn disabled">…</span>'; continue; }
+        if (i === total-1 && current < total-3) { html += '<span class="page-btn disabled">…</span>'; continue; }
+        html += '<button class="page-btn' + (i===current?' active':'') + '" onclick="window.__goPage(' + i + ')">' + i + '</button>';
+      }
+      html += '<button class="page-btn arrow' + (current===total?' disabled':'') + '" onclick="window.__goPage(' + (current+1) + ')">→</button>';
+      nav.innerHTML = html;
+    }
+
+    window.__goPage = function(p) { show(p); };
+    show(current);
+  })();
+  </script>
+
+  <footer class="site-footer">
+  <div class="site-footer__inner">
+    <div>
+      <p class="site-footer__kicker">06 / Next move</p>
+      <h2>Feel free to<br><span>reach out.</span></h2>
+      <p class="site-footer__lede">Open to conversations about interesting stories and opportunities.</p>
+    </div>
+    <div class="site-footer__links" aria-label="Contact links">
+      <a class="site-footer__link" href="mailto:tinzy0612.working@gmail.com"><small>Email</small><strong>tinzy0612.working@gmail.com</strong></a>
+      <a class="site-footer__link" href="tel:+85256315842"><small>Phone</small><strong>+852 5631 5842</strong></a>
+      <a class="site-footer__link" href="https://wa.me/60146091712" target="_blank" rel="noreferrer"><small>WhatsApp</small><strong>+60 14-609 1712</strong></a>
+      <a class="site-footer__link" href="https://www.linkedin.com/in/tin-zi-yik/" target="_blank" rel="noreferrer"><small>LinkedIn</small><strong>linkedin.com/in/tin-zi-yik</strong></a>
+      <a class="site-footer__link" href="https://github.com/TINZY0612/" target="_blank" rel="noreferrer"><small>GitHub</small><strong>github.com/TINZY0612</strong></a>
+    </div>
+  </div>
+  <div class="site-footer__base"><span>© 2026 ZiYik</span><span>Let's make something different.</span></div>
+</footer>
+</body>
+</html>

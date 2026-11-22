@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "evidence hash stablecoin_registry",
+      "passed": true
+    },
+    {
+      "check": "evidence hash usdc_supply",
+      "passed": true
+    },
+    {
+      "check": "evidence hash stablecoin_total",
+      "passed": true
+    },
+    {
+      "check": "evidence hash cctp_fees",
+      "passed": true
+    },
+    {
+      "check": "evidence hash usyc_fees",
+      "passed": true
+    },
+    {
+      "check": "evidence hash arc_dex",
+      "passed": true
+    },
+    {
+      "check": "evidence hash arc_fees",
+      "passed": true
+    },
+    {
+      "check": "evidence hash usyc_reports",
+      "passed": true
+    },
+    {
+      "check": "evidence hash coinmetrics_usdc_catalog",
+      "passed": true
+    },
+    {
+      "check": "evidence hash coinmetrics_usdc_daily",
+      "passed": true
+    },
+    {
+      "check": "evidence hash cctp_adapter",
+      "passed": true
+    },
+    {
+      "check": "evidence hash dune_public_result_without_key",
+      "passed": true
+    },
+    {
+      "check": "evidence hash eurc_supply_50",
+      "passed": true
+    },
+    {
+      "check": "Q1 missing fees are null, not zero",
+      "passed": true
+    },
+    {
+      "check": "Q2 2025 gap retained",
+      "passed": true
+    },
+    {
+      "check": "seven-quarter coverage ledger",
+      "passed": true
+    },
+    {
+      "check": "Dune unauthorized retained, no execution claimed",
+      "passed": true
+    },
+    {
+      "check": "69 unique catalogue IDs",
+      "passed": true
+    },
+    {
+      "check": "local links Onchain_Data_Checklist.md",
+      "passed": true
+    },
+    {
+      "check": "local links Website_Dashboard_Plan.md",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,4797 @@
+{
+  "as_of_date": "2026-11-21",
+  "display_financial_unit": "USD million",
+  "supply_materiality_threshold": 0.001,
+  "quarters": [
+    {
+      "period": "2025Q1",
+      "start": "2025-01-01",
+      "end": "2025-03-31",
+      "days": 90,
+      "metrics": {
+        "reserve_income": {
+          "value": 557.911,
+          "basis": "reported",
+          "input_ids": [
+            "O013"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-06-05"
+        },
+        "other_revenue": {
+          "value": 20.662,
+          "basis": "reported",
+          "input_ids": [
+            "O014"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-06-05"
+        },
+        "total_revenue": {
+          "value": 578.573,
+          "basis": "reported",
+          "input_ids": [
+            "O015"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-06-05"
+        },
+        "distribution_transaction_costs": {
+          "value": 347.312,
+          "basis": "reported",
+          "input_ids": [
+            "O016"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-06-05"
+        },
+        "other_costs": {
+          "value": 0.335,
+          "basis": "reported",
+          "input_ids": [
+            "O017"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-06-05"
+        },
+        "total_costs": {
+          "value": 347.647,
+          "basis": "reported",
+          "input_ids": [
+            "O018"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-06-05"
+        },
+        "usdc_end": {
+          "value": 59976.0,
+          "basis": "reported",
+          "input_ids": [
+            "O019"
+          ],
+          "unit": "USDC million",
+          "published_by": "2025-06-05",
+          "precision": 1,
+          "note": ""
+        },
+        "usdc_average": {
+          "value": 54136.0,
+          "basis": "reported",
+          "input_ids": [
+            "O020"
+          ],
+          "unit": "USDC million",
+          "published_by": "2025-06-05",
+          "precision": 1,
+          "note": ""
+        },
+        "reserve_return": {
+          "value": 0.042,
+          "basis": "reported; later comparative",
+          "input_ids": [
+            "O021"
+          ],
+          "unit": "decimal",
+          "published_by": "2026-05-11",
+          "precision": 0.001,
+          "note": "Later comparative. Earlier original publication of this KPI has not been established; do not use as a Q2 2025 forecast input."
+        },
+        "platform_weight": {
+          "value": 0.057,
+          "basis": "reported; later comparative",
+          "input_ids": [
+            "O022"
+          ],
+          "unit": "decimal",
+          "published_by": "2026-05-11",
+          "precision": 0.001,
+          "note": "Later comparative. Earlier original publication of this KPI has not been established; do not use as a Q2 2025 forecast input."
+        },
+        "rldc": {
+          "value": 230.926,
+          "basis": "calculated revenue less total costs",
+          "unit": "USD million"
+        },
+        "rldc_margin": {
+          "value": 0.3991302739671571,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "reserve_income_share": {
+          "value": 0.9642879982301282,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "cost_ratio_to_reserve_income": {
+          "value": 0.6231226844425007,
+          "basis": "calculated",
+          "unit": "decimal"
+        }
+      }
+    },
+    {
+      "period": "2025Q2",
+      "start": "2025-04-01",
+      "end": "2025-06-30",
+      "days": 91,
+      "metrics": {
+        "reserve_income": {
+          "value": 634.274,
+          "basis": "reported",
+          "input_ids": [
+            "O023"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-08-12"
+        },
+        "other_revenue": {
+          "value": 23.804,
+          "basis": "reported",
+          "input_ids": [
+            "O024"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-08-12"
+        },
+        "total_revenue": {
+          "value": 658.078,
+          "basis": "reported",
+          "input_ids": [
+            "O025"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-08-12"
+        },
+        "distribution_transaction_costs": {
+          "value": 406.472,
+          "basis": "reported",
+          "input_ids": [
+            "O026"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-08-12"
+        },
+        "other_costs": {
+          "value": 0.47,
+          "basis": "reported",
+          "input_ids": [
+            "O027"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-08-12"
+        },
+        "total_costs": {
+          "value": 406.942,
+          "basis": "reported",
+          "input_ids": [
+            "O028"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-08-12"
+        },
+        "usdc_end": {
+          "value": 61333.0,
+          "basis": "reported",
+          "input_ids": [
+            "O029"
+          ],
+          "unit": "USDC million",
+          "published_by": "2025-08-12",
+          "precision": 1,
+          "note": ""
+        },
+        "usdc_average": {
+          "value": 61039.0,
+          "basis": "reported",
+          "input_ids": [
+            "O030"
+          ],
+          "unit": "USDC million",
+          "published_by": "2025-08-12",
+          "precision": 1,
+          "note": ""
+        },
+        "reserve_return": {
+          "value": 0.040999999999999995,
+          "basis": "reported",
+          "input_ids": [
+            "O031"
+          ],
+          "unit": "decimal",
+          "published_by": "2025-08-12",
+          "precision": 0.001,
+          "note": ""
+        },
+        "platform_weight": {
+          "value": 0.07400000000000001,
+          "basis": "reported",
+          "input_ids": [
+            "O032"
+          ],
+          "unit": "decimal",
+          "published_by": "2025-08-12",
+          "precision": 0.001,
+          "note": ""
+        },
+        "rldc": {
+          "value": 251.13599999999997,
+          "basis": "calculated revenue less total costs",
+          "unit": "USD million"
+        },
+        "rldc_margin": {
+          "value": 0.38162041581697,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "reserve_income_share": {
+          "value": 0.9638279960734139,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "cost_ratio_to_reserve_income": {
+          "value": 0.6415870743558778,
+          "basis": "calculated",
+          "unit": "decimal"
+        }
+      },
+      "earnings_release_date": "2025-08-12",
+      "earnings_release_input_id": "O077"
+    },
+    {
+      "period": "2025Q3",
+      "start": "2025-07-01",
+      "end": "2025-09-30",
+      "days": 92,
+      "metrics": {
+        "reserve_income": {
+          "value": 711.241,
+          "basis": "reported",
+          "input_ids": [
+            "O033"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-11-12"
+        },
+        "other_revenue": {
+          "value": 28.518,
+          "basis": "reported",
+          "input_ids": [
+            "O034"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-11-12"
+        },
+        "total_revenue": {
+          "value": 739.759,
+          "basis": "reported",
+          "input_ids": [
+            "O035"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-11-12"
+        },
+        "distribution_transaction_costs": {
+          "value": 447.199,
+          "basis": "reported",
+          "input_ids": [
+            "O036"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-11-12"
+        },
+        "other_costs": {
+          "value": 0.413,
+          "basis": "reported",
+          "input_ids": [
+            "O037"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-11-12"
+        },
+        "total_costs": {
+          "value": 447.612,
+          "basis": "reported",
+          "input_ids": [
+            "O038"
+          ],
+          "unit": "USD million",
+          "published_by": "2025-11-12"
+        },
+        "usdc_end": {
+          "value": 73749.0,
+          "basis": "reported",
+          "input_ids": [
+            "O039"
+          ],
+          "unit": "USDC million",
+          "published_by": "2025-11-12",
+          "precision": 1,
+          "note": ""
+        },
+        "usdc_average": {
+          "value": 67842.0,
+          "basis": "reported",
+          "input_ids": [
+            "O040"
+          ],
+          "unit": "USDC million",
+          "published_by": "2025-11-12",
+          "precision": 1,
+          "note": ""
+        },
+        "reserve_return": {
+          "value": 0.042,
+          "basis": "reported",
+          "input_ids": [
+            "O041"
+          ],
+          "unit": "decimal",
+          "published_by": "2025-11-12",
+          "precision": 0.001,
+          "note": ""
+        },
+        "platform_weight": {
+          "value": 0.135,
+          "basis": "reported",
+          "input_ids": [
+            "O042"
+          ],
+          "unit": "decimal",
+          "published_by": "2025-11-12",
+          "precision": 0.001,
+          "note": ""
+        },
+        "rldc": {
+          "value": 292.147,
+          "basis": "calculated revenue less total costs",
+          "unit": "USD million"
+        },
+        "rldc_margin": {
+          "value": 0.3949218596867358,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "reserve_income_share": {
+          "value": 0.9614496072369515,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "cost_ratio_to_reserve_income": {
+          "value": 0.62933942222116,
+          "basis": "calculated",
+          "unit": "decimal"
+        }
+      },
+      "earnings_release_date": "2025-11-12",
+      "earnings_release_input_id": "O078"
+    },
+    {
+      "period": "2025Q4",
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "days": 92,
+      "metrics": {
+        "reserve_income": {
+          "value": 733.3960000000002,
+          "basis": "derived FY minus 9M",
+          "operation": "subtract",
+          "input_ids": [
+            "O001",
+            "O007"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-03-09"
+        },
+        "other_revenue": {
+          "value": 36.836,
+          "basis": "derived FY minus 9M",
+          "operation": "subtract",
+          "input_ids": [
+            "O002",
+            "O008"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-03-09"
+        },
+        "total_revenue": {
+          "value": 770.2319999999997,
+          "basis": "derived FY minus 9M",
+          "operation": "subtract",
+          "input_ids": [
+            "O003",
+            "O009"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-03-09"
+        },
+        "distribution_transaction_costs": {
+          "value": 460.56600000000003,
+          "basis": "derived FY minus 9M",
+          "operation": "subtract",
+          "input_ids": [
+            "O004",
+            "O010"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-03-09"
+        },
+        "other_costs": {
+          "value": 0.8839999999999999,
+          "basis": "derived FY minus 9M",
+          "operation": "subtract",
+          "input_ids": [
+            "O005",
+            "O011"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-03-09"
+        },
+        "total_costs": {
+          "value": 461.45000000000005,
+          "basis": "derived FY minus 9M",
+          "operation": "subtract",
+          "input_ids": [
+            "O006",
+            "O012"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-03-09"
+        },
+        "usdc_end": {
+          "value": 75266.0,
+          "basis": "reported",
+          "input_ids": [
+            "O043"
+          ],
+          "unit": "USDC million",
+          "published_by": "2026-03-09",
+          "precision": 1,
+          "note": ""
+        },
+        "usdc_average": {
+          "value": 76200,
+          "basis": "reported",
+          "input_ids": [
+            "O044"
+          ],
+          "unit": "USDC million",
+          "published_by": "2026-02-25",
+          "precision": 100,
+          "note": "Average circulation is reported to USD 0.1 billion; do not imply million-level precision."
+        },
+        "reserve_return": {
+          "value": 0.038,
+          "basis": "reported",
+          "input_ids": [
+            "O045"
+          ],
+          "unit": "decimal",
+          "published_by": "2026-02-25",
+          "precision": 0.001,
+          "note": ""
+        },
+        "platform_weight": {
+          "value": 0.178,
+          "basis": "reported",
+          "input_ids": [
+            "O046"
+          ],
+          "unit": "decimal",
+          "published_by": "2026-02-25",
+          "precision": 0.001,
+          "note": ""
+        },
+        "rldc": {
+          "value": 308.7819999999997,
+          "basis": "calculated revenue less total costs",
+          "unit": "USD million"
+        },
+        "rldc_margin": {
+          "value": 0.4008947953343925,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "reserve_income_share": {
+          "value": 0.9521754484363159,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "cost_ratio_to_reserve_income": {
+          "value": 0.6291962323219651,
+          "basis": "calculated",
+          "unit": "decimal"
+        }
+      },
+      "earnings_release_date": "2026-02-25",
+      "earnings_release_input_id": "O079"
+    },
+    {
+      "period": "2026Q1",
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "days": 90,
+      "metrics": {
+        "reserve_income": {
+          "value": 652.508,
+          "basis": "reported",
+          "input_ids": [
+            "O047"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-05-11"
+        },
+        "other_revenue": {
+          "value": 41.625,
+          "basis": "reported",
+          "input_ids": [
+            "O048"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-05-11"
+        },
+        "total_revenue": {
+          "value": 694.133,
+          "basis": "reported",
+          "input_ids": [
+            "O049"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-05-11"
+        },
+        "distribution_transaction_costs": {
+          "value": 405.402,
+          "basis": "reported",
+          "input_ids": [
+            "O050"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-05-11"
+        },
+        "other_costs": {
+          "value": 1.379,
+          "basis": "reported",
+          "input_ids": [
+            "O051"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-05-11"
+        },
+        "total_costs": {
+          "value": 406.781,
+          "basis": "reported",
+          "input_ids": [
+            "O052"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-05-11"
+        },
+        "usdc_end": {
+          "value": 77049.0,
+          "basis": "reported",
+          "input_ids": [
+            "O053"
+          ],
+          "unit": "USDC million",
+          "published_by": "2026-05-11",
+          "precision": 1,
+          "note": ""
+        },
+        "usdc_average": {
+          "value": 75200.0,
+          "basis": "reported",
+          "input_ids": [
+            "O054"
+          ],
+          "unit": "USDC million",
+          "published_by": "2026-05-11",
+          "precision": 1,
+          "note": ""
+        },
+        "reserve_return": {
+          "value": 0.035,
+          "basis": "reported",
+          "input_ids": [
+            "O055"
+          ],
+          "unit": "decimal",
+          "published_by": "2026-05-11",
+          "precision": 0.001,
+          "note": ""
+        },
+        "platform_weight": {
+          "value": 0.172,
+          "basis": "reported",
+          "input_ids": [
+            "O056"
+          ],
+          "unit": "decimal",
+          "published_by": "2026-05-11",
+          "precision": 0.001,
+          "note": ""
+        },
+        "rldc": {
+          "value": 287.35200000000003,
+          "basis": "calculated revenue less total costs",
+          "unit": "USD million"
+        },
+        "rldc_margin": {
+          "value": 0.4139725384040235,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "reserve_income_share": {
+          "value": 0.9400331060474001,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "cost_ratio_to_reserve_income": {
+          "value": 0.6234115137285673,
+          "basis": "calculated",
+          "unit": "decimal"
+        }
+      },
+      "earnings_release_date": "2026-05-11",
+      "earnings_release_input_id": "O080"
+    },
+    {
+      "period": "2026Q2",
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "days": 91,
+      "metrics": {
+        "reserve_income": {
+          "value": 667.733,
+          "basis": "reported",
+          "input_ids": [
+            "O057"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-08-05"
+        },
+        "other_revenue": {
+          "value": 33.582,
+          "basis": "reported",
+          "input_ids": [
+            "O058"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-08-05"
+        },
+        "total_revenue": {
+          "value": 701.315,
+          "basis": "reported",
+          "input_ids": [
+            "O059"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-08-05"
+        },
+        "distribution_transaction_costs": {
+          "value": 410.414,
+          "basis": "reported",
+          "input_ids": [
+            "O060"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-08-05"
+        },
+        "other_costs": {
+          "value": 2.056,
+          "basis": "reported",
+          "input_ids": [
+            "O061"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-08-05"
+        },
+        "total_costs": {
+          "value": 412.47,
+          "basis": "reported",
+          "input_ids": [
+            "O062"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-08-05"
+        },
+        "usdc_end": {
+          "value": 73269.0,
+          "basis": "reported",
+          "input_ids": [
+            "O063"
+          ],
+          "unit": "USDC million",
+          "published_by": "2026-08-05",
+          "precision": 1,
+          "note": ""
+        },
+        "usdc_average": {
+          "value": 76524.0,
+          "basis": "reported",
+          "input_ids": [
+            "O064"
+          ],
+          "unit": "USDC million",
+          "published_by": "2026-08-05",
+          "precision": 1,
+          "note": ""
+        },
+        "reserve_return": {
+          "value": 0.035,
+          "basis": "reported",
+          "input_ids": [
+            "O065"
+          ],
+          "unit": "decimal",
+          "published_by": "2026-08-05",
+          "precision": 0.001,
+          "note": ""
+        },
+        "platform_weight": {
+          "value": 0.195,
+          "basis": "reported",
+          "input_ids": [
+            "O066"
+          ],
+          "unit": "decimal",
+          "published_by": "2026-08-05",
+          "precision": 0.001,
+          "note": ""
+        },
+        "rldc": {
+          "value": 288.845,
+          "basis": "calculated revenue less total costs",
+          "unit": "USD million"
+        },
+        "rldc_margin": {
+          "value": 0.4118620020960624,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "reserve_income_share": {
+          "value": 0.9521156684228911,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "cost_ratio_to_reserve_income": {
+          "value": 0.6177169617197293,
+          "basis": "calculated",
+          "unit": "decimal"
+        }
+      },
+      "earnings_release_date": "2026-08-05",
+      "earnings_release_input_id": "O081"
+    },
+    {
+      "period": "2026Q3",
+      "start": "2026-07-01",
+      "end": "2026-09-30",
+      "days": 92,
+      "metrics": {
+        "reserve_income": {
+          "value": 657.624,
+          "basis": "reported",
+          "input_ids": [
+            "O067"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-11-04"
+        },
+        "other_revenue": {
+          "value": 207.264,
+          "basis": "reported",
+          "input_ids": [
+            "O068"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-11-04"
+        },
+        "total_revenue": {
+          "value": 864.888,
+          "basis": "reported",
+          "input_ids": [
+            "O069"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-11-04"
+        },
+        "distribution_transaction_costs": {
+          "value": 409.169,
+          "basis": "reported",
+          "input_ids": [
+            "O070"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-11-04"
+        },
+        "other_costs": {
+          "value": 2.465,
+          "basis": "reported",
+          "input_ids": [
+            "O071"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-11-04"
+        },
+        "total_costs": {
+          "value": 411.634,
+          "basis": "reported",
+          "input_ids": [
+            "O072"
+          ],
+          "unit": "USD million",
+          "published_by": "2026-11-04"
+        },
+        "usdc_end": {
+          "value": 73879.0,
+          "basis": "reported",
+          "input_ids": [
+            "O073"
+          ],
+          "unit": "USDC million",
+          "published_by": "2026-11-04",
+          "precision": 1,
+          "note": ""
+        },
+        "usdc_average": {
+          "value": 73264.0,
+          "basis": "reported",
+          "input_ids": [
+            "O074"
+          ],
+          "unit": "USDC million",
+          "published_by": "2026-11-04",
+          "precision": 1,
+          "note": ""
+        },
+        "reserve_return": {
+          "value": 0.035,
+          "basis": "reported",
+          "input_ids": [
+            "O075"
+          ],
+          "unit": "decimal",
+          "published_by": "2026-11-04",
+          "precision": 0.001,
+          "note": ""
+        },
+        "platform_weight": {
+          "value": 0.18100000000000002,
+          "basis": "reported",
+          "input_ids": [
+            "O076"
+          ],
+          "unit": "decimal",
+          "published_by": "2026-11-04",
+          "precision": 0.001,
+          "note": ""
+        },
+        "rldc": {
+          "value": 453.254,
+          "basis": "calculated revenue less total costs",
+          "unit": "USD million"
+        },
+        "rldc_margin": {
+          "value": 0.5240609188704202,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "reserve_income_share": {
+          "value": 0.7603574104392707,
+          "basis": "calculated",
+          "unit": "decimal"
+        },
+        "cost_ratio_to_reserve_income": {
+          "value": 0.6259412673503401,
+          "basis": "calculated",
+          "unit": "decimal"
+        }
+      },
+      "earnings_release_date": "2026-11-04",
+      "earnings_release_input_id": "O082"
+    }
+  ],
+  "source_observations": [
+    {
+      "id": "O001",
+      "metric": "reserve_income",
+      "period": "2025FY",
+      "value": 2636.822,
+      "unit": "USD million",
+      "source_name": "fy2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+      "source_file": "raw\\fy2025_html.html",
+      "published_by": "2026-03-09",
+      "locator": "HTML table row 96: Reserve income; numeric column 1",
+      "source_value": 2636822.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O002",
+      "metric": "other_revenue",
+      "period": "2025FY",
+      "value": 109.82,
+      "unit": "USD million",
+      "source_name": "fy2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+      "source_file": "raw\\fy2025_html.html",
+      "published_by": "2026-03-09",
+      "locator": "HTML table row 97: Other revenue; numeric column 1",
+      "source_value": 109820.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O003",
+      "metric": "total_revenue",
+      "period": "2025FY",
+      "value": 2746.642,
+      "unit": "USD million",
+      "source_name": "fy2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+      "source_file": "raw\\fy2025_html.html",
+      "published_by": "2026-03-09",
+      "locator": "HTML table row 98: Total revenue and reserve income; numeric column 1",
+      "source_value": 2746642.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O004",
+      "metric": "distribution_transaction_costs",
+      "period": "2025FY",
+      "value": 1661.549,
+      "unit": "USD million",
+      "source_name": "fy2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+      "source_file": "raw\\fy2025_html.html",
+      "published_by": "2026-03-09",
+      "locator": "HTML table row 100: Distribution and transaction costs; numeric column 1",
+      "source_value": 1661549.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O005",
+      "metric": "other_costs",
+      "period": "2025FY",
+      "value": 2.102,
+      "unit": "USD million",
+      "source_name": "fy2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+      "source_file": "raw\\fy2025_html.html",
+      "published_by": "2026-03-09",
+      "locator": "HTML table row 101: Other costs; numeric column 1",
+      "source_value": 2102.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O006",
+      "metric": "total_costs",
+      "period": "2025FY",
+      "value": 1663.651,
+      "unit": "USD million",
+      "source_name": "fy2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+      "source_file": "raw\\fy2025_html.html",
+      "published_by": "2026-03-09",
+      "locator": "HTML table row 102: Total distribution, transaction and other costs; numeric column 1",
+      "source_value": 1663651.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O007",
+      "metric": "reserve_income",
+      "period": "2025YTD9",
+      "value": 1903.426,
+      "unit": "USD million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 120: Reserve income; numeric column 3",
+      "source_value": 1903426.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O008",
+      "metric": "other_revenue",
+      "period": "2025YTD9",
+      "value": 72.984,
+      "unit": "USD million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 121: Other revenue; numeric column 3",
+      "source_value": 72984.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O009",
+      "metric": "total_revenue",
+      "period": "2025YTD9",
+      "value": 1976.41,
+      "unit": "USD million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 122: Total revenue and reserve income; numeric column 3",
+      "source_value": 1976410.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O010",
+      "metric": "distribution_transaction_costs",
+      "period": "2025YTD9",
+      "value": 1200.983,
+      "unit": "USD million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 124: Distribution and transaction costs; numeric column 3",
+      "source_value": 1200983.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O011",
+      "metric": "other_costs",
+      "period": "2025YTD9",
+      "value": 1.218,
+      "unit": "USD million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 125: Other costs; numeric column 3",
+      "source_value": 1218.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O012",
+      "metric": "total_costs",
+      "period": "2025YTD9",
+      "value": 1202.201,
+      "unit": "USD million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 126: Total distribution, transaction and other costs; numeric column 3",
+      "source_value": 1202201.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O013",
+      "metric": "reserve_income",
+      "period": "2025Q1",
+      "value": 557.911,
+      "unit": "USD million",
+      "source_name": "ipo_prospectus",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm",
+      "source_file": "raw\\ipo_prospectus.html",
+      "published_by": "2025-06-05",
+      "locator": "HTML table row 186: Reserve income; numeric column 1",
+      "source_value": 557911.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O014",
+      "metric": "other_revenue",
+      "period": "2025Q1",
+      "value": 20.662,
+      "unit": "USD million",
+      "source_name": "ipo_prospectus",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm",
+      "source_file": "raw\\ipo_prospectus.html",
+      "published_by": "2025-06-05",
+      "locator": "HTML table row 187: Other revenue; numeric column 1",
+      "source_value": 20662.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O015",
+      "metric": "total_revenue",
+      "period": "2025Q1",
+      "value": 578.573,
+      "unit": "USD million",
+      "source_name": "ipo_prospectus",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm",
+      "source_file": "raw\\ipo_prospectus.html",
+      "published_by": "2025-06-05",
+      "locator": "HTML table row 189: Total revenue and reserve income from continuing operations; numeric column 1",
+      "source_value": 578573.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O016",
+      "metric": "distribution_transaction_costs",
+      "period": "2025Q1",
+      "value": 347.312,
+      "unit": "USD million",
+      "source_name": "ipo_prospectus",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm",
+      "source_file": "raw\\ipo_prospectus.html",
+      "published_by": "2025-06-05",
+      "locator": "HTML table row 192: Distribution and transaction costs; numeric column 1",
+      "source_value": 347312.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O017",
+      "metric": "other_costs",
+      "period": "2025Q1",
+      "value": 0.335,
+      "unit": "USD million",
+      "source_name": "ipo_prospectus",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm",
+      "source_file": "raw\\ipo_prospectus.html",
+      "published_by": "2025-06-05",
+      "locator": "HTML table row 193: Other costs; numeric column 1",
+      "source_value": 335.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O018",
+      "metric": "total_costs",
+      "period": "2025Q1",
+      "value": 347.647,
+      "unit": "USD million",
+      "source_name": "ipo_prospectus",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm",
+      "source_file": "raw\\ipo_prospectus.html",
+      "published_by": "2025-06-05",
+      "locator": "HTML table row 195: Total distribution, transaction, and other costs; numeric column 1",
+      "source_value": 347647.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O019",
+      "metric": "usdc_end",
+      "period": "2025Q1",
+      "value": 59976.0,
+      "unit": "USDC million",
+      "source_name": "ipo_prospectus",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm",
+      "source_file": "raw\\ipo_prospectus.html",
+      "published_by": "2025-06-05",
+      "locator": "HTML table row 430: USDC in circulation, end of period; numeric column 1",
+      "source_value": 59976.0,
+      "source_unit": "USD million",
+      "source_precision": 1,
+      "note": ""
+    },
+    {
+      "id": "O020",
+      "metric": "usdc_average",
+      "period": "2025Q1",
+      "value": 54136.0,
+      "unit": "USDC million",
+      "source_name": "ipo_prospectus",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm",
+      "source_file": "raw\\ipo_prospectus.html",
+      "published_by": "2025-06-05",
+      "locator": "HTML table row 471: Average USDC in circulation; numeric column 1",
+      "source_value": 54136.0,
+      "source_unit": "USD million",
+      "source_precision": 1,
+      "note": ""
+    },
+    {
+      "id": "O021",
+      "metric": "reserve_return",
+      "period": "2025Q1",
+      "value": 0.042,
+      "unit": "decimal",
+      "source_name": "q1_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+      "source_file": "raw\\q1_2026_html.html",
+      "published_by": "2026-05-11",
+      "locator": "HTML table row 664: Reserve return rate; numeric column 2",
+      "source_value": 4.2,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": "Later comparative. Earlier original publication of this KPI has not been established; do not use as a Q2 2025 forecast input."
+    },
+    {
+      "id": "O022",
+      "metric": "platform_weight",
+      "period": "2025Q1",
+      "value": 0.057,
+      "unit": "decimal",
+      "source_name": "q1_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+      "source_file": "raw\\q1_2026_html.html",
+      "published_by": "2026-05-11",
+      "locator": "HTML table row 666: USDC on platform, daily weighted-average percentage; numeric column 2",
+      "source_value": 5.7,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": "Later comparative. Earlier original publication of this KPI has not been established; do not use as a Q2 2025 forecast input."
+    },
+    {
+      "id": "O023",
+      "metric": "reserve_income",
+      "period": "2025Q2",
+      "value": 634.274,
+      "unit": "USD million",
+      "source_name": "q2_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+      "source_file": "raw\\q2_2025_html.html",
+      "published_by": "2025-08-12",
+      "locator": "HTML table row 120: Reserve income; numeric column 1",
+      "source_value": 634274.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O024",
+      "metric": "other_revenue",
+      "period": "2025Q2",
+      "value": 23.804,
+      "unit": "USD million",
+      "source_name": "q2_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+      "source_file": "raw\\q2_2025_html.html",
+      "published_by": "2025-08-12",
+      "locator": "HTML table row 121: Other revenue; numeric column 1",
+      "source_value": 23804.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O025",
+      "metric": "total_revenue",
+      "period": "2025Q2",
+      "value": 658.078,
+      "unit": "USD million",
+      "source_name": "q2_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+      "source_file": "raw\\q2_2025_html.html",
+      "published_by": "2025-08-12",
+      "locator": "HTML table row 122: Total revenue and reserve income; numeric column 1",
+      "source_value": 658078.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O026",
+      "metric": "distribution_transaction_costs",
+      "period": "2025Q2",
+      "value": 406.472,
+      "unit": "USD million",
+      "source_name": "q2_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+      "source_file": "raw\\q2_2025_html.html",
+      "published_by": "2025-08-12",
+      "locator": "HTML table row 124: Distribution and transaction costs; numeric column 1",
+      "source_value": 406472.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O027",
+      "metric": "other_costs",
+      "period": "2025Q2",
+      "value": 0.47,
+      "unit": "USD million",
+      "source_name": "q2_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+      "source_file": "raw\\q2_2025_html.html",
+      "published_by": "2025-08-12",
+      "locator": "HTML table row 125: Other costs; numeric column 1",
+      "source_value": 470.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O028",
+      "metric": "total_costs",
+      "period": "2025Q2",
+      "value": 406.942,
+      "unit": "USD million",
+      "source_name": "q2_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+      "source_file": "raw\\q2_2025_html.html",
+      "published_by": "2025-08-12",
+      "locator": "HTML table row 126: Total distribution, transaction and other costs; numeric column 1",
+      "source_value": 406942.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O029",
+      "metric": "usdc_end",
+      "period": "2025Q2",
+      "value": 61333.0,
+      "unit": "USDC million",
+      "source_name": "q2_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+      "source_file": "raw\\q2_2025_html.html",
+      "published_by": "2025-08-12",
+      "locator": "HTML table row 674: USDC in circulation, end of period; numeric column 1",
+      "source_value": 61333.0,
+      "source_unit": "USD million",
+      "source_precision": 1,
+      "note": ""
+    },
+    {
+      "id": "O030",
+      "metric": "usdc_average",
+      "period": "2025Q2",
+      "value": 61039.0,
+      "unit": "USDC million",
+      "source_name": "q2_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+      "source_file": "raw\\q2_2025_html.html",
+      "published_by": "2025-08-12",
+      "locator": "HTML table row 697: Average USDC in circulation; numeric column 1",
+      "source_value": 61039.0,
+      "source_unit": "USD million",
+      "source_precision": 1,
+      "note": ""
+    },
+    {
+      "id": "O031",
+      "metric": "reserve_return",
+      "period": "2025Q2",
+      "value": 0.040999999999999995,
+      "unit": "decimal",
+      "source_name": "q2_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+      "source_file": "raw\\q2_2025_html.html",
+      "published_by": "2025-08-12",
+      "locator": "HTML table row 698: Reserve return rate; numeric column 1",
+      "source_value": 4.1,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O032",
+      "metric": "platform_weight",
+      "period": "2025Q2",
+      "value": 0.07400000000000001,
+      "unit": "decimal",
+      "source_name": "q2_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+      "source_file": "raw\\q2_2025_html.html",
+      "published_by": "2025-08-12",
+      "locator": "HTML table row 700: Daily weighted-average percentage of USDC on platform; numeric column 1",
+      "source_value": 7.4,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O033",
+      "metric": "reserve_income",
+      "period": "2025Q3",
+      "value": 711.241,
+      "unit": "USD million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 120: Reserve income; numeric column 1",
+      "source_value": 711241.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O034",
+      "metric": "other_revenue",
+      "period": "2025Q3",
+      "value": 28.518,
+      "unit": "USD million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 121: Other revenue; numeric column 1",
+      "source_value": 28518.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O035",
+      "metric": "total_revenue",
+      "period": "2025Q3",
+      "value": 739.759,
+      "unit": "USD million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 122: Total revenue and reserve income; numeric column 1",
+      "source_value": 739759.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O036",
+      "metric": "distribution_transaction_costs",
+      "period": "2025Q3",
+      "value": 447.199,
+      "unit": "USD million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 124: Distribution and transaction costs; numeric column 1",
+      "source_value": 447199.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O037",
+      "metric": "other_costs",
+      "period": "2025Q3",
+      "value": 0.413,
+      "unit": "USD million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 125: Other costs; numeric column 1",
+      "source_value": 413.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O038",
+      "metric": "total_costs",
+      "period": "2025Q3",
+      "value": 447.612,
+      "unit": "USD million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 126: Total distribution, transaction and other costs; numeric column 1",
+      "source_value": 447612.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O039",
+      "metric": "usdc_end",
+      "period": "2025Q3",
+      "value": 73749.0,
+      "unit": "USDC million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 692: USDC in circulation, end of period; numeric column 1",
+      "source_value": 73749.0,
+      "source_unit": "USD million",
+      "source_precision": 1,
+      "note": ""
+    },
+    {
+      "id": "O040",
+      "metric": "usdc_average",
+      "period": "2025Q3",
+      "value": 67842.0,
+      "unit": "USDC million",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 716: Average USDC in circulation; numeric column 1",
+      "source_value": 67842.0,
+      "source_unit": "USD million",
+      "source_precision": 1,
+      "note": ""
+    },
+    {
+      "id": "O041",
+      "metric": "reserve_return",
+      "period": "2025Q3",
+      "value": 0.042,
+      "unit": "decimal",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 717: Reserve return rate; numeric column 1",
+      "source_value": 4.2,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O042",
+      "metric": "platform_weight",
+      "period": "2025Q3",
+      "value": 0.135,
+      "unit": "decimal",
+      "source_name": "q3_2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+      "source_file": "raw\\q3_2025_html.html",
+      "published_by": "2025-11-12",
+      "locator": "HTML table row 719: Daily weighted-average percentage of USDC on platform; numeric column 1",
+      "source_value": 13.5,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O043",
+      "metric": "usdc_end",
+      "period": "2025Q4",
+      "value": 75266.0,
+      "unit": "USDC million",
+      "source_name": "fy2025_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+      "source_file": "raw\\fy2025_html.html",
+      "published_by": "2026-03-09",
+      "locator": "HTML table row 71: USDC in circulation, end of period; numeric column 1",
+      "source_value": 75266.0,
+      "source_unit": "USD million",
+      "source_precision": 1,
+      "note": ""
+    },
+    {
+      "id": "O044",
+      "metric": "usdc_average",
+      "period": "2025Q4",
+      "value": 76200,
+      "unit": "USDC million",
+      "source_name": "q4_kpi_image2",
+      "source_url": "https://cdn.prod.website-files.com/67116d0daddc92483c812ead/699e89e6d948db527ee4ac43_Image2.png",
+      "source_file": "raw\\q4_kpi_image2.png",
+      "published_by": "2026-02-25",
+      "locator": "Operating indicators image, Q4 2025 column; visually verified",
+      "source_value": 76.2,
+      "source_unit": "USD billion",
+      "source_precision": 100,
+      "note": "Average circulation is reported to USD 0.1 billion; do not imply million-level precision."
+    },
+    {
+      "id": "O045",
+      "metric": "reserve_return",
+      "period": "2025Q4",
+      "value": 0.038,
+      "unit": "decimal",
+      "source_name": "q4_kpi_image2",
+      "source_url": "https://cdn.prod.website-files.com/67116d0daddc92483c812ead/699e89e6d948db527ee4ac43_Image2.png",
+      "source_file": "raw\\q4_kpi_image2.png",
+      "published_by": "2026-02-25",
+      "locator": "Operating indicators image, Q4 2025 column; visually verified",
+      "source_value": 3.8,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O046",
+      "metric": "platform_weight",
+      "period": "2025Q4",
+      "value": 0.178,
+      "unit": "decimal",
+      "source_name": "q4_kpi_image2",
+      "source_url": "https://cdn.prod.website-files.com/67116d0daddc92483c812ead/699e89e6d948db527ee4ac43_Image2.png",
+      "source_file": "raw\\q4_kpi_image2.png",
+      "published_by": "2026-02-25",
+      "locator": "Operating indicators image, Q4 2025 column; visually verified",
+      "source_value": 17.8,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O047",
+      "metric": "reserve_income",
+      "period": "2026Q1",
+      "value": 652.508,
+      "unit": "USD million",
+      "source_name": "q1_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+      "source_file": "raw\\q1_2026_html.html",
+      "published_by": "2026-05-11",
+      "locator": "HTML table row 127: Reserve income; numeric column 1",
+      "source_value": 652508.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O048",
+      "metric": "other_revenue",
+      "period": "2026Q1",
+      "value": 41.625,
+      "unit": "USD million",
+      "source_name": "q1_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+      "source_file": "raw\\q1_2026_html.html",
+      "published_by": "2026-05-11",
+      "locator": "HTML table row 128: Other revenue; numeric column 1",
+      "source_value": 41625.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O049",
+      "metric": "total_revenue",
+      "period": "2026Q1",
+      "value": 694.133,
+      "unit": "USD million",
+      "source_name": "q1_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+      "source_file": "raw\\q1_2026_html.html",
+      "published_by": "2026-05-11",
+      "locator": "HTML table row 129: Total revenue and reserve income; numeric column 1",
+      "source_value": 694133.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O050",
+      "metric": "distribution_transaction_costs",
+      "period": "2026Q1",
+      "value": 405.402,
+      "unit": "USD million",
+      "source_name": "q1_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+      "source_file": "raw\\q1_2026_html.html",
+      "published_by": "2026-05-11",
+      "locator": "HTML table row 131: Distribution and transaction costs; numeric column 1",
+      "source_value": 405402.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O051",
+      "metric": "other_costs",
+      "period": "2026Q1",
+      "value": 1.379,
+      "unit": "USD million",
+      "source_name": "q1_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+      "source_file": "raw\\q1_2026_html.html",
+      "published_by": "2026-05-11",
+      "locator": "HTML table row 132: Other costs; numeric column 1",
+      "source_value": 1379.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O052",
+      "metric": "total_costs",
+      "period": "2026Q1",
+      "value": 406.781,
+      "unit": "USD million",
+      "source_name": "q1_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+      "source_file": "raw\\q1_2026_html.html",
+      "published_by": "2026-05-11",
+      "locator": "HTML table row 133: Total distribution, transaction and other costs; numeric column 1",
+      "source_value": 406781.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O053",
+      "metric": "usdc_end",
+      "period": "2026Q1",
+      "value": 77049.0,
+      "unit": "USDC million",
+      "source_name": "q1_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+      "source_file": "raw\\q1_2026_html.html",
+      "published_by": "2026-05-11",
+      "locator": "HTML table row 662: USDC in circulation, end of period; numeric column 1",
+      "source_value": 77049.0,
+      "source_unit": "USD million",
+      "source_precision": 1,
+      "note": ""
+    },
+    {
+      "id": "O054",
+      "metric": "usdc_average",
+      "period": "2026Q1",
+      "value": 75200.0,
+      "unit": "USDC million",
+      "source_name": "q1_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+      "source_file": "raw\\q1_2026_html.html",
+      "published_by": "2026-05-11",
+      "locator": "HTML table row 663: USDC in circulation, average of period; numeric column 1",
+      "source_value": 75200.0,
+      "source_unit": "USD million",
+      "source_precision": 1,
+      "note": ""
+    },
+    {
+      "id": "O055",
+      "metric": "reserve_return",
+      "period": "2026Q1",
+      "value": 0.035,
+      "unit": "decimal",
+      "source_name": "q1_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+      "source_file": "raw\\q1_2026_html.html",
+      "published_by": "2026-05-11",
+      "locator": "HTML table row 664: Reserve return rate; numeric column 1",
+      "source_value": 3.5,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O056",
+      "metric": "platform_weight",
+      "period": "2026Q1",
+      "value": 0.172,
+      "unit": "decimal",
+      "source_name": "q1_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+      "source_file": "raw\\q1_2026_html.html",
+      "published_by": "2026-05-11",
+      "locator": "HTML table row 666: USDC on platform, daily weighted-average percentage; numeric column 1",
+      "source_value": 17.2,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O057",
+      "metric": "reserve_income",
+      "period": "2026Q2",
+      "value": 667.733,
+      "unit": "USD million",
+      "source_name": "q2_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+      "source_file": "raw\\q2_2026_html.html",
+      "published_by": "2026-08-05",
+      "locator": "HTML table row 128: Reserve income; numeric column 1",
+      "source_value": 667733.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O058",
+      "metric": "other_revenue",
+      "period": "2026Q2",
+      "value": 33.582,
+      "unit": "USD million",
+      "source_name": "q2_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+      "source_file": "raw\\q2_2026_html.html",
+      "published_by": "2026-08-05",
+      "locator": "HTML table row 129: Other revenue; numeric column 1",
+      "source_value": 33582.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O059",
+      "metric": "total_revenue",
+      "period": "2026Q2",
+      "value": 701.315,
+      "unit": "USD million",
+      "source_name": "q2_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+      "source_file": "raw\\q2_2026_html.html",
+      "published_by": "2026-08-05",
+      "locator": "HTML table row 130: Total revenue and reserve income; numeric column 1",
+      "source_value": 701315.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O060",
+      "metric": "distribution_transaction_costs",
+      "period": "2026Q2",
+      "value": 410.414,
+      "unit": "USD million",
+      "source_name": "q2_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+      "source_file": "raw\\q2_2026_html.html",
+      "published_by": "2026-08-05",
+      "locator": "HTML table row 132: Distribution and transaction costs; numeric column 1",
+      "source_value": 410414.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O061",
+      "metric": "other_costs",
+      "period": "2026Q2",
+      "value": 2.056,
+      "unit": "USD million",
+      "source_name": "q2_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+      "source_file": "raw\\q2_2026_html.html",
+      "published_by": "2026-08-05",
+      "locator": "HTML table row 133: Other costs; numeric column 1",
+      "source_value": 2056.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O062",
+      "metric": "total_costs",
+      "period": "2026Q2",
+      "value": 412.47,
+      "unit": "USD million",
+      "source_name": "q2_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+      "source_file": "raw\\q2_2026_html.html",
+      "published_by": "2026-08-05",
+      "locator": "HTML table row 134: Total distribution, transaction and other costs; numeric column 1",
+      "source_value": 412470.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O063",
+      "metric": "usdc_end",
+      "period": "2026Q2",
+      "value": 73269.0,
+      "unit": "USDC million",
+      "source_name": "q2_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+      "source_file": "raw\\q2_2026_html.html",
+      "published_by": "2026-08-05",
+      "locator": "HTML table row 718: USDC in circulation, end of period; numeric column 1",
+      "source_value": 73269.0,
+      "source_unit": "USD million",
+      "source_precision": 1,
+      "note": ""
+    },
+    {
+      "id": "O064",
+      "metric": "usdc_average",
+      "period": "2026Q2",
+      "value": 76524.0,
+      "unit": "USDC million",
+      "source_name": "q2_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+      "source_file": "raw\\q2_2026_html.html",
+      "published_by": "2026-08-05",
+      "locator": "HTML table row 719: USDC in circulation, average of period; numeric column 1",
+      "source_value": 76524.0,
+      "source_unit": "USD million",
+      "source_precision": 1,
+      "note": ""
+    },
+    {
+      "id": "O065",
+      "metric": "reserve_return",
+      "period": "2026Q2",
+      "value": 0.035,
+      "unit": "decimal",
+      "source_name": "q2_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+      "source_file": "raw\\q2_2026_html.html",
+      "published_by": "2026-08-05",
+      "locator": "HTML table row 720: Reserve return rate; numeric column 1",
+      "source_value": 3.5,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O066",
+      "metric": "platform_weight",
+      "period": "2026Q2",
+      "value": 0.195,
+      "unit": "decimal",
+      "source_name": "q2_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+      "source_file": "raw\\q2_2026_html.html",
+      "published_by": "2026-08-05",
+      "locator": "HTML table row 722: USDC on platform, daily weighted-average percentage; numeric column 1",
+      "source_value": 19.5,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O067",
+      "metric": "reserve_income",
+      "period": "2026Q3",
+      "value": 657.624,
+      "unit": "USD million",
+      "source_name": "q3_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+      "source_file": "raw\\q3_2026_html.html",
+      "published_by": "2026-11-04",
+      "locator": "HTML table row 126: Reserve income; numeric column 1",
+      "source_value": 657624.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O068",
+      "metric": "other_revenue",
+      "period": "2026Q3",
+      "value": 207.264,
+      "unit": "USD million",
+      "source_name": "q3_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+      "source_file": "raw\\q3_2026_html.html",
+      "published_by": "2026-11-04",
+      "locator": "HTML table row 127: Other revenue; numeric column 1",
+      "source_value": 207264.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O069",
+      "metric": "total_revenue",
+      "period": "2026Q3",
+      "value": 864.888,
+      "unit": "USD million",
+      "source_name": "q3_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+      "source_file": "raw\\q3_2026_html.html",
+      "published_by": "2026-11-04",
+      "locator": "HTML table row 128: Total revenue and reserve income; numeric column 1",
+      "source_value": 864888.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O070",
+      "metric": "distribution_transaction_costs",
+      "period": "2026Q3",
+      "value": 409.169,
+      "unit": "USD million",
+      "source_name": "q3_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+      "source_file": "raw\\q3_2026_html.html",
+      "published_by": "2026-11-04",
+      "locator": "HTML table row 130: Distribution and transaction costs; numeric column 1",
+      "source_value": 409169.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O071",
+      "metric": "other_costs",
+      "period": "2026Q3",
+      "value": 2.465,
+      "unit": "USD million",
+      "source_name": "q3_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+      "source_file": "raw\\q3_2026_html.html",
+      "published_by": "2026-11-04",
+      "locator": "HTML table row 131: Other costs; numeric column 1",
+      "source_value": 2465.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O072",
+      "metric": "total_costs",
+      "period": "2026Q3",
+      "value": 411.634,
+      "unit": "USD million",
+      "source_name": "q3_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+      "source_file": "raw\\q3_2026_html.html",
+      "published_by": "2026-11-04",
+      "locator": "HTML table row 132: Total distribution, transaction and other costs; numeric column 1",
+      "source_value": 411634.0,
+      "source_unit": "USD thousand",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O073",
+      "metric": "usdc_end",
+      "period": "2026Q3",
+      "value": 73879.0,
+      "unit": "USDC million",
+      "source_name": "q3_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+      "source_file": "raw\\q3_2026_html.html",
+      "published_by": "2026-11-04",
+      "locator": "HTML table row 732: USDC in circulation, end of period; numeric column 1",
+      "source_value": 73879.0,
+      "source_unit": "USD million",
+      "source_precision": 1,
+      "note": ""
+    },
+    {
+      "id": "O074",
+      "metric": "usdc_average",
+      "period": "2026Q3",
+      "value": 73264.0,
+      "unit": "USDC million",
+      "source_name": "q3_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+      "source_file": "raw\\q3_2026_html.html",
+      "published_by": "2026-11-04",
+      "locator": "HTML table row 733: USDC in circulation, average of period; numeric column 1",
+      "source_value": 73264.0,
+      "source_unit": "USD million",
+      "source_precision": 1,
+      "note": ""
+    },
+    {
+      "id": "O075",
+      "metric": "reserve_return",
+      "period": "2026Q3",
+      "value": 0.035,
+      "unit": "decimal",
+      "source_name": "q3_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+      "source_file": "raw\\q3_2026_html.html",
+      "published_by": "2026-11-04",
+      "locator": "HTML table row 734: Reserve return rate; numeric column 1",
+      "source_value": 3.5,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O076",
+      "metric": "platform_weight",
+      "period": "2026Q3",
+      "value": 0.18100000000000002,
+      "unit": "decimal",
+      "source_name": "q3_2026_html",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+      "source_file": "raw\\q3_2026_html.html",
+      "published_by": "2026-11-04",
+      "locator": "HTML table row 736: USDC on platform, daily weighted-average percentage; numeric column 1",
+      "source_value": 18.1,
+      "source_unit": "percent",
+      "source_precision": 0.001,
+      "note": ""
+    },
+    {
+      "id": "O077",
+      "metric": "earnings_release_date",
+      "period": "2025Q2",
+      "value": "2025-08-12",
+      "unit": "date",
+      "source_name": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039749/crcl-20250812.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039749/crcl-20250812.htm",
+      "source_file": "",
+      "published_by": "2025-08-12",
+      "locator": "Original Form 8-K, Item 2.02",
+      "source_value": "2025-08-12",
+      "source_unit": "date",
+      "source_precision": null,
+      "note": "Original filing states the press-release date. Intraday press-release timestamp is not established here."
+    },
+    {
+      "id": "O078",
+      "metric": "earnings_release_date",
+      "period": "2025Q3",
+      "value": "2025-11-12",
+      "unit": "date",
+      "source_name": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000045/crcl-20251112.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000045/crcl-20251112.htm",
+      "source_file": "",
+      "published_by": "2025-11-12",
+      "locator": "Original Form 8-K, Item 2.02",
+      "source_value": "2025-11-12",
+      "source_unit": "date",
+      "source_precision": null,
+      "note": "Original filing states the press-release date. Intraday press-release timestamp is not established here."
+    },
+    {
+      "id": "O079",
+      "metric": "earnings_release_date",
+      "period": "2025Q4",
+      "value": "2026-02-25",
+      "unit": "date",
+      "source_name": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000032/crcl-20260225.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000032/crcl-20260225.htm",
+      "source_file": "",
+      "published_by": "2026-02-25",
+      "locator": "Original Form 8-K, Item 2.02",
+      "source_value": "2026-02-25",
+      "source_unit": "date",
+      "source_precision": null,
+      "note": "Original filing states the press-release date. Intraday press-release timestamp is not established here."
+    },
+    {
+      "id": "O080",
+      "metric": "earnings_release_date",
+      "period": "2026Q1",
+      "value": "2026-05-11",
+      "unit": "date",
+      "source_name": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000148/crcl-20260511.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000148/crcl-20260511.htm",
+      "source_file": "",
+      "published_by": "2026-05-11",
+      "locator": "Original Form 8-K, Item 2.02",
+      "source_value": "2026-05-11",
+      "source_unit": "date",
+      "source_precision": null,
+      "note": "Original filing states the press-release date. Intraday press-release timestamp is not established here."
+    },
+    {
+      "id": "O081",
+      "metric": "earnings_release_date",
+      "period": "2026Q2",
+      "value": "2026-08-05",
+      "unit": "date",
+      "source_name": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000246/crcl-20260805.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000246/crcl-20260805.htm",
+      "source_file": "",
+      "published_by": "2026-08-05",
+      "locator": "Original Form 8-K, Item 2.02",
+      "source_value": "2026-08-05",
+      "source_unit": "date",
+      "source_precision": null,
+      "note": "Original filing states the press-release date. Intraday press-release timestamp is not established here."
+    },
+    {
+      "id": "O082",
+      "metric": "earnings_release_date",
+      "period": "2026Q3",
+      "value": "2026-11-04",
+      "unit": "date",
+      "source_name": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000309/crcl-20261104.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000309/crcl-20261104.htm",
+      "source_file": "",
+      "published_by": "2026-11-04",
+      "locator": "Original Form 8-K, Item 2.02",
+      "source_value": "2026-11-04",
+      "source_unit": "date",
+      "source_precision": null,
+      "note": "Original filing states the press-release date. Intraday press-release timestamp is not established here."
+    },
+    {
+      "id": "O083",
+      "metric": "attested_circulation",
+      "period": "2025Q1",
+      "value": 59975.771715,
+      "unit": "USDC million",
+      "source_name": "attestation_2025_March",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2025/2025%20USDC_Examination%20Report%20March%2025.pdf",
+      "source_file": "raw\\attestation_2025_March.pdf",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 59975771715,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O084",
+      "metric": "reserve_assets",
+      "period": "2025Q1",
+      "value": 60040.70704,
+      "unit": "USD million",
+      "source_name": "attestation_2025_March",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2025/2025%20USDC_Examination%20Report%20March%2025.pdf",
+      "source_file": "raw\\attestation_2025_March.pdf",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 60040707040,
+      "source_unit": "USD",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O085",
+      "metric": "provider_same_date_bucket",
+      "period": "2025Q1",
+      "value": 60264.872986,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2025-03-31",
+      "source_value": 60264872986,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O086",
+      "metric": "provider_following_date_bucket",
+      "period": "2025Q1",
+      "value": 60141.755212,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2025-04-01",
+      "source_value": 60141755212,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O087",
+      "metric": "attested_circulation",
+      "period": "2025Q2",
+      "value": 61332.530506,
+      "unit": "USDC million",
+      "source_name": "attestation_2025_June",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2025/2025%20USDC_Examination%20Report%20June%2025.pdf",
+      "source_file": "raw\\attestation_2025_June.pdf",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 61332530506,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O088",
+      "metric": "reserve_assets",
+      "period": "2025Q2",
+      "value": 61397.784739,
+      "unit": "USD million",
+      "source_name": "attestation_2025_June",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2025/2025%20USDC_Examination%20Report%20June%2025.pdf",
+      "source_file": "raw\\attestation_2025_June.pdf",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 61397784739,
+      "source_unit": "USD",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O089",
+      "metric": "provider_same_date_bucket",
+      "period": "2025Q2",
+      "value": 61340.894592,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2025-06-30",
+      "source_value": 61340894592,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O090",
+      "metric": "provider_following_date_bucket",
+      "period": "2025Q2",
+      "value": 61233.561658,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2025-07-01",
+      "source_value": 61233561658,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O091",
+      "metric": "attested_circulation",
+      "period": "2025Q3",
+      "value": 73748.934193,
+      "unit": "USDC million",
+      "source_name": "attestation_2025_September",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2025/2025%20USDC_Examination%20Report%20September%2025.pdf",
+      "source_file": "raw\\attestation_2025_September.pdf",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 73748934193,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O092",
+      "metric": "reserve_assets",
+      "period": "2025Q3",
+      "value": 73814.526973,
+      "unit": "USD million",
+      "source_name": "attestation_2025_September",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2025/2025%20USDC_Examination%20Report%20September%2025.pdf",
+      "source_file": "raw\\attestation_2025_September.pdf",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 73814526973,
+      "source_unit": "USD",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O093",
+      "metric": "provider_same_date_bucket",
+      "period": "2025Q3",
+      "value": 73222.942658,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2025-09-30",
+      "source_value": 73222942658,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O094",
+      "metric": "provider_following_date_bucket",
+      "period": "2025Q3",
+      "value": 73651.646952,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2025-10-01",
+      "source_value": 73651646952,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O095",
+      "metric": "attested_circulation",
+      "period": "2025Q4",
+      "value": 75266.033823,
+      "unit": "USDC million",
+      "source_name": "attestation_2025_December",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2025/2025%20USDC_Examination%20Report%20December%2025.pdf",
+      "source_file": "raw\\attestation_2025_December.pdf",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 75266033823,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O096",
+      "metric": "reserve_assets",
+      "period": "2025Q4",
+      "value": 75332.981976,
+      "unit": "USD million",
+      "source_name": "attestation_2025_December",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2025/2025%20USDC_Examination%20Report%20December%2025.pdf",
+      "source_file": "raw\\attestation_2025_December.pdf",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 75332981976,
+      "source_unit": "USD",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O097",
+      "metric": "provider_same_date_bucket",
+      "period": "2025Q4",
+      "value": 76012.347772,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2025-12-31",
+      "source_value": 76012347772,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O098",
+      "metric": "provider_following_date_bucket",
+      "period": "2025Q4",
+      "value": 75320.757493,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2026-01-01",
+      "source_value": 75320757493,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O099",
+      "metric": "attested_circulation",
+      "period": "2026Q1",
+      "value": 77049.290538,
+      "unit": "USDC million",
+      "source_name": "attestation_2026_March",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20March%2026.pdf",
+      "source_file": "raw\\attestation_2026_March.pdf",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 77049290538,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O100",
+      "metric": "reserve_assets",
+      "period": "2026Q1",
+      "value": 77125.330954,
+      "unit": "USD million",
+      "source_name": "attestation_2026_March",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20March%2026.pdf",
+      "source_file": "raw\\attestation_2026_March.pdf",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 77125330954,
+      "source_unit": "USD",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O101",
+      "metric": "provider_same_date_bucket",
+      "period": "2026Q1",
+      "value": 77394.000948,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2026-03-31",
+      "source_value": 77394000948,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O102",
+      "metric": "provider_following_date_bucket",
+      "period": "2026Q1",
+      "value": 77136.558069,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2026-04-01",
+      "source_value": 77136558069,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O103",
+      "metric": "attested_circulation",
+      "period": "2026Q2",
+      "value": 73268.560097,
+      "unit": "USDC million",
+      "source_name": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20June%2026.pdf",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20June%2026.pdf",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 73268560097,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O104",
+      "metric": "reserve_assets",
+      "period": "2026Q2",
+      "value": 73344.909176,
+      "unit": "USD million",
+      "source_name": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20June%2026.pdf",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20June%2026.pdf",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 73344909176,
+      "source_unit": "USD",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O105",
+      "metric": "provider_same_date_bucket",
+      "period": "2026Q2",
+      "value": 73783.459231,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2026-06-30",
+      "source_value": 73783459231,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O106",
+      "metric": "provider_following_date_bucket",
+      "period": "2026Q2",
+      "value": 73479.589774,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2026-07-01",
+      "source_value": 73479589774,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O107",
+      "metric": "attested_circulation",
+      "period": "2026Q3",
+      "value": 73878.861314,
+      "unit": "USDC million",
+      "source_name": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 73878861314,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O108",
+      "metric": "reserve_assets",
+      "period": "2026Q3",
+      "value": 73956.687701,
+      "unit": "USD million",
+      "source_name": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Reserve report PDF page 2; month-end column",
+      "source_value": 73956687701,
+      "source_unit": "USD",
+      "source_precision": 1e-06,
+      "note": "Signature date and historical first-publication timestamp not established by this extraction."
+    },
+    {
+      "id": "O109",
+      "metric": "provider_same_date_bucket",
+      "period": "2026Q3",
+      "value": 74591.240709,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2026-09-30",
+      "source_value": 74591240709,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O110",
+      "metric": "provider_following_date_bucket",
+      "period": "2026Q3",
+      "value": 74148.312961,
+      "unit": "USDC million",
+      "source_name": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_url": "https://stablecoins.llama.fi/stablecoin/2",
+      "source_file": "",
+      "published_by": null,
+      "locator": "Global tokens, date bucket 2026-10-01",
+      "source_value": 74148312961,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": "Provider daily bucket, not verified exact EOD state."
+    },
+    {
+      "id": "O111",
+      "metric": "official_raw_supply",
+      "period": "2026Q3",
+      "value": 75866.964179,
+      "unit": "USDC million",
+      "source_name": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "source_file": "",
+      "published_by": null,
+      "locator": "September reserve report PDF page 2, criterion A",
+      "source_value": 75866964179,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": ""
+    },
+    {
+      "id": "O112",
+      "metric": "official_allowed_not_issued",
+      "period": "2026Q3",
+      "value": 1856.810081,
+      "unit": "USDC million",
+      "source_name": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "source_file": "",
+      "published_by": null,
+      "locator": "September reserve report PDF page 2, criterion A",
+      "source_value": 1856810081,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": ""
+    },
+    {
+      "id": "O113",
+      "metric": "official_access_denied",
+      "period": "2026Q3",
+      "value": 131.245845,
+      "unit": "USDC million",
+      "source_name": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "source_file": "",
+      "published_by": null,
+      "locator": "September reserve report PDF page 2, criterion A",
+      "source_value": 131245845,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": ""
+    },
+    {
+      "id": "O114",
+      "metric": "official_pending_burns",
+      "period": "2026Q3",
+      "value": 0.046939,
+      "unit": "USDC million",
+      "source_name": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "source_url": "https://6778953.fs1.hubspotusercontent-na1.net/hubfs/6778953/USDCAttestationReports/2026/2026%20USDC_Examination%20Report%20September%2026.pdf",
+      "source_file": "",
+      "published_by": null,
+      "locator": "September reserve report PDF page 2, criterion A",
+      "source_value": 46939,
+      "source_unit": "USDC tokens",
+      "source_precision": 1e-06,
+      "note": ""
+    }
+  ],
+  "annual_controls": {
+    "2025FY": {
+      "reserve_income": {
+        "id": "O001",
+        "metric": "reserve_income",
+        "period": "2025FY",
+        "value": 2636.822,
+        "unit": "USD million",
+        "source_name": "fy2025_html",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+        "source_file": "raw\\fy2025_html.html",
+        "published_by": "2026-03-09",
+        "locator": "HTML table row 96: Reserve income; numeric column 1",
+        "source_value": 2636822.0,
+        "source_unit": "USD thousand",
+        "source_precision": 0.001,
+        "note": ""
+      },
+      "other_revenue": {
+        "id": "O002",
+        "metric": "other_revenue",
+        "period": "2025FY",
+        "value": 109.82,
+        "unit": "USD million",
+        "source_name": "fy2025_html",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+        "source_file": "raw\\fy2025_html.html",
+        "published_by": "2026-03-09",
+        "locator": "HTML table row 97: Other revenue; numeric column 1",
+        "source_value": 109820.0,
+        "source_unit": "USD thousand",
+        "source_precision": 0.001,
+        "note": ""
+      },
+      "total_revenue": {
+        "id": "O003",
+        "metric": "total_revenue",
+        "period": "2025FY",
+        "value": 2746.642,
+        "unit": "USD million",
+        "source_name": "fy2025_html",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+        "source_file": "raw\\fy2025_html.html",
+        "published_by": "2026-03-09",
+        "locator": "HTML table row 98: Total revenue and reserve income; numeric column 1",
+        "source_value": 2746642.0,
+        "source_unit": "USD thousand",
+        "source_precision": 0.001,
+        "note": ""
+      },
+      "distribution_transaction_costs": {
+        "id": "O004",
+        "metric": "distribution_transaction_costs",
+        "period": "2025FY",
+        "value": 1661.549,
+        "unit": "USD million",
+        "source_name": "fy2025_html",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+        "source_file": "raw\\fy2025_html.html",
+        "published_by": "2026-03-09",
+        "locator": "HTML table row 100: Distribution and transaction costs; numeric column 1",
+        "source_value": 1661549.0,
+        "source_unit": "USD thousand",
+        "source_precision": 0.001,
+        "note": ""
+      },
+      "other_costs": {
+        "id": "O005",
+        "metric": "other_costs",
+        "period": "2025FY",
+        "value": 2.102,
+        "unit": "USD million",
+        "source_name": "fy2025_html",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+        "source_file": "raw\\fy2025_html.html",
+        "published_by": "2026-03-09",
+        "locator": "HTML table row 101: Other costs; numeric column 1",
+        "source_value": 2102.0,
+        "source_unit": "USD thousand",
+        "source_precision": 0.001,
+        "note": ""
+      },
+      "total_costs": {
+        "id": "O006",
+        "metric": "total_costs",
+        "period": "2025FY",
+        "value": 1663.651,
+        "unit": "USD million",
+        "source_name": "fy2025_html",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+        "source_file": "raw\\fy2025_html.html",
+        "published_by": "2026-03-09",
+        "locator": "HTML table row 102: Total distribution, transaction and other costs; numeric column 1",
+        "source_value": 1663651.0,
+        "source_unit": "USD thousand",
+        "source_precision": 0.001,
+        "note": ""
+      }
+    },
+    "2025YTD9": {
+      "reserve_income": {
+        "id": "O007",
+        "metric": "reserve_income",
+        "period": "2025YTD9",
+        "value": 1903.426,
+        "unit": "USD million",
+        "source_name": "q3_2025_html",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+        "source_file": "raw\\q3_2025_html.html",
+        "published_by": "2025-11-12",
+        "locator": "HTML table row 120: Reserve income; numeric column 3",
+        "source_value": 1903426.0,
+        "source_unit": "USD thousand",
+        "source_precision": 0.001,
+        "note": ""
+      },
+      "other_revenue": {
+        "id": "O008",
+        "metric": "other_revenue",
+        "period": "2025YTD9",
+        "value": 72.984,
+        "unit": "USD million",
+        "source_name": "q3_2025_html",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+        "source_file": "raw\\q3_2025_html.html",
+        "published_by": "2025-11-12",
+        "locator": "HTML table row 121: Other revenue; numeric column 3",
+        "source_value": 72984.0,
+        "source_unit": "USD thousand",
+        "source_precision": 0.001,
+        "note": ""
+      },
+      "total_revenue": {
+        "id": "O009",
+        "metric": "total_revenue",
+        "period": "2025YTD9",
+        "value": 1976.41,
+        "unit": "USD million",
+        "source_name": "q3_2025_html",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+        "source_file": "raw\\q3_2025_html.html",
+        "published_by": "2025-11-12",
+        "locator": "HTML table row 122: Total revenue and reserve income; numeric column 3",
+        "source_value": 1976410.0,
+        "source_unit": "USD thousand",
+        "source_precision": 0.001,
+        "note": ""
+      },
+      "distribution_transaction_costs": {
+        "id": "O010",
+        "metric": "distribution_transaction_costs",
+        "period": "2025YTD9",
+        "value": 1200.983,
+        "unit": "USD million",
+        "source_name": "q3_2025_html",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+        "source_file": "raw\\q3_2025_html.html",
+        "published_by": "2025-11-12",
+        "locator": "HTML table row 124: Distribution and transaction costs; numeric column 3",
+        "source_value": 1200983.0,
+        "source_unit": "USD thousand",
+        "source_precision": 0.001,
+        "note": ""
+      },
+      "other_costs": {
+        "id": "O011",
+        "metric": "other_costs",
+        "period": "2025YTD9",
+        "value": 1.218,
+        "unit": "USD million",
+        "source_name": "q3_2025_html",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+        "source_file": "raw\\q3_2025_html.html",
+        "published_by": "2025-11-12",
+        "locator": "HTML table row 125: Other costs; numeric column 3",
+        "source_value": 1218.0,
+        "source_unit": "USD thousand",
+        "source_precision": 0.001,
+        "note": ""
+      },
+      "total_costs": {
+        "id": "O012",
+        "metric": "total_costs",
+        "period": "2025YTD9",
+        "value": 1202.201,
+        "unit": "USD million",
+        "source_name": "q3_2025_html",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+        "source_file": "raw\\q3_2025_html.html",
+        "published_by": "2025-11-12",
+        "locator": "HTML table row 126: Total distribution, transaction and other costs; numeric column 3",
+        "source_value": 1202201.0,
+        "source_unit": "USD thousand",
+        "source_precision": 0.001,
+        "note": ""
+      }
+    }
+  },
+  "comparative_checks": [
+    {
+      "period": "2025Q1",
+      "metric": "reserve_income",
+      "gap_usd_million": 0.0,
+      "later_source": "q1_2026_html"
+    },
+    {
+      "period": "2025Q1",
+      "metric": "other_revenue",
+      "gap_usd_million": 0.0,
+      "later_source": "q1_2026_html"
+    },
+    {
+      "period": "2025Q1",
+      "metric": "total_revenue",
+      "gap_usd_million": 0.0,
+      "later_source": "q1_2026_html"
+    },
+    {
+      "period": "2025Q1",
+      "metric": "distribution_transaction_costs",
+      "gap_usd_million": 0.0,
+      "later_source": "q1_2026_html"
+    },
+    {
+      "period": "2025Q1",
+      "metric": "other_costs",
+      "gap_usd_million": 0.0,
+      "later_source": "q1_2026_html"
+    },
+    {
+      "period": "2025Q1",
+      "metric": "total_costs",
+      "gap_usd_million": 0.0,
+      "later_source": "q1_2026_html"
+    },
+    {
+      "period": "2025Q2",
+      "metric": "reserve_income",
+      "gap_usd_million": 0.0,
+      "later_source": "q2_2026_html"
+    },
+    {
+      "period": "2025Q2",
+      "metric": "other_revenue",
+      "gap_usd_million": 0.0,
+      "later_source": "q2_2026_html"
+    },
+    {
+      "period": "2025Q2",
+      "metric": "total_revenue",
+      "gap_usd_million": 0.0,
+      "later_source": "q2_2026_html"
+    },
+    {
+      "period": "2025Q2",
+      "metric": "distribution_transaction_costs",
+      "gap_usd_million": 0.0,
+      "later_source": "q2_2026_html"
+    },
+    {
+      "period": "2025Q2",
+      "metric": "other_costs",
+      "gap_usd_million": 0.0,
+      "later_source": "q2_2026_html"
+    },
+    {
+      "period": "2025Q2",
+      "metric": "total_costs",
+      "gap_usd_million": 0.0,
+      "later_source": "q2_2026_html"
+    },
+    {
+      "period": "2025Q3",
+      "metric": "reserve_income",
+      "gap_usd_million": 0.0,
+      "later_source": "q3_2026_html"
+    },
+    {
+      "period": "2025Q3",
+      "metric": "other_revenue",
+      "gap_usd_million": 0.0,
+      "later_source": "q3_2026_html"
+    },
+    {
+      "period": "2025Q3",
+      "metric": "total_revenue",
+      "gap_usd_million": 0.0,
+      "later_source": "q3_2026_html"
+    },
+    {
+      "period": "2025Q3",
+      "metric": "distribution_transaction_costs",
+      "gap_usd_million": 0.0,
+      "later_source": "q3_2026_html"
+    },
+    {
+      "period": "2025Q3",
+      "metric": "other_costs",
+      "gap_usd_million": 0.0,
+      "later_source": "q3_2026_html"
+    },
+    {
+      "period": "2025Q3",
+      "metric": "total_costs",
+      "gap_usd_million": 0.0,
+      "later_source": "q3_2026_html"
+    }
+  ],
+  "workspace_crosschecks": [
+    {
+      "period": "2025Q1",
+      "query": "circle_quarterly_revenue_period_fq",
+      "observations": 1,
+      "gap_usd_million": 0.0,
+      "matched": true
+    },
+    {
+      "period": "2025Q2",
+      "query": "circle_quarterly_revenue_period_fq",
+      "observations": 1,
+      "gap_usd_million": 0.0,
+      "matched": true
+    },
+    {
+      "period": "2025Q3",
+      "query": "circle_quarterly_revenue_period_fq",
+      "observations": 1,
+      "gap_usd_million": 0.0,
+      "matched": true
+    },
+    {
+      "period": "2025Q4",
+      "query": "circle_quarterly_revenue_period_fq",
+      "observations": 1,
+      "gap_usd_million": 2.2737367544323206e-13,
+      "matched": true
+    },
+    {
+      "period": "2026Q1",
+      "query": "circle_quarterly_revenue_period_fq",
+      "observations": 1,
+      "gap_usd_million": 0.0,
+      "matched": true
+    },
+    {
+      "period": "2026Q2",
+      "query": "circle_quarterly_revenue_period_fq",
+      "observations": 1,
+      "gap_usd_million": 0.0,
+      "matched": true
+    },
+    {
+      "period": "2026Q3",
+      "query": "circle_quarterly_revenue_period_fq",
+      "observations": 1,
+      "gap_usd_million": 0.0,
+      "matched": true
+    },
+    {
+      "period": "2025Q1",
+      "query": "circle_fundamentals_quarterly",
+      "observations": 1,
+      "gap_usd_million": 0.0,
+      "matched": true
+    },
+    {
+      "period": "2025Q2",
+      "query": "circle_fundamentals_quarterly",
+      "observations": 1,
+      "gap_usd_million": 0.0,
+      "matched": true
+    },
+    {
+      "period": "2025Q3",
+      "query": "circle_fundamentals_quarterly",
+      "observations": 1,
+      "gap_usd_million": 0.0,
+      "matched": true
+    },
+    {
+      "period": "2025Q4",
+      "query": "circle_fundamentals_quarterly",
+      "observations": 1,
+      "gap_usd_million": 2.2737367544323206e-13,
+      "matched": true
+    },
+    {
+      "period": "2026Q1",
+      "query": "circle_fundamentals_quarterly",
+      "observations": 1,
+      "gap_usd_million": 0.0,
+      "matched": true
+    },
+    {
+      "period": "2026Q2",
+      "query": "circle_fundamentals_quarterly",
+      "observations": 1,
+      "gap_usd_million": 0.0,
+      "matched": true
+    },
+    {
+      "period": "2026Q3",
+      "query": "circle_fundamentals_quarterly",
+      "observations": 1,
+      "gap_usd_million": 0.0,
+      "matched": true
+    }
+  ],
+  "supply_checkpoints": [
+    {
+      "period": "2025Q1",
+      "end": "2025-03-31",
+      "official_circulation": 59975771715,
+      "official_reserve_assets": 60040707040,
+      "source_pdf": "stage2\\raw\\attestation_2025_March.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 60264872986,
+      "provider_following_date_bucket": 60141755212,
+      "following_bucket_gap": 165983497,
+      "following_bucket_gap_pct": 0.002767509150007008,
+      "provider_average_as_labeled": 54051361667.388885,
+      "provider_average_next_date": 54231411801.41111,
+      "reported_average_million": 54136.0,
+      "average_gap_pct": -0.0015634389798122594,
+      "materiality_flag": true,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O083",
+        "reserve_assets": "O084",
+        "provider_same_date_bucket": "O085",
+        "provider_following_date_bucket": "O086"
+      }
+    },
+    {
+      "period": "2025Q2",
+      "end": "2025-06-30",
+      "official_circulation": 61332530506,
+      "official_reserve_assets": 61397784739,
+      "source_pdf": "stage2\\raw\\attestation_2025_June.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 61340894592,
+      "provider_following_date_bucket": 61233561658,
+      "following_bucket_gap": -98968848,
+      "following_bucket_gap_pct": -0.0016136436436503532,
+      "provider_average_as_labeled": 60911964183.82417,
+      "provider_average_next_date": 60923962056.85714,
+      "reported_average_million": 61039.0,
+      "average_gap_pct": -0.0020812237450781312,
+      "materiality_flag": true,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O087",
+        "reserve_assets": "O088",
+        "provider_same_date_bucket": "O089",
+        "provider_following_date_bucket": "O090"
+      }
+    },
+    {
+      "period": "2025Q3",
+      "end": "2025-09-30",
+      "official_circulation": 73748934193,
+      "official_reserve_assets": 73814526973,
+      "source_pdf": "stage2\\raw\\attestation_2025_September.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 73222942658,
+      "provider_following_date_bucket": 73651646952,
+      "following_bucket_gap": -97287241,
+      "following_bucket_gap_pct": -0.0013191680946249562,
+      "provider_average_as_labeled": 67503542967.28261,
+      "provider_average_next_date": 67638522155.26087,
+      "reported_average_million": 67842.0,
+      "average_gap_pct": -0.004988901163252679,
+      "materiality_flag": true,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O091",
+        "reserve_assets": "O092",
+        "provider_same_date_bucket": "O093",
+        "provider_following_date_bucket": "O094"
+      }
+    },
+    {
+      "period": "2025Q4",
+      "end": "2025-12-31",
+      "official_circulation": 75266033823,
+      "official_reserve_assets": 75332981976,
+      "source_pdf": "stage2\\raw\\attestation_2025_December.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 76012347772,
+      "provider_following_date_bucket": 75320757493,
+      "following_bucket_gap": 54723670,
+      "following_bucket_gap_pct": 0.000727069930756441,
+      "provider_average_as_labeled": 75896409023.64131,
+      "provider_average_next_date": 75914551529.52174,
+      "reported_average_million": 76200,
+      "average_gap_pct": -0.003984133548014301,
+      "materiality_flag": false,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O095",
+        "reserve_assets": "O096",
+        "provider_same_date_bucket": "O097",
+        "provider_following_date_bucket": "O098"
+      }
+    },
+    {
+      "period": "2026Q1",
+      "end": "2026-03-31",
+      "official_circulation": 77049290538,
+      "official_reserve_assets": 77125330954,
+      "source_pdf": "stage2\\raw\\attestation_2026_March.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 77394000948,
+      "provider_following_date_bucket": 77136558069,
+      "following_bucket_gap": 87267531,
+      "following_bucket_gap_pct": 0.0011326195269372175,
+      "provider_average_as_labeled": 75287246477.7111,
+      "provider_average_next_date": 75307422039.66667,
+      "reported_average_million": 75200.0,
+      "average_gap_pct": 0.001160192522754011,
+      "materiality_flag": true,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O099",
+        "reserve_assets": "O100",
+        "provider_same_date_bucket": "O101",
+        "provider_following_date_bucket": "O102"
+      }
+    },
+    {
+      "period": "2026Q2",
+      "end": "2026-06-30",
+      "official_circulation": 73268560097,
+      "official_reserve_assets": 73344909176,
+      "source_pdf": "feasibility\\raw\\attestation_2026_June.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 73783459231,
+      "provider_following_date_bucket": 73479589774,
+      "following_bucket_gap": 211029677,
+      "following_bucket_gap_pct": 0.002880221430864971,
+      "provider_average_as_labeled": 76733091796.71428,
+      "provider_average_next_date": 76692905331.93407,
+      "reported_average_million": 76524.0,
+      "average_gap_pct": 0.0027323688870717344,
+      "materiality_flag": true,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O103",
+        "reserve_assets": "O104",
+        "provider_same_date_bucket": "O105",
+        "provider_following_date_bucket": "O106"
+      }
+    },
+    {
+      "period": "2026Q3",
+      "end": "2026-09-30",
+      "official_circulation": 73878861314,
+      "official_reserve_assets": 73956687701,
+      "source_pdf": "feasibility\\raw\\attestation_2026_September.pdf",
+      "source_pdf_page": 2,
+      "provider_same_date_bucket": 74591240709,
+      "provider_following_date_bucket": 74148312961,
+      "following_bucket_gap": 269451647,
+      "following_bucket_gap_pct": 0.0036472089878967218,
+      "provider_average_as_labeled": 73520839474.02174,
+      "provider_average_next_date": 73528108204.31522,
+      "reported_average_million": 73264.0,
+      "average_gap_pct": 0.0035056709164356104,
+      "materiality_flag": true,
+      "timing_note": "Daily bucket observation time is not proven to be UTC midnight or end of day.",
+      "input_ids": {
+        "attested_circulation": "O107",
+        "reserve_assets": "O108",
+        "provider_same_date_bucket": "O109",
+        "provider_following_date_bucket": "O110"
+      }
+    }
+  ],
+  "supply_decomposition": {
+    "date_bucket": "2026-10-01",
+    "official_period_end": "2026-09-30",
+    "api_minted_sum": 75121383589,
+    "api_unreleased_sum": 980895824,
+    "api_circulating_chain_sum": 74148312956,
+    "api_global_circulation": 74148312961,
+    "official_raw_approved_supply": 75866964179,
+    "official_allowed_not_issued": 1856810081,
+    "official_access_denied": 131245845,
+    "official_pending_burns": 46939,
+    "official_circulation": 73878861314,
+    "components": [
+      {
+        "component": "API minted minus Circle raw approved supply",
+        "tokens": -745580590
+      },
+      {
+        "component": "Effect of different unreleased versus allowed-not-issued totals",
+        "tokens": 875914257
+      },
+      {
+        "component": "Circle access-denied exclusion",
+        "tokens": 131245845
+      },
+      {
+        "component": "Circle pending-burn exclusion",
+        "tokens": 46939
+      },
+      {
+        "component": "API chain aggregation residual after minted less unreleased",
+        "tokens": 7825191
+      },
+      {
+        "component": "API global versus chain sum rounding",
+        "tokens": 5
+      }
+    ],
+    "qualification": "Exact algebraic decomposition of different snapshots and definitions. Component differences are not proven causal corrections, and the residual is not asserted to be entirely bridge error.",
+    "official_input_ids": {
+      "official_raw_supply": "O111",
+      "official_allowed_not_issued": "O112",
+      "official_access_denied": "O113",
+      "official_pending_burns": "O114"
+    }
+  },
+  "chain_field_inventory": [
+    {
+      "chain": "Manta",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1349957,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "RISE",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 23845079,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Horizen L3",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 3254,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "BSquared",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 177875,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Movement",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 256100,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "BOB",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 81862,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Starknet",
+      "api_minted": 133949395,
+      "api_unreleased": 0,
+      "api_circulating": 138718468,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Tron",
+      "api_minted": 27934099,
+      "api_unreleased": 0,
+      "api_circulating": 27934099,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "XRPL",
+      "api_minted": 4526516,
+      "api_unreleased": 0,
+      "api_circulating": 4526516,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "CORE",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 600434,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "WEMIX3.0",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 3,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "ApeChain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 373754,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Peaq",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 191962,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Monad",
+      "api_minted": 214652662,
+      "api_unreleased": 0,
+      "api_circulating": 214652662,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Aptos",
+      "api_minted": 354615766,
+      "api_unreleased": 0,
+      "api_circulating": 356204496,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "PulseChain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 15058416,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Edu_chain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1026,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Immutable zkEVM",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2455511,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Hedera",
+      "api_minted": 27188859,
+      "api_unreleased": 0,
+      "api_circulating": 27188859,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Algorand",
+      "api_minted": 195785404,
+      "api_unreleased": 148124019,
+      "api_circulating": 47661385,
+      "minted_field_present": true,
+      "unreleased_field_present": true
+    },
+    {
+      "chain": "Polygon",
+      "api_minted": 617743055,
+      "api_unreleased": 0,
+      "api_circulating": 1619152049,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "MANTRA",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 129933,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Unichain",
+      "api_minted": 22764437,
+      "api_unreleased": 0,
+      "api_circulating": 22764437,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Camp Network",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 90,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Zkfair",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 85548,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Karura",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 68740,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Moca",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Wanchain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 436492,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Metis",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 4164993,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Kava",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 5326805,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Ink",
+      "api_minted": 51201214,
+      "api_unreleased": 0,
+      "api_circulating": 51443394,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Kaia",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2888711,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Morph",
+      "api_minted": 23212879,
+      "api_unreleased": 0,
+      "api_circulating": 23214062,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "IoTeX",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2533268,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Osmosis",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 17120078,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Ethereum",
+      "api_minted": 49295159718,
+      "api_unreleased": 61565551,
+      "api_circulating": 45651902554,
+      "minted_field_present": true,
+      "unreleased_field_present": true
+    },
+    {
+      "chain": "Linea",
+      "api_minted": 23917208,
+      "api_unreleased": 0,
+      "api_circulating": 23917208,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "XDC",
+      "api_minted": 57709672,
+      "api_unreleased": 0,
+      "api_circulating": 57712808,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Cardano",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 46657944,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "EthereumClassic",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 11096,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Waves",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 23107,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Lisk",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 34065,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Soneium",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1806138,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Vana",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 74220,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Cronos",
+      "api_minted": 9544893,
+      "api_unreleased": 0,
+      "api_circulating": 138474909,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Somnia",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 555225,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Mode",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 422147,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "KCC",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1806150,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "EDU Chain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 178426,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Berachain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 5171569,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Base",
+      "api_minted": 4318851867,
+      "api_unreleased": 0,
+      "api_circulating": 4324916142,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Noble",
+      "api_minted": 98450729,
+      "api_unreleased": 0,
+      "api_circulating": 88867591,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "GateLayer",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 269514,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Theta",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 19550,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Ronin",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Shape",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 146116,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Katana",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 8600022,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "OP Mainnet",
+      "api_minted": 157477753,
+      "api_unreleased": 0,
+      "api_circulating": 178582691,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "IOTA EVM",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 161398,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "edgeX L1",
+      "api_minted": 1817773,
+      "api_unreleased": 0,
+      "api_circulating": 1817773,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "World Chain",
+      "api_minted": 17279249,
+      "api_unreleased": 0,
+      "api_circulating": 17279249,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "BSC",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1589076344,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Codex",
+      "api_minted": 14674472,
+      "api_unreleased": 0,
+      "api_circulating": 14674472,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Flow",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2438447,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Astar",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 885708,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Oasis Emerald",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 76588,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Citrea",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 83640,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Data Network",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 531240,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Avalanche",
+      "api_minted": 417516115,
+      "api_unreleased": 0,
+      "api_circulating": 450170760,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Telos",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 509595,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Arbitrum",
+      "api_minted": 2719587098,
+      "api_unreleased": 0,
+      "api_circulating": 2767834685,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Stacks",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 9418393,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Redbelly",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 121071,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Viction",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 172,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "GOAT",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 102176,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Zircuit",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 276661,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Sui",
+      "api_minted": 299492647,
+      "api_unreleased": 0,
+      "api_circulating": 302462330,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Arbitrum Nova",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 292360,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Rootstock",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 217055,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "ALEO",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 3965852,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Abstract",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 9762131,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Apex Fusion",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 84,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Arc",
+      "api_minted": 458881905,
+      "api_unreleased": 0,
+      "api_circulating": 458881905,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "ZKsync Era",
+      "api_minted": 10636491,
+      "api_unreleased": 0,
+      "api_circulating": 33833799,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Aurora",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2442907,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Sei",
+      "api_minted": 42290510,
+      "api_unreleased": 0,
+      "api_circulating": 42634056,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Gravity by Galxe",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 11949,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Bittensor EVM",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 338234,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Injective",
+      "api_minted": 8761711,
+      "api_unreleased": 0,
+      "api_circulating": 9123014,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Stellar",
+      "api_minted": 400201104,
+      "api_unreleased": 0,
+      "api_circulating": 400201104,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "LightLink",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 22464,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Bitlayer",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 36914,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Scroll",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 4986550,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Mixin",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2460996,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Fogo",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 788429,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Stable",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2261,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "X Layer",
+      "api_minted": 17011838,
+      "api_unreleased": 0,
+      "api_circulating": 18028186,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Etherlink",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 12696584,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Gnosis",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 13902856,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Orderly Network",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 51,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Gensyn",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 761297,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Nibiru",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 89266,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Celo",
+      "api_minted": 14973144,
+      "api_unreleased": 0,
+      "api_circulating": 15392096,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Taiko",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 229996,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Rayls",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 6401,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Fuse",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 138473,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Doma",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1297184,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Fantom",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 298294,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Hyperliquid L1",
+      "api_minted": 6954919001,
+      "api_unreleased": 0,
+      "api_circulating": 7353792937,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Pharos",
+      "api_minted": 8669468,
+      "api_unreleased": 0,
+      "api_circulating": 8669468,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "OKTChain",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 206928,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Hemi",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 386351,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Mantle",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 12775720,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Near",
+      "api_minted": 35762058,
+      "api_unreleased": 0,
+      "api_circulating": 48242687,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Flare",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 3350237,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Elastos",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 107829,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Plume Mainnet",
+      "api_minted": 3609858,
+      "api_unreleased": 0,
+      "api_circulating": 4346073,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Boba",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 1042067,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Nero",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 11,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Sonic",
+      "api_minted": 187984399,
+      "api_unreleased": 0,
+      "api_circulating": 187984399,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Syscoin",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 171892,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Solana",
+      "api_minted": 7841583254,
+      "api_unreleased": 771206254,
+      "api_circulating": 7070396143,
+      "minted_field_present": true,
+      "unreleased_field_present": true
+    },
+    {
+      "chain": "ICP",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 2085460,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "0G",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 173,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Tempo",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 92186226,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Xai",
+      "api_minted": 0,
+      "api_unreleased": 0,
+      "api_circulating": 25,
+      "minted_field_present": false,
+      "unreleased_field_present": false
+    },
+    {
+      "chain": "Polkadot",
+      "api_minted": 31045368,
+      "api_unreleased": 0,
+      "api_circulating": 31045368,
+      "minted_field_present": true,
+      "unreleased_field_present": false
+    }
+  ],
+  "checks": [
+    {
+      "check": "2025Q1 revenue bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q1 cost bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 revenue bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 cost bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 revenue bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 cost bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q4 revenue bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q4 cost bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q1 revenue bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q1 cost bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q2 revenue bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q2 cost bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q3 revenue bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q3 cost bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FY2025 reconciles to four quarters: reserve_income",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FY2025 reconciles to four quarters: other_revenue",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FY2025 reconciles to four quarters: total_revenue",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FY2025 reconciles to four quarters: distribution_transaction_costs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FY2025 reconciles to four quarters: other_costs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "FY2025 reconciles to four quarters: total_costs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q1 original vs later comparative: reserve_income",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q1 original vs later comparative: other_revenue",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q1 original vs later comparative: total_revenue",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q1 original vs later comparative: distribution_transaction_costs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q1 original vs later comparative: other_costs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q1 original vs later comparative: total_costs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 original vs later comparative: reserve_income",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 original vs later comparative: other_revenue",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 original vs later comparative: total_revenue",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 original vs later comparative: distribution_transaction_costs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 original vs later comparative: other_costs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 original vs later comparative: total_costs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 original vs later comparative: reserve_income",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 original vs later comparative: other_revenue",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 original vs later comparative: total_revenue",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 original vs later comparative: distribution_transaction_costs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 original vs later comparative: other_costs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 original vs later comparative: total_costs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q1 Workspace revenue check circle_quarterly_revenue_period_fq",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 Workspace revenue check circle_quarterly_revenue_period_fq",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 Workspace revenue check circle_quarterly_revenue_period_fq",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q4 Workspace revenue check circle_quarterly_revenue_period_fq",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q1 Workspace revenue check circle_quarterly_revenue_period_fq",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q2 Workspace revenue check circle_quarterly_revenue_period_fq",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q3 Workspace revenue check circle_quarterly_revenue_period_fq",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q1 Workspace revenue check circle_fundamentals_quarterly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 Workspace revenue check circle_fundamentals_quarterly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 Workspace revenue check circle_fundamentals_quarterly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q4 Workspace revenue check circle_fundamentals_quarterly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q1 Workspace revenue check circle_fundamentals_quarterly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q2 Workspace revenue check circle_fundamentals_quarterly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q3 Workspace revenue check circle_fundamentals_quarterly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 original earnings filing identifies period",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 earnings follows quarter end",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 original earnings filing identifies period",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 earnings follows quarter end",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q4 original earnings filing identifies period",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q4 earnings follows quarter end",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q1 original earnings filing identifies period",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q1 earnings follows quarter end",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q2 original earnings filing identifies period",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q2 earnings follows quarter end",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q3 original earnings filing identifies period",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q3 earnings follows quarter end",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q1 official circulation vs filing stock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q1 daily supply coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 official circulation vs filing stock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q2 daily supply coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 official circulation vs filing stock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q3 daily supply coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q4 official circulation vs filing stock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2025Q4 daily supply coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q1 official circulation vs filing stock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q1 daily supply coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q2 official circulation vs filing stock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q2 daily supply coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q3 official circulation vs filing stock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "2026Q3 daily supply coverage",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Supply aggregate decomposition arithmetic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Quarter keys unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Observation ids unique",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "checks_passed": 81,
+  "checks_total": 81,
+  "limitations": [
+    "Daily provider timestamps identify buckets, not exact EOD states.",
+    "Q4 average circulation is rounded to USD 0.1 billion.",
+    "Q1 2025 reserve return and platform weight use later comparatives and are ineligible for an earlier forecast until earlier disclosure is found.",
+    "Algebraic gap decomposition does not fully reconcile economic supply definitions or source observation times.",
+    "The six earnings-release calendar dates are verified in original Item 2.02 filings. Intraday first-publication timestamps are not established."
+  ]
+}

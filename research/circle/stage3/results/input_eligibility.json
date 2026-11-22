@@ -1,0 +1,338 @@
+[
+  {
+    "evaluation": "2025Q2_early",
+    "input": "2025Q1 reserve_income",
+    "published_by": "2025-06-05",
+    "cutoff": "2025-07-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q2_early",
+    "input": "2025Q1 usdc_average",
+    "published_by": "2025-06-05",
+    "cutoff": "2025-07-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q2_early",
+    "input": "2025Q1 other_revenue",
+    "published_by": "2025-06-05",
+    "cutoff": "2025-07-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q2_early",
+    "input": "2025Q1 total_costs",
+    "published_by": "2025-06-05",
+    "cutoff": "2025-07-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q2_late",
+    "input": "2025Q1 reserve_income",
+    "published_by": "2025-06-05",
+    "cutoff": "2025-08-11",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q2_late",
+    "input": "2025Q1 usdc_average",
+    "published_by": "2025-06-05",
+    "cutoff": "2025-08-11",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q2_late",
+    "input": "2025Q1 other_revenue",
+    "published_by": "2025-06-05",
+    "cutoff": "2025-08-11",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q2_late",
+    "input": "2025Q1 total_costs",
+    "published_by": "2025-06-05",
+    "cutoff": "2025-08-11",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q3_early",
+    "input": "2025Q2 reserve_income",
+    "published_by": "2025-08-12",
+    "cutoff": "2025-10-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q3_early",
+    "input": "2025Q2 usdc_average",
+    "published_by": "2025-08-12",
+    "cutoff": "2025-10-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q3_early",
+    "input": "2025Q2 other_revenue",
+    "published_by": "2025-08-12",
+    "cutoff": "2025-10-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q3_early",
+    "input": "2025Q2 total_costs",
+    "published_by": "2025-08-12",
+    "cutoff": "2025-10-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q3_late",
+    "input": "2025Q2 reserve_income",
+    "published_by": "2025-08-12",
+    "cutoff": "2025-11-11",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q3_late",
+    "input": "2025Q2 usdc_average",
+    "published_by": "2025-08-12",
+    "cutoff": "2025-11-11",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q3_late",
+    "input": "2025Q2 other_revenue",
+    "published_by": "2025-08-12",
+    "cutoff": "2025-11-11",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q3_late",
+    "input": "2025Q2 total_costs",
+    "published_by": "2025-08-12",
+    "cutoff": "2025-11-11",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q4_early",
+    "input": "2025Q3 reserve_income",
+    "published_by": "2025-11-12",
+    "cutoff": "2026-01-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q4_early",
+    "input": "2025Q3 usdc_average",
+    "published_by": "2025-11-12",
+    "cutoff": "2026-01-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q4_early",
+    "input": "2025Q3 other_revenue",
+    "published_by": "2025-11-12",
+    "cutoff": "2026-01-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q4_early",
+    "input": "2025Q3 total_costs",
+    "published_by": "2025-11-12",
+    "cutoff": "2026-01-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q4_late",
+    "input": "2025Q3 reserve_income",
+    "published_by": "2025-11-12",
+    "cutoff": "2026-02-24",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q4_late",
+    "input": "2025Q3 usdc_average",
+    "published_by": "2025-11-12",
+    "cutoff": "2026-02-24",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q4_late",
+    "input": "2025Q3 other_revenue",
+    "published_by": "2025-11-12",
+    "cutoff": "2026-02-24",
+    "eligible": true
+  },
+  {
+    "evaluation": "2025Q4_late",
+    "input": "2025Q3 total_costs",
+    "published_by": "2025-11-12",
+    "cutoff": "2026-02-24",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q1_early",
+    "input": "2025Q4 reserve_income",
+    "published_by": "2026-03-09",
+    "cutoff": "2026-04-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q1_early",
+    "input": "2025Q4 usdc_average",
+    "published_by": "2026-02-25",
+    "cutoff": "2026-04-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q1_early",
+    "input": "2025Q4 other_revenue",
+    "published_by": "2026-03-09",
+    "cutoff": "2026-04-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q1_early",
+    "input": "2025Q4 total_costs",
+    "published_by": "2026-03-09",
+    "cutoff": "2026-04-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q1_late",
+    "input": "2025Q4 reserve_income",
+    "published_by": "2026-03-09",
+    "cutoff": "2026-05-10",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q1_late",
+    "input": "2025Q4 usdc_average",
+    "published_by": "2026-02-25",
+    "cutoff": "2026-05-10",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q1_late",
+    "input": "2025Q4 other_revenue",
+    "published_by": "2026-03-09",
+    "cutoff": "2026-05-10",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q1_late",
+    "input": "2025Q4 total_costs",
+    "published_by": "2026-03-09",
+    "cutoff": "2026-05-10",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q2_early",
+    "input": "2026Q1 reserve_income",
+    "published_by": "2026-05-11",
+    "cutoff": "2026-07-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q2_early",
+    "input": "2026Q1 usdc_average",
+    "published_by": "2026-05-11",
+    "cutoff": "2026-07-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q2_early",
+    "input": "2026Q1 other_revenue",
+    "published_by": "2026-05-11",
+    "cutoff": "2026-07-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q2_early",
+    "input": "2026Q1 total_costs",
+    "published_by": "2026-05-11",
+    "cutoff": "2026-07-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q2_late",
+    "input": "2026Q1 reserve_income",
+    "published_by": "2026-05-11",
+    "cutoff": "2026-08-04",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q2_late",
+    "input": "2026Q1 usdc_average",
+    "published_by": "2026-05-11",
+    "cutoff": "2026-08-04",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q2_late",
+    "input": "2026Q1 other_revenue",
+    "published_by": "2026-05-11",
+    "cutoff": "2026-08-04",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q2_late",
+    "input": "2026Q1 total_costs",
+    "published_by": "2026-05-11",
+    "cutoff": "2026-08-04",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q3_early",
+    "input": "2026Q2 reserve_income",
+    "published_by": "2026-08-05",
+    "cutoff": "2026-10-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q3_early",
+    "input": "2026Q2 usdc_average",
+    "published_by": "2026-08-05",
+    "cutoff": "2026-10-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q3_early",
+    "input": "2026Q2 other_revenue",
+    "published_by": "2026-08-05",
+    "cutoff": "2026-10-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q3_early",
+    "input": "2026Q2 total_costs",
+    "published_by": "2026-08-05",
+    "cutoff": "2026-10-07",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q3_late",
+    "input": "2026Q2 reserve_income",
+    "published_by": "2026-08-05",
+    "cutoff": "2026-11-03",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q3_late",
+    "input": "2026Q2 usdc_average",
+    "published_by": "2026-08-05",
+    "cutoff": "2026-11-03",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q3_late",
+    "input": "2026Q2 other_revenue",
+    "published_by": "2026-08-05",
+    "cutoff": "2026-11-03",
+    "eligible": true
+  },
+  {
+    "evaluation": "2026Q3_late",
+    "input": "2026Q2 total_costs",
+    "published_by": "2026-08-05",
+    "cutoff": "2026-11-03",
+    "eligible": true
+  }
+]

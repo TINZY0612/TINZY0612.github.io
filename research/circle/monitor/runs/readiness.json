@@ -1,0 +1,42 @@
+{
+  "recorded_at_utc": "2026-11-22T10:52:23.473490+00:00",
+  "status": "published_monitor_snapshot",
+  "python_tests": 37,
+  "python_passed": true,
+  "python_skipped": 0,
+  "javascript_checks": 13,
+  "javascript_passed": true,
+  "report_checks": 261,
+  "live_collection_status": "ok",
+  "local_dashboard_integrated": true,
+  "browser_checks_passed": true,
+  "production_updated": true,
+  "vm_scheduler_active": false,
+  "live_probe_required_capabilities_passed": true,
+  "all_live_endpoints_passed": false,
+  "source_note": "Circle investor-relations TLS certificate failed verification; official pressroom fallback succeeded. TLS remains enabled.",
+  "historical_replays": {
+    "target_quarters": 6,
+    "cutoff_replays": 12,
+    "methods_per_cutoff": 2,
+    "forecast_values_compared": 24,
+    "fund_filings_parsed": 22,
+    "fund_yield_observations": 459,
+    "financial_filings_parsed": 6,
+    "earnings_release_periods_checked": 6,
+    "classification": "Archived-data historical replay, not prospective validation"
+  },
+  "prospective_validations": 0,
+  "published_at_utc": "2026-11-22T11:14:32.899477+00:00",
+  "commit": "77fe9e8d6fe2139599f76966bd9e0cf7539b884f",
+  "deployment_status": "success",
+  "deployment_run": "https://github.com/TINZY0612/TINZY0612.github.io/actions/runs/45016219666",
+  "public_browser_checks": {
+    "base_income_million": 680.079,
+    "future_fund_yield_plus_25bp_million": 698.594,
+    "reset_restored_base": true,
+    "method": "Fund yield with prior yield ratio",
+    "prospective_validations": 0
+  },
+  "scope": "Dashboard code and monitor data only; no VM scheduling or report-content changes"
+}

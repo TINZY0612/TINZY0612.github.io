@@ -1,0 +1,26 @@
+[
+  {
+    "period": "2025Q2",
+    "signed_error_percent": -0.41223186416896596
+  },
+  {
+    "period": "2025Q3",
+    "signed_error_percent": -0.16863714225020532
+  },
+  {
+    "period": "2025Q4",
+    "signed_error_percent": -0.0015493460638449363
+  },
+  {
+    "period": "2026Q1",
+    "signed_error_percent": -0.3379959577241465
+  },
+  {
+    "period": "2026Q2",
+    "signed_error_percent": -0.007677209139511643
+  },
+  {
+    "period": "2026Q3",
+    "signed_error_percent": -0.010144692790159393
+  }
+]

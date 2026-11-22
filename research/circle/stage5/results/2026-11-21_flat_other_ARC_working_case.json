@@ -1,0 +1,36 @@
+{
+  "recorded_as_of": "2026-11-21",
+  "recorded_at_utc": "2026-11-21T13:18:38.607805+00:00",
+  "role": "Latest user-directed working revenue case; independent of prior issuer-guidance benchmark",
+  "units": "USD millions",
+  "flat_rule": "Hold non-ARC operating other revenue at Q3 2026 level in each future quarter; no separate incremental USYC uplift",
+  "source": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+  "baseline_period": "2026Q3",
+  "subscription_services": 19.587,
+  "transaction_revenue": 5.335,
+  "reported_other_product_bucket": 182.342,
+  "reported_q3_arc_recognition_rounded": 181.8,
+  "non_arc_other_product_residual_approx": 0.542,
+  "quarterly_non_arc_operating_other_revenue_approx": 25.464,
+  "q4_existing_arc_recognition_assumption": 60.4,
+  "q4_total_operating_other_revenue_approx": 85.864,
+  "subsequent_quarter_operating_other_revenue_approx": 25.464,
+  "annualized_non_arc_operating_other_revenue_approx": 101.856,
+  "new_unannounced_arc_sales_assumed": 0,
+  "existing_arc_recognition_after_q4_assumed": 0,
+  "recognition_timing_verified": false,
+  "q4_new_cash_from_existing_deferred_recognition": 0,
+  "q4_net_profit_effect": null,
+  "issuer_guidance_implied_q4_other_revenue_range": [
+    27.528999999999996,
+    47.528999999999996
+  ],
+  "limitations": [
+    "Residual ordinary other amount is approximate because ARC recognition is disclosed rounded to $0.1m",
+    "Flat revenue is a user-directed scenario, not demonstrated predictability",
+    "DEX activity does not determine future institutional token-sale decisions",
+    "Q4 ARC recognition is not a verified issuer timetable and is not automatically net profit",
+    "Other revenue excludes the separate non-operating other income/expense line",
+    "Prior dated forecasts are retained; do not blend the guidance benchmark into this case"
+  ]
+}

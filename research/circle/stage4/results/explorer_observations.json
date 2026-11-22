@@ -1,0 +1,10 @@
+{
+  "observed_date": "2026-11-21",
+  "method": "read-only browser UI",
+  "url": "https://explorer.arc.io/tokens?q=ARC",
+  "scope": "First 20 filtered token listings only; Next button available",
+  "result": "Ambiguous third-party token names; no issuer-authenticated ARC mapping established on the reviewed page",
+  "not_claimed": "No claim that all listings or all chains were searched",
+  "official_registry": "https://docs.arc.network/arc/references/contract-addresses",
+  "official_token_page": "https://www.arc.io/arc-token-whitepaper"
+}

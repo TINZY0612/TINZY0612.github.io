@@ -1,0 +1,189 @@
+{
+  "checks_passed": 43,
+  "checks_total": 43,
+  "checks": [
+    {
+      "name": "638 distinct dates and seven quarterly targets",
+      "passed": true
+    },
+    {
+      "name": "2025Q1 daily averages independently reproduce factors",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 daily averages independently reproduce factors",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 daily averages independently reproduce factors",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 daily averages independently reproduce factors",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 daily averages independently reproduce factors",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 daily averages independently reproduce factors",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 daily averages independently reproduce factors",
+      "passed": true
+    },
+    {
+      "name": "scaled independent normal equations match SVD fit and R2",
+      "passed": true
+    },
+    {
+      "name": "full leave-one-quarter-out refits match predictions",
+      "passed": true
+    },
+    {
+      "name": "adjusted R2 has correct three residual degrees of freedom",
+      "passed": true
+    },
+    {
+      "name": "regression input SHA256 stage4\\transactions\\raw\\total_stablecoin_history.json",
+      "passed": true
+    },
+    {
+      "name": "regression input SHA256 stage5\\raw\\usdc_current_history.json",
+      "passed": true
+    },
+    {
+      "name": "regression input SHA256 stage4\\results\\other_revenue_model.json",
+      "passed": true
+    },
+    {
+      "name": "regression input SHA256 stage5\\raw\\btc_2025Q1.json",
+      "passed": true
+    },
+    {
+      "name": "regression input SHA256 stage5\\raw\\btc_2025Q2.json",
+      "passed": true
+    },
+    {
+      "name": "regression input SHA256 stage5\\raw\\btc_2025Q3.json",
+      "passed": true
+    },
+    {
+      "name": "regression input SHA256 stage5\\raw\\btc_2025Q4.json",
+      "passed": true
+    },
+    {
+      "name": "regression input SHA256 stage5\\raw\\btc_2026Q1.json",
+      "passed": true
+    },
+    {
+      "name": "regression input SHA256 stage5\\raw\\btc_2026Q2.json",
+      "passed": true
+    },
+    {
+      "name": "regression input SHA256 stage5\\raw\\btc_2026Q3.json",
+      "passed": true
+    },
+    {
+      "name": "every received source manifest hash matches payload",
+      "passed": true
+    },
+    {
+      "name": "every lossless archive matches its original SHA256",
+      "passed": true
+    },
+    {
+      "name": "438 ordered consecutive USYC report rounds",
+      "passed": true
+    },
+    {
+      "name": "USYC share price units independently reproduce NAV and fee",
+      "passed": true
+    },
+    {
+      "name": "2025Q1 observation-time fee rollup",
+      "passed": true
+    },
+    {
+      "name": "2025Q2 observation-time fee rollup",
+      "passed": true
+    },
+    {
+      "name": "2025Q3 observation-time fee rollup",
+      "passed": true
+    },
+    {
+      "name": "2025Q4 observation-time fee rollup",
+      "passed": true
+    },
+    {
+      "name": "2026Q1 observation-time fee rollup",
+      "passed": true
+    },
+    {
+      "name": "2026Q2 observation-time fee rollup",
+      "passed": true
+    },
+    {
+      "name": "2026Q3 observation-time fee rollup",
+      "passed": true
+    },
+    {
+      "name": "prospective USYC forecast has unknown actual and unchanged source",
+      "passed": true
+    },
+    {
+      "name": "independent Q4 USYC scenario arithmetic",
+      "passed": true
+    },
+    {
+      "name": "independent integer stock-flow reconciliation",
+      "passed": true
+    },
+    {
+      "name": "bounded chain analysis controls all passed",
+      "passed": true
+    },
+    {
+      "name": "all early forecast calibrations public before cutoffs",
+      "passed": true
+    },
+    {
+      "name": "reserve aggregate errors independently recompute",
+      "passed": true
+    },
+    {
+      "name": "three exported worksheets and no cached formula error cells",
+      "passed": true
+    },
+    {
+      "name": "exported workbook cached R2, adjusted R2 and LOO match",
+      "passed": true
+    },
+    {
+      "name": "exported workbook contains live OLS and forecast formulas",
+      "passed": true
+    },
+    {
+      "name": "exported workbook has latest reserve forecast results",
+      "passed": true
+    },
+    {
+      "name": "workbook independent formula and input-change controls passed",
+      "passed": true
+    }
+  ],
+  "source_responses_hashed": 307,
+  "archives_hashed": 123,
+  "hash_failures": [],
+  "workbook_sha256": "9f8a5ac6f20614b21272219d8856d5bd565d4a1288908f34e6213f26bbb99dd8",
+  "prior_dated_forecast_sha256": {
+    "2026-11-21_Q4_other_revenue_forecast.json": "b2a3cf04d5ab329edda6c07a9d888ce1b8087d436af43f20faa8b2043df0d507",
+    "2026-11-21_Q4_ARC_user_scenario.json": "238a71dd560277abe21a079207b7f4a1ec7d32ab3482c2b8d74d23b29f7288af"
+  },
+  "limitations": [
+    "Native Excel application recalculation not tested; formula evaluation, export caches and changed-input recalculation tested with ArtifactTool."
+  ]
+}

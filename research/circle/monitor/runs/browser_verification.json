@@ -1,0 +1,18 @@
+{
+  "tested_at_utc": "2026-11-22T10:52:23.471335+00:00",
+  "passed": true,
+  "scope": "Local browser preview only; production unchanged",
+  "checks": [
+    "Actual fund-ratio estimate displayed as $680.079m, with separately named SOFR comparison",
+    "Future-only +25bp yield scenario displayed as $698.594m; reset restored base",
+    "Synthetic Q1 2027 rollover, Q4 frozen initial and earnings comparisons rendered",
+    "Historical replay retained zero prospective validations",
+    "Corrupt arithmetic rejected while retaining last valid estimate",
+    "Missing fund displayed Unavailable and disabled scenario controls",
+    "Cold-load legacy feed compatibility retained original SOFR method label",
+    "390px phone viewport: 375px page width, no horizontal page overflow",
+    "Actual live-test export restored and desktop viewport reset"
+  ],
+  "screenshot": "monitor-preview.jpg",
+  "final_export_sha256": "acdd6b849fbd3ba74c206d92c5ad2dfe358cb08973dac266410ce65aad1bb199"
+}

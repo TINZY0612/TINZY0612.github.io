@@ -1,0 +1,146 @@
+[
+  {
+    "period": "2025Q1",
+    "value_usd_million": 298.8,
+    "published_by": "2025-06-05",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000119312525135795/d737521d424b4.htm",
+    "source_file": "stage2/raw\\ipo_prospectus.html",
+    "locator": "MD&A distribution costs, quarter ended March 31, 2025",
+    "kind": "reported_rounded"
+  },
+  {
+    "period": "2025H1",
+    "value_usd_million": 630.6,
+    "published_by": "2025-08-12",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+    "source_file": "stage2/raw\\q2_2025_html.html",
+    "locator": "MD&A distribution costs, six months ended June 30, 2025",
+    "kind": "reported_rounded"
+  },
+  {
+    "period": "2025Q2",
+    "value_usd_million": 331.8,
+    "published_by": "2025-08-12",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000162828025039781/crcl-20250630.htm",
+    "source_file": "stage2/raw\\q2_2025_html.html",
+    "locator": "630.6 H1 less previously public Q1 298.8; approximate",
+    "kind": "derived_from_public_cumulative"
+  },
+  {
+    "period": "2025M9",
+    "value_usd_million": 989.1,
+    "published_by": "2025-11-12",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+    "source_file": "stage2/raw\\q3_2025_html.html",
+    "locator": "MD&A distribution costs, nine months ended September 30, 2025",
+    "kind": "reported_rounded"
+  },
+  {
+    "period": "2025Q3",
+    "value_usd_million": 358.5,
+    "published_by": "2025-11-12",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604225000047/crcl-20250930.htm",
+    "source_file": "stage2/raw\\q3_2025_html.html",
+    "locator": "989.1 M9 less previously public H1 630.6; approximate",
+    "kind": "derived_from_public_cumulative"
+  },
+  {
+    "period": "2025FY",
+    "value_usd_million": 1362.9,
+    "published_by": "2026-03-09",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+    "source_file": "stage2/raw\\fy2025_html.html",
+    "locator": "2024 comparative cost 924.5 plus disclosed annual increase 438.4; approximate",
+    "kind": "derived_from_reported_change"
+  },
+  {
+    "period": "2025Q4",
+    "value_usd_million": 373.8,
+    "published_by": "2026-03-09",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000062/crcl-20251231.htm",
+    "source_file": "stage2/raw\\fy2025_html.html",
+    "locator": "1362.9 annual reconstruction less previously public M9 989.1; not an exact same-vintage quarter",
+    "kind": "cross_vintage_cumulative_difference"
+  },
+  {
+    "period": "2025Q1",
+    "value_usd_million": 303.2,
+    "published_by": "2026-05-11",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+    "source_file": "stage2/raw\\q1_2026_html.html",
+    "locator": "Later comparative, quarter ended March 31, 2025",
+    "kind": "reported_rounded"
+  },
+  {
+    "period": "2026Q1",
+    "value_usd_million": 330.6,
+    "published_by": "2026-05-11",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000150/crcl-20260331.htm",
+    "source_file": "stage2/raw\\q1_2026_html.html",
+    "locator": "Current quarter ended March 31, 2026",
+    "kind": "reported_rounded"
+  },
+  {
+    "period": "2025H1",
+    "value_usd_million": 635.5,
+    "published_by": "2026-08-05",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+    "source_file": "stage2/raw\\q2_2026_html.html",
+    "locator": "Later comparative, six months ended June 30, 2025",
+    "kind": "reported_rounded"
+  },
+  {
+    "period": "2025Q2",
+    "value_usd_million": 332.3,
+    "published_by": "2026-08-05",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+    "source_file": "stage2/raw\\q2_2026_html.html",
+    "locator": "Later comparative, quarter ended June 30, 2025",
+    "kind": "reported_rounded"
+  },
+  {
+    "period": "2026Q2",
+    "value_usd_million": 324.6,
+    "published_by": "2026-08-05",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+    "source_file": "stage2/raw\\q2_2026_html.html",
+    "locator": "Current quarter ended June 30, 2026",
+    "kind": "reported_rounded"
+  },
+  {
+    "period": "2026H1",
+    "value_usd_million": 655.3,
+    "published_by": "2026-08-05",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/crcl-20260630.htm",
+    "source_file": "stage2/raw\\q2_2026_html.html",
+    "locator": "Current six months ended June 30, 2026; rounded quarterly sum 655.2 differs by 0.1",
+    "kind": "reported_rounded"
+  },
+  {
+    "period": "2025M9",
+    "value_usd_million": 996.8,
+    "published_by": "2026-11-04",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+    "source_file": "stage2/raw\\q3_2026_html.html",
+    "locator": "Later comparative, nine months ended September 30, 2025",
+    "kind": "reported_rounded"
+  },
+  {
+    "period": "2025Q3",
+    "value_usd_million": 361.3,
+    "published_by": "2026-11-04",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+    "source_file": "stage2/raw\\q3_2026_html.html",
+    "locator": "Later comparative, quarter ended September 30, 2025",
+    "kind": "reported_rounded"
+  },
+  {
+    "period": "2026Q3",
+    "value_usd_million": 331.3,
+    "published_by": "2026-11-04",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000311/crcl-20260930.htm",
+    "source_file": "stage2/raw\\q3_2026_html.html",
+    "locator": "Current quarter ended September 30, 2026",
+    "kind": "reported_rounded"
+  }
+]
