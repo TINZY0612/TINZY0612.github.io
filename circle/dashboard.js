@@ -37,13 +37,13 @@ function lineChart(rows, method) {
   let content = '';
   for (let i = 0; i <= 4; i++) {
     const v = low+(high-low)*i/4;
-    content += `<line x1="${l}" x2="${W-r}" y1="${y(v)}" y2="${y(v)}" stroke="#2c3b4b"/><text x="${l-12}" y="${y(v)+4}" fill="#afbecd" text-anchor="end" font-size="14">${fmt(v, 0)}</text>`;
+    content += `<line x1="${l}" x2="${W-r}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)"/><text x="${l-12}" y="${y(v)+4}" fill="var(--muted)" text-anchor="end" font-size="14">${fmt(v, 0)}</text>`;
   }
   const points = field => rows.map((e, i) => `${x(i)},${y(field(e))}`).join(' ');
-  content += `<polyline points="${points(e => e.actual_reserve_income)}" fill="none" stroke="#70b7ff" stroke-width="3"/><polyline points="${points(e => e.estimates[method])}" fill="none" stroke="#c9ff3b" stroke-width="2.5" stroke-dasharray="7 5"/>`;
+  content += `<polyline points="${points(e => e.actual_reserve_income)}" fill="none" stroke="var(--blue)" stroke-width="3"/><polyline points="${points(e => e.estimates[method])}" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-dasharray="7 5"/>`;
   rows.forEach((e, i) => {
     const qlabel=W<600?`${e.period.slice(4)}<tspan x="${x(i)}" dy="17" font-size="12">${e.period.slice(0,4)}</tspan>`:quarter(e.period);
-    content += `<circle cx="${x(i)}" cy="${y(e.actual_reserve_income)}" r="5" fill="#70b7ff"><title>${quarter(e.period)} actual $${fmt(e.actual_reserve_income)}m</title></circle><circle cx="${x(i)}" cy="${y(e.estimates[method])}" r="4" fill="#111b28" stroke="#c9ff3b" stroke-width="2"><title>${quarter(e.period)} estimate $${fmt(e.estimates[method])}m</title></circle><text x="${x(i)}" y="${H-(W<600?28:15)}" fill="#afbecd" text-anchor="middle" font-size="14">${qlabel}</text>`;
+    content += `<circle cx="${x(i)}" cy="${y(e.actual_reserve_income)}" r="5" fill="var(--blue)"><title>${quarter(e.period)} actual $${fmt(e.actual_reserve_income)}m</title></circle><circle cx="${x(i)}" cy="${y(e.estimates[method])}" r="4" fill="var(--bg)" stroke="var(--accent)" stroke-width="2"><title>${quarter(e.period)} estimate $${fmt(e.estimates[method])}m</title></circle><text x="${x(i)}" y="${H-(W<600?28:15)}" fill="var(--muted)" text-anchor="middle" font-size="14">${qlabel}</text>`;
   });
   return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="chart-title chart-description"><title id="chart-title">Actual and estimated reserve income</title><desc id="chart-description">Six quarterly observations in USD millions. The accessible data table below provides exact values.</desc>${content}</svg>`;
 }
@@ -52,12 +52,12 @@ function errorChart(rows, method) {
   const W=Math.max(300,Math.round($('error-chart').clientWidth)),H=210,l=W<600?32:70,r=20,zero=95,extent=65;
   const max = Math.max(.005, ...rows.map(e => Math.abs(e.errors[method]))) * 1.15;
   const x=i=>l+(i+.5)*(W-l-r)/rows.length;
-  let content=`<line x1="${l}" x2="${W-r}" y1="${zero}" y2="${zero}" stroke="#8195a8"/><text x="${l-10}" y="${zero+5}" text-anchor="end" fill="#afbecd" font-size="14">0%</text>`;
+  let content=`<line x1="${l}" x2="${W-r}" y1="${zero}" y2="${zero}" stroke="var(--muted)"/><text x="${l-10}" y="${zero+5}" text-anchor="end" fill="var(--muted)" font-size="14">0%</text>`;
   rows.forEach((e,i)=>{
     const v=e.errors[method],height=Math.max(1,Math.abs(v)/max*extent),y=v>=0?zero-height:zero;
     const bw=Math.min(48,(W-l-r)/rows.length*.35),fs=W<600?12:14;
     const shortQuarter=W<600?`${e.period.slice(4)} '${e.period.slice(2,4)}`:quarter(e.period);
-    content+=`<rect x="${x(i)-bw/2}" y="${y}" width="${bw}" height="${height}" rx="3" fill="${v>=0?'#ffc181':'#c4a8ff'}"/><text x="${x(i)}" y="${v>=0?y-9:zero+height+19}" fill="#edf2f7" font-size="${fs}" text-anchor="middle">${percent(v,true,2)}</text><text x="${x(i)}" y="195" fill="#afbecd" font-size="${fs}" text-anchor="middle">${shortQuarter}</text>`;
+    content+=`<rect x="${x(i)-bw/2}" y="${y}" width="${bw}" height="${height}" rx="3" fill="${v>=0?'var(--positive)':'var(--negative)'}"/><text x="${x(i)}" y="${v>=0?y-9:zero+height+19}" fill="var(--ink)" font-size="${fs}" text-anchor="middle">${percent(v,true,2)}</text><text x="${x(i)}" y="195" fill="var(--muted)" font-size="${fs}" text-anchor="middle">${shortQuarter}</text>`;
   });
   return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Signed percentage error by quarter">${content}</svg>`;
 }
