@@ -1,8 +1,8 @@
 {
   "snapshot_date": "2026-11-22",
-  "generated_at_utc": "2026-11-22T13:36:57.698811+00:00",
+  "generated_at_utc": "2026-11-22T13:42:59.447425+00:00",
   "file_count": 1281,
-  "bytes": 462024621,
+  "bytes": 462024714,
   "note": "Exact published bytes excluding this manifest and generated Python caches. Git attributes disable text normalization to preserve archived source hashes.",
   "files": [
     {
@@ -1602,8 +1602,8 @@
     },
     {
       "path": "reserve_report/site/circle/report.html",
-      "bytes": 51258,
-      "sha256": "f70e8df48bf139c72c4b6baf405f0474121e148db37b832e7dbde5118694fd11"
+      "bytes": 51275,
+      "sha256": "08f820de489e97660167c2470d1157944a74e1a7ec7d747afb80fa96f88d2a54"
     },
     {
       "path": "reserve_report/site/circle/report.md",
@@ -1652,8 +1652,8 @@
     },
     {
       "path": "reserve_report/sync_storyline_editions.py",
-      "bytes": 10081,
-      "sha256": "7084bf293e7ce2974a51a78986af0247b842c10c68041850574405bd9e5c6e5c"
+      "bytes": 10157,
+      "sha256": "6d1f04342a23f5db629db0fad7c5f75e1675731ae7632715b5c08e0cc0780812"
     },
     {
       "path": "reserve_report/usdc_compact_api.json",
@@ -6403,7 +6403,7 @@
     {
       "path": "verification/report_publication.json",
       "bytes": 526,
-      "sha256": "67827ab636164707139b262af2ba812d40af1176b8d520fc2cd1418a0bb958c3"
+      "sha256": "e0c4334e8ca669804e03d577d3edf8a53655238880ca9af7803b6dcd4d6753c5"
     },
     {
       "path": "verify_snapshot.py",
