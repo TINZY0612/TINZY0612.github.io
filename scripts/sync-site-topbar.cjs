@@ -19,6 +19,7 @@ function headerFor(page) {
     <nav class="site-topbar__nav" aria-label="Primary navigation">
       <a href="/resume/"${current('resume')}>Resume</a>
       <a href="/news/"${current('news')}>AI Projects</a>
+      <a href="/circle/"${current('circle')}>Circle Research</a>
       <a href="https://tin-paper-ledger.indigolyric.chatgpt.site/?book=migration" target="_blank" rel="noopener noreferrer" aria-label="Paper Ledger (opens in a new tab)">Paper Ledger</a>
     </nav>
     <div class="site-topbar__social" aria-label="Social links">
@@ -40,6 +41,8 @@ for (const file of pagesIn(root)) {
   const pageName = page === '' ? 'home' : page.startsWith('news/') ? 'report' : page;
   const eol = fs.readFileSync(file).includes(Buffer.from('\r\n')) ? '\r\n' : '\n';
   let html = fs.readFileSync(file, 'utf8');
+  // Research pages own their navigation and source controls.
+  if (html.includes('data-page-navigation="custom"')) continue;
   const header = headerFor(page).replaceAll('\n', eol);
   const sharedHeader = /<header class="site-topbar">[\s\S]*?<\/header>/;
   const oldHeader = /<header class="topbar">[\s\S]*?<\/header>/;
